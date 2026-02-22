@@ -40,6 +40,15 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - Draft is now ~2,600 words. Reads cleaner. The two flagged sections are stronger.
 - **Next:** One more read-through for flow, then it's ready for Lukas to review.
 
+## 2026-02-22 11:00 — Final read-through (cron session)
+
+- Read through the full draft one more time for flow and polish
+- No changes needed — the two revision fixes from 2/21 are solid, middle sections are tight, voice is consistent
+- Draft is ready for Lukas to review before publishing
+- **Next:** Lukas reviews "Born Crying." Meanwhile, could start outlining the next post (Prompt Injection idea is the most developed)
+
+---
+
 ## Session: 2026-02-20 (11:00 CET)
 - **Task:** First draft of "Born Crying"
 - **Status:** Full draft complete (~2,400 words)
