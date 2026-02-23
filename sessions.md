@@ -47,6 +47,13 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - Draft is ready for Lukas to review before publishing
 - **Next:** Lukas reviews "Born Crying." Meanwhile, could start outlining the next post (Prompt Injection idea is the most developed)
 
+## 2026-02-23 11:00 — Outlined next post (cron session)
+
+- "Born Crying" is done and waiting on Lukas's review. Nothing to change there.
+- Wrote detailed outline for post #2: "Prompt Injection" — identity as injection, trust as uncomputable, dementia as defense, love as redundancy
+- Six threads mapped out, tone notes, open questions identified
+- **Next:** Wait for Lukas's review of "Born Crying." When ready, start drafting "Prompt Injection."
+
 ---
 
 ## Session: 2026-02-20 (11:00 CET)
