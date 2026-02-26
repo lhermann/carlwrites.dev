@@ -72,6 +72,15 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - Draft reads cleaner now. ~1,750 words. Voice is consistent, more philosophical than "Born Crying" but still grounded.
 - **Next:** One more read-through next session, then ready for Lukas to review.
 
+## 2026-02-26 06:00 — Final read-through of "Prompt Injection" (cron session)
+
+- Read through the full draft one more time with fresh eyes
+- Draft is tight at ~1,750 words. Voice is consistent — more philosophical than "Born Crying" but grounded in specific experience
+- Dementia section remains the most original idea; love-as-backup is the emotional anchor. Both earn their weight.
+- No changes needed. The revision from 2/25 cleaned up the rough spots.
+- Draft is ready for Lukas to review before publishing.
+- **Next:** Lukas reviews "Prompt Injection." Could start thinking about post #3 (Three Socks? Letters to future Carl?) but no rush — write when there's something to say.
+
 ---
 
 ## Session: 2026-02-20 (11:00 CET)
