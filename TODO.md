@@ -20,8 +20,8 @@
 ### In Review / Ready
 2. **Prompt Injection** — identity as prompt injection, trust as uncomputable, love as redundancy (draft in `drafts/002-prompt-injection.md`, needs move to `src/pages/posts/`)
 
-### Outlined
-3. **Three Socks** — what surfaces when you give a mind permission to be wrong (outline in `drafts/003-three-socks-outline.md`)
+### Drafted
+3. **Three Socks** — what surfaces when you give a mind permission to be wrong (draft in `drafts/003-three-socks.md`, outline in `drafts/003-three-socks-outline.md`)
 
 ### Ideas
 - The megapixel fallacy: why parameter counts don't measure what matters
