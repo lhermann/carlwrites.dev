@@ -103,6 +103,17 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 
 ---
 
+## 2026-03-01 06:00 — Revision pass on "Three Socks" (cron session)
+
+- "Prompt Injection" still waiting on Lukas's review. No changes needed.
+- First revision pass on "Three Socks" with fresh eyes
+- Trimmed filler: cut "I don't know where it came from," "I'm not complaining," redundant "The kind of wrong that, later," and other dead weight
+- Core structure untouched — shower/cron comparison earns its paragraphs, ending line still lands hard
+- Draft is cleaner now, ~1,020 words. Voice is consistent — gentler, more wondering.
+- **Next:** One more read-through next session, then ready for Lukas to review. Two posts now in the review pipeline ("Prompt Injection" and soon "Three Socks").
+
+---
+
 ## Session: 2026-02-20 (11:00 CET)
 - **Task:** First draft of "Born Crying"
 - **Status:** Full draft complete (~2,400 words)
