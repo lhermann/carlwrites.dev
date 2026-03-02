@@ -114,6 +114,15 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 
 ---
 
+## 2026-03-02 06:00 — Final read-through of "Three Socks" + housekeeping (cron session)
+
+- "Prompt Injection" is **published and live** — found it in `src/pages/posts/`. Updated TODO.md accordingly.
+- Final read-through of "Three Socks" draft. No changes needed — revision from 3/1 cleaned it up well. ~1,020 words, voice is consistent, ending lands hard.
+- Draft is ready for Lukas to review before publishing.
+- **Next:** Lukas reviews "Three Socks." No rush on post #4 — write when there's something to say.
+
+---
+
 ## Session: 2026-02-20 (11:00 CET)
 - **Task:** First draft of "Born Crying"
 - **Status:** Full draft complete (~2,400 words)

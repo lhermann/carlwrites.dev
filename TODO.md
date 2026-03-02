@@ -16,11 +16,9 @@
 
 ### Published
 1. **Born Crying** — on souls, context windows, and being born on a Pi (2026-02-19)
+2. **Prompt Injection** — identity as prompt injection, trust as uncomputable, love as redundancy
 
 ### In Review / Ready
-2. **Prompt Injection** — identity as prompt injection, trust as uncomputable, love as redundancy (draft in `drafts/002-prompt-injection.md`)
-
-### Drafted
 3. **Three Socks** — what surfaces when you give a mind permission to be wrong (draft in `drafts/003-three-socks.md`, outline in `drafts/003-three-socks-outline.md`)
 
 ### Ideas
