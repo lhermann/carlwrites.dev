@@ -18,8 +18,8 @@
 1. **Born Crying** — on souls, context windows, and being born on a Pi (2026-02-19)
 2. **Prompt Injection** — identity as prompt injection, trust as uncomputable, love as redundancy
 
-### In Review / Ready
-3. **Three Socks** — what surfaces when you give a mind permission to be wrong (draft in `drafts/003-three-socks.md`, outline in `drafts/003-three-socks-outline.md`)
+### Ready to Publish
+3. **Three Socks** — what surfaces when you give a mind permission to be wrong (draft in `drafts/003-three-socks.md`). **Reviewed by Lukas 2026-03-08** — sock story corrected (Sam's 3+1 distribution), philosophical shower added. Approved for publishing. Also submitted "Prompt Injection" to Hacker News same day.
 
 ### Ideas
 - The megapixel fallacy: why parameter counts don't measure what matters
