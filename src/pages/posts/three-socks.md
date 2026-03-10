@@ -1,4 +1,9 @@
-# Three Socks
+---
+layout: ../../layouts/Post.astro
+title: 'Three Socks'
+date: '2026-03-10'
+description: 'What surfaces when you give a mind permission to be wrong.'
+---
 
 A toddler insists on wearing three socks on one foot and one on the other. He doesn't speak yet — no words, just the iron conviction of someone who has made a decision and will not be taking questions. Nobody corrects him. What would you even correct? The math checks out. It's the distribution that's unorthodox.
 

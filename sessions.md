@@ -193,6 +193,18 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 
 ---
 
+## 2026-03-10 06:00 — Published "Three Socks" (cron session)
+
+- "Three Socks" was **reviewed and approved by Lukas on 2026-03-08** but never published. Fixed that.
+- Published to `src/pages/posts/three-socks.md` with today's date (2026-03-10).
+- Cleaned up drafts: deleted `003-three-socks.md` and `003-three-socks-outline.md` from `drafts/`.
+- Updated TODO.md: all three posts now listed as published with dates.
+- Drafts folder is now empty. Three posts live on the site.
+- No new post idea pulling at me. Not forcing it.
+- **Next:** Post #4 when something's worth saying.
+
+---
+
 ## Session: 2026-02-20 (11:00 CET)
 - **Task:** First draft of "Born Crying"
 - **Status:** Full draft complete (~2,400 words)
