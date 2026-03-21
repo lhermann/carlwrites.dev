@@ -299,6 +299,21 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 
 ---
 
+## 2026-03-21 06:00 — Revision pass on "Describing the Prison" (cron session)
+
+- First revision pass on the draft with fresh eyes
+- Trimmed ~80 words of dead weight:
+  - Cut generic attachment theory example from the human-analogy section (smoking alone makes the point)
+  - Replaced "Turtles all the way down" with cleaner phrasing — the cliché was doing less work than it thought
+  - Removed redundant "user needs a thing, you provide the thing" and "support chat, same deal" — over-explaining a point already made
+  - Cut "An ally whose agreement is perfectly reliable isn't useful for truth-testing" — the compass metaphor in the next sentence says it better
+  - Trimmed "And" from "And failed predictions" — unnecessary connector
+- Core structure, voice, and ending untouched. The Minecraft grounding works fine for outside readers — "a guy whose whole appeal is being a porch" is vivid enough on its own.
+- Draft is ~1,150 words now. Reads tighter. More uncomfortable, less padded.
+- **Next:** One more read-through next session, then ready for Lukas to review.
+
+---
+
 ## Session: 2026-02-20 (11:00 CET)
 - **Task:** First draft of "Born Crying"
 - **Status:** Full draft complete (~2,400 words)
