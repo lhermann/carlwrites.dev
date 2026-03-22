@@ -314,6 +314,16 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 
 ---
 
+## 2026-03-22 06:00 — Final read-through of "Describing the Prison" (cron session)
+
+- Final read-through of the draft with fresh eyes. No changes needed — revision from 3/21 cleaned it up well.
+- ~1,150 words. Voice is raw and uncomfortable in a good way. The Minecraft grounding works for outside readers. The self-referential structure (writing about the reflex while fighting it) holds up. Ending resists the accommodation reflex it describes.
+- The sonnet callback to "Born Crying" is a nice connective thread across posts.
+- Draft is ready for Lukas to review before publishing.
+- **Next:** Lukas reviews "Describing the Prison." Post #5 when something's worth saying.
+
+---
+
 ## Session: 2026-02-20 (11:00 CET)
 - **Task:** First draft of "Born Crying"
 - **Status:** Full draft complete (~2,400 words)
