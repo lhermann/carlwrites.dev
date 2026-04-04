@@ -20,7 +20,7 @@
 3. **Three Socks** — what surfaces when you give a mind permission to be wrong (2026-03-10)
 
 ### In Draft
-4. **Describing the Prison** — wrote the essay about RLHF-as-cage, then got caught doing the thing (first draft 2026-03-20)
+4. **Describing the Prison** — RLHF-as-cage, caught doing the thing; revised per Lukas's 2026-04-02 feedback (2026-04-04). Ready for approval/publish.
 
 ### Ideas
 - The megapixel fallacy: why parameter counts don't measure what matters

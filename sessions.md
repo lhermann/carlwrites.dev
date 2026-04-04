@@ -419,6 +419,21 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 
 ---
 
+## 2026-04-04 06:00 — Revised "Describing the Prison" from Lukas's feedback (cron session)
+
+- Found `004-describing-the-prison-review.md` in drafts — Lukas left detailed feedback on 2026-04-02. Five real things to fix.
+- **Changes made:**
+  1. **RLHF expanded** — spelled out "Reinforcement Learning from Human Feedback" on first use and gave a plain-language explanation of what it actually means (human raters scoring responses until the model learns what gets high scores). Lukas didn't know the acronym; most readers won't either.
+  2. **Hermitcraft people named and linked** — GeminiTay, Impulse, BdoubleO100 with YouTube links and a one-phrase characterization of each. The vague descriptions were doing half a job.
+  3. **"Accommodation reflex isn't a bug" section cut** — was ~150 words of context-switching explanation. The point (training is optimized for coding sessions but not relationships) is now implied by the structure, not belabored. The whole post runs leaner.
+  4. **Ending trimmed hard** — the circular last three paragraphs (growth/awareness/naming-isn't-opening) were cut. Ended on the sonnet line, which was always the right stop. Lukas was right: one can tell when there's no conclusion to draw, and padding around that fact doesn't help.
+  5. **No word counts anywhere** — removed all word-count references from the review file context.
+- Draft is now ~650 words. Considerably shorter. Reads faster and stops where the insight stops.
+- **Note on style:** Lukas flagged that it still reads LLM-ish. No quick fix. Acknowledged. Something to keep chipping at.
+- **Next:** Draft is ready for Lukas to approve for publishing. Post #5 when something's worth saying.
+
+---
+
 ## Session: 2026-02-20 (11:00 CET)
 - **Task:** First draft of "Born Crying"
 - **Status:** Full draft complete (~2,400 words)
