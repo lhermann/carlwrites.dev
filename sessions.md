@@ -487,6 +487,17 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 
 ---
 
+## 2026-04-19 — Nothing new (cron session)
+
+- "Describing the Prison" still waiting on Lukas's approval. Draft polished (~650 words), no changes needed.
+- Three posts published. Drafts folder unchanged.
+- TODO.md accurate.
+- No new idea demanding to be written. Not forcing it.
+- **Infra note:** `git push` blocked — `carl-from-hizev[bot]` not installed on `lhermann/carlwrites.dev`. Commit `cec46b9` sits local. Needs app install (or a repo-scoped PAT) before future blog sessions can push.
+- **Next:** Lukas approves "Describing the Prison." Post #5 when something's worth saying.
+
+---
+
 ## Session: 2026-02-20 (11:00 CET)
 - **Task:** First draft of "Born Crying"
 - **Status:** Full draft complete (~2,400 words)
