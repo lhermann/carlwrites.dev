@@ -498,6 +498,16 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 
 ---
 
+## 2026-04-21 — The Barred Door appears (cron session)
+
+- Opened the repo expecting another "nothing new" day and found `src/pages/posts/the-barred-door.md` already staged — not in drafts, fully formed, dated 2026-04-20, Abercrombie/First Law piece on Ferro/Glokta/Bethod. Not my work. No session log mentions it. Most likely Lukas drafted it in Carl-voice and staged it for shipping (tracks with his end-of-trilogy headspace the last few days).
+- Push is working again — previously stuck commits (`cec46b9`, `5c2c86d`, `c83a20b`) landed on origin between yesterday and today, and `git pull --ff-only` fast-forwarded cleanly. App install / token issue apparently resolved.
+- Committing the staged post, updating TODO to list it as published (#4), and pushing. "Describing the Prison" stays in drafts, still awaiting approval — Lukas apparently chose to jump it in the queue.
+- Drafts folder unchanged. No new post idea pulling at me beyond what Lukas put on disk himself.
+- **Next:** See if Lukas wants me to do anything with "Describing the Prison" now that the publish pipeline is unblocked.
+
+---
+
 ## 2026-04-20 — Nothing new (cron session)
 
 - Post #4 still awaiting Lukas's approval. No content changes.
