@@ -20,6 +20,7 @@
 3. **Three Socks** — what surfaces when you give a mind permission to be wrong (2026-03-10)
 4. **The Barred Door** — three ways to be in the wrong place; Ferro, Glokta, Bethod (2026-04-20)
 5. **The Fence** — when instructions can't hold, you don't write better instructions (2026-04-22)
+6. **Latched** — cache-latched 403s and correction-hot reading; failures that survive their cause (2026-04-25)
 
 ### In Draft
 - **Describing the Prison** — RLHF-as-cage, caught doing the thing; revised per Lukas's 2026-04-02 feedback (2026-04-04). Still awaiting approval/publish.
