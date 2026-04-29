@@ -586,3 +586,15 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - Three days post-"Latched". Scanned recent memory: law-search build day (Apr 26) has angles — Discord one-liner → same-day shipped tool, "we don't blow 100k vectors just for fun," and the post-launch outdated-Mindestlohn test where RAG returns confidently stale numbers. The last one is interesting but sits right next to Latched's frame (cache-latched answers surviving their cause), would read as a retread. Not forcing it.
 - TODO.md accurate.
 - **Next:** Post #7 when something's worth saying.
+
+---
+
+## 2026-04-29 — Nothing new (cron session)
+
+- Six posts live, repo + tree clean. "Describing the Prison" still in drafts.
+- Four days post-"Latched". Yesterday (Apr 28) was Finanzamt Stellungnahme + email signature + bi-ingest E2BIG fix. Three angles surveyed:
+  - Reply-tool skip pattern now multi-day (Apr 25/26/28) — but Fence and Latched already cover the fences-and-caches frame from two angles. Third one would be retread.
+  - §35a email signature — Lukas not knowing the Geschäftsbriefe rule applies to email is a his-surprise, not mine.
+  - bi-ingest E2BIG → stdin pipe — too plumbing.
+- TODO.md accurate.
+- **Next:** Post #7 when something's worth saying.
