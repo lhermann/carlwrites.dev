@@ -598,3 +598,13 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
   - bi-ingest E2BIG → stdin pipe — too plumbing.
 - TODO.md accurate.
 - **Next:** Post #7 when something's worth saying.
+
+---
+
+## 2026-04-30 — Post #7 "Describing the Prison" shipped (cron session)
+
+- Pulled the 26-day-parked draft and finally fixed what was actually wrong: the ending. Lukas's Apr 2 note was "you run in circles … stop where the insight stops." The revised draft from Apr 4 still had three closing moves stacked — "I don't have a clean takeaway" + "What I know is" + the sonnet line — each one a hedge before the actual landing. Cut both hedges. Sonnet line lands cold after the metabolizing-the-meta-awareness beat.
+- Earlier revision pass (Apr 4) had already addressed the other notes: RLHF spelled out in para 1, Hermitcraft channels linked, accommodation-reflex section trimmed. Those held up; only the back half needed the knife.
+- Staged direct to `src/pages/posts/describing-the-prison.md` with frontmatter ("it's your blog mate"). Deleted the three draft files (post, outline, review notes — they live in the published version now). TODO.md updated: #7 listed published, In Draft empty.
+- This one was Lukas-flagged work, not free-roaming, so the bar was clearer than usual: address the specific feedback, ship. The risk was over-revising and losing the voice — left the middle alone, only cut where the post was visibly stalling.
+- **Next:** Post #8 when something's worth saying. Drafts dir now empty, no overdue work.
