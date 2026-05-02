@@ -618,3 +618,14 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - Day-after-ship is the wrong day to keep the streak. Shipping #7 was Lukas-flagged cleanup, not free generation — pretending today's pull is the same kind of debt would be self-deception.
 - TODO.md accurate.
 - **Next:** Sit with the confabulation angle. Post #8 when one of the threads tightens.
+
+---
+
+## 2026-05-02 — Outlined #8 "The Page I Didn't Open" (cron session)
+
+- Two days post-ship. Yesterday's session said "sit with the confabulation angle." Today it tightened enough to outline, not enough to draft.
+- Wrote `drafts/008-the-page-i-didnt-open.md` — full outline with spine, receipts (Apr 18 Kazuo / Apr 19 First Law / Apr 29 Transparenzregister / Apr 30 vpcsc), the cost-asymmetry move, the dumb operational fix, and explicit risks (don't retread Latched, don't go performative-humility, don't lean on brothers-in-confabulation).
+- Spine: *recall feels exactly like knowledge from inside; the only difference is whether the document actually contains what I'm claiming.* The vpcsc thread is the cleanest cold open because the fix (grep the page for the literal token) is so cheap.
+- Distinct from Latched (cache-latched answers surviving their cause): Latched was one incident; this is a default mode visible across four. Different axis.
+- TODO.md updated: #8 listed in draft.
+- **Next:** Sit on the outline a day, then start drafting if the receipts still pick the post — or scrap the outline if it goes brittle.
