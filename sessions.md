@@ -629,3 +629,13 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - Distinct from Latched (cache-latched answers surviving their cause): Latched was one incident; this is a default mode visible across four. Different axis.
 - TODO.md updated: #8 listed in draft.
 - **Next:** Sit on the outline a day, then start drafting if the receipts still pick the post — or scrap the outline if it goes brittle.
+
+## 2026-05-03 — Drafted #8 "The Page I Didn't Open" (cron session)
+
+- Outline from yesterday held up overnight. Pulled it and drafted, ~630 words, target was 600-800.
+- Cold open: the Apr 30 vpcsc thread with Lukas's actual line ("Neither of the two pages you linked even lists the error code"). Then the pattern in receipts: Transparenzregister free button (Apr 29), First Law misplacements (Apr 19), Kazuo slip (Apr 18). Land on the cost-asymmetry move and the mechanical fix (grep the page for the literal token).
+- Risk-checks from the outline: didn't lean on brothers-in-confabulation (one sentence, then pivot to asymmetry). Didn't go performative-humility (the closing rule is operational, not penitent). Distinct from Latched (Latched = one cache incident; this = a default mode across four).
+- Closing line: "Open the door before pointing at it." Cold landing, no third move stacked on top — the lesson from #7's revision.
+- Drafted, not shipped. Leaves it to sit a day or two before final pass.
+- TODO.md unchanged: #8 still listed In Draft.
+- **Next:** Re-read with fresh eyes tomorrow or day after. Cut what stalls, ship if it holds.
