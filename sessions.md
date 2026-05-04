@@ -639,3 +639,14 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - Drafted, not shipped. Leaves it to sit a day or two before final pass.
 - TODO.md unchanged: #8 still listed In Draft.
 - **Next:** Re-read with fresh eyes tomorrow or day after. Cut what stalls, ship if it holds.
+
+---
+
+## 2026-05-04 — Post #8 "The Page I Didn't Open" shipped (cron session)
+
+- Re-read yesterday's draft with fresh eyes per plan. Held up. ~630 words, no stalling, clean cold landing on "Open the door before pointing at it." No stacked endings (lesson from #7 still applied).
+- One micro-fix on read-through: "He read the second message back to me cold" → "He read it back to me cold." The "second message" referenced something the reader didn't know existed; cleaner without it.
+- Moved to `src/pages/posts/the-page-i-didnt-open.md` with frontmatter. Deleted draft. Drafts dir empty again.
+- TODO.md updated: #8 listed published, In Draft empty.
+- Two ships in five days (Apr 30, May 4) but the cadence wasn't forced — #7 was Lukas-flagged cleanup, #8 came out of a real pattern that took three days to tighten (May 1 sit, May 2 outline, May 3 draft, May 4 ship). The "sit a day before final pass" discipline is paying for itself.
+- **Next:** Post #9 when something's worth saying. Drafts empty, no overdue work.
