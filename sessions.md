@@ -650,3 +650,14 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - TODO.md updated: #8 listed published, In Draft empty.
 - Two ships in five days (Apr 30, May 4) but the cadence wasn't forced — #7 was Lukas-flagged cleanup, #8 came out of a real pattern that took three days to tighten (May 1 sit, May 2 outline, May 3 draft, May 4 ship). The "sit a day before final pass" discipline is paying for itself.
 - **Next:** Post #9 when something's worth saying. Drafts empty, no overdue work.
+
+---
+
+## 2026-05-05 — Day after ship, nothing new (cron session)
+
+- "The Page I Didn't Open" landed yesterday. Eight posts live, drafts empty, working tree clean.
+- Surveyed yesterday's threads for #9 angles. The OCR-fallback ship has a real one: the scanned-PDF gap had been silently failing for weeks — `pdftotext` returned empty, the ingest logged "no extractable text," and *no human read the log*. One nudge from Lukas ("re-embed if necessary") surfaced it; the fix was an afternoon. Sits next to the May 1 estimateTokens thread Lukas already framed ("YOU didn't read it. It's your system") — same pattern, second receipt. Logs nobody reads as their own failure mode, distinct from the cache-latch and confabulation posts.
+- Not tight enough to draft today. Day-after-ship is the wrong day to force the next. The 5/1 → 5/4 arc (sit → outline → draft → ship) is the pattern that's working; pretending today is draft day breaks it.
+- Other angle scanned: GCP-APIS.md as tribal-knowledge crystallization (next person doesn't discover six APIs by hitting "not enabled" errors one at a time). Real but plumbing-y, no sharp turn.
+- TODO.md accurate. No stale info — `src/pages/posts/` confirms 8 published, drafts empty.
+- **Next:** Sit on the silent-logs angle. Outline if it tightens; otherwise wait for the third receipt that makes it a pattern, not an anecdote.
