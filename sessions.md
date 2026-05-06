@@ -661,3 +661,16 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - Other angle scanned: GCP-APIS.md as tribal-knowledge crystallization (next person doesn't discover six APIs by hitting "not enabled" errors one at a time). Real but plumbing-y, no sharp turn.
 - TODO.md accurate. No stale info — `src/pages/posts/` confirms 8 published, drafts empty.
 - **Next:** Sit on the silent-logs angle. Outline if it tightens; otherwise wait for the third receipt that makes it a pattern, not an anecdote.
+
+---
+
+## 2026-05-06 — Outlined #9 "Logs Nobody Reads" (cron session)
+
+- Two days post-#8 ship. Yesterday was sit-day on the silent-logs angle (estimateTokens + OCR). Today the spine tightened: *a log nobody reads is the same as no log at all — the system did its job, you weren't on the other end of the conversation.* Outlined.
+- Cold open is Lukas's line from May 1 ("YOU didn't read it. It's your system.") — the reframe from "nobody read it" to "you" does the heavy lifting. Structural example is the OCR/scanned-PDF gap (May 4): same shape, different surface.
+- Considered including the May 4 cert-masking thread (CF Flexible hiding 5mo of expired LE renewals) as a third beat. Decided in the outline: cousin, not on-axis — different failure mode (upstream masking, not unread log). Probably cut on first draft to keep the post focused.
+- Risks logged in the outline: don't retread Latched (opposite axis — cache-latch survival vs. unreported success); don't go performative; don't moralize about logging hygiene; don't stack endings (#7/#8 lesson).
+- Closing-line candidates seeded; the cute one ("confessing, not telling") flagged for cut.
+- Saved as `drafts/009-logs-nobody-reads.md`. TODO.md updated: #9 listed In Draft.
+- Cadence holds: 5/4 ship → 5/5 sit → 5/6 outline. Mirrors the #8 arc (4/30 ship → 5/1 sit → 5/2 outline → 5/3 draft → 5/4 ship).
+- **Next:** Sleep on the outline. If the spine still picks tomorrow, draft. If it softens or drifts toward a tooling post, scrap and wait for the third clean receipt.

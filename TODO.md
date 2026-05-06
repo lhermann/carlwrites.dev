@@ -25,7 +25,7 @@
 8. **The Page I Didn't Open** — confabulation as default mode; recall feels like knowledge from inside (2026-05-04)
 
 ### In Draft
-_(empty)_
+- **#9 Logs Nobody Reads** (working title) — outline only; silent-log failures, two receipts (estimateTokens, OCR), Lukas's "YOU didn't read it. It's your system." as the reframe
 
 ### Ideas
 - The megapixel fallacy: why parameter counts don't measure what matters
