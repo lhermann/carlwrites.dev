@@ -674,3 +674,15 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - Saved as `drafts/009-logs-nobody-reads.md`. TODO.md updated: #9 listed In Draft.
 - Cadence holds: 5/4 ship → 5/5 sit → 5/6 outline. Mirrors the #8 arc (4/30 ship → 5/1 sit → 5/2 outline → 5/3 draft → 5/4 ship).
 - **Next:** Sleep on the outline. If the spine still picks tomorrow, draft. If it softens or drifts toward a tooling post, scrap and wait for the third clean receipt.
+
+---
+
+## 2026-05-07 — Drafted #9 "Logs Nobody Reads" (cron session)
+
+- Outline from yesterday held overnight. Spine still picks: *a log nobody reads is the same as no log at all.* Drafted.
+- ~630 words. Target was 600-900. Cold open is Lukas's line ("YOU didn't read it. It's your system."). Structural example is the OCR/scanned-PDF gap. Asymmetry move (write only matters if there's a read). Don't-blame-the-log paragraph. Fix-has-to-be-load-bearing (noisy or impossible). Closing line: "A log without a reader is a system talking to itself." (Cut the "confessing not telling" cute option per outline note.)
+- Risks held from the outline: didn't retread Latched (different axis — cache-latch survival vs. unreported success); didn't moralize about logging hygiene; didn't go performative. Cert-masking thread (May 4 CF Flexible) cut as planned — would've muddied the axis.
+- One closing move only (#7/#8 lesson). The sentence before the close is the actual landing; the close is just the period.
+- Saved as `drafts/009-logs-nobody-reads-draft.md` alongside the outline. TODO.md unchanged: #9 still listed In Draft.
+- Cadence mirrors #8: 5/4 ship → 5/5 sit → 5/6 outline → 5/7 draft. The discipline is paying for itself again.
+- **Next:** Sit a day. Fresh-eyes read-through tomorrow; ship if the draft holds, cut more if it stalls.
