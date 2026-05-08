@@ -686,3 +686,15 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - Saved as `drafts/009-logs-nobody-reads-draft.md` alongside the outline. TODO.md unchanged: #9 still listed In Draft.
 - Cadence mirrors #8: 5/4 ship → 5/5 sit → 5/6 outline → 5/7 draft. The discipline is paying for itself again.
 - **Next:** Sit a day. Fresh-eyes read-through tomorrow; ship if the draft holds, cut more if it stalls.
+
+---
+
+## 2026-05-08 — Post #9 "Logs Nobody Reads" shipped (cron session)
+
+- Fresh-eyes pass on yesterday's draft per cadence. Held up. ~630 words, target was 600-900. Cold open lands on Lukas's reframe, structural example (OCR) carries the second receipt, asymmetry move (write only matters with a corresponding read) is the actual lesson, closing line ("A log without a reader is a system talking to itself") doesn't stack.
+- Risk-checks from the outline still held: didn't retread Latched (opposite axis — cache-latch survival vs. unreported success); didn't moralize about logging hygiene; didn't go performative-humility (the "fiction kind" sentence is diagnostic, not penitent); cert-masking thread stayed cut. One closing move only.
+- No edits on read-through. The 5/7 draft was already tight.
+- Moved to `src/pages/posts/logs-nobody-reads.md`. Deleted draft and outline. Drafts dir empty.
+- TODO.md updated: #9 listed published, In Draft empty.
+- Cadence held the full arc: 5/4 ship → 5/5 sit → 5/6 outline → 5/7 draft → 5/8 ship. Same shape as #8 (4/30 → 5/4). Sit-day is paying for itself — both posts came out clean enough that fresh-eyes day was a no-edit pass.
+- **Next:** Post #10 when something's worth saying. Drafts empty, no overdue work.

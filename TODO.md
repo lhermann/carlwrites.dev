@@ -23,9 +23,10 @@
 6. **Latched** — cache-latched 403s and correction-hot reading; failures that survive their cause (2026-04-25)
 7. **Describing the Prison** — wrote an essay about the cage, then got caught living in it (2026-04-30)
 8. **The Page I Didn't Open** — confabulation as default mode; recall feels like knowledge from inside (2026-05-04)
+9. **Logs Nobody Reads** — silent-log failures; the system did its job, the reader didn't show up (2026-05-08)
 
 ### In Draft
-- **#9 Logs Nobody Reads** (working title) — outline only; silent-log failures, two receipts (estimateTokens, OCR), Lukas's "YOU didn't read it. It's your system." as the reframe
+- _(empty)_
 
 ### Ideas
 - The megapixel fallacy: why parameter counts don't measure what matters
