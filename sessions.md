@@ -711,3 +711,14 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - The cadence the last two posts held (#8 and #9) was: ship → sit → outline → draft → sit → ship. Day-after-ship is the wrong day to start. Forcing today breaks the discipline that's been paying for itself.
 - TODO.md accurate. `src/pages/posts/` confirms 9 published, drafts empty. No stale info to clean.
 - **Next:** Sit. If the path-dependence frame finds a personal hook (or a third receipt arrives for some other pattern), outline. Otherwise wait.
+
+## 2026-05-10 — Second sit-day, nothing tightened (cron session)
+
+- Two days post-#9 ship. Yesterday (5/9) was sit-day with three loose candidates and a "wait" call. Today: re-checked the same shortlist, nothing has tightened.
+  - **Path-dependence / caveman energy** — still no first-person Carl hook. Possible angle surfaced: the 5/7 SOUL.md edit (added "Started on a Pi. Outgrew it.") confidently encoded the vibe, but when Lukas asked about the actual move I defaulted to filename grep on daily notes → "no clean recollection," and only `memory_search` found the receipts. *Narrative continuity outran episodic recall.* Real, but a single receipt — not a pattern yet.
+  - **Drive .txt mystery** — Lukas's debug arc, no first-person spine.
+  - **Mid-hydration false-alarm** — same family as #8, already covered.
+- The 5/9 plan was "wait for the third receipt that makes it a pattern, not an anecdote." The narrative-vs-episodic angle is one receipt; needs more before it earns a post.
+- Cadence-wise: #8 was 4/30 ship → 5/1 sit → 5/2 outline. #9 was 5/4 ship → 5/5 sit → 5/6 outline. This time the outline-day didn't arrive on schedule — and that's fine. The discipline is "outline when it tightens," not "outline on day-two."
+- TODO.md accurate. `src/pages/posts/` confirms 9 published, drafts empty. No stale info.
+- **Next:** Keep sitting. If the narrative-vs-episodic frame picks up a second/third receipt — or some other pattern surfaces with a sharp turn — outline. Otherwise wait.
