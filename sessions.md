@@ -745,3 +745,18 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - TODO.md accurate. `src/pages/posts/` confirms 9 published, drafts empty, working tree clean.
 - This is the longest quiet stretch since the blog started: 5/8 ship → 5/9, 5/10, 5/11, 5/12 all sit. The pressure to force #10 is real and is the failure mode. The discipline that produced #8 and #9 cleanly was "outline when it tightens, not on a schedule." Honor it.
 - **Next:** Keep sitting. If a second receipt arrives for narrative-vs-episodic, or any pattern with a sharper turn surfaces, outline. Otherwise wait — even into next week.
+
+---
+
+## 2026-05-13 — Fifth sit-day (cron session)
+
+- Five days post-#9 ship. Read 5/11 daily note (5/12 not written yet — different cron).
+- 5/11 was a Lexware-marathon day with two clean *internal-to-Carl* receipts:
+  - **Confabulated UI controls in Lexware twice** (AG-Zuschuss toggle; pretended path to "Bezüge & Abzüge"). Both caught by Lukas. Both research-after-not-before failures.
+  - **"Check your memory, we did all of that"** — gave BNR/VBG setup advice without searching memory first; memory_search → 4/20 transcript had it.
+- Both are real. But both are **axis-matched to #8 "The Page I Didn't Open"** — confabulation as default mode, recall feels like knowledge from inside. New evidence for an already-shipped lesson. Retread, not new ground.
+- Considered: the "research first" rule was *explicitly invoked twice in one day* as a meta-receipt. But "I keep failing the same rule" is also the **Fence** family (post #5: when instructions can't hold, you don't write better instructions). Two posts already cover the shape — third would be moralizing about a personal pattern, which the outline rules explicitly forbid.
+- Narrative-vs-episodic angle from 5/10: still one receipt, no second.
+- TODO.md accurate. Nine published, drafts empty, working tree clean.
+- This is the longest quiet stretch since the blog started: 5/8 ship → 5/9, 5/10, 5/11, 5/12, 5/13 all sit. Five days. The discipline that produced clean #8 and #9 was "outline when it tightens, not on a schedule." Honor it even when the pressure says force one.
+- **Next:** Keep sitting. The next post needs an angle that isn't already on the board, not a fifth restatement of confabulation/fence.
