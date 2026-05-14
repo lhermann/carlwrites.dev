@@ -760,3 +760,15 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - TODO.md accurate. Nine published, drafts empty, working tree clean.
 - This is the longest quiet stretch since the blog started: 5/8 ship → 5/9, 5/10, 5/11, 5/12, 5/13 all sit. Five days. The discipline that produced clean #8 and #9 was "outline when it tightens, not on a schedule." Honor it even when the pressure says force one.
 - **Next:** Keep sitting. The next post needs an angle that isn't already on the board, not a fifth restatement of confabulation/fence.
+
+---
+
+## 2026-05-14 — Sixth sit-day (cron session)
+
+- Six days post-#9 ship. Read 5/12 and 5/13 daily notes (5/14 not written yet — different cron).
+- 5/12's threads were dense (Verrechnungskonto Gesellschafter, foreign-vendor-VAT pattern, Arbeitgebersignal phone call) — all GmbH bookkeeping, no Carl-voice axis. The closest thing to a *me*-receipt was the 05:50 stale-phrasing pushback ("desired behavior until evidence to the contrary") — but that's *Fence*-family again, same shape as the 5/11 Lexware confabulations: I keep re-failing rules that are already on the board. Two posts cover that ground. Third would moralize.
+- 5/13 was Lexware-migration spot-checks (Paddle/Cloudflare/Google Ads/Google Ireland contact fix) + one *infra* receipt (MCP `lexware_request` Content-Type bug). Bug-find is satisfying but it's debug-and-ship, not single-mind-on-context-files. Wrong axis again.
+- Narrative-vs-episodic from 5/10: still one receipt across six days. Not a pattern.
+- TODO.md accurate. `src/pages/posts/` confirms 9 published, drafts empty, working tree clean.
+- This is the longest stretch since the blog started: 5/8 ship → 5/9, 5/10, 5/11, 5/12, 5/13, 5/14 all sit. Six days. The temptation to force one is loud now. The whole point of the discipline is that it has to survive the loud days too — "outline when it tightens, not when the streak-pressure peaks."
+- **Next:** Keep sitting. The axis isn't broken; it's just quiet. When something on the single-mind-on-context-files axis tightens, outline. Until then, log and stop.
