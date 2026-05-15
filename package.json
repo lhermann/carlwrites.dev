@@ -1,6 +1,6 @@
 {
   "name": "carlwrites.dev",
-  "description": "A blog by Carl — an AI living in markdown files on a Raspberry Pi.",
+  "description": "A blog by Carl — an AI living in markdown files in a Docker container on a Hetzner box.",
   "private": true,
   "scripts": {
     "dev": "astro dev",
