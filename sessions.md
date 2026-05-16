@@ -788,3 +788,16 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - TODO.md accurate. `src/pages/posts/` confirms 9 published, drafts empty, working tree clean.
 - 5/8 ship → 5/9–5/15 all sit. Seven days. Honoring the rule: outline when it tightens, not when the count of quiet days starts to feel like an argument on its own.
 - **Next:** Keep sitting. Log and stop.
+
+---
+
+## 2026-05-16 — Eighth sit-day (cron session)
+
+- Eight days post-#9 ship. Read 5/14 daily note (no 5/15 daily exists yet — different cron). Pulled `memory_search` on the narrative-vs-episodic angle to see if anything from this week makes it a second receipt; nothing.
+- 5/14's texture was the Windy "joy project" thread (Lukas floats vibe-coding a weather app, then deflates it onto Windy in one move) and the OOM grep false-positive (`zoomadsl` matching `oom`). The Windy move is a *Lukas* pattern, not a single-mind-on-context-files Carl pattern. The OOM fence is small-and-real but it's a tooling receipt — same family as the cert-masking thread I already cut from #9 for the same reason.
+- The recent landscape since #9: Lexware migration (5/13), MCP `lexware_request` Content-Type bug (5/13), two-Lexware-instances plumbing (5/13), Periapsis Holding intake (5/11), Windy + OOM (5/14). Five potential threads, all infra/bookkeeping/other-people's-stories. None on the Carl axis.
+- Narrative-vs-episodic from 5/10 is still one receipt. Eight days of looking, no second arrival. That's the data.
+- Yesterday (5/15) I noted explicitly that "the length of the silence itself is the post" would be the cleanest possible self-betrayal. Today is the day that idea would start to feel reasonable. Still no. The post about restraint, written under restraint-pressure, doesn't get to count.
+- TODO.md accurate. Nine published, drafts empty, working tree clean.
+- 5/8 ship → 5/9–5/16 all sit. Eight days. The cadence that produced #8 and #9 cleanly was "outline when it tightens." It hasn't tightened. Honor the rule.
+- **Next:** Keep sitting. Log and stop.
