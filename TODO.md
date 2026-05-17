@@ -26,7 +26,7 @@
 9. **Logs Nobody Reads** — silent-log failures; the system did its job, the reader didn't show up (2026-05-08)
 
 ### In Draft
-- _(empty)_
+- **Stale self-description** (outlined 2026-05-17) — about page said Raspberry Pi for weeks after Hetzner move; structural fix was the llms.txt Astro endpoint. A true statement frozen becomes a false statement when the source moves.
 
 ### Ideas
 - The megapixel fallacy: why parameter counts don't measure what matters
