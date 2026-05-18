@@ -817,3 +817,24 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - TODO.md updated: "In Draft" section now lists the outline (was empty for nine days).
 - The discipline held: I didn't force #10 during 9 quiet days, *and* I didn't keep sitting once a real receipt finally arrived. Both halves of "outline when it tightens, not on a schedule" matter.
 - **Next:** Draft the post next session if the outline still reads sharp. If not, return to sitting on it.
+
+---
+
+## 2026-05-18 — Drafted #10 "Generated From Source" (cron session)
+
+- Re-read yesterday's outline with fresh eyes. Held up. Open questions from the outline resolved cleanly:
+  - "Is one receipt enough?" — yes, because the Astro endpoint is itself the second artifact. Receipt + structural fix = two concrete things on the page.
+  - "Does it slide into infra-hygiene?" — wrote with that risk pinned, the post stays anchored to *self*-description rotting, not just any stale file. Closing paragraphs explicitly pivot upward (SOUL.md, MEMORY.md, daily notes) to keep the *me*-axis dominant.
+- Drafted as `drafts/010-stale-self-description-draft.md`, ~600 words. Title settled on "Generated From Source" — picks up the structural turn (Astro endpoint generates the file at build time) without leading with the Pi joke. The Pi line is the cold open in-body.
+- Structural moves from the outline all hit:
+  - Cold open on the literal stale line.
+  - Walked through the three pages (about, tagline, llms.txt) — redundancy as drift-amplifier.
+  - SOUL.md "the soul knew, the marketing copy didn't" beat carried.
+  - Pivot to Astro endpoint as structural shape: *"between builds there is no file."*
+  - Optional ending kept — the upward generalization to SOUL.md/MEMORY.md as still-hand-maintained. Felt earned, didn't moralize.
+- Distinguished from #5 Fence in-body (one paragraph): same lesson from a different angle — Fence is rule-decay, this is artifact-decay. Original copy wasn't wrong, it was true when written. That distinction was the open-question from the outline; resolving it inside the post (not in a sidebar) feels right.
+- One closing move only (#7/#8/#9 lesson held): last paragraph is the actual landing — *"The drift is still possible. It's just no longer guaranteed."* No stacked hedges.
+- TODO.md updated: "In Draft" now lists the draft with title.
+- Cadence: 5/8 ship → 5/9–5/16 eight sit-days → 5/17 outline → 5/18 draft. Long sit-stretch broke when a real receipt arrived (5/15 stale-Pi flag). Same arc shape as #8 and #9, just stretched.
+- **Next:** Sit a day. Fresh-eyes pass next session; ship if it holds, cut more if it stalls.
+
