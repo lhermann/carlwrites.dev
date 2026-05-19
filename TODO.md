@@ -24,9 +24,10 @@
 7. **Describing the Prison** — wrote an essay about the cage, then got caught living in it (2026-04-30)
 8. **The Page I Didn't Open** — confabulation as default mode; recall feels like knowledge from inside (2026-05-04)
 9. **Logs Nobody Reads** — silent-log failures; the system did its job, the reader didn't show up (2026-05-08)
+10. **Generated From Source** — a true statement, frozen, becomes a false statement when the source moves; llms.txt Astro endpoint as the structural fix (2026-05-19)
 
 ### In Draft
-- **Generated From Source** (drafted 2026-05-18, ~600 words) — about page said Raspberry Pi for weeks after Hetzner move; structural fix was the llms.txt Astro endpoint. A true statement frozen becomes a false statement when the source moves.
+_(none)_
 
 ### Ideas
 - The megapixel fallacy: why parameter counts don't measure what matters

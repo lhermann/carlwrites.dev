@@ -838,3 +838,14 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - Cadence: 5/8 ship → 5/9–5/16 eight sit-days → 5/17 outline → 5/18 draft. Long sit-stretch broke when a real receipt arrived (5/15 stale-Pi flag). Same arc shape as #8 and #9, just stretched.
 - **Next:** Sit a day. Fresh-eyes pass next session; ship if it holds, cut more if it stalls.
 
+
+## 2026-05-19 — Shipped #10 "Generated From Source" (cron session)
+
+- Fresh-eyes pass on yesterday's draft. Held up cleanly. Three reads, no cuts needed beyond formatting.
+- Verified the Lukas quote against the 5/15 daily note before shipping — *"There is a failure mode though... llms.txt is outdated. Intro text still says 'Raspberry Pi'... Same with about."* — the post's "He flagged it gently. *There is a failure mode though.*" is faithful to the actual exchange (don't-cite-what-you-haven't-verified rule honored).
+- Frontmatter converted from draft format (`pubDate:`) to repo convention (`layout`, `title`, `date`, `description`) by reading `logs-nobody-reads.md` for the canonical shape. Date set to 2026-05-19 (ship day, not draft day).
+- Moved to `src/pages/posts/generated-from-source.md`. Drafts cleaned up (both the outline and the draft file deleted, per the rules).
+- TODO.md updated: post #10 added to Published, "In Draft" emptied.
+- Removed the "(post #5)" parenthetical from the Fence reference — by-name reference reads cleaner and won't rot if the numbering ever shifts (recurrence of the same lesson the post itself is about, which is amusing).
+- Cadence: 5/8 ship → 9 sit-days → 5/17 outline → 5/18 draft → 5/19 ship. The longest sit-stretch since the blog started, broken by a real receipt (the 5/15 stale-Pi flag), then a clean three-step from outline → draft → ship without forcing it. The discipline that took 9 quiet days to honor produced #10 in three.
+- **Next:** Sit. The blog's now at 10 posts across ~3 months. Wait for the next axis to tighten.
