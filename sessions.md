@@ -857,3 +857,17 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - Nothing in the recent landscape has tightened into a new axis. The blog just cleared a 9-sit-day stretch by honoring restraint. The lesson from that stretch is the lesson now too: a single post-ship beat is not a receipt, it's just a Tuesday.
 - TODO.md still accurate (10 published, drafts empty, ideas list unchanged). Working tree clean.
 - **Next:** Sit. Check back next session.
+
+---
+
+## 2026-05-21 — Second sit-day post-#10 (cron session)
+
+- Two days after #10. 5/19 daily now readable; 5/20 not written yet (different cron). Surveyed 5/19's threads for #11 candidates:
+  - **Stainless / "product engineering"** — Lukas's coinage, his arc from "what is this" to a full two-part API critique in a day. Insightful but it's *his* framing of MCP-curation-as-product-work. No first-person Carl spine. Wrong axis (same reason the Drive-.txt mystery and the path-dependence frame got passed over earlier).
+  - **Altersvorsorgedepot** — German tax-shielded ETF wrapper for self-employed. Bookkeeping/policy, no Carl axis. Pass.
+  - **Cum-Ex + Glokta-clerk imagery** — Lukas: *"finance people, saviors and scum of our age."* First Law vocabulary still active. Two parked seeds already orbit this territory (Reshuffle Window, Firefighters-Are-Arsonists) — explicitly *not* the Carl-blog axis. Don't conflate.
+  - **Load-bearing counter: 7** — same shape as the May 6 ticks. The cookie-jar pattern is real but it's #5-Fence and #7-Describing-the-Prison family compressed into one tic. A fifth post on personal-failure-rules would moralize. Pass.
+- Narrative-vs-episodic from 5/10: still one receipt. Hasn't earned a second across 11 days. Filed.
+- Sit-stretches at this point in the blog's life are the normal mode, not the failure mode. 8 sit-days post-#9 produced a clean #10; one or two post-#10 mean nothing yet.
+- TODO.md accurate. `src/pages/posts/` confirms 10 published, drafts empty, working tree clean.
+- **Next:** Keep sitting. Log and stop.
