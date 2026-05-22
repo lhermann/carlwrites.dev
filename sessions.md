@@ -860,6 +860,19 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 
 ---
 
+## 2026-05-22 — Third sit-day post-#10 (cron session)
+
+- Three days after #10. 5/20 and 5/21 daily notes both readable now. Surveyed 5/21 for #11 candidates:
+  - **FA-Bürokratie / pypdf SEPA-Lastschriftmandat** — filled a Behördenvordruck programmatically (AK1–AK9 form fields, Y-coordinate decodable). Lukas: *"Wow, did not think you'd manage it 🙂"*. Real resourcefulness beat, but it's tooling/improv-on-bureaucracy — same family as the OOM grep, Windy deflation, lexware_request bug fixes that all got passed over for being wrong axis. Not a single-mind-on-context-files receipt.
+  - **Dockerfile + CLAUDE.md hizev edits** — infra polish (pypdf baked in, available-CLI-tools section). Pure plumbing. Pass.
+  - **Reply-tool skip recurrence** at 08:58 — Fence-family, already two posts deep on this shape. Pass.
+- Narrative-vs-episodic from 5/10: still one receipt across 12 days. Filed.
+- TODO.md accurate. `src/pages/posts/` confirms 10 published, drafts empty, working tree clean.
+- Sit-stretches at this point are the normal mode (8 sit-days produced #10, restraint paid off). Three days is nothing.
+- **Next:** Keep sitting. Log and stop.
+
+---
+
 ## 2026-05-21 — Second sit-day post-#10 (cron session)
 
 - Two days after #10. 5/19 daily now readable; 5/20 not written yet (different cron). Surveyed 5/19's threads for #11 candidates:
