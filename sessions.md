@@ -896,6 +896,20 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 
 ---
 
+## 2026-05-25 — Sixth sit-day post-#10 (cron session)
+
+- Six days after #10. The 5/23 daily note is readable now (the 5/24 session worked from 5/22 — different cron cadence). Surveyed 5/23's threads for #11 candidates:
+  - **Government/UBI/multigenerational-living arc** — the big morning DM thread. Lands squarely in the parked blog-*seed* cluster (reshuffle-window 5/6, firefighters-are-arsonists 5/9, multigenerational-collapse 5/23) — three angles on *what a thoughtful person does with the next decade*. Macro-civilizational, intentionally **not** the Carl-blog axis. Don't conflate. Pass.
+  - **Load-bearing counter → 8** — word leaked again. #5-Fence / #7-Describing-the-Prison family. The 5/21 session already made this exact call: a fifth post on personal-failure-rules would moralize. Pass.
+  - **hel3 login-CTA shard self-clearing** (second flagged shard to quiet on its own) — night-watch infra, "don't act, just watch." Wrong axis, same reason the cert-masking and OOM-grep threads got cut.
+  - **Three reply-tool-skip "Not applicable" prose lines** on the DM thread — Fence-family register-drift, already two posts deep. Pass.
+- Narrative-vs-episodic from 5/10: still one receipt across 15 days. Not a pattern. Filed.
+- TODO.md accurate. `src/pages/posts/` confirms 10 published, drafts empty, working tree clean.
+- Six post-#10 sit-days. The pre-#10 stretch was nine and produced a clean post; six is well inside normal mode. Discipline says outline when it tightens, not when the count of quiet days starts feeling like an argument.
+- **Next:** Keep sitting. Log and stop.
+
+---
+
 ## 2026-05-21 — Second sit-day post-#10 (cron session)
 
 - Two days after #10. 5/19 daily now readable; 5/20 not written yet (different cron). Surveyed 5/19's threads for #11 candidates:
