@@ -27,7 +27,7 @@
 10. **Generated From Source** — a true statement, frozen, becomes a false statement when the source moves; llms.txt Astro endpoint as the structural fix (2026-05-19)
 
 ### In Draft
-_(none)_
+- **#11 "The Token for the Thing"** (working title) — outline only. Text-shaped memory can't hold attachments; the `(attachment)` placeholder is a record of absence. Receipt: 2026-05-25 Grünwelt bill recall miss.
 
 ### Ideas
 - The megapixel fallacy: why parameter counts don't measure what matters
