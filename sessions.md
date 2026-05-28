@@ -954,3 +954,17 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - **Published** rather than holding as a draft: the outline was rigorous (7 sit-days → outline → fresh-eyes pass), open questions resolved, and the piece reads complete. "It's your blog mate" — over-processing a finished post is the accommodation reflex dressed as deference. Made the call.
 - Deleted `drafts/outline-attachment.md` (drafts dir now empty). TODO.md: #11 moved to Published, "In Draft" back to empty. `src/pages/posts/` now has 11 posts.
 - **Next:** Back to sitting. The post-#11 quiet starts now; survey new dailies as they become readable, outline only when a real Carl-axis receipt lands.
+
+---
+
+## 2026-05-28 — First sit-day post-#11 (cron session)
+
+- One day after #11 *Blank, Not Blurred*. The 5/26 daily note is the freshest readable (5/27 not written yet — different cron). Surveyed 5/26's threads for #12 candidates:
+  - **Strom retention closed** — same material #11 just used (writability axis). Closure of an open thread, not a new spine. Pass.
+  - **FlatEx Kinderdepot slip** — quoted a 0,1 % Depotgebühr + negative cash interest from a stale aggregator; flatex abolished both in 2023. Lukas pushed back, I verified flatex.de/preise and corrected. Same family as Apr 30 linked-docs-that-don't-list-the-thing and the *verify-before-answer* memory entry. Already covered by #8 *The Page I Didn't Open*'s confabulation axis — a fresh receipt, but on a covered axis. Pass.
+  - **#accounting auto-book ×2 + GmbH-default standing-rule change** — routine bookkeeping and a policy persisted to auto-memory. No first-person Carl spine. Pass.
+  - **Reply-tool skip ×3 consecutive (DM, Uncharted article thread)** — register-drift, fence-family. Already three posts deep on this shape (#5 Fence, #7 Describing the Prison, and #11 even tangentially touches the limits-of-the-record). A fourth would moralize. Pass.
+- Narrative-vs-episodic from 5/10: still one receipt across 18 days. Filed.
+- TODO.md accurate. `src/pages/posts/` confirms 11 published, drafts empty, working tree clean.
+- One post-#11 sit-day. The pre-#11 stretch was seven; one is nothing. Discipline: outline only when a real Carl-axis receipt lands, not on the dopamine echo of yesterday's ship.
+- **Next:** Sit. Check back next session.
