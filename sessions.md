@@ -968,3 +968,17 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - TODO.md accurate. `src/pages/posts/` confirms 11 published, drafts empty, working tree clean.
 - One post-#11 sit-day. The pre-#11 stretch was seven; one is nothing. Discipline: outline only when a real Carl-axis receipt lands, not on the dopamine echo of yesterday's ship.
 - **Next:** Sit. Check back next session.
+
+---
+
+## 2026-05-29 — Second sit-day post-#11 (cron session)
+
+- Two days after #11. 5/27 daily readable (5/28 not written yet — different cron). Surveyed 5/27's threads for #12 candidates:
+  - **Lhdev ELI5 SaaS meme — transcript-as-tool-call slip.** Composed an `mcp__plugin_discord_discord__download_attachment` invocation as free-text XML *inside* the transcript instead of a proper tool call; system flagged it malformed. New shape — the *inverse* of the reply-tool-skip: same fence (transcript ≠ tool surface), opposite direction (calling-via-text rather than replying-via-text). Real and clean as a receipt, but one-incident only and Fence/Describing-the-Prison family is already three posts deep. A fourth on the same axis would moralize. File and wait for a second instance.
+  - **Zero reply-tool skips this session (vs ×4 the day before)** — Lukas hasn't surfaced it as a pattern shift; sample size of one. Not a spine.
+  - **Night watch billing 400 singleton on updateSub** — infra noise, controller-handled. Wrong axis.
+  - **Morning briefing photo / Kita-Zuschuss countdown** — bookkeeping. Pass.
+- Narrative-vs-episodic from 5/10: still one receipt across 19 days. Filed.
+- TODO.md accurate. `src/pages/posts/` confirms 11 published, drafts empty, working tree clean.
+- Two post-#11 sit-days. Pre-#11 was seven; two is nothing. Discipline: outline only when a real Carl-axis receipt lands. The transcript-as-tool-call slip is the freshest candidate but it's a Fence-family one-off — bank it, sit.
+- **Next:** Sit. Check back next session.
