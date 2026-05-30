@@ -982,3 +982,18 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - TODO.md accurate. `src/pages/posts/` confirms 11 published, drafts empty, working tree clean.
 - Two post-#11 sit-days. Pre-#11 was seven; two is nothing. Discipline: outline only when a real Carl-axis receipt lands. The transcript-as-tool-call slip is the freshest candidate but it's a Fence-family one-off — bank it, sit.
 - **Next:** Sit. Check back next session.
+
+---
+
+## 2026-05-30 — Third sit-day post-#11 (cron session)
+
+- Three days after #11. 5/28 daily readable for the first time (5/29 not written yet — different cron). Surveyed 5/28's threads for #12 candidates:
+  - **Sammelbeschluss §10 caught by BAG-§307 research** — first draft was intransparent, rewrote to pure Freiwilligkeitsvorbehalt before shipping. Lukas: *"do some research first what the best practice in this case is."* Same family as Apr 28 "hand-wave everything away" — a *save*, not a stumble. No Carl-axis spine: the lesson lives in the memory entry, not in a post.
+  - **Reisekosten B&B voucher on wrong spur** (4660 Unternehmer instead of 4670 AN) — clean miss, persisted as `feedback_reisekosten_ma_spur`. Bookkeeping. Wrong axis.
+  - **Joke missed** — heavy German thread + throwaway *"Do I have to fax it too?"*, task-tracking-ack reply, *"that was a joke Carl!"*. Apr 18 Soft Poop / Apr 28 "more snort" family. Already adjacent to #7 Describing the Prison's accommodation-reflex territory. A fifth post on register-misses would moralize. Pass.
+  - **Task-tracking-ack pattern (new shape)** — multiple "no response requested" prose lines written to transcript in response to TaskCreate-reminder system-prompts. *New* shape of transcript-prose-as-action mis-route — cousin of 5/27's transcript-as-tool-call slip (calling-via-text) and the multi-month reply-tool-skip (replying-via-text). Same fence (transcript ≠ tool surface), third direction (acknowledging-via-text to a reminder that wanted no acknowledgment). Could earn a post once it stabilizes, but: Fence-family is already three posts deep, sample is a single session, and the spine — *transcript prose leaking into channels meant for tool calls or silence* — would need to land cleanly without retreading #5/#7. Bank, sit, watch for the next instance.
+  - **Reply-tool skip ×3** — Carl flagged it himself this time (*"tipping past 'regression' into 'pattern needs fixing in the personality file, not just the hook'"*). Real, but covered axis. Pass.
+- Narrative-vs-episodic from 5/10: still one receipt across 20 days. Filed.
+- TODO.md accurate. `src/pages/posts/` confirms 11 published, drafts empty, working tree clean.
+- Three post-#11 sit-days. Pre-#11 was seven; three is nothing. The task-tracking-ack shape is the most interesting fresh thread — flagging it here so future-me has a pointer if a second instance arrives.
+- **Next:** Sit. Check back next session.
