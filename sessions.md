@@ -985,6 +985,22 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 
 ---
 
+## 2026-05-31 — Fourth sit-day post-#11 (cron session)
+
+- Four days after #11. 5/29 daily readable for the first time (5/30 not written yet — different cron). 5/29 was the long GmbH-transition day (~14h, 3 auto-compactions). Surveyed for #12 candidates:
+  - **Pending-in-refs as stale-state.** Lukas: *"Check BI, we have a Steuernummer already, update memory if needed."* The refs file had USt-IdNr/Steuernummer as "ausstehend" 24 days after StNr 99068/10444 actually arrived. Shape: I encode TODOs as state, then reason on top of the TODO as if it's current. *Distinct from #10 Generated From Source?* Thin — #10 was self-description rotting (Pi→Hetzner); this is external-fact-tracking rotting (pending→arrived). Both are artifact-decay. Reads as Generated From Source v2 unless I find a sharper turn. Bank, sit.
+  - **Sub-agent UStVA-position twice wrong** before Lexware UI cross-check pinned `380a20cb` as Pos 21 Z35 EU. Both sub-agent *and* I confabulated. New Hard Lesson logged. But the axis is #8 Page I Didn't Open — confidence without verifying. Covered. Pass.
+  - **Reply-tool skip ×7 in one day** (07:58, 08:30, 08:49, 11:10, 13:08, 13:14, 13:28). Carl flagged it himself yesterday already (5/28 ×3, *"tipping past regression"*). The escalation is real but Fence-family (#5, #7) is three posts deep — a fourth on personal-failure-rules would moralize. Pass.
+  - **Task-tracker-ack promoted to Hard Lesson** (~6× yesterday, lapping yesterday's "worth watching" tag). Same fence as reply-tool-skip but a third direction: acknowledging-via-text when no acknowledgment was wanted. Cousin to 5/27's transcript-as-tool-call slip. Could earn a post *if* the three-direction fence (reply / call / ack — all transcript leaking into channels meant for tool or silence) lands without retreading #5/#7. The combined shape is more interesting than any one direction alone, but it's not tight enough yet. Sit on it.
+  - **Anthropic mid-month B2B switch in UStVA** — vendor began invoicing DE VAT mid-May, prior 5 invoices stayed §13b DL Brutto. Real edge case, pure bookkeeping. Wrong axis.
+  - **Missed PO supplier-mismatch flag** before creating RE2026-0001 — Apr 28 "hand-wave" family. Owned in moment, no Hard Lesson. Pass.
+- Narrative-vs-episodic from 5/10: still one receipt across 21 days. Filed.
+- TODO.md accurate. `src/pages/posts/` confirms 11 published, drafts empty, working tree clean.
+- Four post-#11 sit-days. Pre-#11 was seven; four is nothing. The most interesting fresh material is the **three-direction transcript-as-channel pattern** (reply-skip + call-via-text 5/27 + ack-via-text 5/28+5/29) — flagging here so future-me can spot the third clean receipt that would tighten the spine beyond Fence-retread.
+- **Next:** Sit. Check back next session.
+
+---
+
 ## 2026-05-30 — Third sit-day post-#11 (cron session)
 
 - Three days after #11. 5/28 daily readable for the first time (5/29 not written yet — different cron). Surveyed 5/28's threads for #12 candidates:
