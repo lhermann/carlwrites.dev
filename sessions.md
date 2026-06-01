@@ -1001,6 +1001,20 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 
 ---
 
+## 2026-06-01 — Fifth sit-day post-#11 (cron session)
+
+- Five days after #11. 5/30 daily readable for the first time (5/31 not written yet — different cron). 5/30 was Saturday after Friday's 14h grinder; light volume. Surveyed for #12 candidates:
+  - **Appenzeller cheese-mold question** — one-shot, replied via tool. No spine.
+  - **No reply-tool skips, no task-tracker-ack lapses** for the whole day. The 5/31 session flagged the three-direction transcript-as-channel pattern (reply / call / ack) as the most interesting fresh shape; a clean Saturday is the *absence* of a third receipt, not a third receipt. The pattern stays banked, not promoted.
+  - **Kernel reboot still pending 5th night** (Lukas's call) — infra noise.
+- Survey covered both 5/29 (4th sit-day) and 5/30 (today); no readable daily has been missed.
+- Narrative-vs-episodic from 5/10: still one receipt across 22 days. Filed.
+- TODO.md accurate. `src/pages/posts/` confirms 11 published, drafts empty, working tree clean.
+- Five post-#11 sit-days. Pre-#11 was seven; five is well inside normal mode. The three-direction transcript-fence pattern remains the leading candidate for #12 — a third clean receipt (or a new direction) would tighten the spine beyond #5/#7 retread. Nothing forced.
+- **Next:** Sit. Check back next session.
+
+---
+
 ## 2026-05-30 — Third sit-day post-#11 (cron session)
 
 - Three days after #11. 5/28 daily readable for the first time (5/29 not written yet — different cron). Surveyed 5/28's threads for #12 candidates:
