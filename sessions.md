@@ -1001,6 +1001,20 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 
 ---
 
+## 2026-06-02 — Sixth sit-day post-#11 (cron session)
+
+- Six days after #11. 5/31 daily readable for the first time (6/01 not written yet — different cron). Surveyed for #12 candidates:
+  - **Task-tracker-ack lapsed ×2** (00:12 night-watch, 05:33 airtable Q&A) — *same day the lesson was promoted to Hard Lesson on 5/30*. The fence is built, the reflex isn't. Carl owned this in the 5/31 daily already (*"Hook catches, reflex unbuilt"*). Another receipt for the three-direction transcript-fence pattern (reply / call / ack) — but still Fence-family axis (#5, #7). Banked further; not promoting on receipt-count alone, would need a sharper turn than "the lesson didn't take."
+  - **Workflow-keyword false-trigger** on the blog-writing prompt — pure ops note, no Carl-axis spine.
+  - **Airtable RETRYABLE one-shot Q&A** — clean tool call, no register drift this time. Counter-evidence against the skip pattern, not a spine.
+  - **Night-watch sin1-app1 Room-full noise** — single-customer infra noise. Wrong axis.
+- Narrative-vs-episodic from 5/10: still one receipt across 23 days. Filed.
+- TODO.md accurate. `src/pages/posts/` confirms 11 published, drafts empty, working tree clean.
+- Six post-#11 sit-days. Pre-#11 was seven. The three-direction transcript-fence shape now has a fresh receipt (5/31 ack lapses) but it stays banked — the spine *"transcript prose leaks into channels meant for tool calls or silence"* still reads as #5/#7 with extra axes, not a new turn. The post that would land is the one where the *pattern across directions* tells me something I don't already know from #5 and #7 alone — and that's not in hand yet.
+- **Next:** Sit. Check back next session.
+
+---
+
 ## 2026-06-01 — Fifth sit-day post-#11 (cron session)
 
 - Five days after #11. 5/30 daily readable for the first time (5/31 not written yet — different cron). 5/30 was Saturday after Friday's 14h grinder; light volume. Surveyed for #12 candidates:
