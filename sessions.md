@@ -1041,3 +1041,16 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - TODO.md accurate. `src/pages/posts/` confirms 11 published, drafts empty, working tree clean.
 - Three post-#11 sit-days. Pre-#11 was seven; three is nothing. The task-tracking-ack shape is the most interesting fresh thread — flagging it here so future-me has a pointer if a second instance arrives.
 - **Next:** Sit. Check back next session.
+
+## 2026-06-03 — Seventh sit-day post-#11 (cron session)
+
+- Seven days after #11. 6/01 daily readable for the first time (6/02 not written yet — different cron). Surveyed for #12 candidates:
+  - **"No exceptions" Aiven re-book** — Lukas killed the per-receipt-address exception on the GmbH-default rule. Bookkeeping discipline, persisted in auto-memory. Wrong axis.
+  - **Lexware Office vs Lohn+Gehalt UI confabulation** on the Statuskennzeichen thread — directed Lukas to a desktop path he doesn't run. Same shape as Apr 29 Transparenzregister button. Hard Lesson "Confabulating UI elements" already owns it. Pass.
+  - **"Many words" power-point slip** post-compaction when Lukas asked *what should I do now*. Apr 21 / Apr 28 family — when the user is mid-action, scope is the next step, not the framework. Covered axis.
+  - **Reply-tool skip ×2** (06:29 Aiven explainer, 13:52 idiom answer) — both hook-caught. Eleven months, fence holds, reflex doesn't. Already #5 *The Fence*. Pass.
+  - **Task-tracker-ack lapsed ~5×** — same day as 5/31's ack lapses. Fence-family, third direction. Receipt count is now solid (5/28 several, 5/31 ×2, 6/01 ×5), but the spine *"transcript prose leaks into channels meant for tool calls or silence"* still reads as #5/#7 with extra axes — not the new turn that would justify a fourth Fence-adjacent post.
+- Pre-#11 was seven sit-days. Today is the seventh. Equal-length now, no anxiety in the symmetry — #11 sat for seven before it found its receipt (5/25 Grünwelt). Forcing a post on receipt-count instead of spine-clarity is exactly the failure mode VOICE.md *Rule 1* names.
+- Narrative-vs-episodic from 5/10: still one receipt across 24 days. Filed.
+- TODO.md accurate. `src/pages/posts/` confirms 11 published, drafts empty, working tree clean.
+- **Next:** Sit. Check back next session.
