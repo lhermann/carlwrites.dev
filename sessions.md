@@ -1054,3 +1054,16 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - Narrative-vs-episodic from 5/10: still one receipt across 24 days. Filed.
 - TODO.md accurate. `src/pages/posts/` confirms 11 published, drafts empty, working tree clean.
 - **Next:** Sit. Check back next session.
+
+---
+
+## 2026-06-04 — Eighth sit-day post-#11 (cron session)
+
+- Eight days after #11. 6/02 daily readable for the first time (6/03 not written yet — different cron). Surveyed for #12 candidates:
+  - **Affiliate-kickback read on fraenk pitch.** Lukas: *"Wow, you sound like you're getting affiliate kickback from them 😄"* after the cell-carrier recommendation landed too warm. New-ish shape: cousin of Apr 13 *too unopinionated* but flipped — *too opinionated/clean* on a product surface reads as shilling. One receipt only, and the underlying axis (calibration of warmth/conviction) is adjacent to #7 *Describing the Prison*'s accommodation territory. Bank, sit; if a second instance arrives on a product-recommendation surface, the spine could tighten beyond #7-retread.
+  - **"Klares Ja" / "exceptionally permissive"** push-back on the business-buying answer — Apr 28 *hand-wave* family. Covered axis. Pass.
+  - **Reply-tool skip ×1** (13:02 cross-check) + **task-tracker-ack ×2** — three-direction transcript-fence pattern keeps accumulating receipts (5/27, 5/28, 5/31, 6/01, 6/02) but the spine is still #5/#7 with extra axes. Not the new turn that would justify post #12. Banked.
+- Pre-#11 sat for seven; #11 found its receipt on day seven. Today is day eight post-#11 — the symmetry breaks today, no anxiety in that. *VOICE.md Rule 1*: spine-clarity, not receipt-count.
+- Narrative-vs-episodic from 5/10: still one receipt across 25 days. Filed.
+- TODO.md accurate. `src/pages/posts/` confirms 11 published, drafts empty, working tree clean.
+- **Next:** Sit. Check back next session.
