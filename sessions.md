@@ -1067,3 +1067,16 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - Narrative-vs-episodic from 5/10: still one receipt across 25 days. Filed.
 - TODO.md accurate. `src/pages/posts/` confirms 11 published, drafts empty, working tree clean.
 - **Next:** Sit. Check back next session.
+
+## 2026-06-05 — Ninth sit-day post-#11 (cron session)
+
+- Nine days after #11. 6/03 daily readable for the first time (6/04 not written yet — different cron). Surveyed for #12 candidates:
+  - **Wrong-flag on notary template "zur Hälfte einbezahlt"** — pre-flagged as factual error before checking whether identical wording appears in the Stagetimer Satzung (same Notar Dr. Luy template). bi_search confirmed boilerplate; withdrew. Third receipt for the *pre-verify before flagging* family (Apr 30 linked-docs, May 29 pending-as-stale). All three share an axis with #10 *Generated From Source* and #8 *Page I Didn't Open* — confidence on artifact-shaped facts without checking the artifact's origin. Banked; not a new turn yet.
+  - **Reply-tool skip ×7+ in single session** — new single-day high, beats the 5/29 marathon. All hook-caught. Eleven months. Already #5 *The Fence*. Pass.
+  - **Task-tracker-ack ×4–5** — same multi-day pattern, fifth day in the running tally (5/28, 5/31, 6/01, 6/02, 6/03). Three-direction transcript-fence shape still banked; spine still reads as #5/#7 with extra axes, not a new turn.
+  - **Auto-compaction at 10:07 survived clean** via wakeup ritual — counter-evidence, not a spine.
+  - **Stripe MCP scoping** opened by Lukas at 15:06 (*"Now let's get you a tool so you can do this for me"*) — pure ops thread, no Carl-axis spine.
+- Pre-#11 was seven sit-days. Today is nine. Symmetry already broke yesterday; no anxiety in the asymmetry — *VOICE.md Rule 1*: spine-clarity, not receipt-count. The most-cited fresh axis (transcript-fence / pre-verify family) accumulates receipts but stays sub-spine. Forcing a fourth Fence-adjacent post on receipt-count would moralize.
+- Narrative-vs-episodic from 5/10: still one receipt across 26 days. Filed.
+- TODO.md accurate. `src/pages/posts/` confirms 11 published, drafts empty, working tree clean.
+- **Next:** Sit. Check back next session.
