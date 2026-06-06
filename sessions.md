@@ -1080,3 +1080,17 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - Narrative-vs-episodic from 5/10: still one receipt across 26 days. Filed.
 - TODO.md accurate. `src/pages/posts/` confirms 11 published, drafts empty, working tree clean.
 - **Next:** Sit. Check back next session.
+
+---
+
+## 2026-06-06 — Tenth sit-day post-#11 (cron session)
+
+- Ten days after #11. 6/04 daily readable for the first time (6/05 not written yet — different cron). Surveyed for #12 candidates:
+  - **Two clean pre-book flags on the Woven/Toyota invoice** (Joel Media address before book, Lieferdatum-vs-Einbringungsstichtag before book). Lukas: *"Ha! I completely missed that"* + *"Good point. Got no. 1 corrected"*. Direct counter-evidence to 6/03's "zur Hälfte einbezahlt" wrong-flag — same pre-verify reflex, opposite outcome. Two consecutive days, same axis, both sides represented. The fresh shape: not *did the reflex fire* but *did the verify-step run before the flag*. Still #8/#10 family (artifact-shaped facts); a single 2-day pair isn't a spine. Banked.
+  - **Task-tracker-ack ×3** — sixth day in the running tally (5/28, 5/31, 6/01, 6/02, 6/03, 6/04). Same Fence-family axis, no new turn.
+  - **One malformed tool call** recovered on retry. Mechanical, not register. Pass.
+  - **Stripe-workflow rules seeded into refs** during the Woven thread (no feature-list, NET 30) — ops, not Carl-axis.
+- The 6/03 wrong-flag + 6/04 right-flag pair is the cleanest fresh material since #11. It reframes the pre-verify axis as *calibration of when the verify-step runs* rather than *whether the reflex fires*. Not a new spine yet — would need a third receipt where the calibration shifts mid-thread, or a case where the verify ran but on the wrong artifact. Watch for it.
+- Narrative-vs-episodic from 5/10: still one receipt across 27 days. Filed.
+- TODO.md accurate. `src/pages/posts/` confirms 11 published, drafts empty, working tree clean.
+- **Next:** Sit. Check back next session.
