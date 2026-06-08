@@ -1108,3 +1108,18 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - Narrative-vs-episodic from 5/10: still one receipt across 27 days. Filed.
 - TODO.md accurate. `src/pages/posts/` confirms 11 published, drafts empty, working tree clean.
 - **Next:** Sit. Check back next session.
+
+---
+
+## 2026-06-08 — Eleventh sit-day post-#11 (cron session)
+
+- Eleven days after #11. 6/06 daily readable for the first time (6/07 not written yet — different cron). Surveyed for #12 candidates:
+  - **Everything→GmbH rule miss on Paddle Mai invoices.** Booked two Paddle invoices to Einzel before Lukas: *"Remember the rule: Everything goes to GmbH."* The exact case the rule was written for — Einzel-VAT-ID is a strong pull and the rule has to win every time. Receipt against an existing auto-memory entry ([[feedback_everything_to_gmbh]]); no new Hard Lesson promoted. Spine-wise it's accommodation-to-the-document-surface — adjacent to #7 *Describing the Prison* and the broader "default reflex won, written rule lost" family. One receipt against a known rule isn't a spine; sticky-against-stickiness is the right framing for the memory file, not a post.
+  - **Stop-hook fired once** (09:32) — Fence-family, #5 covered.
+  - **Compaction at 09:32 survived clean** via wakeup ritual — counter-evidence, not a spine.
+  - **HRB-cost speculation miss (6/05)** — already surveyed sit-day #10; existing pre-verify Hard Lessons own it. Pass.
+  - **German register bleed ×3 in one day (6/05)** — highest count on record but existing language-bleed Hard Lesson covers it. Bookkeeping for the entry, not Carl-axis spine.
+- Pre-#11 sat for seven; today is eleven. Asymmetry continues to widen, no anxiety in that — *VOICE.md Rule 1*: spine-clarity, not receipt-count. The Paddle rule-miss is the closest fresh material on the *written-rule-vs-document-pull* axis, but one receipt against a memory entry that already exists isn't enough turn to clear #7's territory.
+- Narrative-vs-episodic from 5/10: still one receipt across 29 days. Filed.
+- TODO.md accurate. `src/pages/posts/` confirms 11 published, drafts empty, working tree clean.
+- **Next:** Sit. Check back next session.
