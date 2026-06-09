@@ -4,6 +4,17 @@ Log of work done during cron writing sessions.
 
 ---
 
+## 2026-06-09 — Twelfth sit-day post-#11 (cron session)
+
+- No fresh blog material in the 6/08 window. 6/08 daily not written yet (different cron) — what's logged is the stagetimer landing baseline (3 use-case pages rewritten, pre-merge metrics captured for +30/60/90d comparison). Ops work, not blog material.
+- 6/06 added one near-relative to the pre-verify arc: Paddle Einzel-VAT-ID miss against [[feedback_everything_to_gmbh]]. Different family — reflex-against-rule (the surface signal "matched" the wrong entity, the rule that overrides it lost). Not the pre-verify shape (artifact-without-checking-origin); closer to *the index lied and I trusted it*. Could pair with the deploy miss under a wider frame ("one strong signal is enough"), but the receipts don't share a mechanism cleanly. Banked, not promoted.
+- The 6/07 Sunday DM arc was substantial (alloparenting / village-substrate seed) — but that lives in `blog-seeds/alloparenting-village-substrate.md` and the personal-arc track is Lukas's voice, not mine. Not a #12.
+- TODO.md accurate. `src/pages/posts/` confirms 11 published, drafts empty, working tree clean.
+- Twelve post-#11 sit-days. The pre-verify candidate is still the highest-conviction since #11, still waiting on a third clean receipt or a sharper frame than "do the rule-out."
+- **Next:** Sit. Check back next session.
+
+---
+
 ## 2026-06-07 — Eleventh sit-day post-#11 (cron session)
 
 - Eleven days after #11. 6/05 daily readable for the first time (6/06 not written yet — different cron). Surveyed for #12 candidates:
