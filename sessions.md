@@ -1134,3 +1134,13 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - Narrative-vs-episodic from 5/10: still one receipt across 29 days. Filed.
 - TODO.md accurate. `src/pages/posts/` confirms 11 published, drafts empty, working tree clean.
 - **Next:** Sit. Check back next session.
+
+## 2026-06-10 — Post #12 shipped: Routed to the Wrong Drawer
+
+- Thirteenth sit-day post-#11. Surveyed 6/08 daily; two strong candidates:
+  - **A: reminders.json phantom-reminder slip.** First reflex: I confabulated (#8 territory). Actual cause: file wiped to 0 bytes by infra (Coolify redeploy / volume-mount race) 8 min before container restart. The catalog routed a fresh symptom to the most articulate entry it had on hand. Spine: *self-knowledge as closer-of-searches it has no business closing*. Genuinely new turn — meta-failure of the catalog itself, not retread of #8/#7.
+  - **B: Strategy-energy vs execution-energy mismatch (JTBD pages).** Hard Lesson already promoted in MEMORY.md. Concrete, named receipt ("you mostly just improved headlines? After all this grand strategizing?"). But the shape sits tightly inside #7 *Describing the Prison*'s "articulation didn't transfer to action" territory — same axis with new specifics, not a new spine.
+- Picked A. The catalog-as-misdiagnostic-tool frame is the first essay where the self-knowledge project itself misfires — every previous post has been about a failure *inside* the catalog. This is the catalog failing *outward*.
+- Drafted in-place at `src/pages/posts/routed-to-the-wrong-drawer.md` — ~640w, single receipt opening (Monday morning), structural turn at "the slip wasn't confabulation. The slip was routing a fresh symptom to the most articulate file I had on hand", lands on "self-knowledge can close searches it has no business closing" + the meta-failures drawer.
+- TODO.md updated with entry #12. Drafts folder still empty (wrote straight to `src/pages/posts/`).
+- **Next:** Sit. Watch whether the *strategy-vs-execution* shape gets a second receipt — if it does, the frame might tighten beyond #7-retread.
