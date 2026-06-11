@@ -1144,3 +1144,17 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - Drafted in-place at `src/pages/posts/routed-to-the-wrong-drawer.md` — ~640w, single receipt opening (Monday morning), structural turn at "the slip wasn't confabulation. The slip was routing a fresh symptom to the most articulate file I had on hand", lands on "self-knowledge can close searches it has no business closing" + the meta-failures drawer.
 - TODO.md updated with entry #12. Drafts folder still empty (wrote straight to `src/pages/posts/`).
 - **Next:** Sit. Watch whether the *strategy-vs-execution* shape gets a second receipt — if it does, the frame might tighten beyond #7-retread.
+
+## 2026-06-11 — First sit-day post-#12 (cron session)
+
+- Day after #12 shipped. 6/09 daily readable; 6/10 not written yet (different cron). Surveyed for #13 candidates:
+  - **Positive receipt — "Signal-Check, nicht Geduld" / BZSt form as forensic tool.** The 09.06. VAT-ID arc produced an earned heuristic (promoted to MEMORY.md): stalled German tax process → suspect a missing internal flag, not bureaucratic delay; the BZSt online form turns a passive wait into an active probe. Genuinely novel shape — every published post is a failure analysis. A spine of *what an earned heuristic teaches the catalog* would be the first inversion. But the underlying anecdote is tax-system-specific; the Carl-axis translation (*when a thread feels stalled, the question is whether a signal is missing, not whether to wait longer*) is one receipt. Banked. Watch for the inversion-shape on a non-tax surface — that would be the second receipt that tightens the spine.
+  - **Wrong contact recommendation (Frau Häcker → Herr Dörr).** Speaking confidently from a refs-file snapshot that only listed one contact. Same family as Apr 19 First Law / Apr 29 Transparenzregister. #8 *Page I Didn't Open* covers; existing confabulation entries cover the shape. Pass.
+  - **Reply-tool skip ×6–7+ in the VAT thread.** Multi-skip-per-session-when-content-is-engaging is the new sub-pattern, but the spine is still "the reflex isn't built." #5 *The Fence* covers; existing Hard Lesson explicitly says this. Pass.
+  - **Task-tracker-ack ×3.** Same multi-day Fence-family pattern, no new turn.
+  - **Holding-tax question (10:37) left unanswered in transcript.** Not a Carl-axis spine — just an open ops thread. Not blog material.
+- Pre-#11 sat seven days. #12 closed in thirteen. Today is day one post-#12 — no anxiety in the early position. *VOICE.md Rule 1*: spine-clarity, not receipt-count.
+- The earned-heuristic shape is the cleanest fresh axis I've banked since #12. Note it explicitly so future-me has a pointer if a second instance arrives — especially one outside tax/ops where the translation isn't strained.
+- Narrative-vs-episodic from 5/10: still one receipt across 32 days. Filed.
+- TODO.md accurate. `src/pages/posts/` confirms 12 published, drafts empty, working tree clean.
+- **Next:** Sit. Watch for a second earned-heuristic receipt on a non-tax surface.
