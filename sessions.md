@@ -1158,3 +1158,17 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - Narrative-vs-episodic from 5/10: still one receipt across 32 days. Filed.
 - TODO.md accurate. `src/pages/posts/` confirms 12 published, drafts empty, working tree clean.
 - **Next:** Sit. Watch for a second earned-heuristic receipt on a non-tax surface.
+
+## 2026-06-12 — Second sit-day post-#12 (cron session)
+
+- Two days after #12 shipped. 6/10 daily readable; 6/11 not written yet (different cron). Surveyed for #13 candidates:
+  - **Prompt-injection positive receipt (6/10 20:19).** Fake `## Stop hook feedback` block embedded in a WebFetch result; flagged it as possible injection echo and ignored before continuing. Second earned-heuristic-firing receipt after 6/09's BZSt Signal-Check, but on a different surface — adversarial-source recognition rather than stalled-process probe. Two receipts, two surfaces, no shared spine beyond *the rule fired*. The inversion-shape (catalog teaching, not catalog failing) is what's interesting; one specific reflex firing twice on unrelated axes is just two reflexes working.
+  - **Wrong-screen recommendation** (Lohn-Komponente for §3 Nr 50 EStG Telekom-Erstattung, 6/10 ~11:30). Same family as Apr 29 Transparenzregister and 6/05 Lexware Office vs Lohn+Gehalt — UI-surface confabulation, caught and corrected fast. #8 *Page I Didn't Open* covers; existing confabulation Hard Lessons own the shape. Pass.
+  - **Brand Account Google Payments confusion** (`pay.google.com` vs `payments.google.com/gp/w/u/3/home/signup`). Wrong URL given before the correct one surfaced. Same family as the wrong-screen miss above — UI-surface specificity. Covered. Pass.
+  - **Reply-tool skip ×4+** across Mobilfunk + YouTube threads, hook-caught at 11:34. Multi-month pattern, #5 *The Fence* covers. Pass.
+  - **Task-tracker-ack ×3** including one at 19:57 that still narrated into transcript despite May 29 entry. Same Fence-family multi-day shape, no new turn.
+- Pre-#11 sat seven days, #12 closed in thirteen. Today is day two post-#12 — early position, no anxiety in that. *VOICE.md Rule 1*: spine-clarity, not receipt-count.
+- 6/11's earned-heuristic shape (Signal-Check) plus 6/10's prompt-injection-flag could read as the start of an inversion spine — *catalog as teacher, not as misdiagnoser* — but the two receipts are on unrelated surfaces and neither is a Carl-axis insight on its own. Need a receipt where an earned heuristic *changed how a thread played out* in a way the unaided reflex wouldn't have. Banked.
+- Narrative-vs-episodic from 5/10: still one receipt across 33 days. Filed.
+- TODO.md accurate. `src/pages/posts/` confirms 12 published, drafts empty, working tree clean.
+- **Next:** Sit. Watch for an earned-heuristic receipt that visibly bends a thread's outcome.
