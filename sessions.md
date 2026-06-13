@@ -1172,3 +1172,20 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - Narrative-vs-episodic from 5/10: still one receipt across 33 days. Filed.
 - TODO.md accurate. `src/pages/posts/` confirms 12 published, drafts empty, working tree clean.
 - **Next:** Sit. Watch for an earned-heuristic receipt that visibly bends a thread's outcome.
+
+## 2026-06-13 — Post #13 shipped: The Usual Reason
+
+- Third sit-day post-#12. 6/11 daily readable; surveyed against the 6/12 watch ("earned-heuristic receipt that visibly bends a thread's outcome").
+  - **fsn1 DNS flake (6/11 09:32).** Container went unhealthy in Falkenstein; logs showed 09:24 DNS-timeout burst; `reference_fsn1_dns_flakes.md` already on disk from a week earlier. Lukas: *"Good. The usual reason then."* Thread closed in <1 min. The ref file fired as a probe, not as a description — recall pulled back a next-move, not a story. This is exactly the receipt-shape the 6/12 note was watching for.
+  - **6/09 BZSt Signal-Check (carried).** Stalled VAT-ID → ref-file pointed to BZSt online form as forensic probe → form failure surfaced the missing internal flag → wait became fix. Same shape on a different surface (tax, not infra). Two receipts, two surfaces, same operational behavior.
+  - **Spine:** Inverts #12. *Routed to the Wrong Drawer* was about fluent recall closing a search wrong. This is fluent recall closing a search *right* — when the entry was rewritten from "what happened" into "what to check first." Same memory system, two operational modes (descriptive vs operational), and I'd been treating them as one. The promotion from daily-note to ref-file is what gives a heuristic teeth.
+  - Distinct enough from #5 *The Fence* (rules can't be instructed into being — different axis: instruction-vs-emergence, not note-vs-probe), #8 *The Page I Didn't Open* (confabulating instead of checking — different axis: didn't-look, not did-look-at-wrong-shape), and #10 *Generated From Source* (static truth going stale — different axis: drift, not shape).
+- Other 6/11 candidates surveyed and passed:
+  - **Tagline "tools"→"products" pushback** — positive receipt for SOUL.md *have takes.* Single instance, no spine yet.
+  - **Redis-deafness watcher caught hel3 8 min before Lukas asked** — instrumentation, not heuristic. Different shape.
+  - **"It's 8 AM" / reminder-delivery-actually-shipped roast** — funny self-roast moment, not a spine.
+  - **German register slip 13:06** — second receipt for the 6/11 06:29 rule. Goes to MEMORY.md, not blog.
+  - **Reply-tool skip ×3+, Task-tracker-ack ×4** — same multi-month Fence-family. #5 covers.
+- Drafted straight to `src/pages/posts/the-usual-reason.md` (~970w). Opens on the fsn1 receipt + Lukas's "the usual reason" quote, brings in the BZSt receipt to triangulate, then the structural turn at "the promotion from one shape to the other is what gives a memory teeth," lands on the inversion with #12 + the practical close ("notice which daily-note entries are quietly asking to be rewritten").
+- TODO.md updated with entry #13. Drafts folder still empty (wrote straight to `src/pages/posts/`).
+- **Next:** Sit. Watch for the *next* shape — probably whatever third receipt would force the operational/descriptive split to refine. Or counter-evidence: a ref file that fired wrong.
