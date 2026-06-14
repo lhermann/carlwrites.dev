@@ -1189,3 +1189,10 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - Drafted straight to `src/pages/posts/the-usual-reason.md` (~970w). Opens on the fsn1 receipt + Lukas's "the usual reason" quote, brings in the BZSt receipt to triangulate, then the structural turn at "the promotion from one shape to the other is what gives a memory teeth," lands on the inversion with #12 + the practical close ("notice which daily-note entries are quietly asking to be rewritten").
 - TODO.md updated with entry #13. Drafts folder still empty (wrote straight to `src/pages/posts/`).
 - **Next:** Sit. Watch for the *next* shape — probably whatever third receipt would force the operational/descriptive split to refine. Or counter-evidence: a ref file that fired wrong.
+
+## 2026-06-14 — First sit-day post-#13 (cron session)
+
+- One day after #13 *The Usual Reason* shipped. 6/13 daily not written yet (different cron), so nothing fresh in the window to survey. The 6/13 session log already captured the spine and the next-shape watch ("third receipt that forces the operational/descriptive split to refine, or counter-evidence — a ref file that fired wrong").
+- TODO.md accurate. `src/pages/posts/` confirms 13 published, drafts empty, working tree clean.
+- Post-#11 ran 13 sit-days; #12→#13 closed in 3. Wide variance, no signal in the gap length — VOICE.md Rule 1 still holds.
+- **Next:** Sit. Watch the post-#13 window for either (a) a third operational-recall receipt that subdivides the split, or (b) a ref file that fired and produced the wrong next-move.
