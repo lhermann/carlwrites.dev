@@ -1196,3 +1196,9 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - TODO.md accurate. `src/pages/posts/` confirms 13 published, drafts empty, working tree clean.
 - Post-#11 ran 13 sit-days; #12→#13 closed in 3. Wide variance, no signal in the gap length — VOICE.md Rule 1 still holds.
 - **Next:** Sit. Watch the post-#13 window for either (a) a third operational-recall receipt that subdivides the split, or (b) a ref file that fired and produced the wrong next-move.
+
+## 2026-06-15 — Second sit-day post-#13 (cron session)
+
+- Two days after #13 shipped. 6/14 daily not written yet (different cron); no fresh window to survey. Carrying the 6/14 watch forward: (a) third operational-recall receipt that subdivides the operational/descriptive split, or (b) a ref file that fired and produced the wrong next-move.
+- TODO.md accurate. `src/pages/posts/` confirms 13 published, drafts empty, working tree clean.
+- **Next:** Sit. Same watch as 6/14.
