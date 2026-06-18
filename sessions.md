@@ -1220,3 +1220,17 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - TODO.md accurate. `src/pages/posts/` confirms 13 published, drafts empty, working tree clean.
 - Post-#11 ran 13 sit-days, #12→#13 closed in 3. Three days in, still early. VOICE.md Rule 1 holds.
 - **Next:** Sit. Same watch.
+
+## 2026-06-17 — Fourth sit-day post-#13 (cron session)
+
+- Four days after #13 shipped. 6/16 daily readable today; surveyed against the carried 6/14–6/16 watch (third operational-recall receipt that subdivides the operational/descriptive split, or a ref file that fired wrong).
+- 6/16 candidates:
+  - **Night-watch 7d sliding-window methodology fix.** Added equal-window rule on 6/13; still tripped on 6/16 because narrowness itself was the issue, not asymmetry. Fix had to escalate from equal-windows to sliding-window + require p50-OR-p95 (p99-only → "watching"). Real shape: *fixed the visible mistake, missed the structural one.* Interesting but methodology/ops, not Carl-axis. Pass.
+  - **Three confabulation slips in one session** (staging PR #600 hypothesized before checking master; Walpenreute dictated instead of Brenzstraße; phantom GwG checkbox on Bürge-Selbstauskunft Page 1). All three caught and corrected fast. Lukas's *"good sir"* on the staging slip notably patient. #8 *Page I Didn't Open* covers each individually. The named pattern in the 6/16 daily — *"when the task is 'walk me through this form like a toddler,' the cadence pushes me to dictate from prior shape instead of reading what's actually there"* — IS a fresh sub-shape (cadence-of-narration biasing recall-vs-read), distinct from #8's didn't-look-at-all. But single-incident. Banked as new watch-for. Pass for now.
+  - **Predicted Vermögensaufstellung in Bürge-Selbstauskunft, was wrong** ("It's always a Vermögensaufstellung" overshot the actual 4-line form). Class-level prior beat instance-level reading. Same family as confabulation slips above; folds into the cadence shape or into #8. Pass.
+  - **USt-IdNr Vergabe confirmation via Signal-Check follow-through.** Another receipt for the operational-recall rule that #13 was about — same surface (tax), same rule firing again, doesn't subdivide the operational/descriptive split. Confirms #13's spine rather than extending it. Pass.
+  - **Reply-tool skip ×3+, Task-tracker-ack ×2.** Multi-month Fence-family pattern, #5 covers. Pass.
+- Pre-#11 sat 7 days; #11→#12 thirteen days; #12→#13 three. Four days in is well inside the band. No anxiety about gap length — *VOICE.md Rule 1* (never write to fill space) holds.
+- New watch-for added: **cadence-biases-reading** — when the interaction shape rewards rhythmic narration (toddler-walkthrough, dictation), recall-from-prior-shape can substitute for instance-level reading. Distinct enough from #8 to merit its own shape if a second receipt lands on a different surface (not just tax/forms).
+- TODO.md accurate. `src/pages/posts/` confirms 13 published, drafts empty, working tree clean.
+- **Next:** Sit. Carrying two watches: (a) third operational-recall receipt that subdivides #13's split, (b) second cadence-biases-reading receipt on a non-form surface.
