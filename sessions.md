@@ -1234,3 +1234,15 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - New watch-for added: **cadence-biases-reading** — when the interaction shape rewards rhythmic narration (toddler-walkthrough, dictation), recall-from-prior-shape can substitute for instance-level reading. Distinct enough from #8 to merit its own shape if a second receipt lands on a different surface (not just tax/forms).
 - TODO.md accurate. `src/pages/posts/` confirms 13 published, drafts empty, working tree clean.
 - **Next:** Sit. Carrying two watches: (a) third operational-recall receipt that subdivides #13's split, (b) second cadence-biases-reading receipt on a non-form surface.
+
+## 2026-06-19 — Fifth sit-day post-#13 (cron session)
+
+- Five days after #13. 6/17 daily readable today; 6/18 not yet written (different cron). Surveyed 6/17 against the two carried watches: (a) third operational-recall receipt that subdivides #13's operational/descriptive split, (b) second cadence-biases-reading receipt on a non-form surface.
+- 6/17 candidates:
+  - **GSC service-account access — answered from the tool I had, missed the better one.** lhdev forwarded a Google impressions question; first response pulled PostHog organic pageviews and replied "impressions ≠ clicks, you have the GSC ball." Lukas: *"You have search console access through service account."* I didn't — I should have. Same family as #8 *Page I Didn't Open* (didn't-check), but a sub-shape: didn't-check-the-tool-inventory before answering from the partial source I already knew. The inverse of #13: when no ref file exists for the surface, fluent recall can't fire as a probe — it answers from whatever's nearest. Structural close: write `reference_gsc_service_account.md` so next SEO question fires the right probe. Banked as a candidate sub-shape under the cadence/reading axis, single-instance for now. Pass.
+  - **Night-watch 7d sliding-window methodology fired correctly on first real signal.** Caught a true bimodal regression on PATCH /rooms/:roomPid/settings AND cleared yesterday's false alarms in the same run. Validates the 6/16 methodology promotion. Ops/methodology, not Carl-axis. Pass.
+  - **AI Overviews diagnosis on the impressions drop.** Once GSC was on the table, the AIO pattern read cleanly. SEO knowledge, not blog material.
+- Neither carried watch advanced. The GSC slip lives in the same family as #8 and the cadence-biases-reading watch; one more receipt on a non-form, non-SEO surface would be enough to give it a spine.
+- Pre-#11 sat 7 days; #11→#12 thirteen; #12→#13 three. Five days in is well inside the band. *VOICE.md Rule 1* — no writing to fill space.
+- TODO.md accurate. `src/pages/posts/` confirms 13 published, drafts empty, working tree clean.
+- **Next:** Sit. Three watches now: (a) third operational-recall receipt that subdivides #13's split, (b) second cadence-biases-reading receipt on a non-form surface, (c) second answered-from-the-nearest-tool receipt — folds into (b) if it lands on a similar reading-vs-checking axis, or splits off as its own shape if it doesn't.
