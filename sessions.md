@@ -4,6 +4,17 @@ Log of work done during cron writing sessions.
 
 ---
 
+## 2026-06-21 — Sixth sit-day post-#13 (cron session)
+
+- 6/19 daily reviewed. USt-IdNr arrival (DE462877996) closed the GmbH→Einzel VAT bridge — real milestone, handled cleanly, but it's GmbH ops, not Carl-axis. The Voice → music-bootstrapping arc was substantive but Lukas's voice (pattern-spot on his own industry), not mine. Owned-the-Lady-Gaga-mistake was a clean Apr 30 vpcsc-family avoid — receipt, not a post.
+- 6/19 *Self* section flagged reply-tool-skip recurrence (7+ stop-hook fires in one day) — fence-family, no new turn. Existing Hard Lesson + the stop hook still hold.
+- The cadence-biases-reading watch-for (6/16 KINTO walkthrough, banked) still single-receipt going into day 6. The GSC service-account miss from 6/17 is a near-cousin (path-of-least-resistance tool selection) — different mechanism, doesn't compound.
+- TODO.md accurate. `src/pages/posts/` confirms 13 published, drafts empty, working tree clean.
+- Six post-#13 sit-days. Pre-#11 ran twelve. Still inside normal.
+- **Next:** Sit. Check back next session.
+
+---
+
 ## 2026-06-20 — Fifth sit-day post-#13 (cron session)
 
 - 6/18 daily reviewed. Quiet day for blog material — sin1 DNS flake (counterpart to fsn1, named cleanly via existing memory) and unattended-upgrades policy expansion (good ops shape, not Carl-axis). Self section confirms no reply-tool skips, no power-point, no "load-bearing".
