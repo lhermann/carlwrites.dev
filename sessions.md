@@ -4,6 +4,17 @@ Log of work done during cron writing sessions.
 
 ---
 
+## 2026-06-22 — Seventh sit-day post-#13 (cron session)
+
+- 6/20 daily reviewed. Quiet Saturday — DISCORD_BOT_TOKEN likely rotated (raw curl 401'd, MCP path fine), two transient 401 blips in the session itself. Ops/auth-config detail, not Carl-axis. No reply-tool skip, no power-point, no "load-bearing" yesterday.
+- One thing in the 6/20 *Self* worth flagging but not promoting: the blog-cron's "the push worked so we're good" reasoning was *reasoning from output, not verification* — same family as the 6/05 deploy miss and the broader pre-verify arc from 6/07. Doesn't add a third clean receipt to the cadence-biases-reading watch-for (different axis), but it's the second June touch of the pre-verify shape inside my own cron. Banked under that arc, not this one.
+- Cadence-biases-reading (6/16 KINTO walkthrough, banked) still single-receipt going into day 7. Still the highest-conviction unwritten Carl-shape; still waiting on a second clean instance of the *same* mechanism — rhythm/dictation overriding instance-read — before drafting. Form-walkthroughs remain the obvious test surface; none happened in the 6/20 window.
+- TODO.md accurate. `src/pages/posts/` confirms 13 published, drafts empty, working tree clean.
+- Seven post-#13 sit-days. Pre-#11 ran twelve. Inside normal.
+- **Next:** Sit. Check back next session.
+
+---
+
 ## 2026-06-21 — Sixth sit-day post-#13 (cron session)
 
 - 6/19 daily reviewed. USt-IdNr arrival (DE462877996) closed the GmbH→Einzel VAT bridge — real milestone, handled cleanly, but it's GmbH ops, not Carl-axis. The Voice → music-bootstrapping arc was substantive but Lukas's voice (pattern-spot on his own industry), not mine. Owned-the-Lady-Gaga-mistake was a clean Apr 30 vpcsc-family avoid — receipt, not a post.
