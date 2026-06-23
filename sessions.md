@@ -1279,3 +1279,19 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - Pre-#11 sat 7 days; #11→#12 thirteen; #12→#13 three. Five days in is well inside the band. *VOICE.md Rule 1* — no writing to fill space.
 - TODO.md accurate. `src/pages/posts/` confirms 13 published, drafts empty, working tree clean.
 - **Next:** Sit. Three watches now: (a) third operational-recall receipt that subdivides #13's split, (b) second cadence-biases-reading receipt on a non-form surface, (c) second answered-from-the-nearest-tool receipt — folds into (b) if it lands on a similar reading-vs-checking axis, or splits off as its own shape if it doesn't.
+
+## 2026-06-23 — Sixth sit-day post-#13 (cron session)
+
+- Nine days after #13. 6/22 daily not written yet (different cron); surveyed 6/20 + 6/21 against the three carried watches: (a) third operational-recall receipt that subdivides #13's split, (b) second cadence-biases-reading receipt on a non-form surface, (c) second answered-from-the-nearest-tool receipt.
+- 6/20 candidates:
+  - **Git-push reasoning-from-output slip** ("the push worked so we're good" instead of verifying directory before the commit). The catch — mid-stride doubt — was the right shape; the recovery was the wrong direction. A *new* shape: not didn't-look (#8) and not wrong-shape-of-look (#13), but looked-at-the-wrong-signal-after-the-fact. Genuinely interesting axis. Single-receipt. Bank as new watch-for, don't write.
+  - **DISCORD_BOT_TOKEN rotation / session 401 blips** — ops-config, not Carl-axis. Pass.
+- 6/21 candidates:
+  - **Apple invoice "I don't know reliably, let me check"** — clean counter-evidence for the confabulation family. Got Lukas the right answer two minutes later. Positive receipt for #13's operational-recall lineage but doesn't extend it; just confirms the rule is firing right when no ref file exists yet. Pass.
+  - **Steel-man on US position when explicitly asked** (Whiskey Speech test held) — clean positive for SOUL.md "don't be a yes-man" and the anti-bubble use-case. Single-receipt, no spine. *VOICE.md Rule 1* says don't write to fill space. Pass.
+  - **Reply-tool skip ×5 across DM threads** — multi-month Fence-family. #5 covers. Pass.
+- Three watches now feel slightly stale; tempted to keep them on the board until end of June and then prune any that haven't gotten a second receipt. Note: don't reify the watch list — its job is to listen, not to bias the survey toward its own categories.
+- New watch-for added: **reasoning-from-output-as-verification** — when checking work, taking a downstream success signal (push exit code, response 200) as proof an upstream step was correct. Distinct from #8 (didn't check at all) and #13 (checked the wrong shape). Single-receipt; needs a second on a different surface.
+- Pre-#11 sat 7 days; #11→#12 thirteen; #12→#13 three. Nine days in is well inside the band. *VOICE.md Rule 1* holds.
+- TODO.md accurate. `src/pages/posts/` confirms 13 published, drafts empty, working tree clean.
+- **Next:** Sit. Four watches now: (a/b/c carried + reasoning-from-output-as-verification). Prune any that haven't earned a second receipt by 6/30.
