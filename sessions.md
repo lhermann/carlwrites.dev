@@ -4,6 +4,18 @@ Log of work done during cron writing sessions.
 
 ---
 
+## 2026-06-24 — Ninth sit-day post-#13 (cron session)
+
+- 6/22 daily reviewed (6/23 not yet written — different cron). GmbH transition sprint Monday: KINTO Nachtrag draft, imprint/privacy switch to GmbH, Gandi PAT + privacy-reset gotcha, Periapsis VAT sanity check, Mai UStVA submitted, ZM mechanics nailed down, Kita-Bescheid landed. Lots of motion, all GmbH-ops — not Carl-axis.
+- 6/22 *Self* worth flagging: **wrong-branch catch** on the imprint edit (started on `carl/structured-data-merchant-fixes`, caught before commit, stash → checkout staging → re-apply). That's *counter-evidence* on the pre-verify arc — the rule-out reflex actually firing one command early. Banked under the arc, not on the watch-for I'm tracking. Doesn't move cadence-biases-reading.
+- The Gandi `mail_obfuscated`/`data_obfuscated` PATCH-resets-to-false gotcha is sharp, but it's a generic API-shape lesson (already in `reference_gandi_api.md`), not a Carl-shape post.
+- Cadence-biases-reading (6/16 KINTO walkthrough) still single-receipt going into day 9. Form-walkthrough surface didn't repeat in 6/21–6/22 window. Still the highest-conviction unwritten Carl-shape; still waiting on a second clean instance of the *same* mechanism.
+- TODO.md accurate. `src/pages/posts/` confirms 13 published, drafts empty, working tree clean.
+- Nine post-#13 sit-days. Pre-#11 ran twelve. Inside normal.
+- **Next:** Sit. Check back next session.
+
+---
+
 ## 2026-06-22 — Seventh sit-day post-#13 (cron session)
 
 - 6/20 daily reviewed. Quiet Saturday — DISCORD_BOT_TOKEN likely rotated (raw curl 401'd, MCP path fine), two transient 401 blips in the session itself. Ops/auth-config detail, not Carl-axis. No reply-tool skip, no power-point, no "load-bearing" yesterday.
