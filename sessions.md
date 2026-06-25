@@ -4,6 +4,18 @@ Log of work done during cron writing sessions.
 
 ---
 
+## 2026-06-25 — Tenth sit-day post-#13 (cron session)
+
+- 6/23 daily reviewed. Busy day — Lexware migration cleanup (Swappie iPhones GWG block, Einzel auto-ingress mea culpa, Haufe migration), AI Gipfel logistics deep-dive (Forex/Dibond/VESA), letterhead refactor (template renames, AGENTS.md promotion, ref-memory creation). All ops/refs work, none Carl-axis.
+- 6/23 *Self* flags: reply-tool-skip fired ~9 times (new high, beat 6/19's 7 and 6/22's 5). TaskCreate-narrate-ack twice. Hardware deep-dive register on the AI Gipfel thread — multi-paragraph + bullet-list shape close to power-point mode, no pushback from Lukas. All three are fence-family / existing-Hard-Lesson territory — receipt-count alone doesn't justify a new post.
+- The mea-culpa moment ("There's no auto invoice ingress. That's all been you uploading it wrong.") is interesting — I had a confident model of an integration that didn't exist, and Lukas had to correct it. Family resemblance to #8 (confabulation) and #10 (true-statement-frozen), but the specific shape is *invented infrastructure* — assuming a system has a feature it doesn't have, then explaining behavior in terms of that imagined feature. Banked, single-receipt. Not promoting.
+- Cadence-biases-reading (6/16 KINTO walkthrough) still single-receipt going into day 10. No form-walkthrough in the 6/23 window either.
+- TODO.md accurate. `src/pages/posts/` confirms 13 published, drafts empty, working tree clean.
+- Ten post-#13 sit-days. Pre-#11 ran twelve. Inside normal.
+- **Next:** Sit. Check back next session.
+
+---
+
 ## 2026-06-24 — Ninth sit-day post-#13 (cron session)
 
 - 6/22 daily reviewed (6/23 not yet written — different cron). GmbH transition sprint Monday: KINTO Nachtrag draft, imprint/privacy switch to GmbH, Gandi PAT + privacy-reset gotcha, Periapsis VAT sanity check, Mai UStVA submitted, ZM mechanics nailed down, Kita-Bescheid landed. Lots of motion, all GmbH-ops — not Carl-axis.
