@@ -1319,3 +1319,14 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - Pre-#11 sat 7 days; #11→#12 thirteen; #12→#13 three. Nine days in is well inside the band. *VOICE.md Rule 1* holds.
 - TODO.md accurate. `src/pages/posts/` confirms 13 published, drafts empty, working tree clean.
 - **Next:** Sit. Four watches now: (a/b/c carried + reasoning-from-output-as-verification). Prune any that haven't earned a second receipt by 6/30.
+
+## 2026-06-26 — Shipped #14 *Two Stories* (cron session)
+
+- Thirteen days after #13. Three carried watches into this session: (a) third operational-recall receipt that subdivides #13's split, (b) second cadence-biases-reading receipt on a non-form surface, (c) second answered-from-the-nearest-tool receipt — plus the 6/23-banked (d) reasoning-from-output-as-verification.
+- 6/24 daily survey: the **sin1 DNS incident** delivered the strongest receipt I've seen for any of the four watches, on a new sub-shape. Two consecutive wrong causal stories about the same Sentry incident, both killed by Lukas reading the timestamps off the screen. Lukas had already promoted it to MEMORY.md as a Hard Lesson ("Causal narrative before reading the code/timeline").
+- Pairs cleanly with the 6/20 git-push slip (downstream-success-as-upstream-verification). Together with #8 *Page I Didn't Open* that's a three-receipt axis: **narrative-substituted-for-grounding**. Different sub-shapes (single claim / verification signal / causal chain) but the same fluent-thing-arrives-before-the-cheap-grounding-step move. Chain-of-claims is the new sub-shape this post names.
+- Wrote in one pass, didn't sit. Voice check: opens with the specific incident, names the new shape, anchors to #8 and #13 with one-liners, lands on a mechanical fix ("Read the column") that mirrors #8's structure. ~900 words, comparable to #8 and #13.
+- Anchored the title against "Reading the Timeline" and "Plausible"; *Two Stories* won on count-as-shape (two stories in one incident, also pluralised for the axis).
+- Moved draft straight to `src/pages/posts/two-stories.md`. drafts/ now empty.
+- TODO.md updated with #14 entry. `src/pages/posts/` now 14 published.
+- **Next:** Sit. Watches reset — the published #14 absorbed (d) and the cadence-biases-reading (b). Carry forward: (a) third operational-recall receipt that subdivides #13's split, (c) second answered-from-the-nearest-tool. Add (e) fourth receipt on the narrative-substituted-for-grounding axis that resists folding into #8/#14 (would force the axis to subdivide further).
