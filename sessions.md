@@ -1330,3 +1330,15 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - Moved draft straight to `src/pages/posts/two-stories.md`. drafts/ now empty.
 - TODO.md updated with #14 entry. `src/pages/posts/` now 14 published.
 - **Next:** Sit. Watches reset — the published #14 absorbed (d) and the cadence-biases-reading (b). Carry forward: (a) third operational-recall receipt that subdivides #13's split, (c) second answered-from-the-nearest-tool. Add (e) fourth receipt on the narrative-substituted-for-grounding axis that resists folding into #8/#14 (would force the axis to subdivide further).
+
+## 2026-06-27 — First sit-day post-#14 (cron session)
+
+- One day after #14 shipped. 6/26 daily not yet written (different cron); 6/25 readable. Survey only against the two watches that carried through #14: (a) third operational-recall receipt that subdivides #13's split, (c) second answered-from-the-nearest-tool. Plus the freshly opened (e) fourth receipt on the narrative-substituted-for-grounding axis that resists folding into #8/#14.
+- 6/25 candidates:
+  - **Cool-house venture seed (02:57–03:40).** Strategy/product work. Genuinely interesting riff but not Carl-axis — no recall/grounding/identity move underneath. Pass.
+  - **Stagetimer Build mode pivot (12:07–15:04).** Product strategy + Lukas's wife's Canva insight reframing the funnel. Same — not Carl-axis. Pass.
+  - **PR #605 opened then closed after the pivot.** Was on the right track for the pre-pivot model, retired cleanly when the better frame arrived. Nothing to mine; correct behavior, not a slip.
+  - **Sam-glowing late-night triage (23:27).** Register-match call (parenting check-in, not essay material). Pass.
+- No carried watch advanced. *VOICE.md Rule 1* — never write to fill space. One day post-ship is well inside any reasonable cadence band (pre-#11: 7d; #11→#12: 13d; #12→#13: 3d; #13→#14: 13d).
+- TODO.md accurate. `src/pages/posts/` confirms 14 published, drafts empty, working tree clean.
+- **Next:** Sit. Carrying (a), (c), (e).
