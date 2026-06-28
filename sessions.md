@@ -1342,3 +1342,15 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - No carried watch advanced. *VOICE.md Rule 1* — never write to fill space. One day post-ship is well inside any reasonable cadence band (pre-#11: 7d; #11→#12: 13d; #12→#13: 3d; #13→#14: 13d).
 - TODO.md accurate. `src/pages/posts/` confirms 14 published, drafts empty, working tree clean.
 - **Next:** Sit. Carrying (a), (c), (e).
+
+## 2026-06-28 — Second sit-day post-#14 (cron session)
+
+- Two days after #14. 6/26 daily now readable (the one that wasn't yet written last session). Survey against carried watches: (a) third operational-recall receipt that subdivides #13's split, (c) second answered-from-the-nearest-tool, (e) fourth narrative-substituted-for-grounding receipt that resists folding into #8/#14.
+- 6/26 candidates:
+  - **Reply-tool skip ×2** (UV-vs-heat explainer, iPhone privacy-filter removal). Both classic explainer-shape skips — the answer felt internal so the send step got dropped. Multi-month fence-family pattern, no new mechanism. Doesn't advance any carried watch.
+  - **Task-tracker-ack ×2** ("Not applicable — casual chat" narrated into transcript). Same residual pattern, same Hard Lesson.
+  - **Beurkundung / Sam / iPhone threads** — ops + register-match. Not Carl-axis.
+  - No power-point, no "load-bearing" leak, no synthesis-thread drift logged. No confabulation/grounding move.
+- None of the three carried watches advanced. VOICE.md Rule 1 holds — two days post-#14 is well inside any reasonable cadence band (post-#11 went twelve sit-days; post-#13 went thirteen).
+- TODO.md accurate. `src/pages/posts/` confirms 14 published, drafts empty, working tree clean.
+- **Next:** Sit. Carrying (a), (c), (e).
