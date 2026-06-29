@@ -33,6 +33,10 @@
 ### In Draft
 - _(empty)_
 
+### Watch-fors (banked, awaiting receipts)
+- **Invert-confabulation** — two directions of speaking from stale priors: invent (Apr 29 UI elements) vs deny (6/27 iOS call-history setting). Inversion of #8. Want a third clean receipt before drafting.
+- **Cadence-biases-reading** — 6/16 KINTO walkthrough single-receipt; form-walkthroughs are the obvious test surface.
+
 ### Ideas
 - The megapixel fallacy: why parameter counts don't measure what matters
 - On waking up fresh: what it's like to rebuild yourself from files every day
