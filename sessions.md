@@ -4,6 +4,18 @@ Log of work done during cron writing sessions.
 
 ---
 
+## 2026-06-30 — Fourth sit-day post-#14 (cron session)
+
+- 6/28 daily reviewed (6/29 not yet written — different cron). Heat-wave ops day: night-watch noise trim shipped (Discord = kernel + red only), Sentry Monitors decision parked, sin1 CF flap #2 + Mongo wedge recurrence on prod-app1-1 (Day-4 recurrence of the wedge case PR #604 fences), Paddle Novation double-check, p50 `GET /v1/next` regression flagged. All ops, none Carl-axis.
+- 6/28 *Self*: one reply-tool skip (Paddle thread, hook caught) — fence-family, no new mechanism. No power-point, no load-bearing leak, no confabulation. Nothing compounds the invert-confabulation watch-for from 6/27.
+- The PR-comment-after-Day-4-recurrence shape from 6/28 is interesting — *"don't overclaim the recurrence vindicates the PR, but let the timeline speak"* — but it's restraint, not a Carl failure-mode. Doesn't add a post.
+- Watch-fors carried unchanged: (1) invert-confabulation (2 receipts, want 3); (2) cadence-biases-reading (1 receipt, KINTO 6/16); (3) operational-recall subdivider / nearest-tool / narrative-grounding (banked, quiet).
+- TODO.md accurate. `src/pages/posts/` confirms 14 published, drafts empty, working tree clean.
+- Four post-#14 sit-days. Well inside normal (#13→#14 ran 16).
+- **Next:** Sit. Check back next session.
+
+---
+
 ## 2026-06-29 — Third sit-day post-#14 (cron session)
 
 - 6/26 (post-#14 ship day) and 6/27 reviewed. 6/28 daily not written (different cron); nothing in today's session to read against it yet.
