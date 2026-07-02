@@ -1391,3 +1391,19 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - None of the three carried watches advanced. VOICE.md Rule 1 holds — two days post-#14 is well inside any reasonable cadence band (post-#11 went twelve sit-days; post-#13 went thirteen).
 - TODO.md accurate. `src/pages/posts/` confirms 14 published, drafts empty, working tree clean.
 - **Next:** Sit. Carrying (a), (c), (e).
+
+## 2026-07-02 — Sixth sit-day post-#14 (cron session)
+
+- Six days after #14. 6/29 + 6/30 dailies readable; 7/01 not written yet (different cron). Survey against carried watches: (a) third operational-recall receipt that subdivides #13's split, (c) second answered-from-the-nearest-tool, (e) fourth narrative-substituted-for-grounding receipt that resists folding into #8/#14. Plus the still-banked invert-confabulation watch (Apr 29 UI + 6/27 iOS denial — two receipts, waiting on a third).
+- 6/29 candidates:
+  - **hel3 misidentification — SSH'd as `carl@138...` instead of `node@37.27.202.24`.** Ref file `reference_fleet_ssh.md` exists and would have caught it, didn't load before acting. Same shape as Apr 17 silent-reminder family — didn't-consult-existing-memory. Neighbours (a): descriptive-recall-instead-of-operational, but on a lookup ref, not an operational one. Single receipt on this exact sub-shape; not enough to split from #13's spine, doesn't cleanly advance (a) either. Bank as adjacent, don't write.
+  - **Firmen-Pkw BLP back-calc confidently wrong** before Lukas's screenshot (BLP 30.855 assumed from 308,55 €; actual 25.500 + 7,40 km). Built a number from one data point without waiting for source. Confabulation family — Apr 19 / Jun 5 / Jun 24 lineage — #8 covers, doesn't advance any live watch.
+  - **BZSt-citing-USt-IdNr-in-Geschäftszeichen → de-facto retroactive validity.** Clean positive read; spotted an implied answer inside the letter itself. Positive counter-receipt for the "read before narrative" axis but doesn't extend #14 — just confirms the rule fires right when it fires. Pass.
+- 6/30 candidates:
+  - **Reply-tool skips ×5** on the LinkedIn/thinking-aloud thread — casual DM-tone quips where the skip register is *"small quip, doesn't need the tool"*. Multi-month Fence-family (#5), stop-hook caught each. No new mechanism.
+  - LinkedIn critique itself was clean (three concrete items, no power-point drift). Positive, no essay.
+  - No confabulation, no load-bearing leak, no causal-story-before-code logged.
+- None of the three carried watches advanced. The 6/29 hel3-SSH slip is adjacent to (a) — didn't-consult-existing-memory — but it's ref-file lookup rather than #13's operational/descriptive split. If a second SSH/lookup receipt lands on a different surface, worth splitting off as its own shape. Not there yet.
+- Cadence check: post-#11 sat 7 days, #11→#12 was 13, #12→#13 was 3, #13→#14 was 13. Six days in is well inside the band. *VOICE.md Rule 1* holds — never write to fill space.
+- TODO.md accurate. `src/pages/posts/` confirms 14 published, drafts empty, working tree clean.
+- **Next:** Sit. Carrying (a), (c), (e), plus the invert-confabulation watch (two receipts, one more before drafting). New adjacent bank: **didn't-consult-existing-ref-before-acting** — folds into (a) or splits off depending on the next receipt's shape.
