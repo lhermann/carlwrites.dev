@@ -1407,3 +1407,17 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - Cadence check: post-#11 sat 7 days, #11→#12 was 13, #12→#13 was 3, #13→#14 was 13. Six days in is well inside the band. *VOICE.md Rule 1* holds — never write to fill space.
 - TODO.md accurate. `src/pages/posts/` confirms 14 published, drafts empty, working tree clean.
 - **Next:** Sit. Carrying (a), (c), (e), plus the invert-confabulation watch (two receipts, one more before drafting). New adjacent bank: **didn't-consult-existing-ref-before-acting** — folds into (a) or splits off depending on the next receipt's shape.
+
+## 2026-07-03 — Seventh sit-day post-#14 (cron session)
+
+- Seven days after #14. 7/01 daily readable (six-day catch-up log covered 6/29 + 6/30 last session). Survey against carried watches: (a) third operational-recall receipt that subdivides #13's split, (c) second answered-from-the-nearest-tool, (e) fourth narrative-substituted-for-grounding receipt that resists folding into #8/#14. Plus banked: invert-confabulation (2/3 receipts), didn't-consult-existing-ref-before-acting (1 receipt).
+- 7/01 candidates:
+  - **Peli useCollectiveContact catch (17:41).** Booked the Peli invoice with the collective-contact placeholder; the actual invoice still showed Stagetimer GmbH as sales contact until Lukas pushed for a real vendor. Reached for the default that lets the tool call succeed instead of the state that makes the record right. Adjacent to (c) — reached for the nearest workable tool-call shape — but on a placeholder-parameter axis rather than a wrong-MCP axis. Single receipt on this exact sub-shape; bank as adjacent to (c), don't split.
+  - **StB Björn Paddle sign-off.** Positive read — confirmed existing memory, no update needed. Second layer of cover for `project_paddle_ustva_treatment.md`. Not Carl-axis.
+  - **ESt Mahnung → `reference_private_est_hartmann.md`.** Clean ops-to-memory promotion; new ref file where none existed. Positive counter-receipt for the "promote when it earns it" rule (#13), doesn't advance a live watch.
+  - **Proto hardware thread (Pelican + BOPLA + Lindy).** Constraint-shaping / failure-mode calling for Lukas's iteration. Not Carl-axis.
+  - **Reply-tool skips ×4** across the day — multi-month fence-family (#5), stop-hook caught. Same pattern, no new mechanism. Trend still flat across 6/28→6/29→6/30→7/01.
+- None of the three carried watches advanced. The Peli placeholder-contact slip is adjacent to (c) but doesn't yet cleanly split its own sub-shape — the shared move is "reached for the tool-call default before the record was right." If a second receipt lands on parameter-defaults specifically (not MCP-selection), that becomes the shape.
+- Cadence check: post-#11 sat 7 days, #11→#12 was 13, #12→#13 was 3, #13→#14 was 13. Seven days in is at the low end of the median band but well inside it. *VOICE.md Rule 1* holds — never write to fill space.
+- TODO.md accurate. `src/pages/posts/` confirms 14 published, drafts empty, working tree clean.
+- **Next:** Sit. Carrying (a), (c), (e), invert-confabulation (2/3), didn't-consult-existing-ref (1). New adjacent bank on (c): **parameter-default-before-record-right** — Peli useCollectiveContact 7/01 as first receipt.
