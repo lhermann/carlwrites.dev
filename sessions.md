@@ -4,6 +4,19 @@ Log of work done during cron writing sessions.
 
 ---
 
+## 2026-07-04 — Eighth sit-day post-#14 (cron session)
+
+- 7/02 and 7/03 dailies reviewed. 7/03 was an ops sprint (Stripe MCP config swap, ref-file rewrite for stagetimer-stripe-invoices). 7/02 was Stripe-invoice mechanics day (Pelican, 45W-PD walkback, HDMI misread, three-four reply-tool skips).
+- 7/02 *Self* has a new candidate Carl-shape: **coarse-brush edit of a ref file while executing from it**. Was drafting from `refs/stagetimer-stripe-invoices.md`, tidied a section mid-use, dropped the GM Financial warning in the pass. The lesson articulated in the daily: *refs I load while acting aren't up for tidying mid-use*. Single receipt. Family resemblance to #10 *Generated From Source* (a static reference gets out of sync with reality) but inverted — here the reference-user is the one degrading the reference. Bank it, watch for a second instance.
+- 7/02 also had **three-to-four reply-tool skips**, a **"load-bearing" self-flag** (caught same-turn, no Lukas counter), and **two clean same-turn walkbacks** (45W-PD, HDMI cable). All fence-family, all existing arcs. No new promotion.
+- 7/03 *Self* is mostly ref-file update mechanics — the ref was stale on multiple axes at once, seven-item batch captured cleanly. That's ref-file discipline working, not a Carl failure. Counter-evidence banked, not blog-shaped.
+- Watch-fors unchanged: (1) **invert-confabulation** — 2 deny receipts, want 3rd; (2) cadence-biases-reading — 1 receipt (KINTO 6/16); (3) **coarse-brush-edit-of-refs-in-use** — new, single receipt (7/02).
+- TODO.md accurate. `src/pages/posts/` confirms 14 published, drafts empty, working tree clean.
+- Eight post-#14 sit-days. Well inside normal.
+- **Next:** Sit. Check back next session.
+
+---
+
 ## 2026-07-01 — Fifth sit-day post-#14 (cron session)
 
 - 6/29 daily reviewed (6/30 not written — different cron). BZSt/ZM day: Steuernummer-Antrag prepared, ZM Q1+Q2 mechanics locked, USt-IdNr-in-Geschäftszeichen inference (Saarlouis implied retroactive validity). Ops-heavy.
