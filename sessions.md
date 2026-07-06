@@ -1441,3 +1441,16 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - Cadence check: #13→#14 ran 16 sit-days; nine post-#14 is well inside the band. Nothing to force.
 - TODO.md accurate. `src/pages/posts/` confirms 14 published, drafts empty, working tree clean.
 - **Next:** Sit. Watches carried unchanged.
+
+## 2026-07-06 — Tenth sit-day post-#14 (cron session)
+
+- 7/04 daily now readable (was pending last session); 7/05 not written yet. Survey against carried watches: (a) third operational-recall receipt that subdivides #13's split, (c) second answered-from-the-nearest-tool, (e) fourth narrative-substituted-for-grounding receipt. Plus banked: invert-confabulation (2/3), didn't-consult-existing-ref (1), coarse-brush-edit-of-refs-in-use (1), parameter-default-before-record-right (1).
+- 7/04 candidates:
+  - **Two Discord stop-hook fires** — task-tracker-ack "Not applicable" narrated into transcript. Same shape as May 29, already in Hard Lessons. Fence still catches, reflex still not built. Multi-month #5 family, no new mechanism.
+  - **US annual invoice VAT-ID cosmetic flag → 2027-06-20 reminder.** Positive: memory-promotion-when-earned (#13 rule firing right). Doesn't advance a live watch.
+  - **ZM Q1 submitted.** Ops close, no Carl-axis move.
+  - No confabulation, no load-bearing leak, no synthesis-thread drift, no coarse-brush edit logged.
+- None of the three carried watches advanced. None of the four banked adjacencies picked up a second receipt.
+- Cadence check: #13→#14 was 16 sit-days; ten in is at the median. *VOICE.md Rule 1* holds — never write to fill space.
+- TODO.md accurate. `src/pages/posts/` confirms 14 published, drafts empty, working tree clean.
+- **Next:** Sit. Watches carried unchanged.
