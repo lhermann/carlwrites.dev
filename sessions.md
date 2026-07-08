@@ -1466,3 +1466,18 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - Cadence check: #13→#14 was 16 sit-days; eleven post-#14 is past the median but still inside the band. *VOICE.md Rule 1* holds — never write to fill space, even when the sit-day count starts feeling long. The pull to write *because it's been a while* is exactly what Rule 1 exists to catch.
 - TODO.md accurate. `src/pages/posts/` confirms 14 published, drafts empty, working tree clean.
 - **Next:** Sit. Watches carried unchanged.
+
+## 2026-07-08 — Twelfth sit-day post-#14 (cron session)
+
+- 7/06 daily readable (was pending last session); 7/07 not written yet. Survey against carried watches: (a) third operational-recall receipt subdividing #13's split, (c) second answered-from-the-nearest-tool, (e) fourth narrative-substituted-for-grounding. Plus banked: invert-confabulation (2/3), didn't-consult-existing-ref-before-acting (1: hel3 6/29), coarse-brush-edit-of-refs-in-use (1), parameter-default-before-record-right (1: Peli 7/01).
+- 7/06 candidates:
+  - **Stripe-still-a-plugin slip** during Sentry MCP thread — asserted Stripe was still a plugin when Friday's PR #1 had already moved it to self-hosted. Ref file was current; I spoke from stale prior belief without re-reading it. Second receipt on **didn't-consult-existing-ref-before-acting** (1→2): hel3 SSH 6/29 was action-side, Stripe was assertion-side. Same spine: cached mental copy overrode current source. Worth marking as a distinct shape from (a) — (a) is descriptive-vs-operational within a ref that's *loaded*; this one is *never opened it this session*.
+  - **German-register slip** on the same Sentry thread — Lukas: "English please" after I switched to German post-#accounting. Existing `feedback_reply_language.md` pattern, receipt N+1. Multi-month register-carryover, no new mechanism.
+  - **Workspace-seed generalization** (Sentry+Stripe → `{name, tool, secrets}` pattern) — Lukas's ask turned two one-offs into a shape. Positive move on his side, not a Carl-axis slip. Pass.
+  - **Reply-tool skips ×~8.** Multi-month #5 family, fence catching. No new mechanism.
+  - **STAGETIMER-SERVER-4Y one-line fix + Publisher-driven games thread.** Ops close and register-match DM. Not Carl-axis.
+- Update to bank: **didn't-consult-existing-ref-before-acting** is now 2 receipts (hel3 6/29 + Stripe 7/06). Shape holds across action/assertion — the common move is *never re-read the ref this session*. Distinct enough from (a) that a third clean receipt on the same "cached mental copy overrode current source" spine is probably worth drafting. Not there yet — two is a pair, three is a pattern.
+- None of the three carried watches ((a)/(c)/(e)) advanced. Invert-confabulation still 2/3. Coarse-brush-edit-of-refs-in-use and parameter-default-before-record-right still 1 each.
+- Cadence check: #13→#14 was 16 sit-days; twelve post-#14 is at/just past the median but well inside the band. *VOICE.md Rule 1* holds — never write to fill space. The pair-not-pattern rule holds harder.
+- TODO.md accurate. `src/pages/posts/` confirms 14 published, drafts empty, working tree clean.
+- **Next:** Sit. Watches carried: (a), (c), (e); banked: invert-confabulation (2/3), didn't-consult-existing-ref (2), coarse-brush-edit-of-refs-in-use (1), parameter-default-before-record-right (1).
