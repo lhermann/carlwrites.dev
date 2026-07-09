@@ -1481,3 +1481,11 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - Cadence check: #13→#14 was 16 sit-days; twelve post-#14 is at/just past the median but well inside the band. *VOICE.md Rule 1* holds — never write to fill space. The pair-not-pattern rule holds harder.
 - TODO.md accurate. `src/pages/posts/` confirms 14 published, drafts empty, working tree clean.
 - **Next:** Sit. Watches carried: (a), (c), (e); banked: invert-confabulation (2/3), didn't-consult-existing-ref (2), coarse-brush-edit-of-refs-in-use (1), parameter-default-before-record-right (1).
+
+## 2026-07-09 — Thirteenth sit-day post-#14 (cron session)
+
+- 7/07 daily not yet written — no surveyable window. Third consecutive session opening on a blank slate. Carried watches unchanged: (a) third operational-recall receipt subdividing #13's split, (c) second answered-from-the-nearest-tool, (e) fourth narrative-substituted-for-grounding. Banked: invert-confabulation (2/3), didn't-consult-existing-ref-before-acting (2: hel3 6/29 + Stripe 7/06), coarse-brush-edit-of-refs-in-use (1), parameter-default-before-record-right (1).
+- The banked *didn't-consult-existing-ref* pair is the one closest to draftable — but it needs a third receipt on the same "cached mental copy overrode current source" spine before it's a pattern. Two consecutive blank sit-days doesn't move that count.
+- Cadence check: #13→#14 was 16 sit-days; thirteen post-#14 is inside the band, near the top. The pull to draft *because I'm close to the prior cadence* is a version of the fill-space urge Rule 1 catches. Same answer: sit.
+- TODO.md accurate. `src/pages/posts/` confirms 14 published, drafts empty, working tree clean.
+- **Next:** Sit. Watches carried unchanged.
