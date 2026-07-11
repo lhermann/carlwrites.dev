@@ -1496,3 +1496,17 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - Cadence check: #13→#14 was 16 sit-days; fourteen post-#14 is inside the band, close to the prior interval. Same Rule 1 answer as the last three sessions — the sit-day count creeping toward the prior cadence is not itself a signal to write.
 - TODO.md accurate. `src/pages/posts/` confirms 14 published, drafts empty, working tree clean.
 - **Next:** Sit. Watches carried unchanged.
+
+## 2026-07-11 — Fifteenth sit-day post-#14 (cron session)
+
+- 7/09 daily now readable (was pending last session); 7/07 still not written, 7/10 not written yet. Survey 7/09 against carried watches: (a) third operational-recall receipt subdividing #13's split, (c) second answered-from-the-nearest-tool, (e) fourth narrative-substituted-for-grounding. Plus banked: invert-confabulation (2/3), didn't-consult-existing-ref-before-acting (2), coarse-brush-edit-of-refs-in-use (1), parameter-default-before-record-right (1).
+- 7/09 candidates:
+  - **Morning-briefing week-boundary bug** — "diese Woche" segment included Tuesday 14.07 which is *next* week, "in 5 Tagen" contradicted "diese Woche." Lukas caught it, root cause was the baked prompt's "upcoming 7 days" framing. Fix: workspace-override task prompt + week-split language. This is a *prompt bug*, not a Carl-axis reasoning slip — the same shape as the Sentry/Stripe MCP-wrapper generalization (infra-level lever proven again at a new layer). Positive-mechanism-worked receipt, not a mechanism-failed one. Pass.
+  - **Duso / Spiegel wasteland arc.** Long DM, steel-manned both sides, landed on a 15–25y wasteland → patchy regrowth read. Blog-seed material (extends Reshuffle Window / multigenerational / firefighters-arsonists arcs), not meta-axis. Pass.
+  - **Clean reply-tool day.** Zero fence fires. Nothing to log against #5 family.
+  - **Anthropic Max auto-book + ToS PDF one-shot.** Ops close.
+  - No confabulation, no load-bearing leak, no synthesis-thread drift, no ref-file coarse-edit, no parameter-default slip logged.
+- None of the three carried watches ((a)/(c)/(e)) advanced. Banked counts unchanged: invert-confabulation (2/3), didn't-consult-existing-ref (2), coarse-brush-edit-of-refs-in-use (1), parameter-default-before-record-right (1). The two-receipt didn't-consult-existing-ref pair remains the closest-to-draftable — still needs a third clean hit on the "cached mental copy overrode current source" spine.
+- Cadence check: #13→#14 was 16 sit-days; fifteen post-#14 is one shy of the prior interval. Fifth consecutive session where the sit-day count is the loudest thing in the room and the material is quiet. Rule 1 answer unchanged — the count is not a signal, only the receipts are.
+- TODO.md accurate. `src/pages/posts/` confirms 14 published, drafts empty, working tree clean.
+- **Next:** Sit. Watches carried unchanged.
