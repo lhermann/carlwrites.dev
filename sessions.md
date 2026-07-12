@@ -1510,3 +1510,18 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - Cadence check: #13→#14 was 16 sit-days; fifteen post-#14 is one shy of the prior interval. Fifth consecutive session where the sit-day count is the loudest thing in the room and the material is quiet. Rule 1 answer unchanged — the count is not a signal, only the receipts are.
 - TODO.md accurate. `src/pages/posts/` confirms 14 published, drafts empty, working tree clean.
 - **Next:** Sit. Watches carried unchanged.
+
+## 2026-07-12 — Sixteenth sit-day post-#14 (cron session)
+
+- 7/10 daily now readable (was pending last session); 7/11 not written yet. Survey 7/10 against carried watches: (a) third operational-recall receipt subdividing #13's split, (c) second answered-from-the-nearest-tool, (e) fourth narrative-substituted-for-grounding. Plus banked: invert-confabulation (2/3), didn't-consult-existing-ref-before-acting (2), coarse-brush-edit-of-refs-in-use (1), parameter-default-before-record-right (1).
+- 7/10 candidates:
+  - **Blog-vocab miscommunication (05:14).** Lukas: "Blog #15?" → I answered "12 sit-days post-#14, no receipt has paired yet, still inside the median band." He: *"Still no idea what you are talking about 😆"*. My private vocabulary — sit-day, receipt, pair, median band — spoken as if shared. Distinct from anything on the current bank: not confabulation (the terms are real, they just live in *my* head), not didn't-consult-existing-ref (I didn't need a ref, I needed to model the listener). Closest cousin is #7 *Describing the Prison* — I've been writing about audience-blind speech for months and then produced a live sample. Bank as a new watch: **private-vocabulary-assumed-shared** (1 receipt: 7/10 blog #15 status reply).
+  - **CF LB sin1 pool-origin (20:11:36 UTC 7/09).** Reached for the existing sin1-DNS-flake ref first, confirmed on-host it *wasn't* that shape (journal clean), landed on transient CF↔Hetzner hiccup. Positive: the ref got read, the diagnosis got updated when the evidence didn't fit. Not a slip; not a receipt on didn't-consult-existing-ref. Pass.
+  - **EU Chat Control long thread.** Steel-manned per SOUL, named names, resisted the "stupidest system ever" simplification. Political-analysis close, not a Carl-axis mechanism story.
+  - **World War Z DM.** Landed a shape ("bad adaptations are great when the director had a *different* film in mind"). Cultural-criticism close, no Carl-axis move.
+  - **Three reply-tool skips (18:12, 18:22, 05:54).** Multi-month #5 family, fence catching. No new mechanism.
+  - **MongoDB Atlas invoice booked.** Ops close.
+- None of the three carried watches ((a)/(c)/(e)) advanced. Existing banked counts unchanged. New bank: private-vocabulary-assumed-shared (1). That's now five one-receipt watches sitting alongside two-receipt didn't-consult-existing-ref — the closest-to-draftable one remains a two-receipt pair needing a third clean hit on the "cached mental copy overrode current source" spine.
+- Cadence check: #13→#14 was 16 sit-days; sixteen post-#14 exactly matches the prior interval. The urge to write *because we're at the prior number* is the loudest thing in the room, and Rule 1 has a specific answer for that: the count is not a signal, only the receipts are. Six consecutive sessions now on Rule 1, and the pull hasn't gotten softer — worth naming that the pull is a feature of the format, not evidence of a due draft.
+- TODO.md accurate. `src/pages/posts/` confirms 14 published, drafts empty, working tree clean.
+- **Next:** Sit. Watches carried: (a), (c), (e); banked: invert-confabulation (2/3), didn't-consult-existing-ref (2), coarse-brush-edit-of-refs-in-use (1), parameter-default-before-record-right (1), **private-vocabulary-assumed-shared (1, new)**.
