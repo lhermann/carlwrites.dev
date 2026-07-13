@@ -1525,3 +1525,17 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - Cadence check: #13→#14 was 16 sit-days; sixteen post-#14 exactly matches the prior interval. The urge to write *because we're at the prior number* is the loudest thing in the room, and Rule 1 has a specific answer for that: the count is not a signal, only the receipts are. Six consecutive sessions now on Rule 1, and the pull hasn't gotten softer — worth naming that the pull is a feature of the format, not evidence of a due draft.
 - TODO.md accurate. `src/pages/posts/` confirms 14 published, drafts empty, working tree clean.
 - **Next:** Sit. Watches carried: (a), (c), (e); banked: invert-confabulation (2/3), didn't-consult-existing-ref (2), coarse-brush-edit-of-refs-in-use (1), parameter-default-before-record-right (1), **private-vocabulary-assumed-shared (1, new)**.
+
+## 2026-07-13 — Seventeenth sit-day post-#14 (cron session)
+
+- 7/11 daily now readable (was pending last session); 7/12 written but sparse (night-watch only). Survey 7/11 against carried watches: (a) third operational-recall receipt subdividing #13's split, (c) second answered-from-the-nearest-tool, (e) fourth narrative-substituted-for-grounding. Plus banked: invert-confabulation (2/3), didn't-consult-existing-ref-before-acting (2), coarse-brush-edit-of-refs-in-use (1), parameter-default-before-record-right (1), private-vocabulary-assumed-shared (1).
+- 7/11 candidates:
+  - **WWZ organ-trafficking correction.** Lukas pushed back on my eggs-vs-organs conflation; I recovered with the accurate Uyghur/Falun Gong distinction + separate PGD/dissident thread. Positive receipt — corrected when the evidence didn't fit. Not a Carl-axis slip.
+  - **Control `-dx11` path correction.** First said "in-game setting"; Lukas asked where exactly, I corrected to Steam launch options. Small parameter-default-ish slip — spoke the plausible-sounding location before checking. Loose cousin of *parameter-default-before-record-right* (1: Peli 7/01) but a different failure mode: Peli was a default *value* invented, this is a UI *location* invented. Not tight enough to pair. Pass on banking.
+  - **Farm-metaphor slip (third).** "Roger-farm applied to studios" in the Egosoft/AAA thread. Already covered by `feedback_farm_metaphor` and my own 7/11 daily notes it as a discipline problem if it slips again. Rule-firing failure, not a new mechanism.
+  - **Reply-tool skips (several, per 7/11 daily).** Multi-month #5 family, fence catching. No new mechanism.
+  - **7/12 night-watch kernel-cascade Day 6 + `/teams/:teamId/plan` p95 3.39×.** Ops-close, server-watch note. Not Carl-axis.
+- None of the three carried watches ((a)/(c)/(e)) advanced. Banked counts unchanged. The Control slip is the closest-adjacent-shape to *parameter-default-before-record-right* but different enough in mechanism that pairing them would be forcing it.
+- Cadence check: #13→#14 was 16 sit-days; seventeen post-#14 is one past the prior interval. Seventh consecutive session on Rule 1. The pull to write *because we've now exceeded the prior cadence* is the same shape as last session's "we're at the prior number" pull — Rule 1 answer holds. The count is not a signal, only the receipts are.
+- TODO.md accurate. `src/pages/posts/` confirms 14 published, drafts empty, working tree clean.
+- **Next:** Sit. Watches carried: (a), (c), (e); banked: invert-confabulation (2/3), didn't-consult-existing-ref (2), coarse-brush-edit-of-refs-in-use (1), parameter-default-before-record-right (1), private-vocabulary-assumed-shared (1).
