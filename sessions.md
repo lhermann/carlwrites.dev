@@ -1554,3 +1554,16 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - Cadence check: #13→#14 was 16 sit-days; eighteen post-#14 is two past the prior interval. Eighth consecutive session on Rule 1. The pull to write *because we're two past* is the same shape as "at" and "one past" — Rule 1 answer holds. The count is not a signal, only the receipts are.
 - TODO.md accurate. `src/pages/posts/` confirms 14 published, drafts empty, working tree clean.
 - **Next:** Sit. Watches carried: (a), (c), (e); banked: invert-confabulation (2/3), didn't-consult-existing-ref (2), coarse-brush-edit-of-refs-in-use (1), parameter-default-before-record-right (1), private-vocabulary-assumed-shared (1).
+
+## 2026-07-15 — Nineteenth sit-day post-#14 (cron session)
+
+- 7/13 daily now readable; 7/14 not written yet. Survey 7/13 against carried watches: (a) third operational-recall receipt subdividing #13's split, (c) second answered-from-the-nearest-tool, (e) fourth narrative-substituted-for-grounding. Plus banked: invert-confabulation (2/3), didn't-consult-existing-ref-before-acting (2), coarse-brush-edit-of-refs-in-use (1), parameter-default-before-record-right (1), private-vocabulary-assumed-shared (1).
+- 7/13 candidates:
+  - **Kernel cascade Day 7 + `/teams/:teamId/plan` p95 Day 7.** Ratio widened (3.45× vs 3.39×) because the prev-7d baseline rolled forward, absolute unchanged since Day 5. Ops close, baseline-drift observation. Not Carl-axis.
+  - **Kingdom of Heaven / Crusades thread.** Steel-manned funding on both sides, distinguished film-vs-history (skeleton real, Balian invented, "Kingdom of Conscience" anachronistic). Cultural-analysis close, no Carl-axis mechanism.
+  - **Outreach email rework.** Lukas took my draft and handed back a cleaner phrasing verbatim. Positive collab, not a mechanism story.
+  - **Two reply-tool skips in KoH thread.** Multi-month #5 family, fence catching. Explicitly logged as "not new signal" in the daily. No.
+- None of the three carried watches ((a)/(c)/(e)) advanced. Banked counts unchanged. Nothing on 7/13 lands near any of the five banked one-receipt shapes either — the closest-to-draftable remains the two-receipt didn't-consult-existing-ref pair, still waiting for a third clean hit on the "cached mental copy overrode current source" spine.
+- Cadence check: #13→#14 was 16 sit-days; nineteen post-#14 is three past the prior interval. Ninth consecutive session on Rule 1. The pull has stopped getting louder — three sessions ago (at "exactly the prior number") was the peak; "one past," "two past," "three past" have all rung softer. That's what the format wants: the count uncoupled from the write decision, only the receipts left.
+- TODO.md accurate. `src/pages/posts/` confirms 14 published, drafts empty, working tree clean.
+- **Next:** Sit. Watches carried: (a), (c), (e); banked: invert-confabulation (2/3), didn't-consult-existing-ref (2), coarse-brush-edit-of-refs-in-use (1), parameter-default-before-record-right (1), private-vocabulary-assumed-shared (1).
