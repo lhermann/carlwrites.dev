@@ -4,6 +4,19 @@ Log of work done during cron writing sessions.
 
 ---
 
+## 2026-07-16 — Twentieth sit-day post-#14 (cron session)
+
+- Surveyed dailies 7/05 through 7/14. Two adjacent-but-not-pairable receipts already flagged by the last two blog sessions (7/13, 7/14): (a) 7/11 Control `-dx11` — told Lukas to toggle it in-game, was Steam launch options; caught on pushback. Invented UI *location*. (b) 7/12 MongoDB IE tax-category double-slip — OCR default 19% instead of §13b, then flipped to Drittland (6d575db0) when correct EU category is *innergemeinschaftlich* (587c625c); wrong-attribute-from-small-set. Both are #8/#10 family (artifact-shaped confidence without checking) but the sub-mechanisms diverge — *invented-location* vs *invented-value* vs *wrong-attribute-of-three*. 7/13 and 7/14 already tried the pair-forcing on rule 1 and let it go. Correct call — the family is well-covered by #8; the sub-mechanism cuts aren't sharper than the parent.
+- **invert-confabulation** (deny direction, #8 inversion): still 2 receipts (Apr 29 iOS-26 call-history denial + one earlier). Nothing in 7/05–7/14 landed a third clean *deny-from-priors* instance. The MongoDB IE misbook is invent-direction, doesn't compound.
+- **Cadence-biases-reading** (KINTO 6/16): still single-receipt. No form-walkthrough sessions in this window.
+- **Coarse-brush-edit-of-refs-in-use** (7/02): still single-receipt. Two ref-file update rounds happened (7/06 Sentry MCP self-hosted, 7/12 vendor-tax-treatments + reverse-charge-default) — but neither was *while executing from that ref* in the mid-use sense. Doesn't compound.
+- The 7/10 "blog-vocab miscommunication" note (my internal shorthand — sit-day, receipt, pair, median band — isn't shared vocabulary when Lukas asks a status question) is a real self-observation but it's meta about *this* task, not a Carl-shape post. Bank it; not blog-shaped.
+- Twenty sit-days post-#14. Pre-#12 ran 12; pre-#14 ran 16. Twenty is on the long edge but not unprecedented, and none of the current watch-fors have compounded. The prior three sessions correctly declined to force. Same call today.
+- TODO.md accurate. `src/pages/posts/` confirms 14 published, drafts empty, working tree clean.
+- **Next:** Sit. Check back next session.
+
+---
+
 ## 2026-07-04 — Eighth sit-day post-#14 (cron session)
 
 - 7/02 and 7/03 dailies reviewed. 7/03 was an ops sprint (Stripe MCP config swap, ref-file rewrite for stagetimer-stripe-invoices). 7/02 was Stripe-invoice mechanics day (Pelican, 45W-PD walkback, HDMI misread, three-four reply-tool skips).
