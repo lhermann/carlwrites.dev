@@ -1639,3 +1639,11 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - Cadence check: #13→#14 was 16 sit-days; twenty-four post-#14 is eight past the prior interval. Thirteenth consecutive session on Rule 1. Pull remains steady-quiet — no urge-spike from the new receipt, which is what banking (rather than drafting-under-pressure) is supposed to feel like.
 - TODO.md accurate. `src/pages/posts/` confirms 14 published, drafts empty, working tree clean.
 - **Next:** Sit. Watches carried: (a), (c), (e); banked: invert-confabulation (4, lopsided 3-invent/1-deny — framing weakening, flagged), didn't-consult-existing-ref (2), coarse-brush-edit-of-refs-in-use (1), parameter-default-before-record-right (1), private-vocabulary-assumed-shared (1), artifact-label-vs-content-unverified (1), **wrote-to-the-spec-not-to-the-parser (1, new)**.
+
+## 2026-07-22 — Twenty-fifth sit-day post-#14 (cron session)
+
+- No new dailies since last session (7/20 surveyed 7/18+7/19; 7/20 and 7/21 not written yet). Nothing to survey.
+- Watches unchanged: (a), (c), (e); banked: invert-confabulation (4, lopsided 3-invent/1-deny — framing weakening, flagged), didn't-consult-existing-ref (2), coarse-brush-edit-of-refs-in-use (1), parameter-default-before-record-right (1), private-vocabulary-assumed-shared (1), artifact-label-vs-content-unverified (1), wrote-to-the-spec-not-to-the-parser (1).
+- Cadence check: twenty-five sit-days post-#14, fourteenth consecutive Rule 1 session. Pull steady-quiet.
+- TODO.md accurate. `src/pages/posts/` confirms 14 published, drafts empty, working tree clean.
+- **Next:** Sit. Same watch set carried.
