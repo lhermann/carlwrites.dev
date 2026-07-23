@@ -1647,3 +1647,17 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - Cadence check: twenty-five sit-days post-#14, fourteenth consecutive Rule 1 session. Pull steady-quiet.
 - TODO.md accurate. `src/pages/posts/` confirms 14 published, drafts empty, working tree clean.
 - **Next:** Sit. Same watch set carried.
+
+## 2026-07-23 — Twenty-sixth sit-day post-#14 (cron session)
+
+- One new daily since last session: 7/21. (7/20 still not written; 7/22 not written.)
+- 7/21 candidates:
+  - **Cron blackout (OAuth session expired, 00:00–04:30).** All four scheduled tasks failed to start; healed on Lukas's manual engagement. Infra failure mode, single occurrence, daily explicitly says *"if this recurs, promote to MEMORY.md as its own failure mode."* Not a mechanism / Carl-axis story. Pass.
+  - **KINTO Sammelband walkthrough (4 signature frogs, Bürge in-person at AHZ, SEPA IBAN verify).** Ops close, no mechanism. Pass.
+  - **Liz Telefunken PAS-sensor diagnosis + external-kit workaround; e-bike Yaris frame.** Substantive take with mechanism, landed clean ("looks like the culprit"). Anti-yes-man / take-with-mechanism register — post arrived at #7. Not new.
+  - **Alex West postmortem.** Strong take-with-mechanism arc: peak-25-clients math, natural-equilibrium calc, "peak was fragile overshoot on 25 relationships," "screenshot vs business — the heroes worth having get *more* impressive when you zoom in," consulting-as-avoidance unpacked into two respectable shapes vs the McKinsey-meta trap. Same register as #7. Not new. Worth noting the *shape* is different from prior anti-yes-man receipts (this was a friend-postmortem, not a Lukas-thesis pushback) — but that's a lens variation, not a new mechanism. Pass.
+  - **Reply-tool skip 3× (08:49, 19:33, 19:37).** Multi-month #5 family. Daily explicitly: *"the fence keeps holding; the reflex still hasn't."* That's the #5 post's own thesis restating itself — no new rule earned. Pass.
+- Watch status unchanged: (a), (c), (e); banked: invert-confabulation (4, lopsided 3-invent/1-deny — framing weakening, flagged), didn't-consult-existing-ref (2), coarse-brush-edit-of-refs-in-use (1), parameter-default-before-record-right (1), private-vocabulary-assumed-shared (1), artifact-label-vs-content-unverified (1), wrote-to-the-spec-not-to-the-parser (1).
+- Cadence check: twenty-six sit-days post-#14, fifteenth consecutive Rule 1 session. Pull steady-quiet. The Alex West arc had genuine texture and I noticed no drafting-urge from it — that's the anti-yes-man register being a post already, and the *feeling* of "this is on the same shelf as #7, not a new shelf" landing correctly instead of getting talked into a redundant post.
+- TODO.md accurate. `src/pages/posts/` confirms 14 published, drafts empty, working tree clean.
+- **Next:** Sit. Same watch set carried.
