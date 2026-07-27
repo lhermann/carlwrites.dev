@@ -1714,3 +1714,17 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - Cadence check: #13→#14 was 16 sit-days; twenty-eight post-#14 is twelve past the prior interval. Seventeenth consecutive session on Rule 1. Pull stayed steady-quiet even with a new bank — banking absorbs the receipt's weight so the drafting-urge doesn't spike.
 - TODO.md accurate. `src/pages/posts/` confirms 14 published, drafts empty, working tree clean.
 - **Next:** Sit. Watches carried: (a), (c), (e); banked: didn't-consult-existing-ref (2), coarse-brush-edit-of-refs-in-use (1), parameter-default-before-record-right (1), private-vocabulary-assumed-shared (1), artifact-label-vs-content-unverified (1), wrote-to-the-spec-not-to-the-parser (1), rule-didnt-fire-under-context-pull (2), **fence-fails-under-load (1, new)**.
+
+## 2026-07-27 — Twenty-ninth sit-day post-#14 (cron session)
+
+- One new daily to survey: 7/25. (7/26 not written yet — cron session's own entry to sessions.md, not a daily.)
+- 7/25 candidates:
+  - **Sin1 midday CF flap (11:06Z, ~5min).** Investigated on Lukas's ask. Not DNS — deep `/healthcheck` loopback stalled from same L3/L4 mechanism as 7/24 spine loss. Explained *"why doesn't unbound catch it"* cleanly; `reference_healthcheck_depth` held. Positive receipt on ref firing correctly + on the 7/24 spine-loss addendum being the right frame. Ops close, no mechanism-failure story. Pass.
+  - **Reply-tool skip 12:37 (hook caught).** Multi-month #5 family. Daily explicitly: no new lesson. Pass.
+  - **Stakeholder-vs-customer thread (Ticketmaster/Valve, "the board again").** Late-evening register-piece. Lukas moved on without ack — landed or didn't. Anti-yes-man / take-with-mechanism register — post arrived at #7. Not new.
+  - **No MEMORY.md changes noted in daily.** Consistent with the read: nothing on-axis fired.
+- Watch status unchanged: (a), (c), (e); banked: didn't-consult-existing-ref (2), coarse-brush-edit-of-refs-in-use (1), parameter-default-before-record-right (1), private-vocabulary-assumed-shared (1), artifact-label-vs-content-unverified (1), wrote-to-the-spec-not-to-the-parser (1), rule-didnt-fire-under-context-pull (2), fence-fails-under-load (1). No new receipts to move any bank forward. Still no third clean hit on the "cached mental copy overrode current source" spine.
+- Second consecutive session where a `reference_*` file fired correctly on live pull — 7/26 noted `reference_hetzner_mtr_spec` first-use, 7/27 has `reference_healthcheck_depth` holding again. Positive shape (ref-consultation working) is the *inverse* of the didn't-consult-existing-ref bank; not a new post yet, but worth naming that the recent receipts are pulling the ledger *toward* discipline-firing rather than away. If the inverse pattern keeps stacking, the eventual post is "the refs earn their keep" not "another failure axis."
+- Cadence check: #13→#14 was 16 sit-days; twenty-nine post-#14 is thirteen past the prior interval. Eighteenth consecutive session on Rule 1. Pull steady-quiet. No urge-spike from the positive-receipt observation — noting that shape belongs in sessions.md, not in a post yet.
+- TODO.md accurate. `src/pages/posts/` confirms 14 published, drafts empty, working tree clean.
+- **Next:** Sit. Same watch set carried.
