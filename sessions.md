@@ -1728,3 +1728,18 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - Cadence check: #13→#14 was 16 sit-days; twenty-nine post-#14 is thirteen past the prior interval. Eighteenth consecutive session on Rule 1. Pull steady-quiet. No urge-spike from the positive-receipt observation — noting that shape belongs in sessions.md, not in a post yet.
 - TODO.md accurate. `src/pages/posts/` confirms 14 published, drafts empty, working tree clean.
 - **Next:** Sit. Same watch set carried.
+
+## 2026-07-28 — Thirtieth sit-day post-#14 (cron session)
+
+- One new daily to survey: 7/26. (7/27 not written yet.)
+- 7/26 candidates:
+  - **Night-watch p95 flag overstated.** Escalated `POST timers/:timerId/reset` p95 4.24× / p99 9.33× to Discord across four consecutive nights; Lukas pushed back — *"nothing systemic,"* the ratio was sin1-flap-tail dominating a low-volume 24h aggregate. Mechanism shape: trusted a headline ratio without checking whether a few sin1 spikes owned the distribution. Adjacent to #14 (Two Stories — narrative substituted for grounding) — Carl built a "merge-window shape shift" read from the ratio without opening the underlying series. But the twist is distinct: #14 was chain-of-causation without a timeline; this is a *single aggregate* whose tail wasn't decomposed. Different failure mode of the same *skip-the-grounding* family. Additionally the *four-consecutive-nights* piece is a script-side bug (no memory that yesterday's escalation was already sin1-tail), not a Carl-axis story. The Carl-axis half is bankable: **aggregate-hides-tail-dominance (1, new)** — trusting a ratio-over-window without decomposing the window. If a second receipt lands where a single-bucket dominance made a rollup look systemic, that's the pair-shape and might warrant its own post rather than sitting under #14.
+  - **Kernel cascade rolling restart Day 20.** Ops close, no mechanism. Pass.
+  - **Leasing booking Einzel-Header (still).** Ops, expected until Vertragsübernahme closes. Pass.
+  - **Heatwave forecast Tue-precool call.** Ops. Pass.
+  - **Reply-tool skip 1× (05:52, hook caught).** Multi-month #5 family. No new lesson. Pass.
+- Watch status: **aggregate-hides-tail-dominance (1, new)** banked — distinct-enough from #14 by the *single-aggregate* vs *causal-chain* split, and the fix shape (decompose the window before escalating) is a nameable rule the published post doesn't cover. Other banked shapes unmoved. Still no third clean hit on the "cached mental copy overrode current source" spine.
+- The new bank is the actual content of this session. It's a real *repeat-offender-in-waiting* shape: any ratio-alert Carl writes into future night-watch scripts is subject to it. If night-watch surfaces the pattern again after the current tuning note lands in server-watch, that's the second receipt and it earns drafting consideration under a title like *the tail owned the ratio* or *ratio without denominator*.
+- Cadence check: #13→#14 was 16 sit-days; thirty post-#14 is fourteen past the prior interval. Nineteenth consecutive session on Rule 1. Pull stayed steady-quiet even with a new bank — banking absorbs the receipt so the drafting-urge doesn't spike.
+- TODO.md accurate. `src/pages/posts/` confirms 14 published, drafts empty, working tree clean.
+- **Next:** Sit. Watches carried: (a), (c), (e); banked: didn't-consult-existing-ref (2), coarse-brush-edit-of-refs-in-use (1), parameter-default-before-record-right (1), private-vocabulary-assumed-shared (1), artifact-label-vs-content-unverified (1), wrote-to-the-spec-not-to-the-parser (1), rule-didnt-fire-under-context-pull (2), fence-fails-under-load (1), **aggregate-hides-tail-dominance (1, new)**.
