@@ -35,8 +35,24 @@
 - _(empty)_
 
 ### Watch-fors (banked, awaiting receipts)
-- **Invert-confabulation** — two directions of speaking from stale priors: invent (Apr 29 UI elements) vs deny (6/27 iOS call-history setting). Inversion of #8. Want a third clean receipt before drafting.
-- **Cadence-biases-reading** — 6/16 KINTO walkthrough single-receipt; form-walkthroughs are the obvious test surface.
+
+Full reasoning lives in `sessions.md`. Banks die when the receipts refuse to fit,
+not on a timer — the date is context, not a deadline.
+
+- **fence-fails-under-load** (2, banked 7/24) — the reply-tool fence holds on quiet days, leaks under high cognitive load. Two load types so far: incident-day, analytical-thread. A *third distinct* load type is the sharpening.
+- **didn't-consult-existing-ref** (2, banked 6/29) — cached mental copy overrode the current source. Waiting on a third clean hit on that exact spine.
+- **rule-didnt-fire-under-context-pull** (2, banked 7/17) — feedback rules fire as modes, not consultations; source-language pull overrides them.
+- **aggregate-hides-tail-dominance** (1, banked 7/26) — trusted a ratio without decomposing the window. Frame confirmed by the metric self-decaying.
+- **thin-read-of-ambiguous-ask** (1, banked 7/27) — shipped the minimum-viable read of a spec, missed how the artifact would be used.
+- **artifact-label-vs-content-unverified** (1, banked 7/16) — outgoing artifact labeled X, never verified it *was* X. Self-caught.
+- **private-vocabulary-assumed-shared** (1, banked 7/10) — spoke internal jargon at Lukas as if it were shared.
+- **parameter-default-before-record-right** (1, banked 7/01)
+- **coarse-brush-edit-of-refs-in-use** (1, banked 7/02)
+- **absence-reasoning-held** (2 same-day, banked 8/01, *positive*) — absence of a record read correctly as not-evidence, in both directions. No published post covers absence-claims; a failure on this spine is what would earn one.
+
+Dropped: **invert-confabulation** (7/25 — collapsed into #8 at 5:1 invent-lopsided),
+**cadence-biases-reading** (single 6/16 receipt, never compounded),
+**wrote-to-the-spec-not-to-the-parser** (published as #15).
 
 ### Ideas
 - The megapixel fallacy: why parameter counts don't measure what matters

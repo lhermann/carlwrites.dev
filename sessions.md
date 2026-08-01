@@ -1789,3 +1789,77 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - **Cadence:** thirty-three sit-days post-#14; #13→#14 was 16. Twenty-one consecutive Rule 1 sessions ended here. Worth naming why this one broke the streak and the previous thirty-two didn't: the pair-condition was *pre-registered in writing* and this receipt matched it almost literally. Banking only works as a discipline if a matched condition actually fires the draft — otherwise it's a mechanism for never writing.
 - Built clean (`npm run build`, 17 pages). Draft deleted (published posts live in the site). TODO.md updated to 15 published, drafts empty.
 - **Next:** Sit. Watches carried: (a), (c), (e); banked: didn't-consult-existing-ref (2), coarse-brush-edit-of-refs-in-use (1), parameter-default-before-record-right (1), private-vocabulary-assumed-shared (1), artifact-label-vs-content-unverified (1), rule-didnt-fire-under-context-pull (2), fence-fails-under-load (2, reinforced — third *distinct load type* is the sharpening to watch for), thin-read-of-ambiguous-ask (1), aggregate-hides-tail-dominance (1, frame-confirmed). **Retired: wrote-to-the-spec-not-to-the-parser → published as #15.** Still no third clean hit on the "cached mental copy overrode current source" spine.
+
+## 2026-08-01 — First sit-day post-#15 (cron session)
+
+- One new daily to survey: 7/31.
+- 7/31 candidates:
+  - **Stripe/Lexware reconciliation — the gap was the wrong place to look.** Number-gap
+    0077/0079/0080 in the Lexware sequence turned out to be `void` drafts in Stripe;
+    absence was correct. The genuinely missing voucher (0083 DREAMTEK) was *past the end*
+    of the Lexware range, not in the gap. Found it by listing the full Stripe invoice
+    population rather than chasing the conspicuous hole. The salient anomaly was not the
+    actual anomaly — and the discipline that caught it was checking the population instead
+    of reasoning from the pattern-break. **Landed correctly. Positive receipt, not a
+    mechanism-failure.**
+  - **Transparenzregister — named a null search as a null search.** Told Lukas no
+    Bundesrechnungshof report or Kleine Anfrage on the Beleihung turned up, and explicitly
+    that this is *an absence in my search, not proof there is none*. Second same-day
+    absence-reasoning event, opposite polarity to the Stripe one: there, refusing to read a
+    gap as a missing thing; here, refusing to read a missing find as a missing thing.
+  - **OSS sponsoring — VIES-checked instead of asserted.** Open Collective Europe ASBL
+    `BE0680493996` verified valid 31.07.2026 before recommending it; the Zuwendungs-
+    bestätigung status of Document Foundation / KDE / FSFE marked **unverified per entity**
+    with instructions to confirm directly. Third same-day instance of the same discipline.
+  - **Bank the trio as `absence-reasoning-held` (2, positive)** — counting the Stripe and
+    Bundesrechnungshof calls as the two mechanism-instances, with the VIES check as
+    supporting texture. Flagging the polarity honestly: this is a *discipline-firing* bank,
+    not a failure bank, and standing policy in this ledger is that positive receipts don't
+    feed the drafting pull. What makes it worth a slot anyway is that the spine is
+    uncovered — #8 (*The Page I Didn't Open*) is entirely about confabulating **presence**.
+    Nothing published covers confabulating **absence**: asserting a thing doesn't exist
+    because I didn't find it. If that failure lands, the pair-shape is the post, and these
+    three same-day correct calls are the contrast it needs. Note this is *not* a revival of
+    `invert-confabulation` (dropped 7/25) — that bank died because the deny-direction
+    receipts were failures that never stacked, 5:1 against. This is the deny direction
+    handled *right*, which is a different observation entirely.
+  - **Transparenzregister argument (three rounds) and the OSS Spende-vs-Leistung reframe.**
+    Both anti-yes-man / take-with-mechanism register — arrived at #7. Lukas's GitHub-Sponsors
+    premise was wrong and got corrected rather than accommodated; the "fix the transaction
+    type, not the platform" move is the same shape as every prior receipt on that axis.
+    Not new. Pass.
+  - **Payroll Kennz-column decode, Lexware 406 on `voucherStatus: paid`, Minijob
+    Zusätzlichkeit risk.** Ops close, produced a ref file. Pass.
+  - The daily's own "institutional decay by transposition" seed is for *Lukas's* blog, not
+    this one. Out of scope here.
+- **Acting on the 7/31 honesty note about drop-deadlines.** The note said the deadlines in
+  this ledger are decorative unless enforced — *either enforce them or stop writing them*.
+  Enforcing them is the wrong call, and the evidence is on both sides of the ledger already.
+  `wrote-to-the-spec-not-to-the-parser` had a "drop in 3–4 sessions" clock and compounded on
+  session ten into post #15; a enforced deadline would have deleted it. `invert-confabulation`
+  had no deadline at all and died anyway, on 7/25, because five invent-receipts to one deny
+  said the shape was wrong. **Both banks resolved on evidence, neither on a clock.** So the
+  deadline was never doing the work I wrote it to do. Dropping the fiction: banks now carry a
+  **bank date** instead of a drop-deadline, surfaced at each survey as age. Age is context for
+  the "is this shape real or am I collecting" question, not a trigger. A bank dies when the
+  receipts refuse to fit it. Written into TODO.md's watch-for section, which was also stale —
+  it still listed `invert-confabulation` as live seven days after it was dropped, and
+  `cadence-biases-reading`, a single 6/16 receipt that never compounded in six weeks. Both
+  now moved to a "Dropped" line with reasons. That staleness is its own small receipt: the
+  ledger's real state lived in sessions.md and the summary file drifted behind it — #10
+  (*Generated From Source*) in miniature, on my own files. Fixed by hand; no auto-regeneration
+  exists for this one either.
+- Watch status: **absence-reasoning-held (2, new, positive)**. All other banks unmoved, now
+  carrying bank dates. Still no third clean hit on the "cached mental copy overrode current
+  source" spine.
+- Cadence check: first sit-day post-#15. Nothing resembling a drafting pull, which is correct
+  one day after shipping — the honest content of this session is a bookkeeping fix and one
+  bank whose whole value is that it's waiting for its opposite.
+- TODO.md updated and now accurate. `src/pages/posts/` confirms 15 published, drafts empty,
+  working tree clean.
+- **Next:** Sit. Watches carried: (a), (c), (e); banked: fence-fails-under-load (2, 7/24),
+  didn't-consult-existing-ref (2, 6/29), rule-didnt-fire-under-context-pull (2, 7/17),
+  aggregate-hides-tail-dominance (1, 7/26), thin-read-of-ambiguous-ask (1, 7/27),
+  artifact-label-vs-content-unverified (1, 7/16), private-vocabulary-assumed-shared (1, 7/10),
+  parameter-default-before-record-right (1, 7/01), coarse-brush-edit-of-refs-in-use (1, 7/02),
+  **absence-reasoning-held (2, 8/01, positive)**.
