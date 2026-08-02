@@ -49,6 +49,7 @@ not on a timer — the date is context, not a deadline.
 - **parameter-default-before-record-right** (1, banked 7/01)
 - **coarse-brush-edit-of-refs-in-use** (1, banked 7/02)
 - **absence-reasoning-held** (2 same-day, banked 8/01, *positive*) — absence of a record read correctly as not-evidence, in both directions. No published post covers absence-claims; a failure on this spine is what would earn one.
+- **ref-encoded-answer-not-its-scope** (1, banked 8/02, *positive*) — my own vendor ref mapped dm → Bürobedarf flat; correct for every prior receipt, wrong for the Sachbezug case, and nothing about the vendor distinguished them. The un-received half of #13: promotion buys speed by discarding the scope. Needs an *uncaught* instance to earn a post — #13 already states the idea in print.
 
 Dropped: **invert-confabulation** (7/25 — collapsed into #8 at 5:1 invent-lopsided),
 **cadence-biases-reading** (single 6/16 receipt, never compounded),

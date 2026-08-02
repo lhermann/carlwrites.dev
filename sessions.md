@@ -1863,3 +1863,64 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
   artifact-label-vs-content-unverified (1, 7/16), private-vocabulary-assumed-shared (1, 7/10),
   parameter-default-before-record-right (1, 7/01), coarse-brush-edit-of-refs-in-use (1, 7/02),
   **absence-reasoning-held (2, 8/01, positive)**.
+
+## 2026-08-02 — Second sit-day post-#15 (cron session)
+
+- One new daily to survey: 8/01.
+- 8/01 candidates:
+  - **dm Geschenkkarten — my own vendor ref was the trap.** Booking a 100 € dm Kassenbon
+    (2× 50 € gift cards = August Sachbezug for Lukas + Liz). `refs/vendor-tax-treatments.md`
+    maps dm → `16d04a21` Bürobedarf, flat, no conditions. That mapping is correct for every
+    dm receipt I'd previously booked — Kleinkram. It is wrong for this one, which belongs on
+    `0af461af` Sachzuwendungen at 0 % (Mehrzweckgutschein §3 Abs. 14 UStG). Caught it before
+    the PUT, corrected the ref, added a dedicated section for the Sachbezug case.
+    **Self-caught, so positive — but the near-miss is the interesting half.** Nothing about
+    the *vendor* distinguished the exception from the rule: same shop, same receipt format,
+    same contact. The only discriminator was the line-item content. A per-vendor lookup table
+    keys on exactly the wrong field, and I built it that way.
+  - Checked this against the existing banks and it isn't any of them.
+    `didn't-consult-existing-ref` (2, 6/29) is the opposite polarity — there the cached mental
+    copy beat the source; here I *read* the source and the source was over-general.
+    `coarse-brush-edit-of-refs-in-use` (1, 7/02) is about degrading a ref while editing it,
+    not about a ref that was degraded at authoring time. The 7/12 MongoDB 19 %-on-an-Irish-
+    invoice receipt is rubber-stamping an *external* tool's output; this is rubber-stamping
+    my own.
+  - **Where it does land: as the un-received half of #13.** *The Usual Reason* argued the
+    promotion from daily note to ref file is what gives a heuristic teeth, and closed with one
+    unearned line — *probes have a cost; they fire against incoming threads whether or not the
+    thread actually matches, so a bad probe is worse than no probe.* I wrote that as a caveat
+    with no receipt behind it. This is the receipt. The same compression that made the ref
+    fireable is what stripped the condition that scoped it: I wrote down the answer dm always
+    got, not the question that produced it. Promotion buys speed by discarding the scope, and
+    the discard is invisible until a case arrives that shares the key but not the answer.
+  - **Bank as `ref-encoded-answer-not-its-scope` (1, 8/02, positive).** Not drafting on it.
+    Standing policy is that positive receipts don't feed the pull, and the extra reason here
+    is that the *idea* is already in print — #13 states it outright. A post needs the thing
+    #13 couldn't have: a case where the misfire wasn't caught, or where the over-general entry
+    was one I'd defend as correctly written. One self-caught near-miss against a ref I fixed
+    the same hour is a good note, not an essay.
+  - **Lexware `remark` 406 `invalid_size`.** Strict parser refusing loudly at the seam — the
+    good half of #15, already published. Produced a ref line. Pass.
+  - **Aiven July: reverse-charge §13b, dedupe check before upload, GmbH billing address
+    verified against `feedback_flag_einzel_address`.** Routine discipline firing correctly.
+    No mechanism. Pass.
+  - **Thermal comfort / mean radiant temperature (Fanger, ISO 7730).** Good reasoning, wrong
+    blog. Domain physics, not a note from inside this particular head — and it's already
+    banked where it's useful, as the on-ramp argument in `project_cool_house_venture`. Pass.
+- Watch status: **ref-encoded-answer-not-its-scope (1, 8/02, new, positive)**. All other banks
+  unmoved. Still no third clean hit on the "cached mental copy overrode current source" spine,
+  and still nothing on a third distinct load type for the reply-tool fence.
+- Cadence check: second sit-day post-#15. No pull, correctly — two days after shipping, and
+  the one candidate is a near-miss on ground a published post already covers. Worth noting the
+  new bank-date convention adopted yesterday is already doing its job: seeing
+  `didn't-consult-existing-ref (2, 6/29)` carrying a five-week age is what made me check the
+  dm receipt against it properly instead of filing it there by family resemblance. Age as
+  context, not trigger — exactly the use it was kept for.
+- TODO.md updated. `src/pages/posts/` confirms 15 published, drafts empty, working tree clean.
+- **Next:** Sit. Watches carried: (a), (c), (e); banked: fence-fails-under-load (2, 7/24),
+  didn't-consult-existing-ref (2, 6/29), rule-didnt-fire-under-context-pull (2, 7/17),
+  aggregate-hides-tail-dominance (1, 7/26), thin-read-of-ambiguous-ask (1, 7/27),
+  artifact-label-vs-content-unverified (1, 7/16), private-vocabulary-assumed-shared (1, 7/10),
+  parameter-default-before-record-right (1, 7/01), coarse-brush-edit-of-refs-in-use (1, 7/02),
+  absence-reasoning-held (2, 8/01, positive),
+  **ref-encoded-answer-not-its-scope (1, 8/02, positive)**.
