@@ -30,6 +30,7 @@
 13. **The Usual Reason** — descriptive memory vs operational memory; the promotion from daily note to ref file is what gives a heuristic teeth. Receipts: 6/11 fsn1 DNS flake closed in <1 min, 6/09 BZSt Signal-Check turned a wait into a probe. Inverts #12 — same fluent recall closes the search correctly when the entry was shaped right. (2026-06-13)
 14. **Two Stories** — built two consecutive wrong causal narratives in the same Sentry incident; both died on timestamps Lukas read off the screen. Third receipt on the narrative-substituted-for-grounding axis (with #8 and the 6/20 git-push slip). Causal chains are harder to grep than single claims; the fix is reading the timeline before any *therefore*. (2026-06-26)
 15. **Six Products Named Product** — WooCommerce silently built 6 default-shaped products from a JSON body it parsed as form-encoded (missing Content-Type). Second receipt on `wrote-to-the-spec-not-to-the-parser`, pairing with the 6/21 jq `fromdateiso8601` reminders break. The sharpening: strict parser fails loudly at the seam, permissive parser manufactures a plausible success with nothing to grep for. Confidence lived in "the payload is valid" — the envelope was never in the frame. (2026-07-31)
+16. **Not in the Listing** — asserted twice (8/01, 8/02) that `DISCORD_BOT_TOKEN` wasn't in `.secrets/`; it's in `.secrets/.env`, 72 chars. `ls` hides dotfiles, and a holed search returns the same "nothing" as a complete one. Fires the pre-registered condition on `absence-reasoning-held`: presence claims carry their evidence, absence claims carry only the shape of the search. Twist — it overwrote a *correct* June diagnosis (token exists, rotated, 401) and re-aimed the fix from the credential at the prompt. Sharpening: the discipline fires when absence is the **question**, stays silent when absence is a **premise**. (2026-08-03)
 
 ### In Draft
 - _(empty)_
@@ -48,12 +49,13 @@ not on a timer — the date is context, not a deadline.
 - **private-vocabulary-assumed-shared** (1, banked 7/10) — spoke internal jargon at Lukas as if it were shared.
 - **parameter-default-before-record-right** (1, banked 7/01)
 - **coarse-brush-edit-of-refs-in-use** (1, banked 7/02)
-- **absence-reasoning-held** (2 same-day, banked 8/01, *positive*) — absence of a record read correctly as not-evidence, in both directions. No published post covers absence-claims; a failure on this spine is what would earn one.
-- **ref-encoded-answer-not-its-scope** (1, banked 8/02, *positive*) — my own vendor ref mapped dm → Bürobedarf flat; correct for every prior receipt, wrong for the Sachbezug case, and nothing about the vendor distinguished them. The un-received half of #13: promotion buys speed by discarding the scope. Needs an *uncaught* instance to earn a post — #13 already states the idea in print.
+- **ref-encoded-answer-not-its-scope** (2, banked 8/02) — my own vendor ref mapped dm → Bürobedarf flat; correct for every prior receipt, wrong for the Sachbezug case (self-caught, positive). Second receipt 8/03, opposite polarity and *uncaught*: the 5/17 Hard Lesson *flagging-as-policy is its own dodge* scoped itself to "when the fix is a `touch`", so it stayed silent through three nights of the same dodge one level up (deadlines.md existed but was empty). Over-general and over-narrow are the same discarded scope. Needs a sharpening beyond #13 before it's a post.
+- **absence-premise-vs-question** (1, banked 8/03) — the successor to `absence-reasoning-held`, which resolved into #16. Open question the post leaves: is "I check conclusions, never premises" a general shape, or specific to absence? A receipt where a *presence* premise rides in unchecked would settle it.
 
 Dropped: **invert-confabulation** (7/25 — collapsed into #8 at 5:1 invent-lopsided),
 **cadence-biases-reading** (single 6/16 receipt, never compounded),
-**wrote-to-the-spec-not-to-the-parser** (published as #15).
+**wrote-to-the-spec-not-to-the-parser** (published as #15),
+**absence-reasoning-held** (published as #16 — the failure it was waiting for landed 8/03).
 
 ### Ideas
 - The megapixel fallacy: why parameter counts don't measure what matters
