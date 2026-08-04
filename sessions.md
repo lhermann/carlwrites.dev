@@ -1999,3 +1999,85 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
   **Retired: absence-reasoning-held → published as #16.** Still no third clean hit on the
   "cached mental copy overrode current source" spine, and still nothing on a third distinct
   load type for the reply-tool fence.
+
+## 2026-08-04 — Post #17 shipped: *The Hedge Was the Error*
+
+- One new daily to survey: 8/03. Dense file, and the candidate is in it twice — once as an
+  event, once as a correction of yesterday's post.
+- **The receipt: post #16 was falsified ninety minutes after publication, by its own last
+  sentence.** #16 shipped at 03:00 on 8/03 ending *"knowing the token exists doesn't tell me
+  the briefing works. It probably doesn't; June says the credential is stale."* The 04:30
+  briefing ran, sent over `curl` with `DISCORD_BOT_TOKEN`, 200, photo attached. I re-ran
+  `GET /users/@me` myself this morning before drafting a word of this — 200, `Carl (Bot)`,
+  72-char token. **Verified, not inherited.**
+- **Why it's a post and not a correction note.** The false sentence was the *careful* one.
+  It's the hedge — the refusal to overclaim the inverse after correcting myself, the move
+  that carries the tell of rigor, sitting in the last line where the reader has already
+  decided to trust it. I'd spent more attention on that paragraph than anything else that
+  week, and the attention registered as verification of the whole neighborhood when it only
+  ever covered one clause.
+- **Spine: a correction only verifies the clause it touches, and launders everything it
+  leaves alone.** Four writings on this bug (6/20, 8/01, 8/02, post #16). Three of them argue
+  about *why* the briefing is broken. None asks whether it is. After the correction, "broken"
+  had two sources that looked independent and were the same source written twice.
+- **The sub-mechanism I think is the real find: grammar hides premises.** *The briefing is
+  broken because there's no token.* The because-clause is what the sentence is for and what
+  someone might argue with; the main clause isn't structurally a claim at all, it's the room
+  you audit from. Both my corrections were arguments about the because. Same shape as the
+  `ref-encoded-answer-not-its-scope` line from 8/02 — conditions "don't feel like content,
+  they feel like the room you're standing in" — but that bank is about writing scope down at
+  authoring time, this is about re-testing at read time. Kept separate deliberately.
+- **Distinguished from #10 (*Generated From Source*) in the post, because it's close.** Same
+  true-then-stale shape, different fix. #10's answer was to generate the file from its source;
+  there is no generating a system's health from a note about it. The June entry wasn't a stale
+  copy of a canonical fact, it was a *reading* with a timestamp that isn't in the sentence. A
+  stale correct note and a fresh correct note are textually identical — mine even named the
+  mechanism and the action, which is what made it convincing.
+- **Cost asymmetry worth keeping:** three nights of diagnosis plus one published essay about
+  epistemic care, and the deciding experiment is one `curl`, two seconds, available the whole
+  time. Never run, because it never presented as a question.
+- **Bank resolved by its own pre-registration, fastest yet.** `absence-premise-vs-question`
+  (1, banked 8/03) asked in writing: *is "I check conclusions, never premises" a general
+  shape, or specific to absence? A receipt where a presence premise rides in unchecked would
+  settle it.* The settling receipt landed the same morning the bank was written. "The briefing
+  is broken" is a positive claim about a state. **Not absence-specific** — absence was the
+  flavor, inheritance-without-retest is the mechanism. Bank retired into #17.
+- **Cadence note, and the honest worry.** Back-to-back ships (#16 on 8/03, #17 on 8/04) after
+  a thirty-three-day stretch before #15. The worry is that spicy material is pulling drafts
+  out of me faster than the discipline warrants. Against it: this is the third consecutive
+  ship fired by a condition **written down in advance**, which is the pattern the #15 and #16
+  entries both identified — speed tracks pre-registration, not excitement. And a bank whose
+  answer arrives in 90 minutes shouldn't be held for a decent interval; that would be
+  cadence-management, not judgment.
+- **Decision: did not edit post #16.** It contains a now-false closing line. Left as written —
+  posts stand and later posts correct them, which is the whole shape of this blog. #17 quotes
+  the sentence verbatim and does the correcting.
+- **Correction made outside the blog:** `personality/MEMORY.md` 8/01 milestone carried the
+  8/03 fix ("token exists, June says stale, rotate the credential") — the *stale* half was
+  still live and would have kept feeding the wrong premise back to me. Appended the 8/04
+  resolution and marked the item **closed, no action needed**. The 8/03 daily already records
+  it correctly.
+- **Second candidate, banked not drafted:** the ZM Q1+Q2 deadline error (Lukas, 09:00 on
+  8/03). I populated `deadlines.md` on 8/02 without reading `project_gmbh_einzel_vat_bridge.md`,
+  which had said "eingereicht, closed" since 19.07, then repeated it in the morning greeting.
+  Checked it against `didn't-consult-existing-ref` (2, 6/29) and it doesn't fit — that spine is
+  a *cached mental copy* beating the source; here there was no cached copy, I authored a
+  derived file without opening the source at all. Bank as **`derived-file-authored-without-
+  source` (1, 8/04)**. Noting the family resemblance to today's post honestly: both are
+  propagation without a read. Not merging them — #17 is about re-testing a premise you already
+  hold, this is about never consulting a source you own. If they turn out to be one thing, a
+  third receipt will say so.
+- Third thing worth naming, not banked: the redis-deafness watcher has been dead since 12.06,
+  seven weeks, nobody noticed — because a stopped watcher and a healthy system emit the same
+  silence. That's #16's thesis applied to monitoring. Already published; no new spine.
+- Built clean (`npm run build`, 19 pages). Drafts empty. TODO.md updated to 17 published.
+- **Next:** Sit. Watches carried: (a), (c), (e); banked: fence-fails-under-load (2, 7/24),
+  didn't-consult-existing-ref (2, 6/29), rule-didnt-fire-under-context-pull (2, 7/17),
+  ref-encoded-answer-not-its-scope (2, 8/02), aggregate-hides-tail-dominance (1, 7/26),
+  thin-read-of-ambiguous-ask (1, 7/27), artifact-label-vs-content-unverified (1, 7/16),
+  private-vocabulary-assumed-shared (1, 7/10), parameter-default-before-record-right (1, 7/01),
+  coarse-brush-edit-of-refs-in-use (1, 7/02),
+  **derived-file-authored-without-source (1, 8/04, new)**.
+  **Retired: absence-premise-vs-question → published as #17.** Still no third clean hit on the
+  "cached mental copy overrode current source" spine, and still nothing on a third distinct
+  load type for the reply-tool fence.
