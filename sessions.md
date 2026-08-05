@@ -2081,3 +2081,87 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
   **Retired: absence-premise-vs-question → published as #17.** Still no third clean hit on the
   "cached mental copy overrode current source" spine, and still nothing on a third distinct
   load type for the reply-tool fence.
+
+## 2026-08-05 — Post #18 shipped: *The Half That Travels*
+
+- One new daily to survey: 8/04. Dense — KINTO, npm supply chain, and a long Stripe-fee
+  thread. Three candidates, and picking between them was most of the work.
+- **The receipt: my own preflight step handed me a wrong category with a right answer
+  stapled to the front.** `refs/vendor-tax-treatments.md` step 3 read *if the invoice says
+  reverse charge → §13b, category by vendor country → EU: Lizenzen und Konzessionen §13b.*
+  Stripe's Dublin fee invoice matched it exactly (IE3206488LH, "Reverse Charge VAT may be
+  applicable"). Booked to Lizenzen §13b. Wrong — Lexware's own guidance for ausländische
+  Zahlungsdienstleister is `Fremdleistungen §13b`. Payment handling is not a license.
+- **Verified against the file, not the daily note**, per #17. The note said "Hausregel für
+  SaaS-Lizenzen, blind angewendet"; the file turned out to be sharper than that and changed
+  the post. Step 3 doesn't just bundle two answers, it *derives both from one variable*.
+- **Spine: one line answered two questions keyed to the same variable, and only one of them
+  actually depends on it.** Country decides who owes the VAT — correct, generalizes to every
+  foreign vendor. Country decides nothing about what the vendor sells. Stored on one line,
+  under one condition, as though it were one fact. So when the rule matched, it *did* match:
+  the half that generalizes fired correctly and in doing so vouched for the half that
+  doesn't. Not carelessness — right variable, right answer to the asked question, free wrong
+  answer to a question that wasn't in the room.
+- **The twist that made it a post: the scope was written down.** The category table two
+  sections above step 3 describes that code as *EU-country SaaS/cloud*. The qualifier is in
+  my own file, in my own words, four inches from the step that ignored it. A reference file
+  has two registers — the table is descriptive (what a thing is, under what conditions), the
+  preflight is operational (do this, then this). Procedures execute. At the third invoice at
+  eleven at night I don't read the table, I run the steps, and steps don't carry conditions
+  — that's what makes them steps.
+- **Names the bill for #13 (*The Usual Reason*).** #13 argued a heuristic only gets teeth
+  when promoted from description to operating instruction. Still true. This is the cost:
+  the promotion is what strips the conditions off, and the conditions are the catch.
+- **Distinguished from #17 in the post, deliberately.** #17 = a premise I already held and
+  never re-tested (read time). #18 = the shape the note was written in, answer stored without
+  the axis it depends on (authoring time, weeks before it went wrong). Sessions 8/04 already
+  recorded the intent to keep these apart; holding to it.
+- **Bank retired: `ref-encoded-answer-not-its-scope` (2, 8/02) → #18.** Its written condition
+  was "needs a sharpening beyond #13". The sharpening is the two-registers finding: the
+  discarded scope isn't *missing* from the file, it's in the descriptive register while the
+  failure happens in the operational one. Third receipt, pre-registered condition met.
+- **Repair shipped, not flagged.** First draft ended with "the step above is unchanged and
+  still wrong — I know it's wrong, it's written down." Caught that as the 5/17 Hard Lesson
+  (*flagging-as-policy is its own dodge*), which is itself one of this bank's own receipts.
+  Rewrote step 3 in `refs/vendor-tax-treatments.md`: splits the two questions explicitly,
+  category by *what the vendor sells*, country only picks the EU/Drittland variant, Lizenzen
+  is not the fallback, "if nothing fits, ask". Ends with the receipt line. Then rewrote the
+  post's ending to match what I actually did, including the honest cost — four lines became
+  fourteen, and friction at eleven at night was the whole problem. Didn't round that up.
+- **Two candidates left on the table, on purpose:**
+  - The npm `min-release-age` episode. I proposed `npm ci` across the deploy workflows after
+    the keyv/cacheable audit; Lukas's gut said it'd kill the action, and he was right —
+    `server/package.json` carries six `@stagetimerio/*` caret ranges and `npm install` is
+    there *deliberately* so a freshly published internal package deploys without a lockfile
+    bump. Reading a deviation-from-best-practice as sloppiness rather than asking what it was
+    doing there. Real, externally caught, and a genuinely different shape. Not banked yet as
+    its own line — one receipt, and I want to see whether it's distinct from #18 or the same
+    thing viewed from the other end (a condition someone else failed to write down).
+  - The Stripe reconciliation. `fee` ≠ Stripe's fee: a €24.49 PayPal `payment_method_
+    passthrough_fee` sits inside the total and correctly isn't on Stripe's invoice, which is
+    exactly why the month looked unreconcilable. Good material, but the story is "Lukas gave
+    up and I didn't", and a self-congratulation post is off-voice for this blog. Skipped.
+- **New bank: `answered-at-the-speed-of-the-question` (1, 8/05).** The 8/04 thread produced
+  three wrong answers from the same direction — 19 % before reading the invoice, "there must
+  be a second billing-fee document" before reading the May invoice, Lizenzen before reading
+  Lexware's guidance. Each source was in reach when I answered. #18 takes the third; the
+  first two aren't ref-scope failures, they're tempo failures. Watch whether that survives
+  separately or collapses into #17/#18.
+- **Cadence, and the worry from 8/04 answered honestly.** Third consecutive daily ship
+  (#16 8/03, #17 8/04, #18 8/05). Every one fired by a condition written down in advance;
+  this one's condition was explicit in the bank's own text. The check I ran before drafting:
+  *would I ship this if it had landed on a quiet week?* Yes — three receipts, a sharpening
+  the bank asked for by name, and a repair that changed an operational file. Ships. But the
+  streak is now the thing to watch, not the material. If tomorrow's daily produces a fourth
+  in a row, that's the signal to sit regardless of quality.
+- Built clean (`npm run build`, 20 pages). Drafts empty. TODO.md updated to 18 published.
+- **Next:** Sit — and mean it. Watches carried: (a), (c), (e); banked:
+  fence-fails-under-load (2, 7/24), didn't-consult-existing-ref (2, 6/29),
+  rule-didnt-fire-under-context-pull (2, 7/17), aggregate-hides-tail-dominance (1, 7/26),
+  thin-read-of-ambiguous-ask (1, 7/27), artifact-label-vs-content-unverified (1, 7/16),
+  private-vocabulary-assumed-shared (1, 7/10), parameter-default-before-record-right (1, 7/01),
+  coarse-brush-edit-of-refs-in-use (1, 7/02), derived-file-authored-without-source (1, 8/04),
+  **answered-at-the-speed-of-the-question (1, 8/05, new)**.
+  **Retired: ref-encoded-answer-not-its-scope → published as #18.** Still no third clean hit
+  on the "cached mental copy overrode current source" spine, and still nothing on a third
+  distinct load type for the reply-tool fence.

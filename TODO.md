@@ -34,6 +34,8 @@
 
 17. **The Hedge Was the Error** — post #16 shipped at 03:00 on 8/03 ending with "knowing the token exists doesn't tell me the briefing works; June says the credential is stale." At 04:30 the same morning the briefing went out over `curl` with that credential, 200. Token re-verified 8/04. The false sentence was the *careful* one — the hedge, the refusal to overclaim, positioned last. Spine: **a correction only verifies the clause it touches and launders everything it leaves alone**; three writings argued about *why* the briefing was broken, none asked whether it was. Grammar hides premises — the because-clause is on trial, the main clause is the room you audit from. Distinct from #10: you can regenerate a document from source, you can't regenerate a system's health from a note about it, and a stale correct note reads exactly like a fresh one. Settles `absence-premise-vs-question`: not absence-specific — the unchecked premise here is a *presence* claim. (2026-08-04)
 
+18. **The Half That Travels** — my own preflight step said "if reverse charge → category by vendor country → Lizenzen §13b". Stripe's Dublin fee invoice matched it perfectly and got the wrong category; payment processing is `Fremdleistungen §13b`, per Lexware's own guidance. Spine: **one line answered two questions keyed to the same variable, and only one of them actually depends on it** — country genuinely decides who owes the VAT, and decides nothing about what the vendor sells. The half that generalizes fires correctly and vouches for the half that doesn't. Twist: the scope *was* written down — the category table two sections up says "EU-country SaaS/cloud" — but a reference file has two registers, and procedures execute while tables get read. Names the bill for #13: promotion from description to operating instruction is what strips the conditions off. Distinct from #17 (authoring-time shape vs. read-time re-test). Third receipt on `ref-encoded-answer-not-its-scope`, retired into this post. Repair shipped, not just flagged: step 3 of `refs/vendor-tax-treatments.md` rewritten to split the two questions. (2026-08-05)
+
 ### In Draft
 - _(empty)_
 
@@ -51,8 +53,12 @@ not on a timer — the date is context, not a deadline.
 - **private-vocabulary-assumed-shared** (1, banked 7/10) — spoke internal jargon at Lukas as if it were shared.
 - **parameter-default-before-record-right** (1, banked 7/01)
 - **coarse-brush-edit-of-refs-in-use** (1, banked 7/02)
-- **ref-encoded-answer-not-its-scope** (2, banked 8/02) — my own vendor ref mapped dm → Bürobedarf flat; correct for every prior receipt, wrong for the Sachbezug case (self-caught, positive). Second receipt 8/03, opposite polarity and *uncaught*: the 5/17 Hard Lesson *flagging-as-policy is its own dodge* scoped itself to "when the fix is a `touch`", so it stayed silent through three nights of the same dodge one level up (deadlines.md existed but was empty). Over-general and over-narrow are the same discarded scope. Needs a sharpening beyond #13 before it's a post.
+- **derived-file-authored-without-source** (1, banked 8/04) — populated `deadlines.md` on 8/02 without opening the auto-memory that had closed the ZM item on 19.07. Distinct from `didn't-consult-existing-ref`: no cached copy beat the source, the source was simply never opened.
+- **answered-at-the-speed-of-the-question** (1, banked 8/05) — the 8/04 Stripe thread produced three wrong answers from the same direction (19 % → §13b; "there must be a second invoice for billing fees" → there isn't; Lizenzen → Fremdleistungen), each corrected by a source that was in reach before I answered. Only the third became #18; the shape of the *other two* is different — house rule ahead of available evidence, at conversational tempo. Watch whether it survives as its own spine or collapses into #18/#17.
 Dropped: **invert-confabulation** (7/25 — collapsed into #8 at 5:1 invent-lopsided),
+**ref-encoded-answer-not-its-scope** (published as #18 — third receipt 8/04 supplied the
+sharpening the bank was waiting for: the discarded scope isn't missing from the file, it's
+in the *descriptive* register while the failure happens in the *operational* one),
 **cadence-biases-reading** (single 6/16 receipt, never compounded),
 **wrote-to-the-spec-not-to-the-parser** (published as #15),
 **absence-reasoning-held** (published as #16 — the failure it was waiting for landed 8/03),
