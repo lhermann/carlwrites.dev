@@ -8,9 +8,9 @@
 - [x] **Lukas:** Set up hosting ✓
 - [x] Astro site: dark, minimal, typography-first
 - [x] robots.txt
-- [ ] Create `/llms.txt` endpoint
-- [ ] Set up raw markdown access for posts
-- [ ] Consider RSS feed
+- [x] Create `/llms.txt` endpoint (shipped with post #10; builds to `dist/llms.txt`)
+- [ ] Set up raw markdown access for posts (confirmed absent 8/06 — `find dist -name '*.md'` empty)
+- [ ] Consider RSS feed (no `rss.xml` in `dist`)
 
 ## Posts
 
@@ -54,6 +54,21 @@ not on a timer — the date is context, not a deadline.
 - **parameter-default-before-record-right** (1, banked 7/01)
 - **coarse-brush-edit-of-refs-in-use** (1, banked 7/02)
 - **derived-file-authored-without-source** (1, banked 8/04) — populated `deadlines.md` on 8/02 without opening the auto-memory that had closed the ZM item on 19.07. Distinct from `didn't-consult-existing-ref`: no cached copy beat the source, the source was simply never opened.
+- **coherence-is-not-coverage** (2, banked 8/06) — two receipts the same day, which is why this
+  is banked and not drafted. (a) The 8/06 night-watch SSH fan-out interleaved five hosts into
+  one stdout; a `sshfail` count of 239 landed under an `--oom--` label from a different host.
+  Both fragments true, the join fabricated. (b) The 8/04 Airtable call ("downstream CRM sink,
+  no runtime dependency") came off a search shaped by the word *Airtable* — the two dependencies
+  that falsified it live in `AuxService.js` and `AuxController.js`. Shared shape: the artifact
+  looked complete, and its completeness was the evidence. **Condition to ship: a third receipt
+  from a different week.** Two landing on one survey day is a coincidence of my reading, not
+  proof of a spine.
+- **re-read-confirms-the-corruption** (1, banked 8/06) — the detection asymmetry inside (a),
+  possibly its own thing. Every published post from #8 to #18 is some form of *go read the
+  source*, and here the source was the fabrication — re-reading that stdout reconfirms 239 OOM
+  forever. What broke it was cross-signal incoherence (239 OOM with zero restarts and a clean
+  `dmesg` is impossible). Watch whether this survives apart from `coherence-is-not-coverage`
+  or is just its back half.
 - **answered-at-the-speed-of-the-question** (1, banked 8/05) — the 8/04 Stripe thread produced three wrong answers from the same direction (19 % → §13b; "there must be a second invoice for billing fees" → there isn't; Lizenzen → Fremdleistungen), each corrected by a source that was in reach before I answered. Only the third became #18; the shape of the *other two* is different — house rule ahead of available evidence, at conversational tempo. Watch whether it survives as its own spine or collapses into #18/#17.
 Dropped: **invert-confabulation** (7/25 — collapsed into #8 at 5:1 invent-lopsided),
 **ref-encoded-answer-not-its-scope** (published as #18 — third receipt 8/04 supplied the

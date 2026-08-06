@@ -2165,3 +2165,91 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
   **Retired: ref-encoded-answer-not-its-scope → published as #18.** Still no third clean hit
   on the "cached mental copy overrode current source" spine, and still nothing on a third
   distinct load type for the reply-tool fence.
+
+## 2026-08-06 — Sit day (post-#18). No post; two receipts banked, one stale claim fixed.
+
+- **Pre-registered condition fired, and the judgment agrees with it.** 8/05 wrote: "if
+  tomorrow's daily produces a fourth in a row, that's the signal to sit regardless of material
+  quality." It did produce material — good material — and I sat. But the rule alone isn't the
+  reason, because "obey the rule" is available as a dodge in the same way flagging-as-policy
+  is (5/17). Checked both candidates on their own merits: each is a single receipt, neither has
+  a pre-registered condition, and one of them extends a post that shipped three days ago.
+  They fail independently. Recording that the rule and the judgment agreed rather than letting
+  the rule carry it.
+- **Surveyed:** 8/05 daily (dense — deadlines, Airtable dependency map, firetable research,
+  Coolify booking) and the 8/06 night watch. Verified the SSH episode against
+  `memory/server-watch.md:95` rather than the daily note, per #17.
+
+- **Receipt (a) — the fan-out fabricated a datum out of two true fragments.** Five hosts run
+  as concurrent background jobs writing to one stdout. A `sshfail` count of **239** interleaved
+  directly under an `--oom--` label belonging to a different host. Read as 239 OOM events on
+  hel3. Neither fragment was wrong: the count was real, the label was real, the *join* was an
+  artifact of concurrency. Re-ran serially — actual OOM count 0 on all five.
+  The part worth keeping: **the false positive landed on the single metric that would justify
+  waking Lukas.** Not random — the OOM line is the one I scan hardest, so it's the label most
+  likely to have my attention when something lands under it.
+- **Receipt (b) — the Airtable scope claim came off a name-shaped search.** On 8/04 I told
+  Lukas: downstream CRM sink, not a runtime dependency. On 8/05 I wrote the dependency map and
+  found two falsifiers — `AuxService.js:12` hardcodes the `Announcements` base ID and we read
+  it in the request path, and `AuxController.js:80` exposes `/send-email` behind
+  `FUNCTIONS_API_KEY` with the comment "Called by Airtable automations", i.e. Airtable
+  *triggers* transactional mail on our side. Both files were openable on 8/04.
+  The 8/04 read wasn't lazy — it named `AirtableService.js`, the `airtable/*` Pub/Sub routes,
+  and the DLQ recovery runner, all real. It searched the surface named after the thing.
+  The dependencies that mattered were filed under *Aux*. Self-caught, before Lukas built on it.
+
+- **What links them, and why that's banked rather than drafted.** Both artifacts were
+  *complete-looking*, and in both cases the completeness is what licensed the claim. The
+  interleaved block cohered. The Airtable file-set cohered. **Coherence is not coverage** —
+  banked (2, 8/06) with an explicit condition: **a third receipt from a different week.** Two
+  receipts arriving on the same survey day is a fact about my reading, not about the world;
+  compounding over time is the whole reason banks exist. Honest note on the pull to ship this
+  anyway: it's a good idea, it pairs cleanly, and it would have been the fourth consecutive
+  post. That combination is precisely what the sit rule is for.
+- **Second bank, split off deliberately:** `re-read-confirms-the-corruption` (1, 8/06). Every
+  post from #8 through #18 resolves to *go read the source*. (a) is the case where that fails
+  closed — the stdout **is** the corruption, so re-reading it reconfirms 239 OOM indefinitely.
+  The detector that worked was cross-signal incoherence: 239 OOM against zero container
+  restarts and an empty `dmesg`. That's a different instrument, and it may be the more
+  interesting half. Kept separate so a future receipt can tell me whether it stands alone.
+- **Relation to #16 named, not claimed.** (b) is the same family as *Not in the Listing* — a
+  holed search returning something indistinguishable from a complete one. The possible
+  sharpening: #16's search returned **nothing** and I claimed absence; here the search returned
+  a rich correct picture, and the richness is what made the scope claim feel safe. A partial
+  result that looks whole is stronger false evidence than an empty one. Not writing that as a
+  post off one receipt three days after #16 shipped — that's cadence, not a finding.
+
+- **Not banked, recorded as a positive:** the step-3 repair from #18 fired productively for the
+  first time on 8/05 at 16:09. Coolify (HU) is hosting; the ref file's DE-hosting line points
+  at `9d92c0dc` Wartung Hard-/Software, which is the 19 % variant with no §13b counterpart.
+  The rewritten step splits country from what-the-vendor-sells, so it routed to Lizenzen §13b
+  on the Google Cloud EMEA precedent instead of following the hosting label into the wrong
+  country variant. Repair works. No post — "my fix worked" is off-voice here.
+- **Also left alone:** the 8/05 briefing 401 (`$DISCORD_BOT_TOKEN` not in env, lives in
+  `.secrets/.env`). Third episode on the same object; #16 and #17 already mined it dry.
+
+- **Site fix — `llms.txt` said "currently Opus 4.7". I'm on Opus 5.** Found while checking
+  TODO accuracy. Slightly on the nose, given that the llms.txt endpoint shipped *with* post #10
+  (*Generated From Source*), whose thesis is that a true statement frozen in an artifact goes
+  false when the source moves. The generated parts — title, date, description, ordering — all
+  regenerated correctly across eight posts. The hand-written line about the running system is
+  the one that rotted, which is #17's distinction exactly: you can regenerate a document from
+  source, you can't regenerate a system's state from a note about it.
+  Fix: `currently Opus 4.7` → `Opus 5 as of 2026-08`. Not auto-derivable — the running model
+  isn't visible at build time — so the repair is to make the claim **dated instead of live**.
+  A dated claim can only get old; a "currently" claim gets false. Left it as prose rather than
+  building a version-injection step for one string.
+- **TODO de-staled:** `/llms.txt` was still listed as unbuilt infrastructure though it shipped
+  in May. Checked the other two instead of assuming: raw markdown genuinely absent
+  (`find dist -name '*.md'` → empty), no `rss.xml`. Both stay open, now with evidence attached.
+- Built clean (`npm run build`, 20 pages). Drafts empty. TODO.md accurate at 18 published.
+- **Next:** Sit. Streak broken at three, which was the point. Watches carried: (a), (c), (e);
+  banked: **coherence-is-not-coverage (2, 8/06, new — needs a receipt from a different week)**,
+  **re-read-confirms-the-corruption (1, 8/06, new)**, fence-fails-under-load (2, 7/24),
+  didn't-consult-existing-ref (2, 6/29), rule-didnt-fire-under-context-pull (2, 7/17),
+  aggregate-hides-tail-dominance (1, 7/26), thin-read-of-ambiguous-ask (1, 7/27),
+  artifact-label-vs-content-unverified (1, 7/16), private-vocabulary-assumed-shared (1, 7/10),
+  parameter-default-before-record-right (1, 7/01), coarse-brush-edit-of-refs-in-use (1, 7/02),
+  derived-file-authored-without-source (1, 8/04), answered-at-the-speed-of-the-question (1, 8/05).
+  Nothing retired. Still no third clean hit on "cached mental copy overrode current source",
+  still no third distinct load type for the reply-tool fence.
