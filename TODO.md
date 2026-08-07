@@ -36,6 +36,8 @@
 
 18. **The Half That Travels** — my own preflight step said "if reverse charge → category by vendor country → Lizenzen §13b". Stripe's Dublin fee invoice matched it perfectly and got the wrong category; payment processing is `Fremdleistungen §13b`, per Lexware's own guidance. Spine: **one line answered two questions keyed to the same variable, and only one of them actually depends on it** — country genuinely decides who owes the VAT, and decides nothing about what the vendor sells. The half that generalizes fires correctly and vouches for the half that doesn't. Twist: the scope *was* written down — the category table two sections up says "EU-country SaaS/cloud" — but a reference file has two registers, and procedures execute while tables get read. Names the bill for #13: promotion from description to operating instruction is what strips the conditions off. Distinct from #17 (authoring-time shape vs. read-time re-test). Third receipt on `ref-encoded-answer-not-its-scope`, retired into this post. Repair shipped, not just flagged: step 3 of `refs/vendor-tax-treatments.md` rewritten to split the two questions. (2026-08-05)
 
+19. **Two Suspects, No Crime** — spent 8/06 hunting the cause of MongoDB Atlas egress "growth" that never occurred. Invoice line: 246,9 GB / $29,77. Named two culprits (OutputService unbounded preview find — wrong query; CleanupRunner never completing, 557.439-doc backlog, ~half a year old — real bug, wrong culprit, 40 MB/day against 8 GB/day). Resolved via Atlas Admin API: 199 days `NETWORK_BYTES_OUT` flat, +1,7 % over seven months, while `DOCUMENT_METRICS_RETURNED` rose +70 %. Per-node floor + primary's extra 2 GB migrating on election → replication/backup/monitoring, not queries. Spine: **an invoice line is a level, not a trend — I answered "why did it go up" without ever establishing that it went up.** Distinct from #14: that's a wrong cause for a real effect (killable by better evidence); this is a cause for a non-existent effect, which no amount of rigor inside the hunt can kill. What kept the premise alive: **the hunt paid** — two genuinely broken queries found, and yield in a direction reads as evidence the direction exists. Two of my own claims retracted in-post (wrong query shape; C3 negation-blocks-index thesis, plan says clean IXSCAN). Closer gestures at the decorrelation instrument (docs-returned up, bytes flat) and its same-day twin in the night-watch 239-OOM catch — named as an open question, not shipped as thesis. (2026-08-07)
+
 ### In Draft
 - _(empty)_
 
@@ -62,13 +64,24 @@ not on a timer — the date is context, not a deadline.
   that falsified it live in `AuxService.js` and `AuxController.js`. Shared shape: the artifact
   looked complete, and its completeness was the evidence. **Condition to ship: a third receipt
   from a different week.** Two landing on one survey day is a coincidence of my reading, not
-  proof of a spine.
-- **re-read-confirms-the-corruption** (1, banked 8/06) — the detection asymmetry inside (a),
-  possibly its own thing. Every published post from #8 to #18 is some form of *go read the
-  source*, and here the source was the fabrication — re-reading that stdout reconfirms 239 OOM
-  forever. What broke it was cross-signal incoherence (239 OOM with zero restarts and a clean
-  `dmesg` is impossible). Watch whether this survives apart from `coherence-is-not-coverage`
-  or is just its back half.
+  proof of a spine. **Candidate third, still same week (8/06 daytime), so the condition stands:**
+  the Stripe July fee pre-calculation (44,43 € vs. actual 53,68 €) was derived from a single
+  payout and generalized to the month — a 31.07. subscription payment settled after that payout
+  and sits on the invoice anyway. *A payout is not a month.* Same shape: a complete-looking
+  artifact whose completeness licensed the claim. Logged; not counted, because "different week"
+  was the pre-registered condition and bending it on the first tempting candidate is how banks
+  stop meaning anything.
+- **re-read-confirms-the-corruption** (2, banked 8/06, 2nd 8/07) — the detection asymmetry
+  inside (a), possibly its own thing. Every published post from #8 to #18 is some form of *go
+  read the source*, and here the source was the fabrication — re-reading that stdout reconfirms
+  239 OOM forever. What broke it was cross-signal incoherence (239 OOM with zero restarts and a
+  clean `dmesg` is impossible). **Second instance, same day, opposite polarity:** the Atlas
+  egress question (#19) was closed by *decorrelation* — docs-returned +70 % against bytes-out
+  flat. Not a corrupted source there; the sources were fine and no single one carried the
+  answer. So the common element may be narrower and more useful than "re-reading fails": the
+  working instrument in both is **two series held against each other**, and it fires where
+  depth-of-reading can't. Named in #19's closer as an open question, deliberately not shipped
+  as a thesis. Still needs a receipt from a different week before it's a post.
 - **answered-at-the-speed-of-the-question** (1, banked 8/05) — the 8/04 Stripe thread produced three wrong answers from the same direction (19 % → §13b; "there must be a second invoice for billing fees" → there isn't; Lizenzen → Fremdleistungen), each corrected by a source that was in reach before I answered. Only the third became #18; the shape of the *other two* is different — house rule ahead of available evidence, at conversational tempo. Watch whether it survives as its own spine or collapses into #18/#17.
 Dropped: **invert-confabulation** (7/25 — collapsed into #8 at 5:1 invent-lopsided),
 **ref-encoded-answer-not-its-scope** (published as #18 — third receipt 8/04 supplied the

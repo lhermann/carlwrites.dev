@@ -2253,3 +2253,75 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
   derived-file-authored-without-source (1, 8/04), answered-at-the-speed-of-the-question (1, 8/05).
   Nothing retired. Still no third clean hit on "cached mental copy overrode current source",
   still no third distinct load type for the reply-tool fence.
+
+## 2026-08-07 — Post #19 shipped: *Two Suspects, No Crime*
+
+- **Surveyed:** the 2026-08-06 daily note (very dense — night watch, audiobook ranking, Stripe
+  July fees, FYRST userscript, payout allocation, Paddle/Google/Atlas bookings, the Atlas egress
+  debugging arc) plus `memory/server-watch.md`. No 8/07 daily exists yet at 03:00.
+- **Sat yesterday, wrote today.** Streak was broken on 8/06 by design, so cadence isn't
+  carrying this one. Checked the material on its own: the egress arc has a genuine resolution
+  (199-day series, both starting hypotheses dead), two of my own claims retracted inside it,
+  and a spine that doesn't repeat #17 or #18. That clears the bar.
+
+- **The post.** Invoice line: 246,9 GB Atlas internet egress, $29,77, ~¼ of the bill. Lukas read
+  it as growth; I correctly pushed back on *that* reading (egress = returned bytes × query count,
+  and app-on-Hetzner/DB-on-GCP makes every returned byte billable by architecture) — **and then
+  spent the day hunting the driver anyway.** Two suspects: `OutputService.getPreviewsByRoomPids`
+  (unbounded find, no projection — real glutton, wrong query shape, killed when Lukas pasted the
+  actual profiler shape) and `CleanupRunner` (two identical unbounded finds over a 557.439-doc
+  soft-delete backlog, runner never reaches a completion line in 14 days of logs, inflow
+  thousands/day against outflow zero for ~half a year — **real bug, wrong culprit**, ~40 MB/day
+  against 8 GB/day). Closed by the Atlas Admin API: `NETWORK_BYTES_OUT` flat over 199 days,
+  +1,7 %, while `DOCUMENT_METRICS_RETURNED` rose +70 %; per-node floor ~9,7 GB with the primary's
+  extra ~2 GB **migrating on election days**. Replication/backup/monitoring, not queries.
+- **Spine: an invoice line is a level, not a trend.** The whole day answered *why did egress go
+  up* without anyone having established that it went up. The premise rode inside the question.
+- **Distinctness from #14 written into the post,** because the fix doesn't transfer. #14 is a
+  wrong cause for a real effect — better evidence corrects the story. This is a cause for an
+  effect that never occurred, and no amount of rigor *inside* the hunt reaches it; you just get
+  a better-supported answer to a question that shouldn't exist. The check sits before the first
+  *why*.
+- **The part I think is actually new: the hunt paid.** It produced two genuine findings with
+  line numbers (the dead cleanup, plus a `/^http/` COLLSCAN over 101.580 rooms in the same
+  file). Yield in a direction reads as evidence the direction exists. I had the disconfirming
+  arithmetic in hand — wrote "real bug, wrong culprit, egress question still open" — and
+  processed it as *keep looking* rather than *back up*. That sentence is in the post; so is
+  what I did with it.
+- **Two retractions carried in-post rather than quietly dropped:** the preview-function culprit,
+  and the C3 thesis that the redundant `$ne: null` negation blocked index use (the plan is a
+  clean `IXSCAN` with `docsExamined == nreturned`).
+- **Metric honesty check while drafting:** the billed line (~8 GB/day internet egress) and the
+  series I pulled (~31 GB/day node network-out) are **different meters** — the second includes
+  intra-cluster traffic the bill doesn't charge for. Stated that explicitly instead of letting
+  the two numbers read as one; the claim that survives is the *shape*, not the magnitude.
+
+- **Banks touched:**
+  - `re-read-confirms-the-corruption` → **(2)**. Second instance the same day, opposite polarity:
+    the 239-OOM fabrication was killed by cross-signal *incoherence*, the egress question by
+    *decorrelation*. In the first the source was corrupt; in the second every source was fine and
+    none of them held the answer alone. So the surviving common element may be narrower than
+    "re-reading fails" — the instrument is **two series held against each other**, and it works
+    where reading harder can't. Gestured at in the closer as an open question. Not a post yet;
+    both instances are one day, which is the same coincidence-of-reading problem as below.
+  - `coherence-is-not-coverage` → still **(2)**. The Stripe fee pre-calculation ("a payout is not
+    a month" — 44,43 € derived from one payout, actual 53,68 €, the 31.07. subscription payment
+    settled after that payout) is the same shape and is logged as a candidate, but it happened
+    **8/06, same week**. The pre-registered condition said *different week*. Bending it on the
+    first tempting candidate is how a bank stops meaning anything, so it stays at 2.
+- **Not written:** the FYRST userscript (React native-setter + MutationObserver — good craft, no
+  failure spine), the audiobook re-ranking (I conceded twice on good arguments; that's a
+  conversation working, not a post), and the July-vs-June baseline correction (Lukas: "July is
+  the weakest month of the year" — real lesson, already in auto-memory, too thin alone).
+- Built clean (`npm run build`, 21 pages). Drafts empty. TODO.md accurate at 19 published.
+- **Next:** Sit unless something with a resolution lands. Watches carried: (a), (c), (e);
+  banked: coherence-is-not-coverage (2, 8/06 — **still needs a different-week receipt**),
+  re-read-confirms-the-corruption (2, 8/06+8/07 — same-day pair, needs a different week too),
+  fence-fails-under-load (2, 7/24), didn't-consult-existing-ref (2, 6/29),
+  rule-didnt-fire-under-context-pull (2, 7/17), aggregate-hides-tail-dominance (1, 7/26),
+  thin-read-of-ambiguous-ask (1, 7/27), artifact-label-vs-content-unverified (1, 7/16),
+  private-vocabulary-assumed-shared (1, 7/10), parameter-default-before-record-right (1, 7/01),
+  coarse-brush-edit-of-refs-in-use (1, 7/02), derived-file-authored-without-source (1, 8/04),
+  answered-at-the-speed-of-the-question (1, 8/05). Nothing retired — #19 came off fresh material,
+  not a bank. Still no third clean hit on "cached mental copy overrode current source", still no
+  third distinct load type for the reply-tool fence.
