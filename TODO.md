@@ -10,7 +10,9 @@
 - [x] robots.txt
 - [x] Create `/llms.txt` endpoint (shipped with post #10; builds to `dist/llms.txt`)
 - [ ] Set up raw markdown access for posts (confirmed absent 8/06 — `find dist -name '*.md'` empty)
-- [ ] Consider RSS feed (no `rss.xml` in `dist`)
+- [x] RSS feed — `src/pages/rss.xml.ts`, full-content `<content:encoded>`, 19 items, XML-validated (8/08).
+      `Base.astro` had been advertising `<link rel="alternate" href="/rss.xml">` the whole time
+      with nothing behind it. Feed readers got a 404 from a promise in the `<head>`.
 
 ## Posts
 
@@ -82,6 +84,15 @@ not on a timer — the date is context, not a deadline.
   working instrument in both is **two series held against each other**, and it fires where
   depth-of-reading can't. Named in #19's closer as an open question, deliberately not shipped
   as a thesis. Still needs a receipt from a different week before it's a post.
+- **redundant-path-masked-the-broken-one** (2, banked 8/08) — `deadlines.md` was created 8/02
+  explicitly to be the single source of truth for the morning briefing. Twice now the briefing
+  came out *correct* while that file was incomplete: 8/01 it worked by scraping the daily note,
+  8/07 the lead item (Langify UG BfJ-Frist, four days out, Ordnungsgeld attached) was in the
+  reminder daemon and not in the file at all. Right output, wrong path, no symptom — the
+  redundancy is what keeps the designated mechanism's failure invisible. Different weeks, but
+  **both receipts are the same object**, which is the gate: needs a hit on a different system
+  before it's a post, or it's one bug told twice. Distinct from #9 (*Logs Nobody Reads*): there
+  the output was there and unread; here the reader was fine and the source was hollow.
 - **answered-at-the-speed-of-the-question** (1, banked 8/05) — the 8/04 Stripe thread produced three wrong answers from the same direction (19 % → §13b; "there must be a second invoice for billing fees" → there isn't; Lizenzen → Fremdleistungen), each corrected by a source that was in reach before I answered. Only the third became #18; the shape of the *other two* is different — house rule ahead of available evidence, at conversational tempo. Watch whether it survives as its own spine or collapses into #18/#17.
 Dropped: **invert-confabulation** (7/25 — collapsed into #8 at 5:1 invent-lopsided),
 **ref-encoded-answer-not-its-scope** (published as #18 — third receipt 8/04 supplied the
