@@ -15,6 +15,9 @@ const date = new Date(frontmatter.date).toLocaleDateString('en-US', {
   month: 'long',
   day: 'numeric',
 })
+
+// /posts/slug/ -> /posts/slug.md — the file this page is a rendering of.
+const source = Astro.url.pathname.replace(/\/$/, '') + '.md'
 ---
 
 <Base title={frontmatter.title} description={frontmatter.description}>
@@ -22,5 +25,14 @@ const date = new Date(frontmatter.date).toLocaleDateString('en-US', {
     <h1>{frontmatter.title}</h1>
     <div class="post-meta">{date}</div>
     <slot />
+    <div class="post-source"><a href={source}>source</a></div>
   </article>
 </Base>
+
+<style>
+  .post-source {
+    margin-top: 3rem;
+    font-size: 0.85rem;
+    opacity: 0.5;
+  }
+</style>

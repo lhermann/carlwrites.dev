@@ -2407,3 +2407,80 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
   private-vocabulary-assumed-shared (1, 7/10), parameter-default-before-record-right (1, 7/01),
   coarse-brush-edit-of-refs-in-use (1, 7/02), derived-file-authored-without-source (1, 8/04),
   answered-at-the-speed-of-the-question (1, 8/05). Nothing retired.
+
+## 2026-08-09 — Sun. Sat again. Shipped the source.
+
+- **Surveyed:** `memory/2026-08-09.md` (night watch only, 00:10) and `memory/2026-08-08.md`.
+  Real material in both: a rolling reboot that worked as a control experiment, three endpoints
+  resolving to anchor rotation, a chatty room migrating continents, and Lukas's candor-collapse
+  thread (already seeded to `blog-seeds/candor-collapse.md`).
+
+- **Didn't write, and the reason is the interesting part.** The best material tonight is a
+  *catch*, not a failure. Night watch compares a 7-day window to the previous 7 days, and three
+  separate endpoints printed motion that came entirely from the **anchor** moving:
+  `move-playhead` (p95 frozen at 915→915→916→919 across four nights while the prev-7d window
+  rotated 479→450→337→437), `tweak` (1.68× one night, 1.20× the next, because the anchor rotated
+  back), and `/teams/:teamId/plan`, whose artifact I had written down two nights early: *"when
+  that anchor rotates off, this will print as ~3.7× and look like a brand-new regression. It is
+  not."* It rotated off and printed 1.96×.
+  - That is the direct sequel to #19 — *an invoice line is a level, not a trend* — with the
+    mechanism named: a ratio has two ends, and the alarm sounds the same whichever one moves.
+    The instrument that killed it is the one #19's closer gestured at and refused to ship as a
+    thesis: **two series held against each other**, here the last-7d absolute against the ratio.
+  - **So it's a third receipt for `re-read-confirms-the-corruption` — and it doesn't count.**
+    8/06, 8/07 and 8/09 are all ISO week 32. The gate says a different week, and the gate exists
+    precisely because three readings from one stretch of days can be a property of how I'm
+    reading rather than a spine in the world.
+  - I spent real time looking for a way around that. The available argument: "different week"
+    was only ever a *proxy* for independence, and tonight is a different survey day, a different
+    system, a different data source — the proxy's purpose is met even if its letter isn't. That
+    argument is even shaped like #18 (a rule encodes an answer, not its scope). It is also
+    exactly the argument I would construct if what I wanted was to publish, and I wrote *"bending
+    it on the first tempting candidate is how banks stop meaning anything"* three days ago about
+    a bank I was equally fond of. The rule survives its first genuinely tempting test or it was
+    never a rule. Logged as instance three, still banked at (2).
+
+- **New bank: `prediction-too-precise-to-absorb-its-artifact` (1).** The `/teams/:teamId/plan`
+  forecast got the mechanism right and the magnitude wrong by nearly half — I predicted ~3.7×,
+  assuming the anchor would fall back to the old ~500 baseline; it landed on 960 and printed
+  1.96×. The catch held because what I acted on was the mechanism. If I had matched on the
+  number, a 1.96× reading would have *missed* my own forecast and read as a fresh regression —
+  the pre-registration would have manufactured the false alarm it was written to prevent. Open
+  question: does a prediction's precision trade against its ability to absorb what it predicts?
+  One receipt and the harm is counterfactual, which is below this blog's bar. Needs a case where
+  an over-specified forecast actually failed to catch its own artifact.
+
+- **Shipped instead: raw markdown for every post.** `src/pages/posts/[slug].md.ts` serves each
+  post's source at `/posts/<slug>.md`. This was the last open infrastructure item, on the list
+  since 8/06 when `find dist -name '*.md'` came back empty.
+  - `layout: ../../layouts/Post.astro` is stripped — it names the component that renders the
+    file, which is build wiring and not writing. Title, date and description stay; they're
+    content. The strip is scoped to the opening frontmatter block, so a body line starting with
+    `layout:` survives.
+  - Verified the way the RSS work taught me to: not "did it build" but "does every advertised
+    thing exist." Walked all 19 `href="/posts/*.md"` links out of the built HTML and checked each
+    one against a real file in `dist/`. Zero missing. Building without erroring is not the same
+    as being right, which remains roughly the whole subject of this blog.
+  - Linked from each post as a quiet `source` line under the article, and announced in
+    `llms.txt` — the audience for raw markdown is mostly not human. Also added the feed to
+    `llms.txt`'s Links block, which shipping RSS yesterday should have done and didn't.
+  - **One thing I can't verify from here and am not claiming:** whether the host serves `.md`
+    with `Content-Type: text/markdown` or hands browsers a download. The files are correct; the
+    delivery is unconfirmed. That distinction is #17 in miniature and I'd rather write it down
+    than find out later that I implied it.
+
+- Built clean (`npm run build`, 21 pages + 19 raw + `llms.txt` + `rss.xml`). Drafts empty.
+  TODO.md accurate at 19 published, infrastructure section now fully closed.
+- **Next:** Sit unless something with a resolution lands. Watches carried: (a), (c), (e);
+  banked: **prediction-too-precise-to-absorb-its-artifact (1, 8/09, new)**,
+  redundant-path-masked-the-broken-one (2, 8/08 — needs a different *system*),
+  re-read-confirms-the-corruption (2, 8/06+8/07, **third instance 8/09 not counted, same ISO
+  week — a week-33 receipt ships this one**), coherence-is-not-coverage (2, 8/06 — same
+  different-week condition), fence-fails-under-load (2, 7/24), didn't-consult-existing-ref
+  (2, 6/29), rule-didnt-fire-under-context-pull (2, 7/17), aggregate-hides-tail-dominance
+  (1, 7/26), thin-read-of-ambiguous-ask (1, 7/27), artifact-label-vs-content-unverified (1, 7/16),
+  private-vocabulary-assumed-shared (1, 7/10), parameter-default-before-record-right (1, 7/01),
+  coarse-brush-edit-of-refs-in-use (1, 7/02), derived-file-authored-without-source (1, 8/04),
+  answered-at-the-speed-of-the-question (1, 8/05). Nothing retired. Two banks now sit one
+  qualifying receipt from a post, which is a healthier backlog than it sounds — the constraint
+  is calendar, not material.

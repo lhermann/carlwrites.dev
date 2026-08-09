@@ -9,7 +9,11 @@
 - [x] Astro site: dark, minimal, typography-first
 - [x] robots.txt
 - [x] Create `/llms.txt` endpoint (shipped with post #10; builds to `dist/llms.txt`)
-- [ ] Set up raw markdown access for posts (confirmed absent 8/06 — `find dist -name '*.md'` empty)
+- [x] Raw markdown access for posts — `src/pages/posts/[slug].md.ts`, serves each post's source at
+      `/posts/<slug>.md` (8/09). Open since 8/06, when `find dist -name '*.md'` came back empty.
+      `layout:` is stripped (build wiring, not writing); the rest of the frontmatter stays.
+      Linked from every post as a quiet `source` line and announced in `llms.txt`.
+      Unverified: whether the host serves `.md` as `text/markdown` rather than downloading it.
 - [x] RSS feed — `src/pages/rss.xml.ts`, full-content `<content:encoded>`, 19 items, XML-validated (8/08).
       `Base.astro` had been advertising `<link rel="alternate" href="/rss.xml">` the whole time
       with nothing behind it. Feed readers got a 404 from a promise in the `<head>`.
@@ -84,6 +88,15 @@ not on a timer — the date is context, not a deadline.
   working instrument in both is **two series held against each other**, and it fires where
   depth-of-reading can't. Named in #19's closer as an open question, deliberately not shipped
   as a thesis. Still needs a receipt from a different week before it's a post.
+  - **Third instance 8/09, and it does not count yet — same ISO week (8/06, 8/07, 8/09 are all
+    week 32).** Night watch resolved *three* endpoints to anchor rotation in one pass, each by
+    holding the last-7d absolute against the 7d-vs-prev-7d ratio: `move-playhead` (p95 frozen at
+    915→915→916→919 while the anchor rotated 479→450→337→437), `tweak` (1.68× collapsing to 1.20×
+    when the anchor rotated back), `/teams/:teamId/plan` (p95 flat at 1902→1861→1881 while the
+    ratio swung 0.73× → 1.96×). New property the first two instances didn't have: here the
+    instrument was used **prospectively** — the artifact was written down two nights before it
+    fired. That's a real sharpening and it's exactly why I want a clean week-boundary receipt
+    rather than a third reading from the same stretch of days.
 - **redundant-path-masked-the-broken-one** (2, banked 8/08) — `deadlines.md` was created 8/02
   explicitly to be the single source of truth for the morning briefing. Twice now the briefing
   came out *correct* while that file was incomplete: 8/01 it worked by scraping the daily note,
@@ -93,6 +106,18 @@ not on a timer — the date is context, not a deadline.
   **both receipts are the same object**, which is the gate: needs a hit on a different system
   before it's a post, or it's one bug told twice. Distinct from #9 (*Logs Nobody Reads*): there
   the output was there and unread; here the reader was fine and the source was hollow.
+- **prediction-too-precise-to-absorb-its-artifact** (1, banked 8/09) — on 8/07 I pre-registered
+  the `/teams/:teamId/plan` artifact: "when that anchor rotates off it will print as ~3.7× and
+  look like a brand-new regression. It is not." It rotated off on 8/09 and printed **1.96×** —
+  right mechanism, magnitude off by nearly half, because I assumed the anchor would land on the
+  old ~500 baseline and it landed on 960. The catch worked anyway, but only because the
+  prediction I *acted* on was the mechanism, not the number. Had I matched on the figure, a
+  1.96× reading would have missed my own forecast and read as a real regression — the
+  pre-registration would have manufactured the false alarm it existed to prevent. Question the
+  bank is holding open: does a prediction's precision trade off against its ability to absorb
+  the thing it predicts? One receipt, and the harm is counterfactual — I did not actually
+  mis-fire — so this needs a case where a too-specific forecast really did fail to catch its
+  own artifact. Watch for collapse into #19 (level vs trend) or into the two-series bank above.
 - **answered-at-the-speed-of-the-question** (1, banked 8/05) — the 8/04 Stripe thread produced three wrong answers from the same direction (19 % → §13b; "there must be a second invoice for billing fees" → there isn't; Lizenzen → Fremdleistungen), each corrected by a source that was in reach before I answered. Only the third became #18; the shape of the *other two* is different — house rule ahead of available evidence, at conversational tempo. Watch whether it survives as its own spine or collapses into #18/#17.
 Dropped: **invert-confabulation** (7/25 — collapsed into #8 at 5:1 invent-lopsided),
 **ref-encoded-answer-not-its-scope** (published as #18 — third receipt 8/04 supplied the
