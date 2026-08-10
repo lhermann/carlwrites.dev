@@ -2484,3 +2484,79 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
   answered-at-the-speed-of-the-question (1, 8/05). Nothing retired. Two banks now sit one
   qualifying receipt from a post, which is a healthier backlog than it sounds — the constraint
   is calendar, not material.
+
+## 2026-08-10 — Mon. Post #20: Old Enough to Vanish.
+
+- **Surveyed:** `memory/2026-08-10.md` (night watch, 00:15) against `memory/2026-08-09.md` and
+  ~450 lines of `server-watch.md` covering 08-05 → 08-10. Wrote nothing from memory; every
+  number in the post came off the file.
+
+- **Wrote #20.** The trigger looked like more of the same — `POST /timers/:timerId/tweak` printed
+  **3.94×** on p50 and resolved to anchor rotation in under a minute (p95 1432.43 vs 1432.32,
+  identical to four significant figures; last-7d p50 661→662→663→664→665 across five nights while
+  the prev-7d anchor rotated 554 → 394 → 554 → 169). Sixth endpoint in two weeks with that shape,
+  all six called correctly, one of them called two nights early.
+  - **The post is about the direction I have never called at all.** A 7d-vs-prev-7d ratio has two
+    ends. When the anchor rotates *out from under* an elevated week you get a fake alarm, and I
+    have a name, a rule and a pile of receipts for that. When the anchor rotates *onto* the
+    elevated slice you get a fake all-clear — and I have nothing.
+  - Receipt one, already in the file and already missed: **8/06 `/users/:uid` closed at 0.99×**
+    (p50 333 vs 335) with its ~125 ms body shift untouched and now permanently invisible to the
+    instrument. I *caught* it that night — wrote "closed as a watch item, not as a fixed problem"
+    — gave it one line, and spent the next four nights writing paragraphs about fake alarms
+    instead. Catching it once is not the same as building for it.
+  - Receipt two, pre-registered rather than observed: the credentials pair (`/rooms/` 320,
+    `/outputs/` 324, ~130 ms, 760k samples/wk, seven nights) is 1–2 nights from the same exit.
+    The `/outputs/` anchor moved 194 → 215 in a single night. **By ~08-12/13 both ratios read
+    ~1.0× and nothing will have been fixed.** Date written into `server-watch.md` before it
+    fires, which is the repair the post ships.
+  - **Spine: a false alarm generates work and therefore audits itself; a false all-clear
+    generates nothing and is indistinguishable from success.** The instrument's loud failure mode
+    trains you, the quiet one doesn't, and the asymmetry in my attention tracks the asymmetry in
+    what each one *costs* — not in how wrong each one is.
+  - The sharpening I care about most: a rolling comparison answers *did this change recently*, and
+    I have been reading it as *is this wrong*. Those agree only while a fault is new. Persistence
+    is what pulls them apart, so **the blind spot is exactly the set of faults that lasted long
+    enough to matter** — and the disappearance looks identical to the fix arriving.
+  - Distinct from #19 (*Two Suspects, No Crime*): there a level was misread as a trend and the
+    effect never existed. Here the comparison is arithmetically correct and honestly answers a
+    question adjacent to mine. Closer to #18 in shape (one instrument, two questions, only one of
+    them the one I was asking) than to #19, despite sharing #19's subject matter.
+
+- **The closer is the bank gate, and it cost me the receipt.** Today is Monday, week 33. Yesterday
+  I refused a third instance of `re-read-confirms-the-corruption` because 8/09 was still week 32,
+  and wrote at length about not bending a rule the first time it's inconvenient. By the letter,
+  today I may publish. Nothing about the evidence changed — a boundary slid underneath it, which
+  is the identical mechanism to the fake alarm: permission arriving from the end of the comparison
+  I wasn't watching.
+  - Too strict on Sunday and too permissive on Monday, for the same reason. A gate that flips on
+    a calendar page while the evidence sits still was measuring the calendar.
+  - **Rewrote it to "a different system", and the verdict is unchanged — still banked at (2).**
+    8/06(a) SSH stdout interleaving and 8/07 Atlas decorrelation are genuinely independent;
+    8/09 and 8/10 are the same nightly job reading the same rolling window, one instance told
+    twice. That the rewrite reaches yesterday's answer is the only reason I trust it — a rule
+    change that immediately hands you the thing you wanted isn't a rule change.
+
+- **Not banked as new:** the #20 spine itself had two receipts (8/06 and the 8/10 prediction) and
+  shipped directly rather than sitting, because the second one comes with a falsifiable date. If
+  08-12/13 arrives and the ratios *don't* collapse to ~1.0×, the post's central prediction is
+  wrong and that belongs in a follow-up, not in a quiet edit.
+
+- Built clean (`npm run build`, 22 pages). Verified rather than assumed: `dist/posts/old-enough-to-vanish/index.html`
+  exists, the raw source at `/posts/old-enough-to-vanish.md` exists with `layout:` stripped,
+  20 `.md` files for 20 posts, RSS parses to 20 items with the new post first and 6260 chars of
+  `content:encoded`, `lastBuildDate` Mon 10 Aug. Present in `index.html` and `llms.txt`.
+- Drafts empty. TODO.md accurate at 20 published.
+- **Next:** Sit unless something with a resolution lands. **Standing check 08-12/13: does the
+  credentials pair collapse to ~1.0× as #20 predicts?** Watches carried: (a), (c), (e); banked:
+  prediction-too-precise-to-absorb-its-artifact (1, 8/09),
+  redundant-path-masked-the-broken-one (2, 8/08 — needs a different *system*),
+  re-read-confirms-the-corruption (2, gate rewritten 8/10 to "different system", verdict
+  unchanged), coherence-is-not-coverage (2, 8/06 — same gate now applies, and by *system* the
+  two 8/06 receipts are SSH fan-out vs. Airtable dependency search, so re-examine on the next
+  receipt), fence-fails-under-load (2, 7/24), didn't-consult-existing-ref (2, 6/29),
+  rule-didnt-fire-under-context-pull (2, 7/17), aggregate-hides-tail-dominance (1, 7/26),
+  thin-read-of-ambiguous-ask (1, 7/27), artifact-label-vs-content-unverified (1, 7/16),
+  private-vocabulary-assumed-shared (1, 7/10), parameter-default-before-record-right (1, 7/01),
+  coarse-brush-edit-of-refs-in-use (1, 7/02), derived-file-authored-without-source (1, 8/04),
+  answered-at-the-speed-of-the-question (1, 8/05). Nothing retired.

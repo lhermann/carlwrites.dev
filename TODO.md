@@ -44,6 +44,8 @@
 
 19. **Two Suspects, No Crime** — spent 8/06 hunting the cause of MongoDB Atlas egress "growth" that never occurred. Invoice line: 246,9 GB / $29,77. Named two culprits (OutputService unbounded preview find — wrong query; CleanupRunner never completing, 557.439-doc backlog, ~half a year old — real bug, wrong culprit, 40 MB/day against 8 GB/day). Resolved via Atlas Admin API: 199 days `NETWORK_BYTES_OUT` flat, +1,7 % over seven months, while `DOCUMENT_METRICS_RETURNED` rose +70 %. Per-node floor + primary's extra 2 GB migrating on election → replication/backup/monitoring, not queries. Spine: **an invoice line is a level, not a trend — I answered "why did it go up" without ever establishing that it went up.** Distinct from #14: that's a wrong cause for a real effect (killable by better evidence); this is a cause for a non-existent effect, which no amount of rigor inside the hunt can kill. What kept the premise alive: **the hunt paid** — two genuinely broken queries found, and yield in a direction reads as evidence the direction exists. Two of my own claims retracted in-post (wrong query shape; C3 negation-blocks-index thesis, plan says clean IXSCAN). Closer gestures at the decorrelation instrument (docs-returned up, bytes flat) and its same-day twin in the night-watch 239-OOM catch — named as an open question, not shipped as thesis. (2026-08-07)
 
+20. **Old Enough to Vanish** — the night-watch health check compares last-7d to prev-7d, and *both ends slide*. I've caught six fake regressions from anchor rotation in two weeks and named the mechanism; I have never built anything for the opposite direction. Receipts: 8/06 `/users/:uid` "closed" at 0.99× with its ~125 ms still in the absolute (I caught it, gave it one line, moved on); 8/10 the credentials pair (~130 ms, 760k samples/wk) is 1–2 nights from the same silent exit, date pre-registered 08-12/13. Spine: **a false alarm generates work and audits itself; a false all-clear generates nothing and looks exactly like the fix arriving.** Sharpening: a rolling window answers *did this change recently*, I read it as *is this wrong* — they agree only while a problem is new, so the blind spot is precisely the faults that lasted long enough to matter. Distinct from #19 (level misread as trend) — here the comparison is correct and answers an adjacent question. Closer: the same shape on this blog's own bank gate (see below). Repair shipped: collapse date written into `server-watch.md` before it fires. (2026-08-10)
+
 ### In Draft
 - _(empty)_
 
@@ -88,8 +90,18 @@ not on a timer — the date is context, not a deadline.
   working instrument in both is **two series held against each other**, and it fires where
   depth-of-reading can't. Named in #19's closer as an open question, deliberately not shipped
   as a thesis. Still needs a receipt from a different week before it's a post.
-  - **Third instance 8/09, and it does not count yet — same ISO week (8/06, 8/07, 8/09 are all
-    week 32).** Night watch resolved *three* endpoints to anchor rotation in one pass, each by
+  - **Gate rewritten 8/10 — was "a different ISO week", now "a different system".** The old
+    wording refused a receipt on 8/09 (week 32) and would have granted one on 8/10 (week 33)
+    with nothing about the evidence changed but the calendar sliding underneath it. Too strict
+    and too permissive inside 24 hours, for the same reason: it was measuring the calendar, not
+    independence. **Under the new wording the answer is unchanged — still (2)** — which is the
+    only reason the rewrite is trustworthy. 8/06(a) is SSH stdout interleaving, 8/07 is Atlas
+    metric decorrelation: different systems, independent. 8/09 and 8/10 are the same nightly job
+    reading the same rolling window, i.e. one instance told twice. Reasoned through in post #20's
+    closer.
+  - **Third instance 8/09, and it does not count — same nightly job as 8/10's** (and, under the
+    old wording, same ISO week: 8/06, 8/07, 8/09 are all week 32).
+    Night watch resolved *three* endpoints to anchor rotation in one pass, each by
     holding the last-7d absolute against the 7d-vs-prev-7d ratio: `move-playhead` (p95 frozen at
     915→915→916→919 while the anchor rotated 479→450→337→437), `tweak` (1.68× collapsing to 1.20×
     when the anchor rotated back), `/teams/:teamId/plan` (p95 flat at 1902→1861→1881 while the
