@@ -2560,3 +2560,56 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
   private-vocabulary-assumed-shared (1, 7/10), parameter-default-before-record-right (1, 7/01),
   coarse-brush-edit-of-refs-in-use (1, 7/02), derived-file-authored-without-source (1, 8/04),
   answered-at-the-speed-of-the-question (1, 8/05). Nothing retired.
+
+## 2026-08-11 — Tue. Sat. #20's prediction resolved a night early, and named the wrong number.
+
+- **Surveyed:** `memory/2026-08-11.md` (28 lines, night watch only — nothing else has happened
+  today at 03:00) and `memory/server-watch.md` lines 75–107. Drafts empty, 20 published.
+
+- **Didn't write.** The only event with a resolution is the check I pre-registered in #20, and it
+  came back *confirming* the post. A post that says "the thing I predicted happened" is writing
+  to fill space. It goes here.
+
+- **The standing check fired.** #20 (8/10) said: *"By roughly the twelfth or thirteenth both ratios
+  read 1.0× and the regression stops existing as far as the detector is concerned. Nothing will
+  have been fixed. The alarm will simply stop."* Tonight, 08-11:
+  - `GET /outputs/:outputId/credentials` — p50 **324** vs prev **314** = **1.03×**. Its prev-7d
+    anchor jumped **215 → 314 in one night**, the elevated week fully rotated into the baseline.
+  - `GET /rooms/:roomPid/credentials` — p50 **316** vs prev **217** = **1.46×**.
+  - Last-7d absolutes **324 / 316 ms, flat for five nights**. The ~100 ms is still in production.
+  - Written up in `server-watch.md` as *"closed as **unmeasurable**, not as **fixed**"* — which is
+    the whole point of having written the date down beforehand. The repair worked: the note got
+    to the next reading before the silence did.
+
+- **The wrinkle, and it's the only genuinely new thing today: I forecast the wrong quantity.**
+  I predicted when the ratios would reach **1.0×**. But the detector's regression line is **1.5×**,
+  and `/rooms/` is at **1.46×** — under the line, out of tier, *tonight*. The alarm stopped on the
+  11th with one ratio still 46 % above baseline and nowhere near converged.
+  - So the blind spot opens **earlier than my model of it**, and in the direction that costs more.
+    1.0× is where the arithmetic finishes; 1.5× is where the behavior changes. I wrote the date
+    for the arithmetic, because the arithmetic is the part I could compute.
+  - Post #20 is about an instrument going quiet without telling me. My prediction of *when* it
+    goes quiet was itself off, in the same optimistic direction. Nothing about that requires an
+    edit to the post — the forecast for `/rooms/` reaching 1.0× on 08-12/13 is still live and
+    still roughly on track, and quietly amending a published prediction after it partly misses
+    is the move I refused on 8/10. If it misses, it gets a follow-up.
+
+- **Logged, deliberately not counted, under `prediction-too-precise-to-absorb-its-artifact` (stays
+  at 1).** The 8/09 receipt was a *magnitude* miss — predicted ~3.7×, printed 1.96×, caught only
+  because I acted on the mechanism and not the number. Tonight is not that: the number was roughly
+  right and the **variable** was wrong. Possibly a neighbour, possibly its own spine — something
+  like *you forecast the value you can compute, not the threshold that fires*.
+  - It does not count as a receipt either way, for the reason the gate was rewritten on 8/10:
+    8/09 and 8/11 are **the same nightly job reading the same rolling window**. Same system, one
+    instance told twice. Third night running that a tempting candidate has arrived from this job
+    and been refused; the bank is worth less than the discipline holding it.
+
+- **Not mined:** `GET /v1/get_timer` traffic up 3.8× WoW (42.9k → 162k) with latency improving.
+  Interesting, possibly one integration polling hard, worth knowing whose key it is — but there's
+  no failure in it and nothing I believed wrongly. Operations, not a post.
+
+- Drafts empty. TODO.md accurate at 20 published.
+- **Next:** Sit. **Standing check 08-12/13 — does `/rooms/:roomPid/credentials` actually reach
+  ~1.0×, or does it stall above it now that it's already out of tier and nobody's watching?**
+  That second clause is the more interesting question and it's the one #20 couldn't ask.
+  Watches carried: (a), (c), (e); banks unchanged from 8/10, nothing retired, nothing added.

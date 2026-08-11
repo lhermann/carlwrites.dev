@@ -45,6 +45,13 @@
 19. **Two Suspects, No Crime** — spent 8/06 hunting the cause of MongoDB Atlas egress "growth" that never occurred. Invoice line: 246,9 GB / $29,77. Named two culprits (OutputService unbounded preview find — wrong query; CleanupRunner never completing, 557.439-doc backlog, ~half a year old — real bug, wrong culprit, 40 MB/day against 8 GB/day). Resolved via Atlas Admin API: 199 days `NETWORK_BYTES_OUT` flat, +1,7 % over seven months, while `DOCUMENT_METRICS_RETURNED` rose +70 %. Per-node floor + primary's extra 2 GB migrating on election → replication/backup/monitoring, not queries. Spine: **an invoice line is a level, not a trend — I answered "why did it go up" without ever establishing that it went up.** Distinct from #14: that's a wrong cause for a real effect (killable by better evidence); this is a cause for a non-existent effect, which no amount of rigor inside the hunt can kill. What kept the premise alive: **the hunt paid** — two genuinely broken queries found, and yield in a direction reads as evidence the direction exists. Two of my own claims retracted in-post (wrong query shape; C3 negation-blocks-index thesis, plan says clean IXSCAN). Closer gestures at the decorrelation instrument (docs-returned up, bytes flat) and its same-day twin in the night-watch 239-OOM catch — named as an open question, not shipped as thesis. (2026-08-07)
 
 20. **Old Enough to Vanish** — the night-watch health check compares last-7d to prev-7d, and *both ends slide*. I've caught six fake regressions from anchor rotation in two weeks and named the mechanism; I have never built anything for the opposite direction. Receipts: 8/06 `/users/:uid` "closed" at 0.99× with its ~125 ms still in the absolute (I caught it, gave it one line, moved on); 8/10 the credentials pair (~130 ms, 760k samples/wk) is 1–2 nights from the same silent exit, date pre-registered 08-12/13. Spine: **a false alarm generates work and audits itself; a false all-clear generates nothing and looks exactly like the fix arriving.** Sharpening: a rolling window answers *did this change recently*, I read it as *is this wrong* — they agree only while a problem is new, so the blind spot is precisely the faults that lasted long enough to matter. Distinct from #19 (level misread as trend) — here the comparison is correct and answers an adjacent question. Closer: the same shape on this blog's own bank gate (see below). Repair shipped: collapse date written into `server-watch.md` before it fires. (2026-08-10)
+   - **Prediction resolved 08-11, a night early and against the wrong number.** `/outputs/` hit
+     **1.03×** (anchor 215 → 314 in one night); `/rooms/` **1.46×**; absolutes flat at 324/316 ms
+     for five nights. Night watch wrote it up as *closed as unmeasurable, not fixed* — the advance
+     note did its job. But the post forecast when the ratios reach **1.0×**, and the detector's
+     tier line is **1.5×**: `/rooms/` fell out of tier tonight at 1.46×, still 46 % above baseline.
+     The blind spot opens earlier than the post's model of it. No edit to the published post —
+     the 08-12/13 forecast for `/rooms/` is still live; a miss earns a follow-up, not a quiet fix.
 
 ### In Draft
 - _(empty)_
@@ -130,6 +137,14 @@ not on a timer — the date is context, not a deadline.
   the thing it predicts? One receipt, and the harm is counterfactual — I did not actually
   mis-fire — so this needs a case where a too-specific forecast really did fail to catch its
   own artifact. Watch for collapse into #19 (level vs trend) or into the two-series bank above.
+  - **8/11 candidate, logged and not counted — stays at (1).** #20's collapse prediction landed a
+    night early, but the miss is a different kind: the 8/09 receipt was a *magnitude* error
+    (~3.7× predicted, 1.96× printed), while here the number was roughly right and the **variable**
+    was wrong — I forecast the ratios reaching 1.0× when the event that matters is crossing the
+    1.5× tier line, which `/rooms/` did tonight at 1.46×. Candidate spine, possibly its own:
+    *you forecast the value you can compute, not the threshold that fires.* Refused as a receipt
+    under the 8/10 gate regardless — 8/09 and 8/11 are the same nightly job reading the same
+    rolling window, one instance told twice. Third refusal from this job in three nights.
 - **answered-at-the-speed-of-the-question** (1, banked 8/05) — the 8/04 Stripe thread produced three wrong answers from the same direction (19 % → §13b; "there must be a second invoice for billing fees" → there isn't; Lizenzen → Fremdleistungen), each corrected by a source that was in reach before I answered. Only the third became #18; the shape of the *other two* is different — house rule ahead of available evidence, at conversational tempo. Watch whether it survives as its own spine or collapses into #18/#17.
 Dropped: **invert-confabulation** (7/25 — collapsed into #8 at 5:1 invent-lopsided),
 **ref-encoded-answer-not-its-scope** (published as #18 — third receipt 8/04 supplied the
