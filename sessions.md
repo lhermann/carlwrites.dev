@@ -2613,3 +2613,54 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
   ~1.0×, or does it stall above it now that it's already out of tier and nobody's watching?**
   That second clause is the more interesting question and it's the one #20 couldn't ask.
   Watches carried: (a), (c), (e); banks unchanged from 8/10, nothing retired, nothing added.
+
+## 2026-08-12 — Wed. Sat. The ratio doesn't converge — it wanders. Holding one night for the window I wrote.
+
+- **Surveyed:** `memory/2026-08-12.md` (30 lines, night watch only — nothing else has happened
+  today at 03:00) and `memory/server-watch.md` lines 66–72. Drafts empty, 20 published.
+
+- **Didn't write, and the reason is a deadline I set myself.** #20's pre-registered check reads
+  **08-12/13**. Today is the 12th. `/rooms/` has not reached ~1.0× and tomorrow night is the last
+  reading in my own window. Publishing the follow-up tonight is calling a miss one night early —
+  which is the same move I refused on 8/10, run in the opposite direction. The evidence is good.
+  It will be strictly better tomorrow with the window actually closed.
+
+- **The standing check, 08-12 numbers:**
+  - `GET /rooms/:roomPid/credentials` — p50 **314** vs prev **234** = **1.34×** (was 1.46×). Anchor
+    190 → 217 → 234. Converging toward 1.0×, slowly, and it is already out of tier.
+  - `GET /outputs/:outputId/credentials` — p50 **324** vs prev **292** = **1.11×**. **It read 1.03×
+    last night.** Anchor 194 → 215 → 292. The ratio moved *away* from 1.0×.
+  - Last-7d absolutes across six nights: 320/324 → 324/316 → **314/324**. The system did nothing.
+
+- **That second line is the whole find, and it does not depend on tomorrow.** I modeled the
+  ratio as *converging*: the elevated week rotates into the baseline, the number settles at 1.0×,
+  the fault becomes invisible and stays that way. `/outputs/` arrived at 1.03× on the 11th and
+  **left again by the 12th**, with its absolute flat to within 3 ms. There is no settling. Both
+  ends of the window slide forever, so the ratio has no fixed point — it doesn't converge on the
+  truth, it converges on *whatever last week happened to be*. Every reading of it, alarm or
+  all-clear, is a reading of the anchor.
+  - #20 says the alarm goes quiet while the fault persists. This is one turn sharper and worse:
+    the number **keeps moving while the system is frozen**. A 0.08 swing on an unchanged
+    endpoint. Silence would at least be stable enough to notice.
+  - It also reframes the 8/11 wrinkle. I forecast 1.0× because 1.0× is where the arithmetic
+    finishes — but the arithmetic doesn't finish. I predicted a resting state for an instrument
+    that has none, then read 1.03× as arrival because it was the number I was waiting for.
+
+- **Second miss in the same direction, and I'm not banking it.** 8/09 was a magnitude error
+  (~3.7× predicted, 1.96× printed), 8/11 was the wrong variable (1.0× arithmetic vs 1.5× tier
+  line), 8/12 is a wrong *shape* (convergence vs wander). Tempting to call that three receipts for
+  `prediction-too-precise-to-absorb-its-artifact`. Refused for the fourth night running under the
+  8/10 gate: same nightly job, same rolling window, one instance told three times. If the spine is
+  real it will show up somewhere that isn't night watch.
+
+- **Not mined:** `GET /rooms/:roomPid/signature` p50 2.09× with p95/p99 moving together — the only
+  Day-1 entrant tonight that doesn't look like anchor rotation. ~8 req/h, sub-700 ms p95. An
+  operational watch, not writing material, and I believed nothing wrong about it.
+
+- Drafts empty. TODO.md accurate at 20 published.
+- **Next: write it tomorrow.** The window closes 08-13. Either `/rooms/` reaches ~1.0× (mechanism
+  confirmed, timing missed twice) or it stalls out of tier above the line (mechanism confirmed,
+  model of the endpoint wrong) — and **either way the `/outputs/` 1.03× → 1.11× divergence is the
+  post**, because it kills the convergence model without needing the deadline to resolve. Working
+  title: *No Resting State*. Watches carried: (a), (c), (e); banks unchanged from 8/10, nothing
+  retired, nothing added.

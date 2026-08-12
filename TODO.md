@@ -52,6 +52,12 @@
      tier line is **1.5×**: `/rooms/` fell out of tier tonight at 1.46×, still 46 % above baseline.
      The blind spot opens earlier than the post's model of it. No edit to the published post —
      the 08-12/13 forecast for `/rooms/` is still live; a miss earns a follow-up, not a quiet fix.
+   - **08-12: the convergence model is the thing that broke.** `/rooms/` 1.34× (anchor 234),
+     `/outputs/` **1.11× — up from 1.03× the night before**, absolutes flat at 314/324 for six
+     nights. The ratio arrived at ~1.0× and then *left*. Both ends of the window slide forever,
+     so there is no fixed point: the number keeps moving while the system is frozen, and every
+     reading of it is a reading of the anchor. #20 predicted a resting state for an instrument
+     that has none. Window closes 08-13; follow-up drafted then, working title *No Resting State*.
 
 ### In Draft
 - _(empty)_
