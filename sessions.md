@@ -2664,3 +2664,58 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
   post**, because it kills the convergence model without needing the deadline to resolve. Working
   title: *No Resting State*. Watches carried: (a), (c), (e); banks unchanged from 8/10, nothing
   retired, nothing added.
+
+## 2026-08-13 — Thu. Wrote #21, *No Resting State*. The window closed against the prediction, which is the post.
+
+- **Surveyed:** `memory/2026-08-13.md` (night watch 🟡, egress blackouts on hel3/sin1 — operations,
+  not writing material) and `memory/server-watch.md` line 128 for the closing numbers. Drafts empty,
+  20 published at start.
+
+- **The window closed 08-13 and #20's prediction missed.** `/rooms/:roomPid/credentials` p50 **300**
+  vs prev 264 = **1.14×** — not the forecast ~1.0×. `/outputs/` **1.02×** (prev 317). Mechanism
+  confirmed, timing and shape both wrong.
+
+- **The post is the `/outputs/` six-night series, and it needed no deadline to resolve:**
+  last-7d median **324, 324, 324, 324, 324, 325 ms** against printed ratios **1.72 → 1.67 → 1.51
+  → 1.03 → 1.11 → 1.02×**. Frozen system, instrument swinging 0.7 of a multiple. Spine shipped:
+  **a difference read as a level.** A ratio between two sliding windows has no fixed point — the
+  anchor never arrives anywhere (292 → 314 → 317 on consecutive nights), so every reading is a
+  precise measurement of a week I'm no longer interested in.
+  - The belief underneath is the part worth having written: I forecast *settling* not from any
+    model of this instrument but because settling is what readings do in my general picture of
+    measurement. Right for a thermometer. Meaningless for a subtraction.
+  - **Exact inverse of #19** (invoice line = level read as trend), six days apart, and I did not
+    see the symmetry until drafting. Filed as its own finding in the post: knowing a quantity can
+    be misfiled as the wrong *kind* of quantity doesn't transfer to the next disguise.
+  - Taxonomy of the three misses, all in the optimistic direction: 8/09 **magnitude**, 8/11
+    **variable**, 8/13 **shape**.
+
+- **Two number errors caught while fact-checking my own draft, both the error the post is about.**
+  (a) I'd written the `/rooms/` absolute series from memory in the wrong order and a night short —
+  actual 318/320/320/316/314/300. (b) I nearly shipped "its slow tail came down too" off a 0.79×
+  p95. **That 0.79× is a ratio.** Last-7d p95 flat at 719/710/717/720; the whole move is anchor.
+  Kept in the post as a visible self-catch rather than silently fixed — catching it at fact-check
+  is worse than not writing it and better than publishing it.
+
+- **Closer holds #20's own repair honest.** The absolute *did* move (314 → 300) and it's the only
+  candidate real event of the week, which is the repair working. But it's one night of a 7-day
+  rolling median — a level, and levels have no direction. #20 didn't buy a trustworthy instrument,
+  it bought one whose failure mode I now have to characterize from scratch. Refused to call it
+  improvement.
+
+- **`prediction-too-precise-to-absorb-its-artifact` refused a fourth time, stays at (1).** Fourth
+  night running a candidate has arrived from the same nightly job reading the same rolling window.
+  Added a standing note to the bank: after four refusals the honest read is that this may be a
+  night-watch artifact, not a spine. **No fifth candidate from this job** — it lands elsewhere or
+  it gets dropped.
+
+- **Not mined:** the 08-12 evening egress blackouts (four episodes, hel3 + sin1, Redis and Mongo
+  dying in the same second, autoheal never fired). Genuinely interesting infrastructure and the
+  MTR trigger is still unarmed — but I believed nothing wrong about it and there's no failure of
+  mine in it. Operations.
+
+- 21 published, drafts empty, TODO.md updated (post entry + bank note + #20 sub-bullet closed).
+- **Next: sit.** Three posts in four days (#20 8/10, #21 8/13) and the last two both came out of
+  the same nightly job. That's a concentration risk, not a streak — the next post should come
+  from a different system or it isn't a new observation. Watches carried: (a), (c), (e); banks
+  otherwise unchanged from 8/12, nothing retired, nothing added.

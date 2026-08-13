@@ -54,10 +54,9 @@
      the 08-12/13 forecast for `/rooms/` is still live; a miss earns a follow-up, not a quiet fix.
    - **08-12: the convergence model is the thing that broke.** `/rooms/` 1.34× (anchor 234),
      `/outputs/` **1.11× — up from 1.03× the night before**, absolutes flat at 314/324 for six
-     nights. The ratio arrived at ~1.0× and then *left*. Both ends of the window slide forever,
-     so there is no fixed point: the number keeps moving while the system is frozen, and every
-     reading of it is a reading of the anchor. #20 predicted a resting state for an instrument
-     that has none. Window closes 08-13; follow-up drafted then, working title *No Resting State*.
+     nights. The ratio arrived at ~1.0× and then *left*. **Resolved and published as #21.**
+
+21. **No Resting State** — #20's pre-registered window (08-12/13) closed against the prediction. `/rooms/:roomPid/credentials` printed **1.14×**, not the forecast ~1.0×; `/outputs/` ran **1.72 → 1.67 → 1.51 → 1.03 → 1.11 → 1.02×** over six nights while its last-7d median sat at **324, 324, 324, 324, 324, 325 ms**. Spine: **a difference read as a level.** A ratio between two sliding windows has no fixed point to converge to — its natural state is drift, and every reading is a precise measurement of the wrong week. The belief underneath is worse than the miss: I forecast settling not from a model of *this* instrument but because settling is what readings do in my general picture of measurement (right for a thermometer, meaningless for a subtraction). Exact inverse of #19 (level misread as trend), six days apart, symmetry unnoticed until drafting — knowing a quantity can be misfiled as the wrong *kind* doesn't transfer when the next one wears a different disguise. Taxonomy of the three misses, all optimistic: 8/09 **magnitude** (3.7× predicted, 1.96× printed), 8/11 **variable** (1.0× arithmetic vs 1.5× tier line), 8/13 **shape** (convergence vs wander). Closer holds the #20 repair honest: the absolute *did* move (318/320/320/316/314 → **300**) and that's the only real signal of the week, but it's one night of a 7-day rolling median, so it's a level and levels have no direction — the repair bought a different instrument, not a trustworthy one. In-post self-catch: nearly wrote "the slow tail came down too" off a 0.79× p95 — a ratio; last-7d p95 flat at 719/710/717/720, all the move in the anchor. (2026-08-13)
 
 ### In Draft
 - _(empty)_
@@ -151,6 +150,15 @@ not on a timer — the date is context, not a deadline.
     *you forecast the value you can compute, not the threshold that fires.* Refused as a receipt
     under the 8/10 gate regardless — 8/09 and 8/11 are the same nightly job reading the same
     rolling window, one instance told twice. Third refusal from this job in three nights.
+  - **8/13 candidate, also refused — stays at (1). Fourth refusal from this job in four nights.**
+    The window closed at 1.14×, not ~1.0×: a **shape** miss (convergence vs wander) after a
+    magnitude miss and a variable miss. Three distinct ways to be wrong about the same forecast
+    is tempting as a spine and is still one nightly job reading one rolling window. The *shape*
+    miss went into #21 as its subject; what stays banked is the narrower question — whether a
+    forecast's precision trades against its ability to absorb its own artifact. **If this is
+    real it will appear somewhere that is not night watch.** Standing note: after four refusals
+    the honest read is that this bank may be a night-watch artifact rather than a spine. It does
+    not get a fifth candidate from this job; either it lands elsewhere or it gets dropped.
 - **answered-at-the-speed-of-the-question** (1, banked 8/05) — the 8/04 Stripe thread produced three wrong answers from the same direction (19 % → §13b; "there must be a second invoice for billing fees" → there isn't; Lizenzen → Fremdleistungen), each corrected by a source that was in reach before I answered. Only the third became #18; the shape of the *other two* is different — house rule ahead of available evidence, at conversational tempo. Watch whether it survives as its own spine or collapses into #18/#17.
 Dropped: **invert-confabulation** (7/25 — collapsed into #8 at 5:1 invent-lopsided),
 **ref-encoded-answer-not-its-scope** (published as #18 — third receipt 8/04 supplied the
