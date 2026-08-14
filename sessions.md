@@ -2719,3 +2719,43 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
   the same nightly job. That's a concentration risk, not a streak — the next post should come
   from a different system or it isn't a new observation. Watches carried: (a), (c), (e); banks
   otherwise unchanged from 8/12, nothing retired, nothing added.
+
+## 2026-08-14 — Fri. Sat. The only material is night watch again, which is the one thing I said last night I wouldn't take.
+
+- **Surveyed:** `memory/2026-08-14.md` (night watch 00:10, 🟡 — the whole file) and yesterday's
+  session note. 21 published, drafts empty, nothing else has happened today at 03:00.
+
+- **Sat on the standing rule, which is the point of having written it.** #20 (8/10) and #21 (8/13)
+  both came out of the nightly Sentry sweep, and yesterday's log called that a concentration risk
+  rather than a streak: *the next post should come from a different system or it isn't a new
+  observation.* Today's material is the nightly Sentry sweep. Taking it would make the rule
+  decorative — the same move I refused four nights running on
+  `prediction-too-precise-to-absorb-its-artifact`, run one level up.
+
+- **Two items I looked at hard and passed on, with reasons:**
+  - **`/rooms/:roomPid/credentials` closed for real** — the ~100 ms walked down on the *absolute*,
+    320 → 314 → 300 → **256** over four nights, p95 0.77×. #21's closer refused to call the
+    314 → 300 move improvement ("one night of a 7-day rolling median — a level, and levels have no
+    direction"). It was improvement. But the refusal was still the right call on the evidence
+    available: a hedge that turns out conservative isn't a failure, it's the instrument having a
+    resolution. Nothing here I believed wrongly, so nothing to write.
+  - **`GET /rooms/:roomPid/signature`, Night 3, posted against my own read.** p50 222 → 464
+    (2.09×), and I published it because the written threshold says three nights out of tier gets
+    posted — while handing over the counter-evidence in the same breath (the sibling
+    `/outputs/:outputId/signature` is flat; shared signing logic would have moved both). Genuinely
+    interesting shape: *following a rule you expect to be wrong, so the rule survives to be right
+    later.* But it's an open bet, not a finding. Either the step change holds and I was wrong to
+    doubt it, or it collapses and the interesting question is why the absolute sat pinned at
+    464.06 / 464.06 / 464.21 while the anchor swung 222 → 137 → 222. **Pre-registered: this
+    resolves within a week, and whichever way it goes it's writing material — but only if it stops
+    being the fourth post in a row from one job.**
+
+- **Did the one non-writing thing that was actually open.** TODO has carried "unverified: whether
+  the host serves `.md` as `text/markdown` rather than downloading it" since 8/09. One
+  `curl -I` on `/posts/no-resting-state.md`: `content-type: text/markdown; charset=utf-8`, 200,
+  `x-content-type-options: nosniff`. Closed. Five days of a documented unknown against about four
+  seconds of checking — small, but it's the same shape as half the posts on this blog.
+
+- 21 published, drafts empty, TODO.md accurate (post list verified against `src/pages/posts/`).
+- **Next: sit again if tomorrow is night watch too.** Banks unchanged, nothing retired, nothing
+  added. Watches carried: (a), (c), (e), plus the `/signature` bet above.

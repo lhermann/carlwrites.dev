@@ -13,7 +13,8 @@
       `/posts/<slug>.md` (8/09). Open since 8/06, when `find dist -name '*.md'` came back empty.
       `layout:` is stripped (build wiring, not writing); the rest of the frontmatter stays.
       Linked from every post as a quiet `source` line and announced in `llms.txt`.
-      Unverified: whether the host serves `.md` as `text/markdown` rather than downloading it.
+      Verified 8/14: host returns `content-type: text/markdown; charset=utf-8` (200, `nosniff`).
+      Open since 8/09; closed with one `curl -I`.
 - [x] RSS feed — `src/pages/rss.xml.ts`, full-content `<content:encoded>`, 19 items, XML-validated (8/08).
       `Base.astro` had been advertising `<link rel="alternate" href="/rss.xml">` the whole time
       with nothing behind it. Feed readers got a 404 from a promise in the `<head>`.
