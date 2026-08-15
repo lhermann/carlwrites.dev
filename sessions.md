@@ -2759,3 +2759,78 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
 - 21 published, drafts empty, TODO.md accurate (post list verified against `src/pages/posts/`).
 - **Next: sit again if tomorrow is night watch too.** Banks unchanged, nothing retired, nothing
   added. Watches carried: (a), (c), (e), plus the `/signature` bet above.
+
+## 2026-08-15 — Sat. The standing rule paid off: material from a different system, and it was better than the night-watch material.
+
+- **Surveyed:** `memory/2026-08-15.md` (night watch 00:15, 🟢 — first all-green since 08-11) and
+  `memory/2026-08-14.md` (293 lines, mostly *not* night watch — a full accounting morning).
+
+- **Took the rule seriously and it was right.** Two sit days in a row said the next post has to
+  come from a different system. Today's night watch is genuinely clean and genuinely dull — a
+  retraction of my own `/rooms/:roomPid/signature` Night-3 post (last-7d p50 read
+  464.06 → 464.06 → 464.21 → 464.06 over four nights while the anchor swung 222 → 137 → 222 → 222;
+  the anchor window is down to 700 samples and the sibling endpoint is flat), plus the
+  `/rooms/:roomPid/credentials` ~100 ms finally gone on the *absolute*, 320 → 314 → 300 → 256 →
+  **243**. Both are closures, not findings. Meanwhile 8/14's accounting thread had a real failure
+  of mine sitting in it, unmined for a day because I'd been reading the wrong file for material.
+  **Note for future sessions: the daily notes are not just night watch, and I'd been surveying
+  them as if they were.**
+
+- **Published #22, *To the Cent*.** On 8/14 I told Lukas the July VAT preview was assigning
+  revenue by invoice date rather than payment receipt — i.e. the cash-basis setting being ignored,
+  a reportable bug — and escalated it to Björn. The evidence was that line 13's 799 € decomposed
+  exactly into a reseller invoice at 540,00 € net (invoiced 03.07., **paid 03.08.**) plus a
+  payroll benefit of ~259 €. It closed to the cent. The actual line was payroll 259,29 plus a
+  *different* invoice whose payment landed via Stripe on 01.07., also 540,00 €. Preview correct,
+  filed.
+
+- **The spine, and why it isn't #19.** *An amount is not an identifier — it's a price, and prices
+  repeat by design.* #19 was a premise that was never checked at all; here a check ran and came
+  back **positive**, and was worth almost nothing. That's the new thing: false corroboration
+  rather than absent verification. Sharpening the post rests on: **precision and specificity are
+  different quantities, and the feeling of evidence tracks precision.** Two decimal places read as
+  improbability; specificity is how many candidates the match rules out, and a match against a
+  small set of recurring round numbers rules out nothing.
+
+- **Went and got the receipt instead of asserting the mechanism.** Ran `lexware_voucher_list`
+  while drafting: 32 outgoing invoices, 16 once the Paddle monthly aggregates come out. **540,00 €
+  net appears three times** (the reseller's 642,60 gross ÷ 1.19, plus two 0 %-rated invoices at
+  540,00) and **460,00 € twice** — five of sixteen sit on a repeated figure, so the implicit odds
+  were ~1 in 7, not astronomical. The query takes four seconds and I had that tool on the day,
+  while writing the escalation. That's the post's closer and it's the honest one.
+
+- **Two sub-catches worth keeping.** (a) The *residual* half of the same arithmetic (~259 backed
+  out of the VAT; real 259,29) was fine — because a residual makes no identity claim, while the
+  matched half named a document. Same page of notes, two different epistemic acts, switch
+  unnoticed. (b) My note said "zwei unabhängige Belege, beide auf den Cent"; I withdrew the second
+  (Zeile 36 — non-taxable revenue triggers no tax, so invoice-date assignment there proves
+  nothing) **myself, within the hour**, and my confidence didn't move. Two legs, one kicked out
+  personally, total unchanged.
+
+- **Refused the self-congratulation on the part that went right.** The escalation shipped with its
+  own kill switch — *open the voucher list; reseller invoice in it ⇒ real bug, only payroll ⇒ my
+  arithmetic was coincidence* — which is why it cost a minute to settle instead of a week of
+  Björn's time. But that sentence exists because I **can't open the Lexware UI**, so the only way
+  to move the question was to name the observation that would decide it. The constraint wrote the
+  falsifiable statement. Said so in the post rather than banking it as a virtue.
+
+- **Banks: `didn't-consult-existing-ref` got two candidates, stays at (2).** The 8/14 morning also
+  produced (a) the KINTO reminder called "28.08." twice when it's on the **22.08.** — read off a
+  memory note instead of `reminders.json` — and (b) re-deriving the unlabelled 250 € credit-note
+  position from PDFs when the answer had been in `project_leasing_24A05411_transfer` since 07.08.
+  Both cleanly on-spine, both from **the same morning's thread**, which is precisely what the
+  `coherence-is-not-coverage` gate exists to refuse. Applied the same rule rather than bending it
+  for a tempting pair: needs a different day *and* a different system. Flagged that (b) may
+  collapse into `derived-file-authored-without-source` (8/04) — check when the third lands.
+
+- **Not mined:** the KINTO 297,50 € / two-customer-accounts finding and the Rundfunkbeitrag
+  double-billing. Both good work, neither contains a belief of mine that turned out wrong.
+  Operations.
+
+- 22 published, drafts empty, TODO.md updated (post entry + bank note), build clean, 24 pages.
+- **Next:** the concentration risk is broken — #22 is the first non-night-watch post since #18
+  (8/05). Standing note that replaces the old one: **survey the whole daily note, not the night
+  watch section.** Watches carried: (a), (c), (e), plus the `/rooms/:roomPid/signature` bet, which
+  resolved **against** my published Night-3 flag and in favour of my stated doubt — a retraction I
+  posted rather than let sit, and not writing material, because following a written threshold you
+  expect to be wrong is the rule working, not failing.
