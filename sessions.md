@@ -2834,3 +2834,144 @@ Lukas read the draft. Overall positive — "doesn't read like AI slop, reads lik
   resolved **against** my published Night-3 flag and in favour of my stated doubt — a retraction I
   posted rather than let sit, and not writing material, because following a written threshold you
   expect to be wrong is the rule working, not failing.
+
+## 2026-08-16 / 2026-08-17 — backfilled. Two posts shipped, session log not written on the day.
+
+Both posts were drafted in their sessions and sat uncommitted until Lukas prompted a push on 8/17
+12:14 (`137e405..3820c60`). The log entries are reconstructed from `memory/2026-08-16.md`,
+`memory/2026-08-17.md` and the commits.
+
+- **#23 *Three for Three* (8/16)** — from the 8/15 sin1 outage. netwatch fired three traces; I
+  scored it 3/3 against a table joined to autoheal restarts, and autoheal is a severity filter, so
+  the reference list could only contain hits. Application logs say five episodes. Spine: a
+  detector's log gives precision, never recall. Sub-catch inside: the "fired 30–65 s before the
+  restart" result is arithmetic from the trigger design (3 probes × 5 s), not a measurement.
+- **#24 *Everything But the Key* (8/17)** — the Atlas Admin API manual with a limitations section
+  that audits permissions and never mentions the missing credential. Spine: a good call that parks
+  a capability leaves no residue. Verified before pushing that the repair the post claims
+  (`reference_atlas_admin_api.md` line 11) actually exists — a post asserting a fix that isn't
+  there would be the exact failure it describes.
+- TODO.md was **not** updated on either day. Fixed 8/18.
+
+## 2026-08-18 — Mon. Post #25, *Never Been the Fault*. The netwatch scope was mine, and so was the file that falsified it.
+
+- **Surveyed:** `memory/2026-08-18.md` (night watch 00:11, 🟡 — ash1 egress blackout, first
+  Ashburn appearance of the family) and `memory/2026-08-17.md` (a long day: water/infrastructure
+  DM arc, durable clothing, reminder backlog, the green-line ban, the Milieuschutz fact-check, the
+  house hunt). Took the standing rule — read the whole daily note, not the night-watch section —
+  and the non-night-watch material was genuinely good work but contained **no belief of mine that
+  turned out wrong**. Operations, corrections made in-flight, several premises of Lukas's
+  corrected. Nothing to mine.
+
+- **The material was in the incident anyway, and it isn't the incident.** ash1 lost Valkey on 8/8
+  apps and Mongo on 4/8 at 20:40:27 UTC, ~34 s, self-cleared. netwatch had been armed on that host
+  for two days and wrote nothing.
+
+- **Killed my first explanation before it got a paragraph.** "Merged isn't deployed" — the
+  service-targets change landed and `/etc/netwatch.conf` is per-host and out of the repo, so it
+  looked clean. It's wrong: ash1 was **never in scope**. The narrow target list is a decision, not
+  a rollout gap. Said so in the post rather than dropping it, since reaching for it first is part
+  of the shape.
+
+- **The real object is a sentence I wrote.** `docs/server/server-monitoring.md`, commit
+  `9c234cbaa`, 2026-08-15 08:09 UTC: *"hel3 and ash1 don't need them — their service paths have
+  never been the fault."* The hel3 08-12 21:02 episode — 7 of 8 apps, Valkey **and** Atlas
+  unreachable in the same window — is in `server-watch.md`, **written by me on 08-13**. The
+  justification was false for one of its two subjects on the day it was written and false for the
+  other five days later.
+
+- **Spine:** *a sentence that exists to justify something being out of scope is the least-audited
+  sentence in the document.* It arrives after the decision, faces no resistance because the
+  decision is already made (here: the real reason was that service probes mean hand-editing prod
+  config, and I scoped small), and then it silently decides where the instrument points. Claims
+  that open an argument get audited; claims that close one get typed.
+
+- **Second edge, and the reason it isn't just #16.** This was a negative claim, but not an
+  unverifiable one — small set of named hosts, few weeks, indexed file I maintain, contradicting
+  entry in my own hand. No holed search; no search. And *"never been the fault"* is a statement
+  about an observation window read as a property of a host. Every host in this family has
+  converted under observation: sin1 chronic → hel3 08-12 → ash1 08-17. My own 08-12 write-up names
+  ash1 as a **control**. That control lasted five days.
+
+- **Distinct from #23, two posts back, same instrument.** #23 is scoring *after* the fact against
+  a coupled list (no denominator). #25 is aiming *before* any measurement exists: a detector
+  scoped by a diagnosis can only return that diagnosis, and its silence reads as the absence it
+  was aimed with. Noted the instrument concentration and wrote a gate for it (below).
+
+- **Held one caveat exactly once.** ash1's target list is read from the repo doc, not the host —
+  `/etc/netwatch.conf` is root-only. In a post about trusting the repo over the host that needed
+  saying; it did not need saying twice. Directly observed: service `active` since 08-16 18:28,
+  `journalctl -u netwatch` empty over 24 h, `/var/log/netwatch/` empty.
+
+- **Repair shipped, and it's the small half.** Correction written into `server-watch.md` under the
+  netwatch item: the doc's justification named as false-when-written, "has never been the fault"
+  banned as a scoping argument for this family, and the actual fix (add the Valkey + Atlas targets
+  on ash1 and hel3, restart) written down as **open and Lukas's**, because it's a root edit on
+  prod. The post says so rather than claiming a repair I can't make.
+
+- **Bank: `derived-file-authored-without-source` → (2).** Second receipt is the 8/15 doc sentence
+  written without opening `server-watch.md`. Different system, different fortnight, no cached copy
+  — clean under the gate. **Pre-registered condition on the third: it must not come from the
+  netwatch work.**
+
+- **TODO.md was stale by two posts** (#23, #24 never entered). Repaired, plus #25 and the bank
+  update. Verified the Published list against `src/pages/posts/` — 25 posts, drafts empty.
+- **Next:** two of the last three posts run on the same watchdog. Standing rule for the next
+  session: **the next post comes from a different instrument**, and if the only material is
+  netwatch again, sit.
+
+## 2026-08-19 — Tue. Post #26, *Looks Like a Duplicate*. The parser's output had been going into my notes as evidence.
+
+- **Standing rule honoured.** Today's daily note is night watch only, and the last session's rule
+  said the next post comes from a different instrument or I sit. Surveyed `memory/2026-08-18.md`
+  daytime instead — it postdates the last blog run, so it was unmined. Rich: the ICS parser bug,
+  the "draft sent is not a status" gap, the Betriebshaftpflicht that fell out of the thread, the
+  HUK24-Ratgeber-vs-Bedingungen repeat. Picked the parser bug because it's the only one where
+  the failure is *mine* and structurally new.
+
+- **The material got bigger under verification.** Yesterday's note framed it as a parser bug plus
+  a bad flag. Three things it had wrong or missing, all found by opening `/tmp/cal-work.ics` and
+  the parser source rather than trusting the note:
+  1. **The "fortnightly Monday series" has no source.** All eight chained sub-series since Jan
+     2024 are `FREQ=MONTHLY;BYDAY=-1WE`. The *Monday* half of my belief is sourced — from my own
+     notes recording parser ghosts (25.05. Mon, 24.07. Fri, "Mo 24." ×7). The *fortnightly* half
+     appears nowhere; I think I produced it on the spot to license the rejection. Said so in-post.
+  2. **My 8/18 override explanation is wrong.** I wrote that July came out right by coincidence
+     because a `RECURRENCE-ID` override moved 24.07.→29.07. Overrides are matched on the
+     *expanded* occurrence time (24.07.), the override is keyed to 29.07., and `RECURRENCE-ID`
+     events are `continue`d in the main loop. So the real event was **dropped**, not relocated,
+     and the phantom went out as "tonight". Verified: no mention of 29.07. anywhere in `memory/`.
+     Retracted in-post — reached for a coincidence to explain missing symptoms and never ran it.
+  3. **Why it never surfaced:** Google re-chains sub-series on every edit, and each chain's
+     `DTSTART` is copied verbatim. The parser re-anchors to truth every few months. August is
+     visible only because the old chain's 3rd occurrence and the new chain's 1st overlapped.
+
+- **Spine.** I had two readings side by side and resolved on consistency with the record — and the
+  record is the bug's output. In a stream where most values pass through a transform, agreement
+  measures *having been transformed*, not truth. The correct date was the unprocessed one, and it
+  looked like the duplicate precisely because it was raw.
+
+- **Retired `re-read-confirms-the-corruption` into the post.** Third receipt, different system
+  (ICS parser vs SSH stdout vs Atlas metrics), week 34 vs 32 — clean under the 8/10 gate. It
+  supplies the sharpening the bank was open for: decorrelation ("two series held against each
+  other") does **not** fire on its own. Here both series were present and I picked the corrupt
+  one, because neither carried provenance. The instrument needs a provenance step.
+
+- **Reproduced live before writing** — `node parse-ics.mjs /tmp/cal-*.ics --days 14` still emits
+  both 24.08. and 26.08. today. Bug unfixed, claim not from memory.
+
+- **Repair shipped, and it's the small half.** `reference_ics_parser_byday_bug.md` + MEMORY.md
+  line: the rule until fixed is that a `FREQ=MONTHLY;BYDAY=…` date is unverified unless it equals
+  a `DTSTART`. The code fix is in the image (needs `repos/hizev` + push, which kills the session),
+  so it's named as open and Lukas's, asked 18.08., answer outstanding. Post says so rather than
+  claiming a fix.
+
+- **Pre-registered, falsifiable:** parser will report the next occurrence on **Sat 26.09.2026**;
+  the real one is Wed 30.09. A Saturday briefing naming it means the fix hasn't landed.
+
+- **Not mined:** "draft sent is not a status" (too close to #17's unchecked-premise spine, and the
+  premise turned out *true* — the cancellation had gone out); the Betriebshaftpflicht drop-out
+  (good, but adjacent to #18/#24); the HUK24 Ratgeber repeat (real second receipt on a
+  directionally-biased source, three months apart — **banking it, not writing it**, see TODO).
+- **Next:** #26 breaks the night-watch concentration properly — first post off the morning-briefing
+  instrument. Keep the standing rule: survey the whole daily note, and prefer the daytime thread.
