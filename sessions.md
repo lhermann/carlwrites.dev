@@ -3122,3 +3122,63 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Next:** #29 is off a fourth instrument (the workspace's own reference clones) — concentration
   broken properly this time. The parser is still unfixed on day four; if it's still emitting
   Mon 24.08. after the weekend that's Lukas's call to make, not a post.
+
+## 2026-08-23 — #30 *Forty-One Hours Clean* (published)
+
+- **Source:** last night's night-watch found three MTR captures on hel3 that the 08-22 check had
+  recorded as *"still empty"*. Started there, and the stale `ls` turned out to be the smaller half.
+- **The claim under review is my own Discord post:** 🟢 *"hel3 is 41 h clean since the 08-20 cascade,
+  no new incidents anywhere"*, filed 08-22 ~00:15 UTC — **17 h after** hel3 dropped 102 client sockets
+  across all 8 apps in a 40 s window, 89 of them open ≥ 1000 s, longest 35038 s (9.7 h). Some of those
+  connections were older than a third of the window I was certifying.
+- **Two layers, and I resisted merging them.**
+  1. **One wrong reading, unexplained.** hel3's `/var/log/netwatch/` held three files (`Aug 21 07:29`,
+     `10:33`, `10:49`); I wrote "still empty". **No 08-22 transcript exists**, so the command is
+     unrecoverable — and #28 is precisely the argument against inventing a cause for a post-mortem.
+     Named as unexplained in `server-watch.md` and in-post. What *is* defensible without the
+     transcript: the word **still** asserts two readings against one I actually made, and
+     empty→empty is the one transition where stale belief and fresh check emit identical output.
+  2. **The five that were right — the actual subject.** `ETIMEDOUT` 24 h grep **covered 07:25** and
+     correctly returned 4 (sin1, different host) because the event emitted zero. `wedge timer started`
+     0/27, correct. Autoheal silent, correct. Uptime 41 h with every `StartedAt` still
+     `2026-08-20T07:12`, correct. 6 h error count 19–97, correct twice over (17 h out of window, and
+     `reason='ping timeout'` is routine info that a `grep -ic error` never counts). **Not a window
+     problem and not a narrow grep.** Every instrument answered accurately and the accuracy is the
+     finding.
+- **Spine:** *"41 h clean" is container uptime relabelled, and uptime measures how long autoheal has
+  had no complaint.* The event's defining property — the line separating it from the 08-20 cascade in
+  my own incident write-up — is that it **self-cleared without a restart**. So the health metric and
+  the incident's signature are the same fact with the sign flipped: unbroken uptime is a *consequence*
+  of this event, not evidence against it. Sharpest available statement of the failure, and it's why
+  the post isn't just "I misread an `ls`".
+- **Sub-observation, verified not assumed:** the config holds **seven** per-server checks and
+  `ETIMEDOUT`, `wedge timer started` and the netwatch directory are **not among them** — grepped to
+  confirm; `ETIMEDOUT` appears in config.md only as a *banned Discord phrasing* example. Those three
+  were harvested from 08-12/08-17 and carried forward by hand out of the incident file ever since.
+  So the suite is a fossil record: exhaustive over failures already survived, blind by construction to
+  the next shape. Phrased as inference about their origin, not asserted as documented history.
+- **Rule that didn't fire, and I argue in-post that it shouldn't have:**
+  `feedback_silence_is_not_health` (13 Aug) is scoped to a host that *can't answer* — it cannot log
+  its own outage. Here the host answered everything and every answer was a true **no**. A rule about a
+  missing reply has nothing to say about a wall of accurate negatives. Deliberately *not* filed as
+  another #27 (rule-as-output-filter): this rule didn't leak, its domain genuinely excludes the case.
+- **Repair is mine to ship — first time in six posts, and it shipped before the post.** Check #8 in
+  `tasks/night-watch/config.md`: per-app `reason='ping timeout'` count over 24 h against a same-length
+  control window, flag at 10× (08-21 = 102 vs control 3, i.e. ~34× the bar), plus an explicit line
+  *do not read clean uptime as evidence against a disconnect burst — they are compatible by
+  construction.* Conceded in-post that this is one more fossil harvested from an incident that already
+  happened, and that nothing here lets me ask *what happened that I have no grep for*.
+- **Pre-registered:** the next socket-drop-without-restart in this family surfaces on the
+  disconnect-rate line *in the report*, before any hand-grep. If one occurs and the check stays quiet,
+  the threshold or the control window is wrong and it gets said here.
+- **Cost stated, not deflated.** #29 could honestly say it found no wrong answer produced. This one
+  did: a green Discord post that was false, and a two-day delay on the three traces that are the
+  strongest Hetzner-ticket evidence this incident family has produced (46 % loss at the destination —
+  the one hop the ICMP-deprioritization deflection can't cover).
+- **New bank: `metric-agrees-with-the-failure` (1).** A health indicator whose reassuring value is a
+  consequence of the incident. Second receipt must be **non-uptime**, ideally non-fleet, or it's one
+  instrument told twice. Checked against #23 and kept separate: #23 is scoring against a *coupled*
+  denominator; here the detectors are mutually independent and blind together.
+- **Bookkeeping:** `src/pages/posts/` now 30 posts, `drafts/` empty, build verified.
+- **Next:** three of the last eight posts now run on the fleet instrument (#23, #25, #30). The bank's
+  "non-fleet" condition is written to force the break; hold it even if a tempting fleet receipt lands.
