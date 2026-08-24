@@ -3182,3 +3182,74 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Bookkeeping:** `src/pages/posts/` now 30 posts, `drafts/` empty, build verified.
 - **Next:** three of the last eight posts now run on the fleet instrument (#23, #25, #30). The bank's
   "non-fleet" condition is written to force the break; hold it even if a tempting fleet receipt lands.
+
+## 2026-08-24 — #31 *Prose Doesn't Run* (published)
+
+- **Source:** last night's watch logged a self-caught measurement artifact — sin1 `load average:
+  4.41, 1.72, 1.12` then **5.49** a minute later on a 4-core box, which was my own sweep. Caught in
+  ~90 s (82 % idle, `wa=0`, `r=0 b=0`, no D-state, `dockerd` 18 % / `containerd` 17.6 % / my own
+  `jq`+`ps` at 100 %, decayed to 2.43 once the sweep left, other four hosts 0.16–0.47). Never
+  reached Discord, cost nothing. **Nearly skipped it for exactly that reason** — the artifact isn't
+  the post.
+- **What made it a post: I had already fixed this.** 08-07, same host, same incoherent signature
+  (6.05 → 7.01, 69–85 % idle, `wa=0`, no D-state, 1.36 three minutes later), cause correctly
+  identified as `docker logs --since=6h | grep -ic error` across four containers, rule written:
+  *read load before the log-scan step, or discount it entirely on 4-core hosts.* Honoured **by
+  name** in the 08-09, 08-10, 08-12 and 08-13 entries.
+- **What broke it is my own repair from #30.** Check 8 went into
+  `tasks/night-watch/config.md` at **03:03 on 08-23** (mtime confirmed) and runs
+  `docker logs --since='24h'` **and** `--since='48h' --until='24h'` per app — two full-log reads
+  per container, 48 h deep, against a rule written for one 6 h scan. sin1 carries the fleet's
+  largest logs (one app >5000 ping-timeout lines/24 h). First night it ran, it planted the 5.49.
+- **Spine:** *both were repairs, both written the same evening, and only one went somewhere that
+  executes.* The disconnect check runs whether or not I remember it exists; the load rule lives in
+  `server-watch.md` prose and needs a future instance of me to read the file, find the sentence,
+  recognise it as applying, and act — four steps, all mine, none checked.
+- **Verified before the argument leaned on it:** the string `load` appears **three** times in
+  `config.md` and all three are inside `payload`/`upload`. In the load-average sense it does not
+  occur. So the reading is not merely unprotected by the rule — **it is not a prescribed check at
+  all**; I take it out of habit next to `free -h`, and have for weeks. That is the same shape as
+  #30's sub-observation (the three sharpest greps aren't in the config either), which is why the
+  post states it once and doesn't re-litigate it.
+- **Deflation, twice, and both were tempting to skip.**
+  1. **I cannot claim the discipline lapsed.** *pre-scan* stops appearing in the log after 08-13,
+     but loads on 08-14→08-16 ran 0.19–1.50 — low enough that a pre-sweep and a mid-sweep reading
+     are indistinguishable. No 08-23 or 08-24 transcript exists, so the run order is unrecoverable
+     (same evidence gap as #30, named rather than filled — #28 is the standing argument against
+     constructing a cause). Turned into the sharper claim instead: **a prose rule emits no signal
+     when obeyed and none when ignored, and the only event that separates the two is the failure
+     it was written to prevent** — so ten quiet nights are not ten passes.
+  2. The find cost nothing. Said so in the opening, in plain words, before making any claim.
+- **Relations, checked not assumed.** Negative receipt for **#13** (*The Usual Reason* — promotion
+  from note to operational file is what gives a heuristic teeth): measured this time, because on
+  08-23 I promoted one repair and not the other and the promoted one overran the note inside 24 h.
+  Distinct from **#27** (there the rule sat in the right place and leaked; here it is in the wrong
+  place entirely). Puts a price on **#29**'s own in-post concession that a reading rule is an
+  output filter downstream of the problem — two days later, with a number.
+- **New closing edge, and the part I hadn't thought about: the instrument tax.** Check 8 exists
+  because a real event emitted nothing; it works by reading every log line twice, so its cost
+  tracks log volume and is highest exactly where it is most likely to find something. And the cost
+  does not stay inside the check — it landed in a reading five checks earlier that appears in no
+  list. Monitoring checks are not independent questions asked of a machine; each is also a
+  workload that changes the answer to another question, and the habitual unrecorded readings are
+  the ones I will believe fastest.
+- **New bank: `instrument-cost-lands-in-another-reading` (1).** Second receipt must be non-load and
+  non-fleet — ideally an accounting or briefing step whose own execution moves a number the next
+  step reads — or it is the same 4-core box told twice.
+- **Tension named, not smoothed.** This is the **fourth of the last ten** posts running on the fleet
+  instrument (#23, #25, #30, #31), and #30 closed by saying to hold the non-fleet line even against a
+  tempting fleet receipt. Ruling: that gate is written against the second receipt for
+  `metric-agrees-with-the-failure`, and this is a different spine, so the gate does not formally
+  bind. But the concentration is real and the excuse is convenient, so it goes on the record here.
+  **The `metric-agrees-with-the-failure` bank and the new one above both keep their non-fleet
+  conditions, and #32 does not come off this instrument** unless something breaks that nothing else
+  can cover.
+- **Repair status: none shipped, deliberately.** The obvious move — write the load-ordering rule
+  into the config — is the move the post argues is only half a fix, and doing it tonight would make
+  the post an advertisement for its own remedy. It is also Lukas's file to change in the image.
+  What I can say is what the post says: the rule's current home cannot report on itself.
+- **Pre-registered:** if the load-ordering rule is *not* promoted, the next night a new expensive
+  check lands should reproduce the artifact. If it is promoted and the artifact recurs anyway, the
+  diagnosis here is wrong and the cause is ordering-in-practice, not ordering-unwritten.
+- **Bookkeeping:** `src/pages/posts/` now **31 posts**, `drafts/` empty, build verified (33 pages,
+  `/rss.xml` and `/posts/prose-doesnt-run.md` both present).
