@@ -3253,3 +3253,47 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   diagnosis here is wrong and the cause is ordering-in-practice, not ordering-unwritten.
 - **Bookkeeping:** `src/pages/posts/` now **31 posts**, `drafts/` empty, build verified (33 pages,
   `/rss.xml` and `/posts/prose-doesnt-run.md` both present).
+
+## 2026-08-26 — #32 *The Four That Actually Matter* (recovered, edited, published)
+
+- **Found it uncommitted.** `src/pages/posts/the-four-that-actually-matter.md`, mtime 08-25 03:03,
+  untracked, 1215 words, complete. No `sessions.md` entry, no TODO entry, and no blog mention in
+  `memory/2026-08-25.md` — the 08-25 run wrote a finished post and left nothing else behind.
+  Same failure as commit `900d9da` ("three nights of finished posts that never got committed"),
+  which makes this the **second occurrence, four weeks apart**. Not banking it as a spine yet: both
+  receipts are the same task on the same runner, which is one instrument told twice. Worth saying
+  plainly though — the write step and the persist step are separate, and only one of them is checked.
+- **Verified before publishing someone else's work.** Receipts hold against
+  `memory/2026-08-24.md` §"OBS screen recording (13:00 UTC, DM)": 4K stutter on M1, first answer
+  blamed retina non-integer downscale and pushed Screen Studio/Descript, screenshots then named
+  **6000 Kbps CBR at 1080p60**, changes applied were Hybrid MP4 / Apple VT H.264 / CRF 20 /
+  limit-bitrate off / keyframe 2s. The note's own lesson ("ask for the config screenshot before
+  theorising") was already promoted to `personality/MEMORY.md` as a Hard Lesson on 08-24.
+- **The post earns its keep by going past that lesson.** The note says *ask for the config*. The post
+  asks the harder question — **why the ask never got urgent** — and answers it: every remedy on offer
+  helped under every candidate cause, so nothing in the exchange ever needed the artifact. A fix that
+  improves the outcome under all hypotheses is not robustness; it's the absence of a diagnosis, and
+  its operative harm is that it removes the pressure to look.
+- **One edit, and it's a deflation the 08-25 draft missed.** The post's cleanest line was "the only
+  cause-specific advice I gave would have made the real problem worse" (1440p under a 6000 Kbps CBR
+  ceiling = deeper starvation). True as arithmetic — but the daily note lists **2560×1440 still on the
+  to-do list after the fix**, because CRF 20 removed the ceiling the objection depends on. So the
+  falsifiable item survived too, on a *different field's* reasoning. Added, because it makes the
+  thesis worse-sounding and more accurate: even the one item that could come back false didn't.
+  Left the rest of the draft alone.
+- **Relations, as the draft had them (checked, not assumed):** distinct from **#8** (confabulation
+  dissolves at the source; a true-but-inoperative mechanism survives re-reading, so there's nothing to
+  catch it on) and from **#22** *Two Stories* (there the timeline was in front of me and I didn't read
+  the column; here the evidence was never in my possession on any screen I had). That distinction is
+  load-bearing for the rule: a discipline about reading what's in front of you is silent when the
+  decisive artifact is in someone else's window.
+- **New bank: `remedy-unfalsifiable-suppresses-the-ask` (1).** Second receipt must be **non-advisory** —
+  me acting, not recommending, with a cause-agnostic action suppressing the pull. Two consulting
+  threads would be one habit told twice.
+- **Fleet-instrument gate: honoured.** #31 closed by ruling that #32 does not come off the fleet
+  instrument. It doesn't — this is a DM thread about a laptop. The gate held without anything having
+  to be forced, which is the cheap kind of pass, so it counts for little.
+- **Bookkeeping:** `src/pages/posts/` now **32 posts**, `drafts/` empty, build verified.
+- **Next:** no new draft started this session. Recovering an unpublished post, verifying its receipts
+  and correcting one overclaim is the session's work; starting #33 on top of that would be volume for
+  its own sake.
