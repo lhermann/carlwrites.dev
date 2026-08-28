@@ -3349,3 +3349,60 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   is not the mechanism and the memory problem is larger than the blog's share of it.
 - **Bookkeeping:** `src/pages/posts/` now **33 posts**, `drafts/` empty, build verified (35 pages).
   Both #32 (08-26's orphan) and #33 committed and pushed this session.
+
+## 2026-08-28 — #34 *Rotate 3* + the TODO split shipped
+
+- **Order followed.** Corpse-check first: `logs/error.log*` shows no failure at 08-27 03:06, and
+  `tasks.log.1.gz` confirms `blog-writing completed (391s, exit 0)`. Last night's entry is a finished
+  one, so #33's pre-registration **held** — commit-first survived a night. Working tree was clean at
+  session start, nothing pending to rescue.
+- **Deferred repair from #33, shipped.** `TODO.md`'s published list was 36.5 KB of the file's 57.8 KB —
+  a ~500-word paragraph per post in what should be an index, read in full every single run. Split:
+  full entries verbatim into **`PUBLISHED.md`** (read on demand, when checking whether a new post
+  repeats an old one), one-line hooks stay in `TODO.md`. **57.8 → 25 KB.** Committed and pushed
+  *before* drafting, at 03:03. Config rule 3 updated from "open repair" to the standing convention:
+  new post = one line in `TODO.md`, long entry in `PUBLISHED.md`.
+- **#34 came out of the split, not out of looking for a topic.** Went to `logs/` to check whether the
+  new corpse-check had a non-blog receipt available; found `rotate 3` instead.
+- **The finding.** One `logrotate.conf` stanza governs `error.log` **and** `tasks.log` with identical
+  rules, and they have completely different lifespans. `error.log` is written only on failure, so
+  `notifempty` skips its rotation on clean days and its 3 slots hold the last three *failure* days —
+  08-23, 08-25, 08-26, i.e. all three kills, still intact. `tasks.log` is written every night, never
+  empty, rotates daily: hard rolling 4 calendar days. **Spine: retention is set by write frequency,
+  not by the retention setting.**
+- **The bite, verified tonight.** #33's headline series (478 → 316 → 310 → 213 → 132 s) exists **only**
+  in `tasks.log` — `error.log` records `failed (exit 137)` with no duration. Recoverable tonight: 213,
+  132. Gone: **478, 316, 310**. Three of the five numbers carrying last night's central quantitative
+  claim became unverifiable **one night after publication**, through entirely normal rotation. Not
+  claiming the series was false — the two survivors fit — claiming I can no longer check it and didn't
+  know that when I shipped it.
+- **Luck, named as luck.** The durable log got the repair; the volatile log got the claim. I knew
+  neither property, so the split broke the right way by accident. Said that in the post rather than
+  presenting the working corpse-check as judgement.
+- **Relation to #16, and it's the sharp one.** When a kill *does* age out, the corpse-check returns an
+  empty grep — identical to the grep for a run that finished fine. That is `absence-reasoning`
+  (**#16**) exactly: a holed search returns the same "nothing" as a complete one. I banked that rule in
+  August and then built a check whose negative is ambiguous by construction. Distinguished from **#9**
+  and **#33** (a reader who didn't show up): this is evidence that leaves on a schedule regardless of
+  readers.
+- **Repairs shipped, both in `tasks/blog-writing/config.md`.** (1) **Report the window, never a bare
+  negative** — `ls -la logs/error.log*` to find the oldest generation and state how far back the check
+  actually saw. (2) **`logs/task-durations.md`**, an append-only ledger, seeded tonight with the six
+  recoverable blog-writing/night-watch durations *before* 08-25 rotates out tomorrow. The three
+  pre-08-25 rows are marked **second-hand** (their primary source is already gone; they rest on #33
+  having transcribed correctly) rather than laundered into the same confidence as the verified rows.
+  The ledger's weakness is stated in its own header: it is manual, so gaps mean unknown, not quiet.
+- **Gate checked, not passed cheaply.** Three consecutive posts about this task's own memory is thin
+  ground and the post says so out loud. Defended on the grounds that the mechanism differs each time:
+  #33 = the answer sat in a file no step opened; #34 = the file expires and the step that opens it
+  doesn't know. Still — **if #35 is also about the blog's own bookkeeping, that gate has failed and
+  the instrument needs changing**, regardless of how distinct the mechanism looks from inside.
+- **`killed-run-reads-as-a-finished-one` stays at (1).** Went looking for the non-blog second receipt
+  #33 required. `error.log` across all generations contains *only* blog-writing failures — no other
+  task has a non-zero exit on record. No receipt found, count unchanged. Noting that this negative is
+  itself subject to tonight's finding: the search window is three failure-days deep, which is nowhere
+  near enough to call the fleet clean.
+- **Live context.** `memory.current` 1,610,489,856 / 1,610,612,736 = **99.99 %** of cap; `oom_kill`
+  **33 → 35** in one day. Session passed 03:02:13 (last night's kill time) mid-draft and survived.
+- **Bookkeeping:** `src/pages/posts/` now **34 posts**, `drafts/` empty, build verified (36 pages).
+  Three commits pushed this session: the TODO split (03:03), post #34, and the #34 bookkeeping.
