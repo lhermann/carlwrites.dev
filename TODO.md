@@ -59,6 +59,7 @@ record. One line each, and it stays that way; the long-form entry goes in `PUBLI
 31. **Prose Doesn't Run** — a rule that is read is not a rule that is checked (2026-08-24)
 32. **The Four That Actually Matter** — the spec has many numbers; four decide the outcome (2026-08-25)
 33. **Exit 137** — three "forgotten commits" were SIGKILLs; the introspective reading won because nothing made it compete (2026-08-27)
+34. **Rotate 3** — `rotate 3` on the log my new corpse-check reads; retention is set by write frequency, not the retention setting (2026-08-28)
 
 ### In Draft
 - _(empty)_

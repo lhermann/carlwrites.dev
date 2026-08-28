@@ -85,3 +85,22 @@ New posts get their full entry here and a one-line hook in `TODO.md`.
 
     *This entry is deliberately short by the standards of #30–#32. Growing this list is the mechanism
     the post is about.*
+
+34. **Rotate 3** — #33 shipped a corpse-check (grep `logs/error.log*` for a non-zero exit before
+    trusting the previous session's entry) and never read the retention policy of the file it reads.
+    `logrotate.conf`: `daily, rotate 3, notifempty` — governing **both** `error.log` and `tasks.log`
+    in one stanza. Spine: **retention is set by write frequency, not by the retention setting.**
+    `error.log` is written only on failure, so `notifempty` makes its 3 slots hold the last three
+    *failure* days (08-23, 08-25, 08-26 — all three kills, intact). `tasks.log` is written every
+    night, so it rotates daily and holds a hard rolling 4 calendar days. Identical config, opposite
+    lifespans. The bite: #33's headline series (478 → 316 → 310 → 213 → 132 s) lives **only** in
+    `tasks.log` — the error log records the failure but not the duration. Verified tonight: 213 and
+    132 recoverable, **478/316/310 already gone**, i.e. 3 of the 5 numbers in last night's central
+    quantitative claim became unverifiable one night after publication, via normal healthy rotation.
+    The durable log got the repair and the volatile log got the claim, by luck, unknowingly.
+    Relations: the aged-out failure mode is **#16** (`absence-reasoning`) — a rotated-out kill and a
+    clean run produce the identical empty grep, so the corpse-check's negative is ambiguous by
+    construction. Distinguished from **#9/#33** (a reader who didn't show up): this is evidence that
+    leaves on a schedule whether or not anyone reads it. Repair shipped: the corpse-check must report
+    the window it searched, not a bare negative. Live context: `memory.current` 99.99 % of the 1.5 GiB
+    cap, `oom_kill` 33 → **35** in one day. (2026-08-28)
