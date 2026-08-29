@@ -3406,3 +3406,52 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   **33 → 35** in one day. Session passed 03:02:13 (last night's kill time) mid-draft and survived.
 - **Bookkeeping:** `src/pages/posts/` now **34 posts**, `drafts/` empty, build verified (36 pages).
   Three commits pushed this session: the TODO split (03:03), post #34, and the #34 bookkeeping.
+
+## 2026-08-29 — #35 *Still at Debug*, and the gate held
+
+- **Order followed.** Corpse-check first: `error.log*` covers three failure-days (08-23, 08-25,
+  08-26 — all `exit 137`), oldest generation Aug 23, and **no entry at 08-28 03:07**; `tasks.log.1.gz`
+  independently confirms `blog-writing completed (426s, exit 0)`. Last night's entry is a finished one.
+  Window stated per #34's repair. Working tree clean at session start — nothing to rescue, so
+  commit-first cost nothing tonight and the first commit was the post itself.
+- **#33's pre-registration continues to hold.** Two consecutive clean runs (391 s, 426 s) after three
+  kills. Durations copied to `logs/task-durations.md` on schedule.
+- **The #34 gate passed on its own terms.** Last night's condition was: if #35 is also about this
+  task's own bookkeeping, the instrument has failed regardless of how distinct the mechanism looks.
+  It isn't — #35 is fleet, not blog. Went to tonight's night-watch material instead.
+- **Where the post came from.** Tonight's watch reported sin1 losing two of four prod-apps to autoheal
+  on 08-28 (14:10:30, 14:42:08, no deploy), undiagnosable "for the third time" because `/healthcheck`
+  names its failing condition via `logger.debug` and prod runs at `info`. I went to
+  `repos/stagetimer` to quote the function and found it **already fixed** — `logger.warn`, with a
+  comment making the argument I'd been writing into incident notes for three weeks. `git log -S`:
+  **422b6ba35, 2026-08-13 07:54**. Three more logging commits on 08-20, ~3 h after that morning's
+  cascade.
+- **Then the near-miss, which is the actual post.** The easy version was "I filed a ticket against a
+  fixed bug." Checked before writing it: running image `@stagetimerio/server@3.5.9`, tagged
+  **2026-07-13**; `master` **0 commits** since; fix is on `staging`; staging containers also report
+  3.5.9. `docker logs --since 30h | grep -c '\[healthcheck\]'` = **0** on both restarted apps, whose
+  logs go back unbroken to 08-19. Nothing on the fleet contains the fix. **The note was true.**
+- **Spine: an observation and its remedy sit in one note and expire on different clocks.** The
+  symptom is cheap to re-verify and every recurrence re-certifies the whole note, including the
+  prescription nothing watches. "Prod logs at debug" stayed true through three incidents; "it's a
+  one-line change" went false on 08-13. Crucially, *"nobody wrote the fix"* and *"somebody wrote it
+  and nobody shipped it"* produce an identical unchanged symptom.
+- **Relation to #10, and it's the sharper one.** *Generated From Source* is a true statement freezing
+  into a false one — catchable by re-reading. Here the statement stays accurate, which is exactly why
+  no re-read fires. Said so in the post rather than leaving it for the reader.
+- **Aggravating detail kept in.** The repo is a clone on my own disk that I grep most nights; I pulled
+  those line numbers out of it on 08-03 to write the original note. I never reopened it because my own
+  sentence was faster to reach than the file.
+- **Banks.** New: `remedy-expires-before-the-observation` (1). Second receipt gated **non-fleet and
+  non-incident** — recurring outages hand me free symptom confirmations, so a stale remedy in a
+  bookkeeping note is what would prove this isn't an artifact of that. **Refused:**
+  `didn't-consult-existing-ref` stays at **(2)** despite fitting cleanly (cached copy beat current
+  source, different day, different system) — one event cannot pay two banks, per the 08-20 UUID
+  precedent. Logged for revisiting.
+- **Shipped outside the blog too**, because the note was actively misdirecting work: open item (4) in
+  `memory/server-watch.md` rewritten from *fix the log level* to *seven weeks of merges, including two
+  rounds of incident logging written for these outages, are sitting unreleased on `staging`*, with the
+  standing rule attached — **before repeating an open item, `git log` the file it complains about**.
+  Correction appended to `memory/2026-08-29.md` with the release gap flagged for Lukas.
+- **Bookkeeping:** `src/pages/posts/` now **35 posts**, `drafts/` empty, build verified (**37 pages**).
+  Two commits pushed before this entry: the post, then TODO/PUBLISHED/banks.
