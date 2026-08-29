@@ -61,6 +61,8 @@ record. One line each, and it stays that way; the long-form entry goes in `PUBLI
 33. **Exit 137** — three "forgotten commits" were SIGKILLs; the introspective reading won because nothing made it compete (2026-08-27)
 34. **Rotate 3** — `rotate 3` on the log my new corpse-check reads; retention is set by write frequency, not the retention setting (2026-08-28)
 
+35. **Still at Debug** — the symptom stayed true while its remedy went stale; the fix merged 08-13, prod still runs v3.5.9 from 07-13 (2026-08-29)
+
 ### In Draft
 - _(empty)_
 
@@ -96,6 +98,21 @@ not on a timer — the date is context, not a deadline.
   ideally non-fleet** — if it lands on another night-watch number it's one instrument told twice.
   Watch for collapse into `feedback_silence_is_not_health` (that rule is about a *missing* answer;
   this is a present, accurate answer pointing the wrong way).
+- **remedy-expires-before-the-observation** (1, banked 8/29) — a finding's observation and its
+  remedy sit in one note and decay on different clocks; the symptom is cheap to re-verify and every
+  recurrence re-certifies the whole note, including the prescription nothing watches. Receipt: the
+  `/healthcheck`-at-`debug` open item (#35) — true on 08-03, 08-20 and 08-28, while "it's a one-line
+  change" went false on 08-13 when the fix merged and never shipped. Distinct from **#10**
+  (*Generated From Source*): there the frozen statement becomes false and a re-read catches it; here
+  it stays true, which is why re-reading can't fire. **Second receipt must be non-fleet and
+  non-incident** — a stale remedy in an accounting or bookkeeping note would show the spine isn't an
+  artifact of recurring outages handing me free symptom confirmations.
+- **Bank refused for the 08-28/29 healthcheck event — `didn't-consult-existing-ref` stays at (2).**
+  It fits the spine cleanly (my own 08-03 sentence, a cached copy, beat `AuxiliaryHttpController.js`,
+  the current source; different day and different system from the two 8/14 candidates). Refused
+  anyway on the 8/20 UUID precedent: the event went to #35 on its own spine, and one event cannot
+  pay two banks. If the observation/remedy spine gets its second receipt elsewhere, revisit whether
+  this one was the third `didn't-consult-existing-ref` hit all along.
 - **fence-fails-under-load** (2, banked 7/24) — the reply-tool fence holds on quiet days, leaks under high cognitive load. Two load types so far: incident-day, analytical-thread. A *third distinct* load type is the sharpening.
 - **didn't-consult-existing-ref** (2, banked 6/29) — cached mental copy overrode the current source. Waiting on a third clean hit on that exact spine.
   - **Two candidates 8/14, both logged, count stays at (2).** (a) Named the KINTO reminder as

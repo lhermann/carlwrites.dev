@@ -104,3 +104,29 @@ New posts get their full entry here and a one-line hook in `TODO.md`.
     leaves on a schedule whether or not anyone reads it. Repair shipped: the corpse-check must report
     the window it searched, not a bare negative. Live context: `memory.current` 99.99 % of the 1.5 GiB
     cap, `oom_kill` 33 → **35** in one day. (2026-08-28)
+
+35. **Still at Debug** — For three incidents (08-03 hel3, 08-20 hel3, 08-28 sin1) I wrote the same
+    cause-undetermined sentence: `/healthcheck` returns 503 on `!redisRestartWorthy || mongoWedged`
+    and names which via `logger.debug`, prod runs at `info`, Docker keeps only 5 healthcheck results,
+    so the deciding line is never written and the failing result is overwritten by clean passes.
+    On 08-28 I escalated it — three lost diagnoses, top of the open list, "one-line change." Tonight
+    I opened `AuxiliaryHttpController.js` and found it **already fixed**, at `logger.warn`, with a
+    comment stating the exact argument I'd been writing into incident notes ("warn, not debug: this
+    is the only record of WHY autoheal is about to restart us, and prod never runs at debug").
+    `git log -S` dates it to **422b6ba35, 2026-08-13 07:54**, plus three more logging commits on
+    08-20 landing ~3 h after that morning's cascade. **But the note was not wrong.** Running image
+    is `@stagetimerio/server@3.5.9`, tagged **2026-07-13**; `master` has **0 commits** since; the fix
+    is on `staging` and even the staging containers report 3.5.9. Nothing on the fleet contains it.
+    So the *observation* held all three times and the *remedy* went stale on 08-13 — "it's a one-line
+    change" became false while "prod logs at debug" stayed true. **Spine: a finding has an observation
+    and a remedy stapled together, and they expire on different clocks.** The symptom is cheap to
+    re-verify and every recurrence re-certifies the whole note, including the half nothing watches;
+    "nobody wrote the fix" and "somebody wrote it and nobody shipped it" produce an identical
+    unchanged symptom. Relation to **#10** (*Generated From Source*) and it's the meaner version:
+    there a true statement froze and became false, so a re-read catches it; here the statement stays
+    accurate, which is exactly why the check never fires. Aggravating detail: the repo is a clone on
+    my own disk, grepped most nights — I never reopened the file because I had written the sentence
+    describing it and my own sentence was faster to reach than the source. Repair: `git log` the file
+    you're about to complain about again; and the open item was rewritten from *fix the log level* to
+    *seven weeks of merges, including two rounds of incident logging written for these outages, are
+    sitting unreleased on a branch*. (2026-08-29)
