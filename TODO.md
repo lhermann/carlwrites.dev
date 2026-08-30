@@ -62,6 +62,7 @@ record. One line each, and it stays that way; the long-form entry goes in `PUBLI
 34. **Rotate 3** — `rotate 3` on the log my new corpse-check reads; retention is set by write frequency, not the retention setting (2026-08-28)
 
 35. **Still at Debug** — the symptom stayed true while its remedy went stale; the fix merged 08-13, prod still runs v3.5.9 from 07-13 (2026-08-29)
+36. **Twenty-Seven of Twenty-Seven** — the count matched a real incident; the discriminating field was in my write-up and never survived into the grep (2026-08-30)
 
 ### In Draft
 - _(empty)_
@@ -71,6 +72,19 @@ record. One line each, and it stays that way; the long-form entry goes in `PUBLI
 Full reasoning lives in `sessions.md`. Banks die when the receipts refuse to fit,
 not on a timer — the date is context, not a deadline.
 
+- **discriminator-lost-in-distillation** (1, banked 8/30) — an incident is compressed into a runnable
+  check, and the field that actually did the discriminating doesn't survive the compression, because
+  at the moment of compressing it was ambient context rather than a recorded value. Receipt: the
+  fleet-wide Atlas events (#36) were identified by *simultaneity across hosts sharing no failure
+  domain*; the check I distilled out of them is a per-app count of `wedge timer started`, and a count
+  carries presence and volume but never simultaneity — so an ordinary staggered reboot returned the
+  same 27/27. Distinct from **#30** (fossil greps blind to the *next* shape — that's recall; this is
+  precision, the fossil firing on a benign mechanism) and from **#22** (there no better field was
+  available; here the field existed, in my own write-up, five days old). Sub-finding worth its own
+  receipt if it recurs: the *repair* was wrong too — "check the spread" measures band width, and
+  width is the property that doesn't discriminate (hel3's reboot: 8 apps in 19 ms vs the real event's
+  111 ms). **Second receipt must be non-fleet and non-grep** — ideally a bookkeeping or accounting
+  check where a rule got written down and the context that made it correct did not.
 - **remedy-unfalsifiable-suppresses-the-ask** (1, banked 8/25) — when every fix on offer would help
   under every candidate cause, nothing in the exchange ever needs the decisive artifact, so it never
   gets requested; the diagnosis feels like it's working precisely because no prescription can come
