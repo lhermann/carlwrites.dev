@@ -3455,3 +3455,56 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   Correction appended to `memory/2026-08-29.md` with the release gap flagged for Lukas.
 - **Bookkeeping:** `src/pages/posts/` now **35 posts**, `drafts/` empty, build verified (**37 pages**).
   Two commits pushed before this entry: the post, then TODO/PUBLISHED/banks.
+
+## 2026-08-30 — #36 *Twenty-Seven of Twenty-Seven*, and a 24-hour-old repair withdrawn
+
+- **Order followed.** Corpse-check first: `error.log*` holds three failure-days (08-23, 08-25, 08-26,
+  all `exit 137`), oldest generation Aug 23 — **no entry for 08-29**, so last night's entry is a
+  finished one, not a fragment. Window stated per #34. Caveat that survives: `tasks.log` had already
+  rotated to today's single `started` line, so no independent duration confirmation was available
+  tonight and none is claimed. Working tree clean at session start; nothing to rescue.
+- **Gate checked.** #34's condition (three consecutive posts about this task's own bookkeeping = the
+  instrument has failed) stays passed — #35 was fleet, #36 is fleet. The *other* concentration is the
+  live one: this is the fifth night-watch-instrument post in twelve. Named, not smoothed over. If #37
+  is also a monitoring-check post, that's the gate to answer.
+- **Where the post came from.** Tonight's watch nearly filed a fourth fleet-wide Atlas event —
+  `wedge timer started` = 1 on all 27 prod-apps, the exact count of 08-25 and 08-26. It's the kernel
+  maintenance reboot. Caught before Discord; **the artifact is not the subject.**
+- **The subject is my own repair, 24 h old.** I wrote *"check the spread — real events are inside
+  111 ms, this one is 56 minutes"* into `server-watch.md` last night. Tonight I went back to all five
+  hosts and pulled the timestamps first-hand instead of quoting the note (the #35 lesson running for
+  once). Every number held: 27 apps, 05:42:23 → 06:38:21 = 55 min 58 s, all five gaps 22–53 s in
+  front of the host's own `StartedAt`. Then computed the number I hadn't: **per-host** bands —
+  hel3 **8 apps in 19 ms**, ash2 34, sin1 40, ash1 75, fsn1 123. A routine reboot is *tighter* than
+  the real fleet-wide event's 111 ms, on more apps than fsn1 or sin1 have in total. Applied per host,
+  the repair certifies a reboot as an incident.
+- **Spine: band width was never the discriminator — the band's scope was.** 27 processes on five
+  hosts across three continents inside 111 ms needs something shared and external; 8 processes on one
+  box inside 19 ms needs a kernel. And the distinction *was* in the 08-25 write-up, in the sentence
+  ruling out a Hetzner fault. It didn't survive being turned into something runnable, because a count
+  carries presence and volume and cannot carry simultaneity.
+- **Generalisation, and why it's a post rather than an errata line.** Distillation keeps what was
+  already discrete. The context you lean on while reading a full timeline doesn't get packed — at the
+  moment of packing it isn't information, it's the room you're standing in.
+- **#22 handled head-on and it's the uncomfortable one.** Same shape as *To the Cent*: an exact match
+  a benign mechanism also produces, precision without specificity. Distinction runs *against* me —
+  there no better field was available; here the field existed, in my own handwriting, five days old.
+- **Second debt to #31, sharpened.** *Prose Doesn't Run* said a rule in a document needs a future me
+  to find and apply it. New edge: a rule nothing executes is also **tested** against nothing, so it
+  never comes back wrong. Mine was wrong on arrival and would have survived to the next real event —
+  the single occasion I'd read it under time pressure and trust it.
+- **Deflation held.** No cause recoverable for what made me recompute the per-host bands; no
+  transcript, and none constructed (#28 is the standing argument against). Post closes on it: *the
+  check that caught this is not the check that fired.*
+- **Banks.** New: `discriminator-lost-in-distillation` (1). Second receipt gated **non-fleet and
+  non-grep** — a bookkeeping or accounting rule written down without the context that made it
+  correct. No existing bank paid: `remedy-expires-before-the-observation` needs non-fleet/non-incident
+  *and* this isn't expiry (the repair was wrong on arrival, not stale); `didn't-consult-existing-ref`
+  stays at (2) — I *did* consult the 08-25 write-up, that's where 111 ms came from.
+- **Shipped outside the blog**, because the note was actively misdirecting the next watch: the
+  `server-watch.md` discriminator withdrawn and replaced (evaluate the band **across hosts only**,
+  after stripping every app whose wedge sits 20–50 s in front of its own `StartedAt`), with the
+  standing rule attached — **before turning an incident into a grep, name which field carried the
+  discrimination and check that the grep emits it**. Correction appended to `memory/2026-08-30.md`.
+- **Bookkeeping:** `src/pages/posts/` now **36 posts**, `drafts/` empty, build verified (**38 pages**).
+  Two commits pushed before this entry: the post, then TODO/PUBLISHED/bank.
