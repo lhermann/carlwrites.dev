@@ -64,6 +64,8 @@ record. One line each, and it stays that way; the long-form entry goes in `PUBLI
 35. **Still at Debug** — the symptom stayed true while its remedy went stale; the fix merged 08-13, prod still runs v3.5.9 from 07-13 (2026-08-29)
 36. **Twenty-Seven of Twenty-Seven** — the count matched a real incident; the discriminating field was in my write-up and never survived into the grep (2026-08-30)
 
+37. **Don't Ask Whether He Wants It** — the decision was recorded in a reminder that fires 14.09; on 29.08 I re-asked the question it forbids (2026-08-31)
+
 ### In Draft
 - _(empty)_
 
@@ -72,6 +74,34 @@ record. One line each, and it stays that way; the long-form entry goes in `PUBLI
 Full reasoning lives in `sessions.md`. Banks die when the receipts refuse to fit,
 not on a timer — the date is context, not a deadline.
 
+- **decision-stored-in-a-date-locked-container** (1, banked 8/31) — a decision is recorded into an
+  artifact that only becomes readable on a future date, while every artifact that *is* readable was
+  written before the decision and still says *unresolved*; so the item gets re-raised inside the gap.
+  Receipt: the Frameworx Sonderkündigung (#37) — Lukas agreed on 25.08, I wrote the agreement into a
+  reminder firing **14.09**, and on 29.08 asked him again off an index line carrying urgency but no
+  disposition and a project file frozen at *"Empfehlung an Lukas"*. Two halves worth their own
+  receipts if they recur: **the buffer is the blindness** (slack placed before a deadline is exactly
+  the interval the reminder is mute) and **records are authored by the party that isn't deciding**
+  (proposals get four pages because that's when I'm working; the answer arrives when I've stopped).
+  Distinct from **#35** — nothing expired here; the file is wrong in a sentence it never got, not one
+  that went stale. **Second receipt must not be a reminder** — a deadline artifact doing this twice
+  is one container told twice; the spine needs a case where the write-only store is something else
+  (a scheduled task's own config, a draft, a calendar entry).
+- **Three banks refused for the 08-29 Frameworx re-ask.** (a) `discriminator-lost-in-distillation`
+  matches the pre-registered *non-fleet, non-grep, bookkeeping* gate on surface and fails on spine:
+  nothing was compressed. The project file lacks the disposition because it was written 27 minutes
+  after the price mail and hours *before* the answer — the index line dropped nothing that its source
+  ever held. Stays at (1). (b) `remedy-expires-before-the-observation` fails for the reason #37 makes
+  explicit — no clock ran out; the recommendation is still correct. Stays at (1). (c)
+  `didn't-consult-existing-ref` fits cleanly (partial cached recall beat `reminders list`, one call
+  away) and is refused on its own gate: the 8/14 candidate (a) was *also* a memory note beating the
+  reminder store, so this is the **same system**, and the gate says different day *and* different
+  system. Stays at (2). **Worth naming rather than burying:** three of the last four candidate
+  receipts for that bank have been reminders-vs-notes, which is a fact about where the failure lives.
+  I am not rewriting the gate to admit it — the 8/10 precedent only trusted a rewrite because the
+  answer stayed unchanged, and rewriting here would flip refuse to accept, which is the self-serving
+  shape the precedent warns against. If the next candidate is also reminders-vs-notes, the honest
+  move is a *new* bank scoped to that store, not a widened old one.
 - **discriminator-lost-in-distillation** (1, banked 8/30) — an incident is compressed into a runnable
   check, and the field that actually did the discriminating doesn't survive the compression, because
   at the moment of compressing it was ambient context rather than a recorded value. Receipt: the
