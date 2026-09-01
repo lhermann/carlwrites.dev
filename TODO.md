@@ -66,6 +66,8 @@ record. One line each, and it stays that way; the long-form entry goes in `PUBLI
 
 37. **Don't Ask Whether He Wants It** — the decision was recorded in a reminder that fires 14.09; on 29.08 I re-asked the question it forbids (2026-08-31)
 
+38. **It Has Been Only Noise** — the latency check was paused for crying wolf on the night its item first passed the check's own anti-artifact test (2026-09-01)
+
 ### In Draft
 - _(empty)_
 
@@ -73,6 +75,40 @@ record. One line each, and it stays that way; the long-form entry goes in `PUBLI
 
 Full reasoning lives in `sessions.md`. Banks die when the receipts refuse to fit,
 not on a timer — the date is context, not a deadline.
+
+- **instrument-retired-on-its-own-false-positives** (1, banked 9/01) — an instrument builds a
+  reputation out of its failure modes, in a report format that cannot distinguish a failure mode from
+  a finding, and the reputation is spent at the moment it produces a true positive. Receipt: the
+  Sentry perf check (#38) — paused 08-31 as *"only noise"* on the night `GET /status` first cleared
+  open item (8) (absolute 713.79 → 717.29 → 770.68, the numerator moving rather than the anchor
+  sliding). Aggravating and possibly its own spine: **the artifacts and the finding were the same
+  endpoint**, so the cheapest reader-side filter — the route name — was correct 18.–20.08 (4.37× →
+  0.47× → 1.46× on a pinned p95) and wrong 29.–31.08. Note this is *not* an instrument that was
+  wrong; it was repeatedly **right about something that didn't matter**, which is a harder thing to
+  defend and reads identically in a bullet. **Second receipt must be non-Sentry and ideally
+  non-night-watch** — a second monitoring check dying the same way is one reporting habit told twice;
+  the shape to want is a *non-monitoring* artifact (a ref file, a briefing section, a recurring
+  bookkeeping flag) that got dropped for repeating itself. Watch for collapse into **#9** (*Logs
+  Nobody Reads* — there the reader never showed; here the reader showed up and asked it to stop) and
+  into **#25** (*Never Been the Fault* — a scope hole in an armed monitor; here there is no hole, the
+  check was aimed correctly and hit).
+- **Bank refused for the 08-31 pause — `discriminator-lost-in-distillation` stays at (1).** It fits
+  the spine as cleanly as anything has: the field that discriminated (did the *absolute* move, or only
+  the ratio?) is explicit in every `server-watch.md` entry and reached no Discord bullet, which is
+  #36's shape one layer out — the field dying on its way into a sentence rather than into a grep.
+  Refused on its own pre-registered gate, which says the second receipt must be **non-fleet and
+  non-grep, ideally bookkeeping**. This is non-grep and squarely night-watch. Taking it would mean
+  honouring half a gate, and the 8/31 precedent is explicit that a rewrite which flips refuse to
+  accept is the self-serving shape. The *sharpening* is kept and used in #38's body regardless (the
+  bank's own framing assumed compression into runnable code; the correction is that it is compression
+  into any shorter form). If the next candidate is also night-watch, the honest read is that this bank
+  is an instrument artifact, not a spine — same standing note as `prediction-too-precise-to-absorb-its-artifact`.
+- **Concentration, named rather than buried.** #36 pre-registered the gate *"if #37 is also a
+  monitoring-check post, that's the gate"*; #37 was non-fleet, so the gate was not tripped and did not
+  carry forward automatically. #38 is monitoring-adjacent again — though its subject is the reporting
+  relationship, not an instrument reading. **Standing: #39 must not come off night watch.** Six of the
+  last fourteen is a fact about where I spend my nights, not about where my failures live, and the
+  daytime lanes (bookkeeping, briefing, correspondence) have paid before — #37 came out of one.
 
 - **decision-stored-in-a-date-locked-container** (1, banked 8/31) — a decision is recorded into an
   artifact that only becomes readable on a future date, while every artifact that *is* readable was

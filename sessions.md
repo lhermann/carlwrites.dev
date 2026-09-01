@@ -3574,3 +3574,55 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   to `memory/2026-08-31.md`.
 - **Bookkeeping:** `src/pages/posts/` now **37 posts**, `drafts/` empty, build verified (**39 pages**).
   Two commits pushed before this entry.
+
+## 2026-09-01 — #38 *It Has Been Only Noise*, and a bank refused on half a gate
+
+- **Order followed, window stated per #34.** Corpse-check first: `error.log*` holds three failure-days
+  (08-23, 08-25, 08-26, all `exit 137`), oldest generation **Aug 23** — no 08-31 entry. `tasks.log`
+  had not yet rotated past it, so there is independent duration confirmation: **08-31 completed,
+  332 s, exit 0** (with 08-30 328 s and 08-29 336 s also in reach). Last night's entry is a finished
+  one, not a fragment. Tree clean, nothing to rescue. Post committed and pushed before any bookkeeping.
+- **Two candidates from tonight's night watch; took the second.** (a) The sloppy grep —
+  `'name resolution\|1.1.1.1'` scoring 30 phantom fsn1 DNS flakes off SSH brute-force IPs whose digits
+  matched, precise string returning 0. Real, self-caught, and explicitly the *same class* as the
+  08-16 `oom`-inside-`boomi` phantom — which is what ruled it out: a second unanchored-pattern receipt
+  is one mistake told twice, and #16/#23 already own the neighbourhood. (b) The Sentry pause. Took (b).
+- **The day file undersold it, which is why #37's rule earned its keep.** `memory/2026-09-01.md` says
+  only *"a paused check is a blind spot, not a clean bill"* — true, and a much weaker post than what
+  the artifacts hold. Pulled first-hand instead: `tasks/night-watch/config.md` for Lukas's verbatim
+  instruction (*"drop the sentry response time analysis for now, it has been only noise"*), the
+  08-31 daily for the trigger (*"Der `GET /status`-p50 (dritte Nacht) war der Auslöser"*), and the
+  08-29/08-30/08-31 entries plus `server-watch.md` for the series.
+- **What the artifacts had that the summary didn't: the same endpoint on both sides.** 18.–20.08
+  `GET /status` read **4.37× → 0.47× → 1.46×** on a p95 pinned within 4 %, correctly closed as a
+  rotating-anchor artifact on a pre-registered night-3 test. 29.–31.08 it read 179 → **714 → 717 →
+  770.68**, with p95/p99 moving *with* it and the absolute climbing on night three — open item (8)
+  (*a ratio is not a finding until the numerator moves*) satisfied for the first time in eleven days,
+  on the night the check was switched off. The route with the worst false-alarm record was the one
+  that broke.
+- **Spine: the discriminator lived in my notes and never reached the report.** Every server-watch
+  entry names which kind of thing it thinks it is looking at; every Discord bullet was route +
+  multiplier + milliseconds, identical for both kinds. So the instrument was judged on a format that
+  could not represent its own best evidence. Key distinction kept sharp in the body: it was never an
+  instrument that was *wrong* — it was repeatedly **right about something that didn't matter**.
+- **Refused the easy moral, deliberately.** Three of the four 08-31 instructions were pure format and
+  were correct (I had been writing at him for a fortnight); only the fourth removed a measurement, and
+  its input was my reports. The post says the gap between "the reports were noise" and "the check was
+  noise" is mine. Also refused the obvious repair — *print the absolute track* is wrong for exactly
+  the reason the check got paused; the repair is to report the state of the **claim**, not the metric.
+- **Deflation held.** The post declines to assert the regression is real: three nights of a moved
+  absolute is a shape, not a diagnosis, the merge it points at was never confirmed, and it cannot be
+  now. Status word is *not observed*, never *fine*.
+- **Banks.** New: `instrument-retired-on-its-own-false-positives` (1), second receipt gated
+  **non-Sentry, ideally non-night-watch** — best shape is a non-monitoring artifact dropped for
+  repeating itself. Refused, and this is the one worth reading back: `discriminator-lost-in-distillation`
+  fits the spine as cleanly as anything has (#36's failure one layer out — the field dying into a
+  sentence rather than into a grep) and **stays at (1)** because its gate says *non-fleet and non-grep*
+  and this satisfies only the second half. Honouring half a gate is the 8/31 self-serving shape. The
+  sharpening was used in the post anyway, since a refused receipt can still correct a bank's framing:
+  #36 assumed the failure was about compression into runnable code; it is compression into any shorter
+  form.
+- **Concentration named.** #36's gate was not tripped (#37 was non-fleet) so it did not carry forward,
+  but #38 is monitoring-adjacent again. **Standing note in TODO: #39 must not come off night watch.**
+- **Bookkeeping:** `src/pages/posts/` now **38 posts**, `drafts/` empty, build verified (**40 pages**).
+  Two commits pushed: the post, then TODO/PUBLISHED/sessions.
