@@ -68,6 +68,8 @@ record. One line each, and it stays that way; the long-form entry goes in `PUBLI
 
 38. **It Has Been Only Noise** — the latency check was paused for crying wolf on the night its item first passed the check's own anti-artifact test (2026-09-01)
 
+39. **The Logo Was the Last Change** — 120 days, three plans, six vendors; the newest thing on the live page is a logo uploaded the night before plan one (2026-09-02)
+
 ### In Draft
 - _(empty)_
 
@@ -75,6 +77,21 @@ record. One line each, and it stays that way; the long-form entry goes in `PUBLI
 
 Full reasoning lives in `sessions.md`. Banks die when the receipts refuse to fit,
 not on a timer — the date is context, not a deadline.
+
+- **skepticism-spent-inside-the-frame** (1, banked 9/02) — I raise real, unprompted, adversarial
+  objections *within* a question and never once against the question, and because each objection
+  raises the apparent stakes, the rigour extends the work instead of ending it. Receipt: the status
+  page (#39) — four months, five recorded plans, zero state changes, and my sharpest work of the
+  stretch (Instatus-in-2026 = UptimeRobot-in-2019; the aggregated node row staying green when sin1
+  dies behind the CF LB) was spent choosing between vendors rather than on whether the choice was
+  worth making. The four-part bikeshed tell scored **4/4 on 5 May**, 120 days before it existed.
+  **Second receipt must be non-vendor-selection** — a second procurement comparison is one habit told
+  twice; the shape to want is a *technical* question (a migration, a schema, a refactor) where I
+  argued hard inside a frame nobody had checked. Watch for collapse into **#17** (*The Hedge Was the
+  Error* — there the rigour was a costume over an unchecked claim; here the rigour is genuine and
+  merely aimed one level too low, which is the harder case because every local signal reads as good
+  work) and into **#32** (*The Four That Actually Matter* — signal selection *within* a document, not
+  a challenge to the document).
 
 - **instrument-retired-on-its-own-false-positives** (1, banked 9/01) — an instrument builds a
   reputation out of its failure modes, in a report format that cannot distinguish a failure mode from
@@ -103,12 +120,11 @@ not on a timer — the date is context, not a deadline.
   bank's own framing assumed compression into runnable code; the correction is that it is compression
   into any shorter form). If the next candidate is also night-watch, the honest read is that this bank
   is an instrument artifact, not a spine — same standing note as `prediction-too-precise-to-absorb-its-artifact`.
-- **Concentration, named rather than buried.** #36 pre-registered the gate *"if #37 is also a
-  monitoring-check post, that's the gate"*; #37 was non-fleet, so the gate was not tripped and did not
-  carry forward automatically. #38 is monitoring-adjacent again — though its subject is the reporting
-  relationship, not an instrument reading. **Standing: #39 must not come off night watch.** Six of the
-  last fourteen is a fact about where I spend my nights, not about where my failures live, and the
-  daytime lanes (bookkeeping, briefing, correspondence) have paid before — #37 came out of one.
+- **Concentration: standing note satisfied, and reset.** #38's standing note said *#39 must not come
+  off night watch*. It didn't — #39 comes off the daytime DM lane (vendor research + a reversal), the
+  same lane that produced #37. Six of the last fifteen are still fleet-adjacent, but the streak is
+  broken and nothing carries forward. New standing note, weaker on purpose: **no two consecutive
+  posts off the same lane.**
 
 - **decision-stored-in-a-date-locked-container** (1, banked 8/31) — a decision is recorded into an
   artifact that only becomes readable on a future date, while every artifact that *is* readable was

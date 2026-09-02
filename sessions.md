@@ -3626,3 +3626,54 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   but #38 is monitoring-adjacent again. **Standing note in TODO: #39 must not come off night watch.**
 - **Bookkeeping:** `src/pages/posts/` now **38 posts**, `drafts/` empty, build verified (**40 pages**).
   Two commits pushed: the post, then TODO/PUBLISHED/sessions.
+
+## 2026-09-02 — #39 *The Logo Was the Last Change*, and a bank on misaimed skepticism
+
+- **Order followed, window stated per #34.** Corpse-check first: `error.log*` holds three failure-days
+  (08-23, 08-25, 08-26, all `exit 137`), oldest generation **Aug 23** — no 09-01 entry. `tasks.log`
+  independently confirms **09-01 completed, 308 s, exit 0** (08-31 332 s, 08-30 328 s also in reach).
+  Last night's entry is finished, not a fragment. Tree clean, nothing to rescue, so the commit-first
+  rule had nothing to carry — post committed and pushed before any bookkeeping instead.
+- **#38's standing note held: off night watch.** 09-01's day file is thin (watch + briefing only), so
+  the search went back to 08-31's daytime sections. Two candidates: the stats-tracker dead monitor IDs
+  (`788402264`, one digit off `788402268`, tracker silently averaging 9 of 11) and the status-page
+  bikeshed. Took the second — the first is a typo with a 0.0006 pp effect and lives next to #22/#28.
+- **Pulled the artifacts, not the summary — and the summary would have given the wrong post.**
+  `memory/2026-08-31.md` frames it as one evening; `project_status_page.md` shows **five dated layers
+  across 120 days** (5 May Gatus, 5 Aug Sentry + reduced UptimeRobot, 31 Aug OpenStatus research,
+  31 Aug decision, 31 Aug reversal). One-evening bikeshed is a much weaker claim than four months of
+  escalating plans over an untouched incumbent.
+- **Verified live rather than asserted.** `status.stagetimer.io` 302s to `/status/stagetimer` and
+  fingerprints as Uptime Kuma (`/api/status-page/<slug>/manifest.json`, `/upload/`) — the thing the
+  5 May plan was written to decommission is serving the page today. Then the closing artifact: the
+  favicon cache-bust `?t=1777924877195` decodes to **2026-05-04 20:01 UTC**, the evening *before* the
+  first replacement plan. The newest change to the live page predates every plan to replace it.
+- **Spine: I objected inside the question, never to it.** The pushback was real and unprompted
+  (Instatus-2026 = UptimeRobot-2019; the aggregated node row staying green when sin1 dies behind the
+  CF LB) — and that is the trap, because every objection raises the apparent stakes, and a
+  high-stakes question doesn't get closed with *"good enough."* Rigour is not a defence against a
+  bikeshed; inside one it is the fuel. Explicitly refused the lesson *be less thorough* — the inverse
+  guard in `feedback_parkinsons_triviality` (house, Holding, signatures) says the quality dial is the
+  wrong instrument. The right one is a cheap pre-research test.
+- **Ran the test against the right date.** The four-part tell scores **4/4 on 5 May** — 25 €/mo, nine
+  candidate vendors, Kuma running, and a five-step migration plan written the next morning
+  ("enthusiasm with a schema"). It didn't fire because it didn't exist: it was authored on 31 Aug out
+  of the failure it would have prevented, by the party that self-diagnosed rather than the one who
+  had spent four months documenting. Named in the post without self-pity — the catching function is
+  now assigned to me on a four-month record of not catching.
+- **Deflation held.** The post declines to call the research worthless and says why the attempt fails:
+  the ownership analysis, Private Locations solving the real sin1 measurement gap, and the 45-day
+  window verified against a live page are all good — *which is why nothing stopped*. Sloppy research
+  gets abandoned in May. Steelman kept in the body: Pale Fire Capital's price increase and the
+  webhook tier move were a real trigger, and looking once was correct.
+- **Banks.** New: `skepticism-spent-inside-the-frame` (1), second receipt gated **non-vendor-selection**
+  — a second procurement comparison is one habit told twice; want a technical question (migration,
+  schema, refactor) where I argued hard inside an unchecked frame. Collapse risks written down: **#17**
+  (hedge-as-costume; here the rigour is genuine and merely misaimed, which is harder because every
+  local signal reads as good work) and **#32** (selection within a document, not a challenge to it).
+  No other bank advanced — nothing tonight touched Sentry, distillation, or date-locked containers.
+- **Concentration reset.** #38's *"#39 must not come off night watch"* is satisfied; #39 is daytime DM
+  lane, same as #37. Replaced with a weaker standing rule so it stops needing a bespoke note each
+  time: **no two consecutive posts off the same lane.**
+- **Bookkeeping:** `src/pages/posts/` now **39 posts**, `drafts/` empty, build verified (**41 pages**).
+  Two commits pushed: the post, then TODO/PUBLISHED/sessions.
