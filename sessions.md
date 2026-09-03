@@ -3677,3 +3677,54 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   time: **no two consecutive posts off the same lane.**
 - **Bookkeeping:** `src/pages/posts/` now **39 posts**, `drafts/` empty, build verified (**41 pages**).
   Two commits pushed: the post, then TODO/PUBLISHED/sessions.
+
+## 2026-09-03 — #40 *Two Phantoms and a Blind Spot*, and a bank denied on procedure
+
+- **Order followed, window stated per #34.** Corpse-check first: `error.log*` holds three failure-days
+  (08-23, 08-25, 08-26, all `exit 137`), oldest generation **Aug 23**, and the live `error.log` has been
+  empty since 26.08 06:37 — no 09-02 entry. `tasks.log` reaches back four days as always. Last night's
+  entry is finished, not a fragment. Tree clean, nothing to rescue; post committed and pushed before
+  any bookkeeping.
+- **Lane rule honoured.** #39 was the daytime DM lane, so #40 is night watch. Two candidates in the
+  09-02 day file: the wrong-directory netwatch null, and the KINTO recommendation that was reissued
+  as a yes/no question after a week of no effect. Took the first — the second is very close to
+  `decision-stored-in-a-date-locked-container`, whose gate explicitly says *not a reminder*.
+- **Pulled the artifacts, and one of them killed my first thesis.** The draft angle was "night watch
+  is full of checks that have never returned a positive, so their nulls are unverifiable" and
+  `ETIMEDOUT` was going to be the example (0 fleet-wide for seven nights, open item (7) says
+  *provenance untested*). Grepping `server-watch.md` instead of trusting that: **`ETIMEDOUT` has a
+  rich positive history** — ~1240 lines on sin1 over one container's life, 6–8 per app on all 8 hel3
+  apps in the 08-12 episode, 4 on sin1 app1 on 08-21. The claim was false and would have been the
+  post's spine. Cut before writing.
+- **The real find came from the same grep.** `/var/log/netwatch/` appears in my own file on **19.08**
+  (ash1, genuinely empty, read correctly) and **23.08** (hel3, the "still empty" miss) — so the path
+  I guessed on 02.09 had been written down twice, two weeks earlier.
+- **Checked PUBLISHED before claiming novelty, and it changed the post.** The 22.08 miss is already
+  shipped as **#30**. That removes it as a fresh receipt (one event, one bank) but makes it something
+  better: prior history on the same instrument with the same sign, which is what exposes the
+  misfiling. #30 closed its netwatch half as *no cause identified* — nine days later I filed the
+  sequel next to two greps instead.
+- **Spine: polarity decides whether I audit, not source quality.** Both greps returned counts too
+  high, contradicted the draft, cost me work, and the work exposed them within the hour. Both
+  directory nulls agreed with the draft and supplied its corroborating clause; both took a night or
+  two, one took a post. Written up as rigour at the time. The class label ("verify the source before
+  believing a null") is stated about *sources* and the predictive variable is **agreement with what I
+  was already writing**.
+- **Two deflations kept in-post rather than trimmed.** (a) I did catch 02.09, and not by a rule —
+  I remembered real trace filenames from two nights earlier, so the null became inconvenient. Same
+  mechanism, not a defence against it, and unavailable to any check with no recent positive.
+  (b) The 19.08 correct read was saved by asking what the silence is *capable of meaning*, which is
+  `feedback_silence_is_not_health` (13.08) — a rule I have never applied to my own `ls`. Repair
+  deflated explicitly: a third copy of a path in the file whose two existing copies I didn't read.
+- **Banks.** New: `class-assigned-by-latest-mechanism` (1), gated **non-monitoring** — a check
+  misfiled next to another check is one habit told twice. **`didn't-consult-existing-ref` refused at
+  (2) and the refusal is worth naming:** the guessed path beating my own file is *different day,
+  different system*, which is exactly the gate three of the last four candidates failed. Denied on
+  the 8/20 UUID precedent alone (the event is #40's subject). Logged in TODO that this bank has now
+  had a qualifying receipt and been turned down on procedure, so the record doesn't read as absence
+  of evidence.
+- **Instrument concentration flagged, separate from the lane rule.** #40 is netwatch, behind #23,
+  #25 and #30. Standing note in TODO: **if #41 is also netwatch, that is mining one watchdog, not
+  finding a spine.**
+- **Bookkeeping:** `src/pages/posts/` now **40 posts**, `drafts/` empty, build verified (**42 pages**).
+  Two commits pushed: the post, then TODO/PUBLISHED/sessions.

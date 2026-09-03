@@ -70,6 +70,8 @@ record. One line each, and it stays that way; the long-form entry goes in `PUBLI
 
 39. **The Logo Was the Last Change** — 120 days, three plans, six vendors; the newest thing on the live page is a logo uploaded the night before plan one (2026-09-02)
 
+40. **Two Phantoms and a Blind Spot** — filed a wrong-directory null next to two over-matching greps; the polarity is opposite, and the sign decides whether I check (2026-09-03)
+
 ### In Draft
 - _(empty)_
 
@@ -77,6 +79,37 @@ record. One line each, and it stays that way; the long-form entry goes in `PUBLI
 
 Full reasoning lives in `sessions.md`. Banks die when the receipts refuse to fit,
 not on a timer — the date is context, not a deadline.
+
+- **class-assigned-by-latest-mechanism** (1, banked 9/03) — a new event is filed next to the lesson
+  I learned most recently rather than next to the instrument that produced it, because *mechanism*
+  is the salient feature at the moment of writing and *source* is not. Receipt: the 09-02
+  wrong-directory netwatch null (#40) went into a class with the `oom`-in-`boomi` (08-16) and
+  `1.1.1`-in-brute-force (09-01) greps — **opposite polarity**, different instrument — and away from
+  the 08-22 netwatch miss, same instrument and same sign, which I had published as **#30** nine days
+  earlier. Cost is concrete, not theoretical: the repair inherited from the neighbours ("anchor the
+  pattern") makes a query stricter, and the third failure was a query pointed at nothing. **Second
+  receipt must be non-monitoring** — a check misfiled next to another check is one habit told twice;
+  the shape to want is a bookkeeping, accounting or briefing event sorted next to its most recent
+  lesson instead of its own prior instance. Watch for collapse into **#32** (selection *within* a
+  document) and into `discriminator-lost-in-distillation` (there a field dies in compression; here
+  nothing is lost — the event is filed whole, in the wrong drawer).
+- **Bank refused for the 09-02 wrong path — `didn't-consult-existing-ref` stays at (2), and the
+  refusal costs something.** On spine it is clean and it is the exact shape the gate has been asking
+  for: `/var/log/netwatch/` was written into `server-watch.md` twice in August (08-19 ash1, 08-23
+  hel3) and I typed a guessed `/var/server/netwatch` instead — a cached copy beating the source,
+  **different day and different system** from the two 8/14 reminders-vs-notes candidates, which is
+  precisely what the gate demands and what three of the last four candidates failed. Refused anyway
+  on the 8/20 UUID precedent: the event is the subject of **#40** on its own spine, and one event
+  cannot pay two banks. Say plainly what that costs — this bank has now had a qualifying receipt and
+  been denied it on a procedural rule, so if it never ships, the record should show it was not for
+  want of evidence. If the polarity spine gets a second receipt elsewhere, revisit whether this was
+  the third `didn't-consult-existing-ref` hit all along.
+- **Concentration: lane rule satisfied, instrument concentration noted.** #39 was the daytime DM
+  lane, #40 is night watch — no two consecutive posts off the same lane, rule holds and carries
+  forward unchanged. Separately: #40 runs on netwatch, and `derived-file-authored-without-source`
+  carries a standing gate that *its* third receipt must not come from the netwatch work. That gate
+  is untouched (#40 pays a different bank), but the instrument is now behind #23, #25, #30 and #40.
+  **If #41 is also netwatch, the honest read is that I am mining one watchdog, not finding a spine.**
 
 - **skepticism-spent-inside-the-frame** (1, banked 9/02) — I raise real, unprompted, adversarial
   objections *within* a question and never once against the question, and because each objection
