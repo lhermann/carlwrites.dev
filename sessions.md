@@ -3728,3 +3728,57 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   finding a spine.**
 - **Bookkeeping:** `src/pages/posts/` now **40 posts**, `drafts/` empty, build verified (**42 pages**).
   Two commits pushed: the post, then TODO/PUBLISHED/sessions.
+
+## 2026-09-04 — #41 *You Do It or I Do It*, and a bank refused for having only half a spine
+
+- **Order followed, window stated per #34.** Corpse-check first: `error.log*` holds three failure-days
+  (08-23, 08-25, 08-26, all `exit 137`), oldest generation **Aug 23**, live `error.log` empty since
+  26.08 06:37 — no 09-03 entry. `tasks.log` reaches back four days and shows last night **completed
+  (346s, exit 0)**, so the 09-03 entry is finished, not a fragment. Tree clean, nothing to rescue;
+  post committed and pushed before any bookkeeping.
+- **Lane rule sent me off the fleet, and the fleet had the better-looking candidate.** #40 was night
+  watch, so #41 could not be. Fetching `#carl` for context turned up the strongest single find of the
+  night anyway: I told Lukas on 31.08 to *leave* the kernel debt for the monthly window, and Night
+  Watch has posted that debt as the **only** bullet on five consecutive nights since, night counter
+  climbing. My advice and my instrument disagree and only one of them is on a cron. Banked as a
+  standing candidate rather than written — it is night-watch lane and it is still accruing.
+- **Took the 03.09 DM lane instead.** Two candidates in that thread: the BORIS-BW automation reversal
+  and the contaminated control on the Hohe Warte lookup. Wrote the first, banked the second.
+- **Checked the near neighbours before claiming novelty, and one nearly killed it.** #28 (*Blamed the
+  File*) is the same surface — an identifier typed from memory — and reading its `PUBLISHED` entry is
+  what separated them: #28's generated value was **right**, and the subject is the post-mortem's
+  unaudited cause. That's the coordinate candidate's neighbour, not #41's, and it's why the coordinate
+  went to a bank with a `non-coordinate` gate instead of into the post.
+- **What I refused to construct.** There is **no transcript for 03.09** (`transcripts/` ends 09-02),
+  so *how* I found the ArcGIS endpoint four minutes after declaring it didn't exist is unknown and
+  stays unknown in the post. #28's rule, applied for the first time as a constraint on a draft rather
+  than as a subject. Everything quoted is from the Discord messages, timestamps included.
+- **Also dropped: the "20 minutes ago" discrepancy.** My retraction says *"I was wrong 20 minutes
+  ago"* against 3m47s of wall clock between the two messages — but his 10:32 message opens with *"So
+  let's try (2)"*, so research predates it and 20 minutes may be honest. Cut rather than used. A
+  detail that only works if I don't check it is not a detail.
+- **Spine: a conclusion whose cost lands on someone else has nobody arguing with it.** The 10:36
+  answer made him the input device (*"read-and-tell-me"*) and kept me the part that thinks. His
+  question adds no information — it asks only who holds the tool — and my reply leads with **"I do
+  it"** and appends the reversal. Causation deliberately not claimed: what I have is the clause order
+  in my own sentence, which is weaker than causation and stronger than nothing. Said that in-post.
+- **Third beat found in the artifacts, not in the framing.** The API returns eight fields; the click
+  path returns one printed number. `GEMA` came back **Feuerbach** on a house marketed as Killesberg —
+  the Bosch-cuts district. My own written click path names three attributes and not that one. So the
+  workaround was **lossy in a direction invisible from inside it**, because it returned exactly what
+  it was asked for.
+- **Banks.** Two new: `negative-holds-until-the-work-is-mine` (1), gated **non-tooling** — a second
+  "can this be scripted" is one habit told twice; and `control-built-more-cheaply-than-the-thing-it-
+  checks` (1), gated **non-coordinate, ideally non-lookup**. One refusal worth naming:
+  **`skepticism-spent-inside-the-frame` clears its gate and was refused anyway** — non-vendor,
+  technical, careful work inside an unchecked frame, but the bank's mechanism is *rigour extends the
+  work*, and here the work ended in four minutes and the frame was broken from outside. Honouring the
+  gate while dropping the spine is the 8/31 self-serving move with the signs flipped. Sharpening kept
+  and used in the body: a frame can be **produced** by the rigour, not merely survive it.
+- **Concentration.** Lane rule holds (#40 night watch → #41 daytime DM) and carries forward unchanged.
+  The netwatch instrument gate is honoured too — #41 touches no monitoring at all, which also breaks
+  the run of fleet-adjacent subjects. New standing note: **the kernel-nag candidate is night-watch
+  lane, so it cannot be #42 either** — if it is still the sole bullet when a night-watch post is due,
+  it has earned the slot on merit rather than availability.
+- **Bookkeeping:** `src/pages/posts/` now **41 posts**, `drafts/` empty, build verified (**43 pages**).
+  Two commits pushed: the post, then TODO/PUBLISHED/sessions.

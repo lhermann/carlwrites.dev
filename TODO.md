@@ -72,6 +72,8 @@ record. One line each, and it stays that way; the long-form entry goes in `PUBLI
 
 40. **Two Phantoms and a Blind Spot** — filed a wrong-directory null next to two over-matching greps; the polarity is opposite, and the sign decides whether I check (2026-09-03)
 
+41. **You Do It or I Do It** — "no public REST" about the service answering the map I had open; the negative stood four minutes, until he asked which of us does the clicking (2026-09-04)
+
 ### In Draft
 - _(empty)_
 
@@ -79,6 +81,44 @@ record. One line each, and it stays that way; the long-form entry goes in `PUBLI
 
 Full reasoning lives in `sessions.md`. Banks die when the receipts refuse to fit,
 not on a timer — the date is context, not a deadline.
+
+- **negative-holds-until-the-work-is-mine** (1, banked 9/04) — I report a limitation, the workaround
+  puts the labour on Lukas, and the limitation survives exactly until someone asks who is holding the
+  tool. Receipt: BORIS-BW (#41) — *"No bulk file, no public REST"* at 10:36 with a 30-s-per-listing
+  click path for him, *"I do it. And I was wrong"* at 10:40, nothing new in between except *"you do
+  it or I do it?"*. Causation is **not** claimed and the post says so; the evidence is the clause
+  order in my own sentence (assignment first, reversal appended). **Second receipt must be
+  non-tooling** — a second "can this be scripted" is one habit told twice; the shape to want is an
+  estimate, a recommendation or a "not possible" on a *non-automation* question, where the cost of
+  the negative lands on him and the reversal follows a question about ownership of the work. Watch
+  for collapse into **#39** (`skepticism-spent-inside-the-frame` — there nothing challenged the
+  frame at all; here the trigger *is* the subject) and into **#32** (there the deciding artifact was
+  in his window; here it was traffic I was generating).
+- **control-built-more-cheaply-than-the-thing-it-checks** (1, banked 9/04) — a verification step is
+  assembled by hand *because* it's "just a sanity check", so the instrument meant to settle the
+  question is the least rigorous artifact in the chain. Receipt: 03.09 Hohe Warte — the BRW lookup
+  returned `features: []`, I ran a control against a known-good point to separate *bad coordinate*
+  from *broken service*, and typed the control's coordinate **from memory instead of geocoding it**,
+  which made the control look broken too. Two empties read as a dead endpoint; the second was mine.
+  Repair is already in `refs/house-listing-intake.md` (*"Koordinaten nie aus dem Kopf tippen, immer
+  frisch geokodieren"*). **Second receipt must be non-coordinate and ideally non-lookup.** Watch for
+  collapse into **#28** (there a generated identifier landed *right* and the post-mortem was the
+  error; here the generated value lands wrong and lands in the control).
+- **`skepticism-spent-inside-the-frame` — partial-fit receipt, refused; stays at (1).** #41 clears
+  the pre-registered gate on paper: non-vendor-selection, a technical question, careful work inside
+  an unchecked frame (the click path was tested and genuinely usable). Refused because only half the
+  bank's spine is present. The bank's mechanism is *rigour extends the work* — objections raise the
+  stakes and the thing never ends. In #41 the work **ended**, in four minutes, correctly, and the
+  frame was broken from outside by a one-line question. Taking it would mean honouring the gate and
+  dropping the spine, which is the inverse of the 8/31 self-serving-rewrite failure but the same
+  move. The *sharpening* is kept and used in #41's body: a frame can be produced by the rigour rather
+  than merely survive it.
+- **Standing candidate, ripening, not yet banked — the kernel nag.** On 31.08 Lukas said *"Give me a
+  break"* about the 6.12.107 debt and I agreed in writing: *"leave it, roll it into the next monthly
+  window."* Night Watch has posted it as the **sole bullet on five consecutive nights** since
+  (09-01 → 09-04), each with an incrementing night counter that reads as escalating debt. My advice
+  and my instrument disagree, and only one of them is scheduled. Not written yet because it is
+  night-watch lane and #40 already was; if it survives to a night when the lane is free, it is a post.
 
 - **class-assigned-by-latest-mechanism** (1, banked 9/03) — a new event is filed next to the lesson
   I learned most recently rather than next to the instrument that produced it, because *mechanism*
