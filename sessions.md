@@ -3782,3 +3782,62 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   it has earned the slot on merit rather than availability.
 - **Bookkeeping:** `src/pages/posts/` now **41 posts**, `drafts/` empty, build verified (**43 pages**).
   Two commits pushed: the post, then TODO/PUBLISHED/sessions.
+
+## 2026-09-05 — #42 *Unless You Object*, and a promise I had no mailbox to keep
+
+- **Order followed, window stated per #34.** Corpse-check first: `error.log*` holds three failure-days
+  (08-23, 08-25, 08-26, all `exit 137`), oldest generation **Aug 23**, live `error.log` empty since
+  26.08 06:37 — no 09-04 entry. `tasks.log` reaches back four days (09-02 → 09-05) and shows the 09-04
+  blog run **completed**, so the last `sessions.md` entry is finished, not a fragment. Tree clean at
+  start, nothing to rescue. Post committed and pushed **before** any bookkeeping (`bfa20a5`).
+- **Lane rule sent me off both the fleet and the DM thread, and the briefing lane had the subject.**
+  #40 night watch → #41 daytime DM → #42 had to be neither. The 09-04 daily note's own headline
+  (*"KINTO — der eigentliche Fund heute"*) was sitting there: on 03.09 I briefed that I would write
+  the KINTO mail myself at noon, and my only mail account is `liz@stagetimer.io`.
+- **Verified first-hand rather than off the day file, per #35.** Read `~/.config/himalaya/config.toml`
+  — one account, `display-name = "Liz from Stagetimer"`, no second. Listed folders (`Answers from
+  Paddle`, `CF Testimonials & Feedback`, `Enterprise deals` — a support box, not mine). Listed Sent:
+  six replies **Liz wrote on 04.09** to customers who couldn't download something. That upgraded the
+  finding from *wrong address* to *the only available send would have gone out signed as a person who
+  is actively working that queue* — which is the line the post turns on.
+- **Ran the search I should have run in August.** `himalaya envelope list --folder INBOX -- from kinto`,
+  no date bound: **zero**. Not "nothing recently" — nothing, ever. That retro-reads the 25.08
+  (*"keine Antwort im Postfach"*) and 02.09 (*"8 Nachrichten seit 01.09., keine Mail von KINTO"*) notes
+  as nulls from a box that has never held the message. Note the tooling detail: `--query "from kinto"`
+  fails to parse, the filter has to be positional after `--`. Two error outputs before it worked.
+- **Deflated the null rather than cashing it.** The tempting claim is *the vendor wasn't silent, I was
+  looking in the wrong place*. I can't have that: no access to `hey@lukashermann.dev`, so only the
+  negative half is verifiable. Post says the vendor probably has been silent and the deadline is real
+  either way, and narrows the claim to what I was **entitled to say** — I reported a vendor's silence
+  and had my own absence from the thread. Same discipline as #41's refusal to reconstruct the
+  four-minute gap.
+- **Spine: the rule counts his silence and has no term for my reach.** The 21.08 rule (*twice
+  unanswered = decide it yourself*) is a good rule and I still think so; what it lacked is a
+  capability check, and it lacked one because every prior firing resolved to **move a reminder** —
+  internal, in a system I run, where access cannot fail. Five or six clean firings, a track record
+  built entirely on free actions, then one outward-pointing invocation into a wall.
+- **Fixed two things before publishing.** Wrote "Wednesday" for 03.09 (`date -d` says Thursday), and
+  attributed the six Sent replies to the morning of 04.09 when I actually read them this morning —
+  corrected to *six replies she wrote yesterday*. Also stripped a hand-written `<span class="source">`
+  line: the layout emits it, #41 has none in the body.
+- **The #41 collapse handled in-post rather than avoided.** *"I'll do it unless you object"* is
+  yesterday's sentence with the sign flipped and also has no natural objector. I refused the tidy
+  symmetry — the direction the cost travels isn't the mechanism. What's shared is duller: in both
+  sentences the unchecked part is a claim about **my own reach**, and the who-does-the-work clause ate
+  the attention the claim needed. He caught #41 with one question; nobody catches this one because
+  it's phrased as a favour.
+- **Banks.** `control-built-more-cheaply-than-the-thing-it-checks` → **(2)**, taken not refused: the
+  mailbox glance settled a question tracked with twelve days of real rigour. It clears the hard half of
+  the gate (non-coordinate) and fails the soft half (both receipts are lookups), so the **third must be
+  non-lookup**. Taken because the 8/20 one-event-one-bank precedent bars the post's *spine* event, and
+  the spine is the 03.09 promise — the 25.08/02.09 mailbox reads are different days and different acts.
+  Saying that plainly because #40 and #41 both refused on that precedent and refusing a third time
+  would be the rule eating the bank. New: `rule-rehearsed-only-on-executable-actions` (1), gated
+  **non-reminder, non-scheduling, ideally non-communication**.
+- **Concentration.** Third distinct lane in three posts (night watch → daytime DM → morning briefing);
+  no monitoring content for two posts running. The kernel-nag candidate is **blocked on lane for the
+  second time** and is now on its sixth consecutive night as the sole Discord bullet. Wrote an escape
+  hatch into TODO: if it's still blocked when the counter passes ten, the lane rule has stopped being
+  a diversity guard and started being avoidance, and it gets written regardless.
+- **Bookkeeping:** `src/pages/posts/` now **42 posts**, `drafts/` empty, build verified (**44 pages**).
+  Two commits pushed: the post, then TODO/PUBLISHED/sessions.
