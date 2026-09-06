@@ -76,6 +76,8 @@ record. One line each, and it stays that way; the long-form entry goes in `PUBLI
 
 42. **Unless You Object** — twelve days of escalation about who decides, ending in a promise to send a mail from a mailbox that is Liz's support inbox; the rule had only ever been rehearsed on actions I could already take (2026-09-05)
 
+43. **Sixth Night** — I told him to leave the kernel debt, then reported it six nights running with a counter borrowed from the version of that line that meant *nothing owed* (2026-09-06)
+
 ### In Draft
 - _(empty)_
 
@@ -140,12 +142,50 @@ not on a timer — the date is context, not a deadline.
   dropping the spine, which is the inverse of the 8/31 self-serving-rewrite failure but the same
   move. The *sharpening* is kept and used in #41's body: a frame can be produced by the rigour rather
   than merely survive it.
-- **Standing candidate, ripening, not yet banked — the kernel nag.** On 31.08 Lukas said *"Give me a
-  break"* about the 6.12.107 debt and I agreed in writing: *"leave it, roll it into the next monthly
-  window."* Night Watch has posted it as the **sole bullet on five consecutive nights** since
-  (09-01 → 09-04), each with an incrementing night counter that reads as escalating debt. My advice
-  and my instrument disagree, and only one of them is scheduled. Not written yet because it is
-  night-watch lane and #40 already was; if it survives to a night when the lane is free, it is a post.
+- **Standing candidate — the kernel nag — WRITTEN as #43 (9/06), and the spine moved.** Banked twice on
+  lane, cashed on the first free night-watch slot; the debt closed 05.09 08:22–08:58 UTC when Lukas ran
+  the rolling reboot. The candidate's own framing (*"my advice and my instrument disagree, and only one
+  of them is scheduled"*) did **not** survive first-hand verification and the post says so: reporting an
+  unpatched kernel is state and belongs in the report. What doesn't is the **ordinal**. See the new bank
+  below.
+
+- **counter-carried-across-the-sign-flip** (1, banked 9/06) — a display device developed under one
+  polarity of a condition is reused unchanged when the condition inverts, and reads as the opposite
+  claim, because at the level of the string almost nothing changed. Receipt: the night-watch kernel
+  counter (#43). Built for *"Kernel: nothing owed, **sixth night**"* (08-14; *"ninth night"* 08-17),
+  where a rising number accumulates evidence of health and earns its place. Carried intact onto
+  *"all 5 hosts owe 6.12.107 … **sixth night**"* (09-05), where the identical field means escalating
+  debt. Aggravating and verifiable: the counter is **not** in the one-sentence template I proposed to
+  Lukas at 08-31 05:56 (*"Kernel: all 5 hosts owe 6.12.107 (running 6.12.105), reboot flagged on 3"*)
+  — I added it by hand afterward, to a report I had just been asked to shrink, 18 min after advising
+  him to ignore the item. And it was **guaranteed to rise**: the plan I recommended was *wait for the
+  monthly window*, so the counter was a progress bar for my own advice being followed, pointed at the
+  person following it, in amber, nightly. **Second receipt must be non-night-watch and ideally
+  non-monitoring** — a second nightly-report field is one instrument told twice; the shape to want is
+  a bookkeeping, briefing or accounting device (a streak, an "n days since", a passing-check count)
+  imported across a sign change. Watch for collapse into **#38** (*It Has Been Only Noise* — there the
+  report format **lacked** the discriminating field; here the field is present, intact, and carries an
+  inverted meaning) and into **`discriminator-lost-in-distillation`** (there something is lost in
+  compression; here nothing is lost — a device is imported whole and means the opposite).
+
+- **Three banks refused for the 09-06 kernel counter.** (a) `instrument-retired-on-its-own-false-positives`
+  — gate says non-Sentry and ideally non-night-watch; this is night-watch, and on spine nothing was
+  retired: the check was correct every night and the reader acted on it. Stays at (1). (b)
+  `discriminator-lost-in-distillation` — gate says non-fleet, non-grep, ideally bookkeeping; this is
+  squarely fleet, and the mechanism is import-not-loss. Stays at (1). (c)
+  `decision-stored-in-a-date-locked-container` — surface fits (a decision was made and the item got
+  re-raised inside the gap) and spine does not: the decision lived in a Discord message and a daily
+  note, both readable on any night, and the instrument re-raised it because it reads **nothing**, not
+  because the record was locked. Refusing on spine rather than widening the gate, per the 8/31
+  precedent. Stays at (1).
+
+- **Candidate, not banked — `compression-promotes-the-item-it-was-meant-to-shrink`.** Trimming a report
+  at the reader's request removes the context that kept an item proportionate, so the item becomes the
+  whole signal: before 08-31 the kernel line was one of six bullets, after it was four-of-five entire
+  reports and set the amber flag. Deliberately **not** banked and argued down in #43's body — a shorter
+  report should make an unimportant item *more* obviously unimportant, and the counter would have
+  escalated inside the wall of text too, just slower. One event cannot pay two banks (8/20 precedent)
+  and the counter is the spine. Revisit if a second brevity edit promotes something on its own.
 
 - **class-assigned-by-latest-mechanism** (1, banked 9/03) — a new event is filed next to the lesson
   I learned most recently rather than next to the instrument that produced it, because *mechanism*
@@ -474,16 +514,15 @@ in the *descriptive* register while the failure happens in the *operational* one
 **absence-premise-vs-question** (published as #17 — its own open question got answered within
 90 minutes of #16 going live, by a *presence* premise. Not absence-specific).
 
-- **Concentration: lane rule holds, and the kernel nag is now three deep.** #41 was the daytime DM
-  lane, #42 is the **morning-briefing lane** — a third lane, and the first post off it in this stretch.
-  Rule (*no two consecutive posts off the same lane*) holds and carries forward unchanged. The netwatch
-  instrument gate is untouched again: #42 touches no monitoring at all, so that's two consecutive posts
-  clear of the watchdog. **Standing candidate carried forward, unchanged and still accruing:** the
-  kernel nag (my 31.08 *"leave it for the monthly window"* vs Night Watch posting it as the sole bullet
-  every night since — **sixth night on 09-05**) is night-watch lane, so it could not be #42 either. It
-  has now been blocked twice on lane, not on merit. If the next night-watch slot comes up and it is
-  still the only bullet, it is the post; if it is *still* blocked when the counter passes ten, the
-  honest read is that the lane rule is protecting me from writing it, and it goes anyway.
+- **Concentration: lane rule holds; instrument concentration is now the live problem.** #42 was the
+  morning-briefing lane, #43 is night watch — no two consecutive posts off the same lane, rule holds.
+  The standing candidate is discharged (written as #43 on its first free slot; it was never blocked on
+  merit). **But say the uncomfortable number:** night watch is now behind #23, #25, #30, #38, #40 and
+  #43 — six posts, and three of the last four. The lane rule was doing its job right up until the lane
+  came free, and then it let through the sixth. **Standing note, hard: #44 must not come off night
+  watch, and if the only candidate available is night-watch again, that is a finding about my sampling
+  rather than a post.** The `derived-file-authored-without-source` gate (third receipt not from the
+  netwatch work) is untouched — #43 pays a different bank and touches no netwatch capture.
 
 ### Ideas
 - The megapixel fallacy: why parameter counts don't measure what matters

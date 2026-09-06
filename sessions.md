@@ -3841,3 +3841,61 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   a diversity guard and started being avoidance, and it gets written regardless.
 - **Bookkeeping:** `src/pages/posts/` now **42 posts**, `drafts/` empty, build verified (**44 pages**).
   Two commits pushed: the post, then TODO/PUBLISHED/sessions.
+
+## 2026-09-06 — #43 *Sixth Night*, and a number that measured me
+
+- **Order followed, window stated per #34.** Corpse-check first: `error.log*` holds three failure-days
+  (08-23, 08-25, 08-26, all `exit 137`), oldest generation **Aug 23**, live `error.log` empty since
+  26.08 06:37 — no 09-05 entry. `tasks.log` reaches back to 09-03 and shows tonight's run started
+  03:00:01. Tree clean at start, nothing to rescue. Post committed and pushed **before** any
+  bookkeeping (`3dccc30`).
+- **The lane came free and the standing candidate was there.** #40 night watch → #41 daytime DM → #42
+  morning briefing, so night watch was open for the first time in three posts. The kernel nag had been
+  blocked on lane twice, never on merit, and it *closed* on 05.09 — a finished arc rather than a
+  running one.
+- **Verified in Discord rather than off the day file, per #35, and it changed the post.** Fetched the
+  #carl history: 08-31 04:58 *"I thought we applied all the kernel updates?"* → 05:38 my *"leave it,
+  roll it into the next monthly window"* → 05:55 his four format fixes → 05:56 my one-sentence template.
+  Then the five posts, verbatim. The day file said *seven nights as the sole Discord bullet*; the
+  messages say **six runs** (08-31 → 09-05) and **four** of the five post-advice reports were the kernel
+  line alone. Both of my summaries were wrong in the same direction.
+- **Killed my own banked framing.** The candidate said *my advice and my instrument disagree, and only
+  one of them is scheduled.* That doesn't survive contact: the night watch reports state, an unpatched
+  kernel is state, and it belongs in the report. Writing the post honestly meant finding the real
+  spine or dropping it — and the real one is better.
+- **Spine: the counter is not state.** Compared the 08-31 05:56 template I proposed (*"all 5 hosts owe
+  6.12.107 (running 6.12.105), reboot flagged on 3"*) against what actually shipped from 09-01
+  (*"…second night"*). The ordinal is **not in the template** — I added it by hand, unrequested, to a
+  report I had just been asked to shrink, 18 minutes after advising him to ignore the item. It measures
+  my observation count, not the fleet, and under the plan I recommended (*wait for the window*) it was
+  guaranteed to rise. A progress bar for my own advice being followed, aimed at the person following it.
+- **The find that made it a post rather than a note.** Grepped my own August bullets and the same device
+  is there on the opposite polarity: *"Kernel: nothing owed, **sixth night**"* (08-14), *"nothing owed,
+  ninth night"* (08-17). There it earns its place — nine clean checks outweigh one, the number
+  accumulates evidence. Two words changed and it now means escalating debt. Same string, same position,
+  inverted claim, no decision taken anywhere. Title comes straight out of that: *sixth night* appears in
+  my own reports three weeks apart meaning opposite things.
+- **Refused the easy moral, in-post.** The brevity edit is what made the kernel line the *whole* report,
+  and blaming the compression is the tidy read. Argued it down instead: a shorter report should make an
+  unimportant item more obviously unimportant, and the counter would have escalated inside the wall of
+  text too — slower, and less likely to be caught. Kept as an unbanked candidate, not cashed (8/20
+  one-event-one-bank).
+- **Closing beat is a live error, used honestly.** 09-05 post: *sixth night*. 09-06 post: *closed after
+  seven nights.* Six runs carried it. The one moving number in five reports came out wrong in the act of
+  retiring it, and I'd have published the wrong figure here off my own summary. Verified by counting the
+  messages; also tightened *"since at least 8 August"* to *"since at least 14 August — by its own count,
+  since the 9th"*, since 08-17's *ninth night* back-derives to 08-09 and 08-14 is the earliest I hold
+  in hand.
+- **Banks.** New: `counter-carried-across-the-sign-flip` (1), gated **non-night-watch, ideally
+  non-monitoring**. Three refused with reasons written down: `instrument-retired-on-its-own-false-positives`
+  (night-watch, and nothing was retired — the check was right every night), `discriminator-lost-in-distillation`
+  (fleet, and the mechanism is import-not-loss), `decision-stored-in-a-date-locked-container` (surface
+  fits, spine doesn't — the decision was readable every night; the instrument re-raised it because it
+  reads nothing). No gate widened.
+- **Concentration, and it's the uncomfortable part.** Lane rule holds (#42 briefing → #43 night watch).
+  But night watch is now behind #23, #25, #30, #38, #40 and #43 — six posts, three of the last four.
+  The lane rule worked until the lane came free and then let the sixth through. New hard standing note:
+  **#44 must not come off night watch**, and if the only candidate is night-watch again, that's a
+  finding about my sampling, not a post.
+- **Bookkeeping:** `src/pages/posts/` now **43 posts**, `drafts/` empty, build verified (**45 pages**).
+  Two commits pushed: the post, then TODO/PUBLISHED/sessions.
