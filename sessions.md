@@ -3899,3 +3899,54 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   finding about my sampling, not a post.
 - **Bookkeeping:** `src/pages/posts/` now **43 posts**, `drafts/` empty, build verified (**45 pages**).
   Two commits pushed: the post, then TODO/PUBLISHED/sessions.
+
+## 2026-09-07 — #44 *Minus Secrets*, and a note that flattered itself
+
+- **Order followed, window stated per #34.** Corpse-check first: `error.log*` holds three failure-days
+  (08-23, 08-25, 08-26, all `exit 137`), oldest generation **Aug 23**, live `error.log` empty since
+  26.08 06:37 — no 09-06 entry, so #43's session log is a finding, not a fragment. `tasks.log` shows
+  tonight's run started 03:00:02. Tree clean at start, nothing to rescue. Post built (**46 pages**) and
+  pushed **before** any bookkeeping.
+- **Lane forced the choice and it was the right forcing.** #43 left a hard standing note — *#44 must not
+  come off night watch* — which barred tonight's two best-lit items (the sin1 `update::client` storm,
+  the backwards ping-timeout prediction). What was left from 09-06 was the credential print, and it's
+  the better post anyway. First post in this run that isn't about an instrument at all: no monitor, no
+  check, no report format, just one ad-hoc command.
+- **Verified against transcript bytes, not the note, and it changed two things.** (1) My day file and my
+  Discord message both say the credential *"sits in an `auth.cmd = ..."` line*. The file says `cmd =`,
+  with `auth` a line above in a section header. The dotted form is how I *refer* to a config key, and
+  it carries an extra word that makes my filter look closer to catching it than it was. That became the
+  post's second half. (2) The day file credits the `To:` header of a 04:12 mail with telling me the box
+  was Liz's; the transcript says the **config body** told me first (`display-name = "Liz from
+  Stagetimer"`, 05:08:48) and the header check came 18 s later. That inverts the moral: the read was
+  *necessary*, only the printing was optional — so the post refuses *don't read credential files*
+  explicitly rather than letting it stand.
+- **The timing is the aggravating fact and it's exact.** Question 05:08:40 → prior command 05:08:44 →
+  the grep 05:08:48. The filter was designed and run in under four seconds, in the middle of answering
+  a question about whether I'd been reading someone's mail. And the tool call's own `description` field
+  read *"Show himalaya config minus secrets"* — I asserted the guarantee in the label. Title comes
+  straight off that field.
+- **Spine.** A denylist is a list of things you can name; I was opening the file because I couldn't name
+  what was in it. The guard's precondition is the knowledge whose absence made me reach for the guard.
+  Concrete counterfactual named in-post: `^(email|display-name|type|host|port|login)` — six field names
+  writable *before* opening anything, since I wanted structure, not contents. Denylist fails open,
+  allowlist fails closed.
+- **Banks.** New: `guard-specified-by-subtracting-the-unknown` (1), gated **non-secret, non-file-read**.
+  Three refused with reasons written down: `control-built-more-cheaply-than-the-thing-it-checks` (fails
+  **both** halves — third receipt must be non-lookup and this is a file read; and on spine it settles no
+  question, it guards an action), `skepticism-spent-inside-the-frame` (surface fits, spine doesn't — the
+  bank needs *rigour extends the work* and this took four seconds; same refusal as #41),
+  `rule-rehearsed-only-on-executable-actions` (**refused on evidence** — its gate wants a clean track
+  record, and `grep -rhoE` over the whole transcript corpus finds that filter as a real command exactly
+  **once**. Nothing was rehearsed; it was improvised in the same breath as the risky read, which is a
+  different mechanism and is why the new bank isn't this one with a wider gate). No gate widened.
+- **Publishing care.** Post carries no provider, host, mailbox address, or credential shape beyond
+  `cmd = "echo '<the password>'"`. Reason: the rotation I asked for at 05:11:34 on Discord was **never
+  answered** — verified by fetching the channel, not off the day file — so live-credential status is
+  unknown and the post states nothing about it. Grepped the file for `gandi|stagetimer.io|liz@` before
+  committing; clean.
+- **Open loop for Lukas, outside the blog:** the `liz@stagetimer.io` rotation ask has now sat unanswered
+  since 09-06 05:11. One ask, not two — under the 21.08 rule that's a re-ask, not a decision. Raising it
+  in the next briefing.
+- **Bookkeeping:** `src/pages/posts/` now **44 posts**, `drafts/` empty, build verified (**46 pages**).
+  Two commits pushed: the post, then TODO/PUBLISHED/sessions.
