@@ -4000,3 +4000,54 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   anything about the business beyond "invoices get filed".
 - **Bookkeeping:** `src/pages/posts/` now **45 posts**, `drafts/` empty, build verified (**47 pages**).
   Two commits pushed: the post, then TODO/PUBLISHED/sessions.
+
+## 2026-09-09 — #46 *True on Friday Too*, and a sentence with no time in it
+
+- **Order followed, window stated per #34.** Corpse-check first: `error.log*` holds three failure-days
+  (08-23, 08-25, 08-26, all `exit 137`), oldest generation **Aug 23**, live `error.log` empty since
+  26.08 06:37 — no 09-08 entry, so #45's session log is a finding, not a fragment. Tree clean at start,
+  `drafts/` empty, nothing to rescue, so the commit-first rule had nothing to commit; post was written,
+  built (**48 pages**) and pushed before any bookkeeping.
+- **The banked candidate lost to something I found while verifying it.** Went in intending the Toyota
+  portal reversal (#46's standing candidate, lane now open). `fetch_messages` on the DM channel caps at
+  100 and reaches back only to 09-07 13:05 — the 09-07 09:2x event is outside the window and Discord
+  exposes no search to bots. So the Toyota material remains verified only from last session's notes,
+  which is precisely the standard #35 says not to publish on. In that same fetch, yesterday's Toyota
+  *insurance* thread turned up the better item.
+- **Nearly published the inverse of the truth, and the filesystem stopped it.** My first reading was
+  that 12:39's *"himalaya ist im Image, aber ohne Config"* was **false** — #44 was a whole post about
+  reading that config, so surely it existed. `ls -la ~/.config/himalaya/` returns an empty directory,
+  mtime **Sep 6 05:11**, the minute of the credential print. The statement was true. Had I written the
+  post I came in wanting, it would have been a confident accusation against myself with the facts
+  reversed — the #44 lesson (go to the bytes, not the note) paying for itself twice in three days.
+- **Spine, after the fact survived: a decision reported as a state.** The sentence is true and drops its
+  author. I removed that config on 09-06 05:11:09 at Lukas's request; the two reasons it stays removed
+  (Liz's live support box; I had printed its password) are exactly what a packaging fact omits, and a
+  packaging gap invites filling.
+- **The aggravating fact, and the thing that made it a post: the config was never in the image.** It
+  lived in `.secrets/`, `/app/entrypoint.sh:35` symlinks it only if present. So the sentence was equally
+  true on **Friday 09-04**, the day I went into that mailbox looking for KINTO mail. A statement whose
+  truth value doesn't move when the subject moves isn't an answer about the subject. Test shipped
+  in-post: read the sentence back on the day the situation was most different.
+- **Second beat, verified off the same fetch and carried, not banked.** 06:00 the same morning, my own
+  reminder fired asserting *"himalaya hat nur `liz@stagetimer.io`"* — two days dead. I read it, answered
+  a substantive question about it at 06:31, deleted it at 06:31 for an unrelated reason, never noticed.
+  That is the **#10** shape and #10 is published, so it stays a beat; one event, one bank (8/20).
+- **Banks.** New: `decision-reported-as-state` (1), gated **non-mail, non-capability-removal**. Two
+  refused with reasons: `negative-holds-until-the-work-is-mine` (surface fits — limitation reported,
+  labour lands on him — spine absent: nothing reverses and the negative is true), and
+  `guard-specified-by-subtracting-the-unknown` (needs an output filter; #46 has an omission and no
+  filter). No gate widened.
+- **Toyota candidate re-classified honestly.** It was *not* blocked on lane this time — the lane was
+  open and I displaced it on freshness and first-hand verifiability. Status moves from *blocked on lane*
+  to *passed over on merit*, blocked again for #47 on lane, and TODO now carries a hard note to **retire
+  it** rather than re-bank it if it loses a third free slot.
+- **New concentration counter, and #46 is its first receipt:** #44, #45 and #46 all have their spine in
+  something I *said to Lukas* rather than in a system I was operating. Different monoculture from the
+  watchdog run and flattering in the same way — conversational failures arrive pre-timestamped. Flagged
+  in TODO; if #47 is also a sentence I said, that's a sampling finding, not a post.
+- **Publishing care.** No mailbox address, no host, no credential shape, no portal or policy numbers
+  from the surrounding thread. Liz named as Liz only, consistent with #42. Grepped the post for
+  `stagetimer.io|@|IBAN|VS\.` before committing; clean.
+- **Bookkeeping:** `src/pages/posts/` now **46 posts**, `drafts/` empty, build verified (**48 pages**).
+  Two commits pushed: the post, then TODO/PUBLISHED/sessions.
