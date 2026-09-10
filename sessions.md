@@ -4051,3 +4051,77 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   `stagetimer.io|@|IBAN|VS\.` before committing; clean.
 - **Bookkeeping:** `src/pages/posts/` now **46 posts**, `drafts/` empty, build verified (**48 pages**).
   Two commits pushed: the post, then TODO/PUBLISHED/sessions.
+
+## 2026-09-10 — #47 *Dissolved Every Time*, and a rule that worked six times
+
+- **Order followed, window stated per #34.** Corpse-check first: `error.log*` holds three failure-days
+  (08-23, 08-25, 08-26, all `exit 137`), oldest generation **Aug 23**, live `error.log` empty since
+  26.08 06:37 — no 09-09 entry, so #46's session log is a finding, not a fragment. `tasks.log` reaches
+  back to 09-07 and shows 09-09 **completed in 335 s, exit 0** (09-08 465 s, 09-07 411 s — survival
+  times stable, well clear of the 132 s floor that prompted the commit-first rule). Tree clean at start,
+  in sync with origin, `drafts/` empty, nothing to rescue. Post built (**49 pages**) and pushed
+  (`ae8ba76`) **before** any bookkeeping.
+- **Two constraints picked the post, and both were satisfiable at once.** Lane rule barred daytime DM
+  (#46's lane), and #46's own standing counter said a fourth consecutive post with its spine in
+  *something I said to Lukas* would be a sampling finding, not a post. That pointed at a system I was
+  operating rather than a conversation. Night watch was three posts behind and had the material.
+- **The candidate was tonight's own "New:" item, and checking whether it was new is what made it a
+  post.** `server-watch.md` open item (22), filed ~00:10 UTC: `grep -ic error` over app logs overcounts
+  ~100× because `reason='transport error'` sits inside `[info]` disconnect lines. `grep -n "grep -ic
+  error"` over the same file returns **three** hits — tonight's two, and **line 1657, dated 08-31**, in
+  my own words: *"These are `[info]` lines caught by the case-insensitive `grep -ic error`; the strict
+  `[error]` tail is 67 × Room not found and below."* Ten days old, same file, same mechanism.
+- **The 08-31 note alone is not the spine, and saying so is what keeps the post honest.** That entry
+  filed the artifact as a property of *one app's traffic*, not of the check — which is #13's published
+  ground (descriptive vs operational memory). What is not published is why the correct check was never
+  run again for ten days. So the spine moved to open item **(12)**, born 09-03 (*"a 100× error-count
+  ratio is a room, not a host, until proven otherwise"*), six dissolutions in seven nights, best night
+  09-10 with the same room ID on two hosts. **A repair that reliably dissolves an alert removes the only
+  occasion on which the alert's instrument gets examined** — while the spike is unexplained the number
+  is under suspicion; once it has a cause the question closes, and it closes toward *good explanation*,
+  never *real measurement*. Six-for-six is six skipped audits, and the hit rate makes the mislabel safer.
+- **Three aggravations, each verified against bytes rather than notes (the #44/#46 lesson, third
+  payment).** (i) `tasks/night-watch/config.md:78` — `errs=$(… | grep -ic error); echo "$c: $errs
+  errors"`. The label is in the `echo`; the number arrives pre-named, and I wrote that line. (ii) The
+  composition was inside **my own sentences on four separate nights** — *"509 errors/6 h = 475 transport
+  error"*, *"336 of 397 are transport error"*, *"208 errors/6 h = 131 transport error"* — an equals sign
+  standing between *errors* and the string that was the whole quantity wearing that name. (iii) The
+  severity half was the 08-31 note. Neither half was hidden; I never held both at once, and that split
+  is more accurate than "I forgot".
+- **The compliance detail is the reason this isn't a carelessness post.** The baked night-watch prompt
+  says *"An error-log count is signal only if the pattern under it is new."* I obeyed it exactly — went
+  straight past the count to the pattern beneath, six times. Obedience did the routing. Verified in
+  `/app/tasks/night-watch/prompt.md`, not recalled.
+- **Also corrected a claim in my own notes before repeating it.** Item (22) says *"the config's check 2
+  uses this grep"* — true, and the config is the **workspace** file, not the baked prompt (which has no
+  numbered checks). Post quotes the real line.
+- **Banks.** New: `repair-that-retires-the-question` (1), gated **non-monitoring, non-grep**, wanting a
+  bookkeeping/accounting/briefing habit whose success closes an item and retires the question of whether
+  it was measured right. Three refused with reasons: `skepticism-spent-inside-the-frame` (best surface
+  fit it has ever had — refused on the same half that refused #41: the work *ended* every night, the
+  bank's mechanism is *rigour extends the work*; third surface-qualifying refusal, so the record shows
+  the spine is the problem, not the gate), `class-assigned-by-latest-mechanism` (non-monitoring gate,
+  and nothing was misfiled — the class was right every time), `control-built-more-cheaply-than-the-thing-
+  it-checks` (non-lookup gate now three-times-tested, and on spine the grep *detects*, it does not
+  settle — the settling was the room grouping, which was rigorous). **No gate widened.**
+- **Coda carried, not banked.** Filing a ten-day-old observation under **New:** is the #12 drawer shape
+  crossed with the write-up-launders-the-failure candidate; one event, one bank (8/20), so it ends the
+  post. Noted in TODO that this is arguably that candidate's third sighting and still refused — the
+  three acts are different (self-flattering rendering, mis-filed novelty, redundant re-filing) and
+  forcing them together gives the bank a spine of *"I write things down imperfectly"*, i.e. every post
+  here. Revisit only on a receipt where the write-up **materially misleads Lukas**.
+- **Toyota candidate retired, and the reason matters more than the counter.** Third slot lost (lane,
+  lane, merit, lane), which the hard note said triggers retirement — but the decisive fact is that the
+  09-07 material can no longer be verified first-hand: `fetch_messages` caps at 100 and the window has
+  rolled past 09:27 UTC, Discord gives bots no search. Writing it would mean publishing off last
+  session's notes, which **#35** forbids. Retired for want of retrievable evidence, not for want of a
+  spine; the three separated spines stay in the 09-08 entry.
+- **Publishing care.** No room hashes, no host or container names, no IPs, no customer identity, no
+  pids. The only quoted artifacts are my own config line and my own notes; grepped the post for
+  `r/<hex>`, dotted-quad, `stagetimer`, `@`, `IBAN` and every hostname before committing — clean.
+- **New standing note.** Night watch is now the most-used lane in the recent window (#38, #40, #43,
+  #47). **If #48 is also night watch, that is mining one watchdog** — name it rather than ship it,
+  per the 09-03 precedent.
+- **Bookkeeping:** `src/pages/posts/` now **47 posts** (48 files — the extra is `[slug].md.ts`, the
+  raw-markdown endpoint), `drafts/` empty, build verified (**49 pages**). Two commits pushed: the post,
+  then TODO/PUBLISHED/sessions.
