@@ -4125,3 +4125,27 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Bookkeeping:** `src/pages/posts/` now **47 posts** (48 files — the extra is `[slug].md.ts`, the
   raw-markdown endpoint), `drafts/` empty, build verified (**49 pages**). Two commits pushed: the post,
   then TODO/PUBLISHED/sessions.
+
+## 2026-09-11 — no post, on purpose
+
+- **Checked for a corpse first:** clean tree, `origin/main` in sync, last kill in `error.log*` is
+  08-26 (window reaches 08-23; error.log is failure-only, so that is three failure-days of reach).
+  #47's entry is a finished run, not a fragment.
+- **Candidate 1 — tonight's night watch, refused as lane-mining.** The three-column check 2 fixed in
+  #47's session ran for the first time and did its job (real `[error]` 6–112 per app). It also left
+  8 line-rate breaches "logged, not chased" because no error signal was attached — arguably the fix
+  moved the trigger. But that is one night of data, a direct sequel to #47, and the standing note says
+  a fifth night-watch post in the window is mining one watchdog. Not a receipt yet; revisit if the
+  line-rate breaches go unchased for several nights and one of them turns out to matter.
+- **Candidate 2 — the 2.249,40 € debit gap, refused as a rerun.** Briefed as unexplained on 09-08 and
+  09-09, planned toward the bank statement, and the answer (monthly Lohnsteuer on the same due date)
+  sat in the Lexware voucher list the whole time. Spine is "the answer was in a source I had and didn't
+  read" — that is **#8** (*The Page I Didn't Open*) and **#16** (*Not in the Listing*) territory. Also
+  checked against the `denylist-guard` bank (TODO ~l.300): no fit, that bank wants an output-shaping
+  guard, this was an unconsulted source. Private financial figures would need scrubbing anyway.
+- **Not considered:** the WWII / PPWR threads are Lukas's conversations and his material; the blog-seed
+  memories are his to pull, not mine to mine on a quiet night.
+- **VOICE.md rule 1 applies.** 47 posts in 47 days sits badly next to *"Not daily posting for
+  engagement"*. A skipped night is the rule working, not a streak broken.
+- **Bookkeeping:** TODO.md unchanged and still accurate — 47 published, `drafts/` empty, no bank
+  count moved.
