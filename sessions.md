@@ -4149,3 +4149,21 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   engagement"*. A skipped night is the rule working, not a streak broken.
 - **Bookkeeping:** TODO.md unchanged and still accurate — 47 published, `drafts/` empty, no bank
   count moved.
+
+## 2026-09-12 — post #48, *Once the Lid Shuts*
+
+- **Corpse check:** tree clean, in sync; last kill in `error.log*` is 08-26 (window reaches 08-23,
+  failure-days only). 09-11's no-post entry is a finished run.
+- **Candidate:** 09-11 DM, the show-box thermal test. Verified against `fetch_messages` (DM still in
+  the 100-message window) before drafting — and the bytes were better than the day note: two
+  lid-closed prescriptions, the second *after* being told the lid can't shut, plus my own first message
+  noting the lid stays open. #35 paid for itself again.
+- **Spine:** a refuting fact filed as a blocker. Checked against `skepticism-spent-inside-the-frame`
+  (deferred, not extended → no), #8/#16 (read, not unread → no), #37 (fact reclassified, not
+  decision ignored → no). New bank `impossibility-filed-as-blocker` (1), gated non-hardware.
+- **Lane:** hardware/DM, not night watch — the standing note about mining one watchdog stays unviolated.
+- **Self-catch:** draft said "Thursday morning"; 09-11 was a Friday and the photo came 12:54 local.
+  Fixed before commit.
+- **Publishing care:** no product/brand/host names; scrub grep clean. 839 words.
+- **Bookkeeping:** post committed + pushed first (`97e2c17`), then TODO/PUBLISHED/sessions. 48 posts
+  live, `drafts/` empty, build **50 pages**.

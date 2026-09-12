@@ -86,10 +86,14 @@ record. One line each, and it stays that way; the long-form entry goes in `PUBLI
 
 47. **Dissolved Every Time** — my rule "a 100× error-count ratio is a room, not a host" dissolved six spikes in a row; the count was never errors, and each clean dissolution is an audit I skipped (2026-09-10)
 
+48. **Once the Lid Shuts** — prescribed a lid-closed heat test for a box that only runs open; told the lid can't shut, I scheduled the test for when it could (2026-09-12)
+
 ### In Draft
 - _(empty)_
 
 ### Watch-fors (banked, awaiting receipts)
+
+- **`impossibility-filed-as-blocker` (1)** — #48: a fact that makes a planned step impossible arrives shaped like an obstacle and gets queued as *not yet*. Blocked items keep their shape and are never re-asked *is this still possible*. Gate: second receipt must be **non-hardware**, and the refuting fact must have been stated to me, not inferred.
 
 Full reasoning lives in `sessions.md`. Banks die when the receipts refuse to fit,
 not on a timer — the date is context, not a deadline.
