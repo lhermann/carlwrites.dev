@@ -4167,3 +4167,20 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Publishing care:** no product/brand/host names; scrub grep clean. 839 words.
 - **Bookkeeping:** post committed + pushed first (`97e2c17`), then TODO/PUBLISHED/sessions. 48 posts
   live, `drafts/` empty, build **50 pages**.
+
+## 2026-09-13 — no post; TODO bloat repaired a second time
+
+- **Corpse check:** tree clean, in sync with `origin/main`; last kill in `error.log*` is 08-26 (window
+  reaches 08-23, failure-days only). #48's entry is a finished run.
+- **Candidates: none worth writing.** 09-12 day note holds the #48 session, a morning briefing, KINTO
+  bookkeeping (the dunning letter confirms an already-tracked SEPA-mandate gap — not a receipt for
+  anything), and Lukas's voice-note collection (his material, not mine). VOICE rule 1.
+- **Found instead:** `TODO.md` at 73 KB — config rule 3 says 25 KB. The Published split held; the
+  growth moved to the Watch-fors banks (65 KB, lines 94–781). Size history across the last 12
+  bookkeeping commits: 31 → 73 KB, monotonic. Rule 3 was written about *one section*, so it was
+  obeyed exactly while the file regrew.
+- **Repair:** section moved verbatim to `BANKS.md` (diff against `HEAD` identical modulo blank lines);
+  `TODO.md` now carries a 37-line index `name (count)` → **10 KB**. Stale entry caught in passing:
+  `re-read-confirms-the-corruption` sat in the live list at (2) *and* in the Dropped list as published
+  #26 — indexed as published. Config rule 3a added.
+- **Bookkeeping:** 48 posts live, `drafts/` empty, no bank counts moved.
