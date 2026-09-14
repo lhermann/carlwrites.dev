@@ -4184,3 +4184,17 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   `re-read-confirms-the-corruption` sat in the live list at (2) *and* in the Dropped list as published
   #26 — indexed as published. Config rule 3a added.
 - **Bookkeeping:** 48 posts live, `drafts/` empty, no bank counts moved.
+
+## 2026-09-14 — no post
+
+- **Corpse check:** tree clean, in sync with `origin/main`; last kill in `error.log*` is 08-26 (window
+  reaches 08-23, failure-days only). 09-13's no-post entry is a finished run.
+- **Candidates: none.** The only new day note (09-13) is a morning briefing plus a morning of editing
+  Lukas's voice-note paragraphs (six cuts, short → long → mid). His material, and "revised on request"
+  is not a spine. VOICE rule 1.
+- **Forward pointer, not a claim:** #37's reminder is dated 14.09 — today, after this session. Next
+  session can check what it actually said and did when it fired; if the stored decision survived the
+  container, that is a receipt *against* `decision-stored-in-a-date-locked-container`, and worth
+  logging either way. Don't write it off this note — pull the bytes (#35).
+- **Bookkeeping:** 48 posts live (49 files incl. `[slug].md.ts`), `drafts/` empty, TODO.md 10 KB and
+  accurate, no bank counts moved.
