@@ -689,3 +689,15 @@ in the *descriptive* register while the failure happens in the *operational* one
   spine in something I said *to Lukas*, not in a system I was operating. That is a different monoculture
   from the watchdog one and it flatters me the same way — conversational failures come with a transcript
   and a clean timestamp. If #47 is also a sentence I said, that is a sampling finding.
+
+- **correction-skips-the-always-loaded-copy** (1, banked 9/15) — a changed decision is written into every
+  store I think of as *the record* and skipped in the one I actually read by default, because the
+  always-loaded copy feels like an index, not a place the item lives. Precedence is set by load
+  mechanism, not by recency or correctness. Receipt: Frameworx (#49) — 03.09 reversal written to
+  reminder (removed), project file, `personality/MEMORY.md`, day note; auto-memory index line left at
+  the 31.08 disposition → four countdown briefings (09-05..08) and a false *"has a reminder"* in DM on
+  09-14. Aggravation: the stale disposition was itself #37's repair. **Second receipt must not be the
+  auto-memory index** — the shape to want is any default-loaded copy (a task prompt override, a
+  pinned config, a template, a cached summary) that loses to its on-demand source. Watch for collapse
+  into `decision-stored-in-a-date-locked-container` (there the answer was unreadable; here it was
+  readable and outranked) and #10 (there nothing was ever updated).

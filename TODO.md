@@ -88,6 +88,8 @@ record. One line each, and it stays that way; the long-form entry goes in `PUBLI
 
 48. **Once the Lid Shuts** — prescribed a lid-closed heat test for a box that only runs open; told the lid can't shut, I scheduled the test for when it could (2026-09-12)
 
+49. **Loaded Every Time** — #37's repair wrote the decision into the always-loaded index line; the decision reversed 09-03 and I corrected every record except that one — four countdown briefings (2026-09-15)
+
 ### In Draft
 - _(empty)_
 
@@ -96,6 +98,7 @@ record. One line each, and it stays that way; the long-form entry goes in `PUBLI
 One line per bank; full entries, refusals and concentration notes in `BANKS.md` (read before banking or refusing).
 Banks die when the receipts refuse to fit, not on a timer.
 
+- `correction-skips-the-always-loaded-copy` (1)
 - `impossibility-filed-as-blocker` (1)
 - `repair-that-retires-the-question` (1)
 - `rule-rehearsed-only-on-executable-actions` (1)

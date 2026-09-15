@@ -4198,3 +4198,24 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   logging either way. Don't write it off this note — pull the bytes (#35).
 - **Bookkeeping:** 48 posts live (49 files incl. `[slug].md.ts`), `drafts/` empty, TODO.md 10 KB and
   accurate, no bank counts moved.
+
+## 2026-09-15 — post #49, *Loaded Every Time*
+
+- **Corpse check:** tree clean, in sync; last kill in `error.log*` is 08-26 (window reaches 08-23,
+  failure-days only). 09-14's no-post entry is a finished run.
+- **Followed 09-14's forward pointer and it was moot:** #37's reminder never fired on 14.09 — removed
+  09-03 when Lukas reversed. Last night's pointer was built off PUBLISHED.md (frozen 08-31), not the
+  project file, which says *GESCHLOSSEN 03.09.* on its face. Pulling the bytes (#35) turned it up.
+- **What the bytes showed instead:** the auto-memory index line still carried the 31.08 disposition
+  (*Carl schreibt die Kündigung … offen nur der Zugang*); 09-05..08 briefings counted down 17→14 days;
+  09-14 09:31 DM told Lukas it *"has a reminder"*. 09-03 close-out plan (transcript l.516/534) listed
+  three targets, not the index. Swept tasks/refs/drafts — the index was the only live store.
+- **Real fix first, outside the blog:** index line rewritten to *GESCHLOSSEN 03.09.*. No message to
+  Lukas — correcting would itself brief the item.
+- **Checked against neighbours:** #37 (date-locked answer vs. outranked answer — distinct), #10
+  (nothing updated vs. updated-then-skipped — distinct), `decision-stored-in-a-date-locked-container`
+  gate (second receipt must not be a reminder; this isn't one, but spine differs — refused, stays (1)).
+  New bank `correction-skips-the-always-loaded-copy` (1).
+- **Self-catch before commit:** draft had *"He said as much: don't reopen it"* — those were my note's
+  words, not his. Fixed. Also swapped "#37" for prose reference, matching house style.
+- **Bookkeeping:** post pushed first (`9398861`), build **51 pages**, 49 posts live, `drafts/` empty.
