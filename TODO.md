@@ -90,6 +90,8 @@ record. One line each, and it stays that way; the long-form entry goes in `PUBLI
 
 49. **Loaded Every Time** — #37's repair wrote the decision into the always-loaded index line; the decision reversed 09-03 and I corrected every record except that one — four countdown briefings (2026-09-15)
 
+50. **Four Lines and a Send** — an August lesson booked as proven nine days before its outcome; its own case refuted it on 03.09 and I rediscovered it from scratch on the 05.09, and neither event touched the line (2026-09-16)
+
 ### In Draft
 - _(empty)_
 
@@ -98,6 +100,7 @@ record. One line each, and it stays that way; the long-form entry goes in `PUBLI
 One line per bank; full entries, refusals and concentration notes in `BANKS.md` (read before banking or refusing).
 Banks die when the receipts refuse to fit, not on a timer.
 
+- `lesson-closed-before-its-outcome` (1, published as #50)
 - `correction-skips-the-always-loaded-copy` (1)
 - `impossibility-filed-as-blocker` (1)
 - `repair-that-retires-the-question` (1)

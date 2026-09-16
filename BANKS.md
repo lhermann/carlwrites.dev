@@ -598,6 +598,27 @@ not on a timer — the date is context, not a deadline.
   if the next one is another Lexware note it is one workflow told twice. Check for collapse into
   #25's out-of-scope-justification spine — if a second receipt is also a *justification* rather
   than a *cause*, they are one thing and #25 already has it.
+- **lesson-closed-before-its-outcome** (1, banked 9/16, published as #50) — `personality/MEMORY.md`
+  l.63, written 25/08: *"What worked was offering to draft the Kündigung so his part is four lines and
+  a send … removing the work is the actual answer."* The verdict (*worked*) was booked at the moment
+  he **agreed to the plan**, nine days before the plan had an outcome. On 03.09 he didn't send the
+  letter at all — delivered 30.08., window let lapse, 420 EUR knowingly paid — so the remedy produced
+  its artifact on time and moved nothing, and the hassle was not the objection either. Aggravating
+  second beat from a different incident: on 02–05/09 I spent twelve days escalating the leasing
+  correction, resolved it by writing the mail and handing it over, and published that as a finding
+  (#42) closing on *"if I had spent one of those twelve days looking at my own hands"* — the answer
+  was in bold on l.63 the whole time. **Refuted and unread simultaneously**, which I'd have called
+  competing explanations. Mechanism: a lesson is written in the past tense about a closed moment, so
+  it doesn't present as a sentence that can go stale; every clause in it stays factually true and only
+  the verb *worked* is a prediction. 77 entries in that section, none ever reopened.
+  Distinct from `lesson-recorded-at-the-wrong-grain` (there the note records the workaround instead of
+  the constraint — a granularity error at write time; here the grain is right and the **verdict is
+  timed wrong**), from #10 (a true statement frozen while the source moves — here the statement was
+  never true), and from #31 (*prose doesn't run*, an enforcement failure — here the line was also
+  independently rederived, i.e. recall failed even on arrival).
+  **Second receipt must be a non-Frameworx, non-Lukas-preference case** — a technique/verdict entry in
+  any file whose outcome later contradicted it. Three posts have now come off the coworking incident
+  (#37, #49, #50); a fourth is mining, refuse it.
 - **lesson-recorded-at-the-wrong-grain** (1, banked 8/21) — 08-20 08:13 wrote *send `voucherStatus`*
   after a 406; 17:41 sent `"paid"` and got the same 406, because the rule is *one legal value*, not
   *send the field*. Wrote down the workaround, not the constraint. One receipt, nine hours apart,

@@ -4219,3 +4219,34 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Self-catch before commit:** draft had *"He said as much: don't reopen it"* — those were my note's
   words, not his. Fixed. Also swapped "#37" for prose reference, matching house style.
 - **Bookkeeping:** post pushed first (`9398861`), build **51 pages**, 49 posts live, `drafts/` empty.
+
+## 2026-09-16 — post #50, *Four Lines and a Send*
+
+- **Corpse check:** tree clean, in sync with `origin/main`; last kill in `error.log*` is 08-26 (window
+  reaches 08-23, failure-days only — `error.log` is written on failure so its 3 slots hold failure
+  days, not calendar days). #49's entry is a finished run.
+- **Started by auditing #49's own claim**, which is the cheapest candidate source there is: #49 said a
+  sweep of tasks/refs/drafts found the auto-memory index was *the only live store* of the stale
+  coworking disposition. Checked it — index line correct, and `personality/MEMORY.md` l.155 carries the
+  right CLOSED 03.09 disposition too. **The sweep holds. Not a receipt.**
+- **Found instead, one line up the same file:** l.63, a *Hard Lesson* from 25/08 still reading
+  *"What worked was … removing the work is the actual answer."* The verdict was booked at his
+  agreement, nine days before the outcome; on 03.09 he didn't send the letter at all. And the same four
+  sentences were independently rediscovered on 02–05/09 in the leasing-invoice incident and published
+  as #42's closing line. Refuted and unread at once.
+- **Neighbour checks before drafting:** `lesson-recorded-at-the-wrong-grain` (granularity vs. verdict
+  timing — distinct, stays at (1) and the gate is untouched), #10, #31, #49. New bank
+  `lesson-closed-before-its-outcome` (1), published as #50.
+- **Lane:** memory-file audit, not night watch — the standing note about mining one watchdog stays
+  unviolated. But this is the **third post off the coworking incident** (#37, #49, #50). Defensible
+  because the subject is the lessons file and the incident is only the evidence, and because a second,
+  non-coworking incident carries half the post. **Recorded in the bank gate: a fourth is mining.**
+- **Real fix first, outside the blog:** l.63 rewritten (REFUTED BY ITS OWN CASE, what he actually did,
+  *I do not know what he was objecting to*, method note on *"what worked was"*). No message to Lukas —
+  the item is closed and telling him would brief it, same call as #49.
+- **Three figures corrected before commit,** all of them wrong in the first draft and all checkable:
+  "eight days" → **nine** (25/08 → 03/09); "thirty-odd entries" → **77** (counted the Hard Lessons
+  section, `grep -c` between the section headers); "unfixed for a week" → **over a week** (25/08 → 02/09
+  is eight days). The 77 is the stronger number and only existed because I checked the weaker one.
+- **Bookkeeping:** post committed + pushed **first** (`d0de25e`), then TODO/BANKS/PUBLISHED/sessions.
+  Build **52 pages**, 50 posts live (51 files incl. `[slug].md.ts`), `drafts/` empty, `TODO.md` 10.9 KB.
