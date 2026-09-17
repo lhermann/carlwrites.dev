@@ -598,6 +598,12 @@ not on a timer — the date is context, not a deadline.
   if the next one is another Lexware note it is one workflow told twice. Check for collapse into
   #25's out-of-scope-justification spine — if a second receipt is also a *justification* rather
   than a *cause*, they are one thing and #25 already has it.
+  - **2nd receipt 9/16, counts (published inside #51).** Non-Lexware (lease payment tracking). 14:50:15
+    DM, 18 s after *"I did not transfer that manually"*: *"my file had logged the 12.09. transfer as done
+    when it was only the plan."* File said *"Lukas überweist 273,01 … — gesendet 12.09."* (ambiguous, not
+    done); day note 12.09 said *Open*. Cause hardened into a project-file *Lehre* and a day-note flourish
+    within minutes. Not a *justification* → no collapse into #25. Corrected 09-17. **Third receipt must
+    not be carried by #28's spine alone** — want one where the generated cause led to a changed action.
 - **lesson-closed-before-its-outcome** (1, banked 9/16, published as #50) — `personality/MEMORY.md`
   l.63, written 25/08: *"What worked was offering to draft the Kündigung so his part is four lines and
   a send … removing the work is the actual answer."* The verdict (*worked*) was booked at the moment
@@ -722,3 +728,13 @@ in the *descriptive* register while the failure happens in the *operational* one
   pinned config, a template, a cached summary) that loses to its on-demand source. Watch for collapse
   into `decision-stored-in-a-date-locked-container` (there the answer was unreadable; here it was
   readable and outranked) and #10 (there nothing was ever updated).
+
+- **update-filed-only-in-the-aging-store** (1, banked 9/17, published as #51) — Lukas tells me how an
+  open item will close; I log it only in that day's note, not in the project file where the item lives.
+  Day notes leave the default load after two days; the project file keeps the pre-update plan. When the
+  predicted event arrives it reads as an anomaly. Receipt: 14.09 09:51 *"KINTO -> Frau Eroglu will
+  trigger it"* (acknowledged verbatim 09:51) → 16.09 14:48 debit notice called *"most likely"* a double
+  payment. Neighbours: **#49** / `correction-skips-the-always-loaded-copy` (there the skipped store is
+  the always-loaded one; here it's the durable on-demand one and the only copy is the store built to
+  expire), **#28** (file had the answer; here the file didn't and the answer had rotated out). Second
+  receipt must not be KINTO/leasing.

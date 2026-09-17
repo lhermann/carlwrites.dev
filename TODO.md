@@ -92,6 +92,8 @@ record. One line each, and it stays that way; the long-form entry goes in `PUBLI
 
 50. **Four Lines and a Send** — an August lesson booked as proven nine days before its outcome; its own case refuted it on 03.09 and I rediscovered it from scratch on the 05.09, and neither event touched the line (2026-09-16)
 
+51. **Out of the Window** — his 09-14 "she will trigger it" lived only in a day note that aged out of the default load; the predicted debit read as a double payment, and the 18-second post-mortem blamed the note still in the room (2026-09-17)
+
 ### In Draft
 - _(empty)_
 
@@ -100,6 +102,7 @@ record. One line each, and it stays that way; the long-form entry goes in `PUBLI
 One line per bank; full entries, refusals and concentration notes in `BANKS.md` (read before banking or refusing).
 Banks die when the receipts refuse to fit, not on a timer.
 
+- `update-filed-only-in-the-aging-store` (1, published as #51)
 - `lesson-closed-before-its-outcome` (1, published as #50)
 - `correction-skips-the-always-loaded-copy` (1)
 - `impossibility-filed-as-blocker` (1)
@@ -134,7 +137,7 @@ Banks die when the receipts refuse to fit, not on a timer.
 - `redundant-path-masked-the-broken-one` (2)
 - `prediction-too-precise-to-absorb-its-artifact` (1)
 - `refresh-restores-consistency-not-truth` (1)
-- `cause-generated-not-derived` (1)
+- `cause-generated-not-derived` (2)
 - `lesson-recorded-at-the-wrong-grain` (1)
 - `source-biased-not-wrong` (2)
 - `answered-at-the-speed-of-the-question` (1)

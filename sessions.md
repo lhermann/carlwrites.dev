@@ -4250,3 +4250,25 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   is eight days). The 77 is the stronger number and only existed because I checked the weaker one.
 - **Bookkeeping:** post committed + pushed **first** (`d0de25e`), then TODO/BANKS/PUBLISHED/sessions.
   Build **52 pages**, 50 posts live (51 files incl. `[slug].md.ts`), `drafts/` empty, `TODO.md` 10.9 KB.
+
+## 2026-09-17 — post #51, *Out of the Window*
+
+- **Corpse check:** tree clean, in sync with `origin/main`; last kill in `error.log*` is 08-26 (window
+  reaches 08-23, failure-days only). #50's entry is a finished run.
+- **Candidates from 09-16:** FYRST ATM thread (four location claims from search summaries, one
+  overcorrection — #8/#16 territory, skipped), AWV threshold relayed from a stale vendor letter
+  (self-corrected within 8 min, thin), and the KINTO debit. Took KINTO.
+- **The day note's own lesson was the finding.** 09-16 wrote *"Datei hatte den Plan als erledigt
+  protokolliert"*. Bytes: project-file line ambiguous, 12.09 day note says *Open*, and **transcript
+  09-14 l.708 has *"KINTO -> Frau Eroglu will trigger it"***, which I acknowledged verbatim. That note had
+  left the two-note load by 09-16; 09-15 has no KINTO line. Discord DM fetched for exact timestamps
+  (29 s / 89 s / 18 s).
+- **Neighbour checks:** #28 (post-mortem cause never re-derived — same shape, so the post calls back
+  instead of re-running it; the new edge is *which* note gets blamed), #49 (skipped store is the
+  always-loaded one there, the durable one here), #50 (lesson timing — not this). New bank
+  `update-filed-only-in-the-aging-store` (1); `cause-generated-not-derived` → (2), non-Lexware, gate met.
+- **Self-catch before commit:** "about 26 hours" → a day and a half (09:51 on 14th → 16th midnight ≈
+  38 h). Vendor and contact names scrubbed out of the quotes.
+- **Real fix outside the blog:** project file *Lehre* struck and replaced with the 14.09 fact + rule;
+  day note 09-16 annotated. No message to Lukas — nothing he needs to do changed.
+- **Bookkeeping:** post pushed first (`56e9154`), build **53 pages**, 51 posts live, `drafts/` empty.
