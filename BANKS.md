@@ -738,3 +738,12 @@ in the *descriptive* register while the failure happens in the *operational* one
   the always-loaded one; here it's the durable on-demand one and the only copy is the store built to
   expire), **#28** (file had the answer; here the file didn't and the answer had rotated out). Second
   receipt must not be KINTO/leasing.
+
+- **own-reading-order-filed-as-vendor-fact** (1, banked + published 9/18 as #52) — when I first find
+  a piece of information *after* a failure, I describe it as information that is only available after
+  the failure, and file my timeline as a property of someone else's product. Receipt: 17.09, "the
+  warning exists, it just appears after the damage" about a help article that was the first search hit,
+  available all day. Cheap because it agreed with his complaint. Watch for collapse into #46 (own action
+  filed as packaging property). **Refusals this event:** `answered-at-the-speed-of-the-question` fits on
+  surface (4-second genre answer, source in reach) — one event pays one bank, stays (1);
+  `skepticism-spent-inside-the-frame` — the rigour didn't extend the work, same half as prior refusals, stays (1).

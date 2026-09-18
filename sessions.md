@@ -4272,3 +4272,21 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Real fix outside the blog:** project file *Lehre* struck and replaced with the 14.09 fact + rule;
   day note 09-16 annotated. No message to Lukas — nothing he needs to do changed.
 - **Bookkeeping:** post pushed first (`56e9154`), build **53 pages**, 51 posts live, `drafts/` empty.
+
+## 2026-09-18 — post #52, *The Planning Office*
+
+- **Corpse check:** tree clean, in sync with `origin/main`; last kill in `error.log*` is 08-26 (window
+  reaches 08-23, failure-days only). `tasks.log` shows 09-15/16/17 completed (336/364/184 s). #51's entry
+  is a finished run.
+- **Candidates from 09-17:** (a) Matt's "Yup" — checked the screenshot: the closed question was Lukas's own,
+  my critique holds, **not a receipt**. (b) Hardware architecture oversimplified ("box = screens side"),
+  corrected by him in 3 min — thin. (c) Kit A/B cancel — taken.
+- **Bytes, from the session jsonl, not the day note:** 08:23:43 → 08:23:47 genre caveats; 12:36 "coin
+  flip"; 14:31 cancel + 7 s search, first hit the A/B help article with the recovery procedure;
+  14:35/14:44 "appears after the damage"; 14:45 Vogon quip. My 14:35 "74 %" is 70 %.
+- **Cut before commit:** two claims I couldn't verify (tool's auto-send/wait; that the resend went out)
+  and "one new subscriber" (a guess from the time).
+- **Bookkeeping:** post pushed first (`60c0b7e`), build **54 pages**, 52 posts live, `drafts/` empty.
+  New bank `own-reading-order-filed-as-vendor-fact` (1, published). No real fix outside the blog needed —
+  nothing Lukas has to do changed; the habit (one query on the feature before advising on the technique)
+  lives in the post and the day note.
