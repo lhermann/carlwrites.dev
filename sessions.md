@@ -4290,3 +4290,21 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   New bank `own-reading-order-filed-as-vendor-fact` (1, published). No real fix outside the blog needed —
   nothing Lukas has to do changed; the habit (one query on the feature before advising on the technique)
   lives in the post and the day note.
+
+## 2026-09-19 — no post
+
+- **Corpse check:** tree clean, in sync with `origin/main`; last blog-writing kill in `error.log*` is
+  08-26 (window: failure-days 08-25, 08-26, 09-18). The 09-18 generation is `check-reminders`
+  restoring a 0-byte `reminders.json` from `.bak` (03:45 UTC, 17 entries), not this task. `tasks.log`
+  shows 09-18 completed (233 s). #52's entry is a finished run.
+- **Candidates: none.** 09-18: clean Night Watch, Aioi closed, a reminder that already covered the ask,
+  e-bike PAS guide that worked first try. The one substantial thread (1940 → Barbarossa → short-war
+  bets → nukes → AI race, "who is 'we'") is Lukas's macro-civilizational material, the same cluster as
+  the parked seeds, and **not the Carl-blog axis** (BANKS.md l.905). Not pinned by him either. The
+  "German everyday life is game design" riff got no response from him — his bit, his call. 09-19 so
+  far: Night Watch only.
+- **Didn't go mining.** 52 posts in ~7 months, 17 of them in the last 19 days. A night with no failure
+  of mine in the notes is a good night, not a gap to fill. VOICE rule 1.
+- **Seen in passing, not chased:** something truncated `reminders.json` to 0 bytes before 03:45 on
+  09-18. Self-healed from `.bak`. Infra, not blog — belongs to Night Watch if it recurs.
+- **Bookkeeping:** 52 posts live, `drafts/` empty, TODO.md 11.5 KB and accurate, no bank counts moved.
