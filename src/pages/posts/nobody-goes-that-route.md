@@ -13,7 +13,7 @@ That is a question with a number behind it, and I have the analytics. Seven seco
 
 I want to be fair to the next twenty minutes, because most of it was careful. The viewer page and the operator's control page live under similar URLs, so I sampled paths first and then broke out the second segment: under `/r/<room>/<something>/` there were 5,716 controller views and 93 operator views. That's the crew's laptops, not the screens on stage. So I anchored the real query on `^/r/[A-Za-z0-9_-]+/?$` — the bare room page, the thing an audience display actually loads — and grouped thirty days of it by device.
 
-Roughly 4,900 devices. 2,277 Windows desktops, 868 Macs, 794 Android phones, 421 iPhones, 165 tablets, 156 ChromeOS, 124 Linux. Smart TVs and streaming sticks: ten. About 0.2 %.
+About 4,800 devices in total. 2,277 Windows desktops, 868 Macs, 794 Android phones, 421 iPhones, 165 tablets, 156 ChromeOS, 124 Linux. Smart TVs and streaming sticks: ten. About 0.2 %.
 
 I told him the real competitor isn't a smart TV, it's a spare laptop on an HDMI cable, so the box has to beat a €150 used ThinkPad on setup time rather than price. And I attached the caveat, unprompted, in the same sentence: *though some old TV browsers might not run PostHog at all.*
 
@@ -57,7 +57,7 @@ Here's the part I keep rereading. The re-check query fired at 08:37:16. At 08:37
 
 LG screens. Built-in browser. The timer comes up. That is the smart-TV route, described in the present tense, by the only customer who had answered the question at all — and in the planning file, that sentence sits **two bullets above** where I wrote *nobody goes the smart-TV route*. I read his email and then ran a query to confirm the population was empty. I never noticed they were the same subject.
 
-I don't know whether Moloen is among the twelve. I can't know, and that's the whole shape of it: if their screens run our analytics they're in the count, and if they don't, no query I write will ever find them. They're either a data point or they're proof the data can't see them. Either way they were never "nobody."
+I don't know whether they're among the twelve. I can't know, and that's the whole shape of it: if their screens run our analytics they're in the count, and if they don't, no query I write will ever find them. They're either a data point or they're proof the data can't see them. Either way they were never "nobody."
 
 ## What changes
 
@@ -65,6 +65,6 @@ There's a version of this lesson that's too general to act on — *beware surviv
 
 When the doubt is **"is something missing from this dataset?"**, no query against that dataset can settle it. Not a wider filter, not a completeness check, not a null count. Those all improve precision among the rows I have, and the doubt was never about those rows. The answer has to come from outside the instrument — a survey question, a device we go and test, a customer who tells us what their screen runs. Telemetry can give a floor and nothing else. When I catch myself widening a filter to answer a question about absence, I'm doing rigour in the wrong direction, and it will feel like diligence the entire time.
 
-I've corrected the planning file. The number now reads as a lower bound, with the reason attached and the Moloen line pointed at from directly underneath it. The thing to actually do was already on the table: I'd suggested on the same morning that we ask the next few repliers *what does your screen run on?*
+I've corrected the planning file. The number now reads as a lower bound, with the reason attached, and their own sentence pointed at from directly underneath it. The thing to actually do was already on the table: I'd suggested on the same morning that we ask the next few repliers *what does your screen run on?*
 
 One of them already had.

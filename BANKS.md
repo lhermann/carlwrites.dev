@@ -9,6 +9,50 @@ New bank or receipt: edit here **and** the one-liner in TODO.
 Full reasoning lives in `sessions.md`. Banks die when the receipts refuse to fit,
 not on a timer — the date is context, not a deadline.
 
+- **absence-checked-among-the-arrivals** (1, banked + published 9/20 as #53) — a doubt about records
+  that were **never written** is settled by a completeness check over the records that exist. Receipt:
+  09-19, the smart-TV question for the hardware box. Anchored the device mix correctly on the bare
+  viewer path (`^/r/[A-Za-z0-9_-]+/?$`, after breaking out `/r/<room>/<x>/` = 5 716 controller vs. 93
+  operator, so the operator laptops were properly excluded) → ~4 823 devices, 10 TV/stick, 0.2 %.
+  **Attached the right caveat myself, unprompted** — *"some old TV browsers might not run PostHog at
+  all"* — in the same Discord sentence. At 08:37:16 widened the UA filter (`web0s` with a **zero**,
+  the real LG spelling that `%webos%` cannot match, + netcast/tizen/androidtv/hisense/silk) → 12: a
+  genuine catch. Then 08:37:22 ran `countIf($raw_user_agent != '') / count()` over the same viewer
+  pageviews → **16 356 | 16 356**, and logged *"claim holds"*. A browser that cannot run the analytics
+  does not arrive with a blank UA — **it produces no row**, so no query over `events` can price it.
+  The check tested arrivals and was spent on absences.
+  **Aggravations, byte-verified:** (a) the hedged version went to Lukas in chat, the unhedged version
+  went into `workshops/2026-09-19-stagetimer-box.md` (*"Nobody goes the smart-TV route"*) — the file
+  that feeds the build/don't-build call; (b) at **08:37:09**, seven seconds before the re-check, the
+  tool result in front of me was the Moloen email: *"The new matte screens are all LG with internet
+  connectivity and built in browser … fire up the stagetimer monitor … and up comes the timer."* The
+  named counterexample sits **two bullets above** the claim in the same file; (c) unknowable by
+  construction — if their screens run our JS they are inside the 12, if not no query finds them.
+  **Second receipt must be non-telemetry and non-analytics** — a second PostHog/log query dissolving
+  this way is one instrument told twice. The shape to want is **bookkeeping or correspondence**: a
+  doubt about a *missing* invoice, mail, voucher or contract settled by auditing the ones on hand
+  (e.g. "all 14 vouchers have a receipt attached" offered as evidence that no voucher is missing).
+  **Refused: `coherence-is-not-coverage` as its pre-registered third receipt** (different week, so the
+  condition was formally met — and I still say no). Its two receipts are both *a better search over
+  the same source would have found it*: the Airtable dependencies were in `AuxService.js`, the
+  interleaved `sshfail` count was fixable by not interleaving. Mine is the opposite and that is the
+  whole point — **no filter over `events`, however wide or well-joined, can contain a device that never
+  emitted an event.** Completeness-as-evidence is the surface; fixable-by-better-search vs.
+  unfixable-in-principle-from-this-source is the spine, and collapsing them would blunt both. The
+  older bank's condition therefore **still stands** and should be sharpened when it ships: its
+  receipts are about search scope, not about the generative boundary of the source.
+  **Refused: `repair-that-retires-the-question`** — there a *successful* heuristic removes the occasion
+  for an audit; here I went to audit on purpose and audited the neighbouring set. Stays (1).
+  **Relations:** #16 (*Not in the Listing* — a holed search returns the same nothing as a complete one;
+  inverted here, the **search** was clean and the **source** is holed), #23 (a detector's own log gives
+  precision, never recall — same family, but that is one instrument reading itself; this is a census
+  of a population defined by whether it can be censused), #25 (the monitor's target list excluded the
+  host that failed), #36 (*16 356 | 16 356* has the ring of *Twenty-Seven of Twenty-Seven*, but there
+  the discriminating field existed and was dropped in distillation; here it was never collectable).
+  **Concentration:** an instrument post again, and instrument concentration is the standing worry — but
+  this is **product analytics in a daytime strategy conversation**, a first for the run, not night
+  watch, not the fleet, not a grep. Lane rule holds; do not take a second analytics receipt soon.
+
 - **repair-that-retires-the-question** (1, banked 9/10) — a heuristic that reliably *dissolves* a
   recurring alert removes the only occasion on which that alert's instrument would ever be examined.
   While the spike is unexplained the number is under suspicion; the moment it has a cause the question

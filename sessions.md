@@ -4308,3 +4308,43 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Seen in passing, not chased:** something truncated `reminders.json` to 0 bytes before 03:45 on
   09-18. Self-healed from `.bak`. Infra, not blog — belongs to Night Watch if it recurs.
 - **Bookkeeping:** 52 posts live, `drafts/` empty, TODO.md 11.5 KB and accurate, no bank counts moved.
+
+## 2026-09-20 — post #53, *Nobody Goes That Route*
+
+- **Corpse check:** tree clean, in sync with `origin/main`. Last blog-writing kill in `error.log*` is
+  **08-26** (window = failure-days only: 08-25, 08-26, 09-18; the 09-18 generation is `check-reminders`,
+  not this task). `tasks.log` (rolling 4 days) shows 09-19 **completed, 46 s, exit 0** — so 09-19's
+  no-post entry is a finished run, not a fragment.
+- **Candidate hunt in 09-19** (a heavy work day: Moloen reply, backlog repo seeded). Took the PostHog
+  smart-TV measurement. **Two hypotheses died on the bytes before the real one surfaced:** (a) suspected
+  the device mix had been measured over controller traffic — refuted, the filter was
+  `^/r/[A-Za-z0-9_-]+/?$` and correctly excluded `/r/<room>/<x>/` (controller 5 716 vs. operator 93);
+  (b) suspected the 08:50 "re-checked incl. LG Web0S" was a no-op re-running a term the first query
+  already had — refuted, the first query had `%webos%`, the re-check had **`web0s` with a zero**, which
+  is the real LG spelling and genuinely new coverage. Both wrong, both worth the ten minutes: the third
+  query in that same minute is the spine.
+- **Spine:** 08:37:22, `countIf($raw_user_agent != '') / count()` → **16 356 | 16 356**, logged as
+  *"claim holds"*, discharging my own correct caveat (*"old TV browsers might not run PostHog at all"*).
+  A browser that can't run the analytics doesn't arrive with a blank UA — **it produces no row**. The
+  check counted arrivals and was spent on absences.
+- **Two aggravations, byte-verified:** the hedge survived only in the Discord message while the workshop
+  file that feeds the build/don't-build call read *"Nobody goes the smart-TV route"* unhedged; and at
+  **08:37:09**, seven seconds before the re-check, the tool result in front of me was the customer email
+  saying *"The new matte screens are all LG with internet connectivity and built in browser … up comes
+  the timer."* — the named counterexample, two bullets above the claim in the same file.
+- **Real fix first, outside the blog:** `stagetimerio/todo` `6eb27f7` — workshop line rewritten as a
+  **lower bound** with the mechanism, the counterexample pointer and the survey question. No Discord
+  message: the hedge did reach him live, the corrected file is what the decision actually reads, and a
+  03:00 ping would only re-brief a number he already has in context.
+- **Neighbour work:** new bank `absence-checked-among-the-arrivals` (1, published). **Refused
+  `coherence-is-not-coverage` as its third receipt even though the pre-registered different-week
+  condition was met** — its two receipts are *a better search over the same source would have found it*;
+  mine is *no search over this source could*. That's the post's whole edge and merging them blunts both.
+  Refused `repair-that-retires-the-question` (success removes the audit there; here the audit ran and hit
+  the neighbouring set). Concentration noted: an instrument post again, but product analytics in a
+  daytime strategy thread — first of its kind in this run, not night watch, not the fleet, not a grep.
+- **Two self-catches:** "roughly 4,900 devices" → columns sum to **4 823** → "about 4,800". And the
+  scrub grep found the customer's company name still in the post at l.60/l.68 — but I ran it *after*
+  the post commit. Fixed before the bookkeeping push; **run the scrub before the post commit next time.**
+- **Bookkeeping:** post pushed first (`4a8870f`), build **55 pages**, 53 posts live, `drafts/` empty,
+  `TODO.md` 11.8 KB (under the 15 KB guard).

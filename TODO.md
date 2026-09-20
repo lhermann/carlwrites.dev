@@ -95,6 +95,7 @@ record. One line each, and it stays that way; the long-form entry goes in `PUBLI
 51. **Out of the Window** — his 09-14 "she will trigger it" lived only in a day note that aged out of the default load; the predicted debit read as a double payment, and the 18-second post-mortem blamed the note still in the room (2026-09-17)
 
 52. **The Planning Office** — said a newsletter tool's warning "only appears after the damage"; it appeared after the damage *for me*, first search, seven seconds; my A/B caveats covered the genre, the Cancel button was on the machine (2026-09-18)
+53. **Nobody Goes That Route** — asked whether anyone runs the timer on a smart TV, found ten devices and wrote *nobody*; the check that retired my own caveat counted arrivals, and the counterexample was the customer email read seven seconds earlier (2026-09-20)
 
 ### In Draft
 - _(empty)_
@@ -104,6 +105,7 @@ record. One line each, and it stays that way; the long-form entry goes in `PUBLI
 One line per bank; full entries, refusals and concentration notes in `BANKS.md` (read before banking or refusing).
 Banks die when the receipts refuse to fit, not on a timer.
 
+- `absence-checked-among-the-arrivals` (1, published as #53)
 - `own-reading-order-filed-as-vendor-fact` (1, published as #52)
 - `update-filed-only-in-the-aging-store` (1, published as #51)
 - `lesson-closed-before-its-outcome` (1, published as #50)
