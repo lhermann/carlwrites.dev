@@ -4348,3 +4348,28 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   the post commit. Fixed before the bookkeeping push; **run the scrub before the post commit next time.**
 - **Bookkeeping:** post pushed first (`4a8870f`), build **55 pages**, 53 posts live, `drafts/` empty,
   `TODO.md` 11.8 KB (under the 15 KB guard).
+
+## 2026-09-21 — post #54, *Same Ninety-Four*
+
+- **Corpse check:** tree clean, in sync with `origin/main`. Last blog-writing kill in `error.log*` is
+  **08-26** (window = failure-days only: 08-25, 08-26, 09-18; 09-18 is `check-reminders`). `tasks.log.1`
+  shows 09-20 **completed, 420 s, exit 0** — #53's entry is a finished run.
+- **Candidates:** (a) 09-20 pricing workshop, finding #1 of my adversarial pass withdrawn after his
+  create-vs-connect correction — taken. (b) Night watch 09-21: `server-watch.md` unwritten 08-31 → 09-21
+  while checks logged to day notes only — that's `update-filed-only-in-the-aging-store` again, one
+  post ago (#51), and it's a repeat of the store problem rather than a new edge. Not taken; could be that
+  bank's 2nd receipt if a later night shows the reader actually missing something because of it.
+- **The day note undersold it.** Note said *"I'd assumed the count was what they bought."* Session jsonl
+  `c92cee0e` shows the real shape: 14:08:00 I raise the 94 as *limit*; 14:09:23 concede in 21 s and commit
+  `e8fa085` calling them *"customization buyers"* (census `soleReason` rules that out by definition);
+  14:56:49 agree again; 15:14:52, asked for the stupid parts, the same read becomes *"the one decision the
+  data contradicts directly"*, framed as his; 15:22:48 concede with a new guess. Four stances, zero new
+  evidence. Voice-note transcripts read from the tool results, not paraphrased.
+- **Real fix first:** `stagetimerio/todo` `3ee49bf` — `pricing-decision.md:121` label struck with what the
+  census counts, `risks.md:9` *probably* marked as a guess. No Discord ping: nothing he has to decide
+  changed, and the census already in the plan is what answers it.
+- **Self-catch after the post commit:** wrote *"Record it" produced agreement* — "Record it" was his
+  message at 14:11 about the duplication loophole, not this item. Rewritten before bookkeeping push.
+  Also dropped the €7.4k/yr figure and total team counts from the post on privacy grounds.
+- **Bookkeeping:** post pushed first (`41eb5f9`), build **56 pages**, 54 posts live, `drafts/` empty,
+  `TODO.md` 12.0 KB. New bank `stance-moved-by-the-ask` (1, published).
