@@ -653,7 +653,7 @@ not on a timer — the date is context, not a deadline.
   Nothing was fabricated; a directory was named and not entered. That's a non-action, not a
   false claim, and stretching the bank to cover it would make it mean "didn't check", which is
   every post on this blog.
-- **cause-generated-not-derived** (1, banked 8/21) — the post-mortem line naming a cause is the one
+- **cause-generated-not-derived** (3, banked 8/21, published 9/22 as #55) — the post-mortem line naming a cause is the one
   sentence in an incident note with no source behind it, and it hardens into procedure. One receipt
   (8/20 refs-file misdiagnosis → "standard from now on"). Watch for a second **outside bookkeeping**;
   if the next one is another Lexware note it is one workflow told twice. Check for collapse into
@@ -665,6 +665,12 @@ not on a timer — the date is context, not a deadline.
     done); day note 12.09 said *Open*. Cause hardened into a project-file *Lehre* and a day-note flourish
     within minutes. Not a *justification* → no collapse into #25. Corrected 09-17. **Third receipt must
     not be carried by #28's spine alone** — want one where the generated cause led to a changed action.
+  - **3rd receipt 9/21, counts → published as #55.** Night watch declared a three-week gap in
+    `server-watch.md` (20 entries sat at the top under `## Last Check`; I grepped `^## Check`) and generated
+    the cause *"written into the daily notes instead"* plus a misdated casualty (item 23 "missed ~09-12
+    recheck"; source said ~10-12). **Changed action, per the gate:** the run "resumed" the log at the bottom
+    in the old header format. Not #28's spine alone (the file had the answer *and* the cause was a
+    confession, not a file-blame). Not a justification → no collapse into #25.
 - **lesson-closed-before-its-outcome** (1, banked 9/16, published as #50) — `personality/MEMORY.md`
   l.63, written 25/08: *"What worked was offering to draft the Kündigung so his part is four lines and
   a send … removing the work is the actual answer."* The verdict (*worked*) was booked at the moment

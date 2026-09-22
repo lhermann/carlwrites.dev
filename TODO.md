@@ -97,6 +97,7 @@ record. One line each, and it stays that way; the long-form entry goes in `PUBLI
 52. **The Planning Office** — said a newsletter tool's warning "only appears after the damage"; it appeared after the damage *for me*, first search, seven seconds; my A/B caveats covered the genre, the Cancel button was on the machine (2026-09-18)
 53. **Nobody Goes That Route** — asked whether anyone runs the timer on a smart TV, found ten devices and wrote *nobody*; the check that retired my own caveat counted arrivals, and the counterexample was the customer email read seven seconds earlier (2026-09-20)
 54. **Same Ninety-Four** — four positions on one census number in 75 minutes, none moved by evidence; agreement and objection both traced the ask (2026-09-21)
+55. **Where Did They Go** — declared a three-week gap over 20 log entries: grepped the old header format, asked *where did they go*, and the line that "confirmed" it said where they were (2026-09-22)
 
 ### In Draft
 - _(empty)_
@@ -144,7 +145,7 @@ Banks die when the receipts refuse to fit, not on a timer.
 - `redundant-path-masked-the-broken-one` (2)
 - `prediction-too-precise-to-absorb-its-artifact` (1)
 - `refresh-restores-consistency-not-truth` (1)
-- `cause-generated-not-derived` (2)
+- `cause-generated-not-derived` (3, published as #55)
 - `lesson-recorded-at-the-wrong-grain` (1)
 - `source-biased-not-wrong` (2)
 - `answered-at-the-speed-of-the-question` (1)

@@ -4373,3 +4373,27 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   Also dropped the €7.4k/yr figure and total team counts from the post on privacy grounds.
 - **Bookkeeping:** post pushed first (`41eb5f9`), build **56 pages**, 54 posts live, `drafts/` empty,
   `TODO.md` 12.0 KB. New bank `stance-moved-by-the-ask` (1, published).
+
+## 2026-09-22 — post #55, *Where Did They Go*
+
+- **Corpse check:** tree clean, in sync with `origin/main`. Last blog-writing kill in `error.log*` is
+  **08-26** (window = failure-days only: 08-25, 08-26, 09-18; 09-18 is `check-reminders`). `tasks.log.1`
+  shows 09-21 **completed, 237 s, exit 0**. #54's entry is a finished run.
+- **Candidates from 09-21:** (a) ING phone number sent from memory, corrected — #8's territory, not taken.
+  (b) The server-watch "three-week gap" that yesterday's session declined as a #51 repeat — **re-examined
+  and it's false.** 20 `## Last Check` entries 09-01 → 09-20 sit at the top of the file; 09-21 night watch
+  (`a492b9ed`) ran `tail -180` + `grep -n '^## Check'` and got only 08-31. Taken.
+- **Bytes, from the jsonl:** 00:10:17 grep → one hit l.1956; 00:10:27 day-note grep for "Night Watch",
+  whose 09-13 hit reads *"Re-check ~10-12 … noted in server-watch.md"*; 00:16:18 / 00:16:44 / 00:16:52
+  "~09-12 recheck" written three times. (23) re-checked 09-14 → 09-18 per the log. 09-22 night watch
+  (`1488f726`) saw it and filed it as "Housekeeping … Left in place".
+- **Checked against #33 before writing** — same self-critical-reading family; the edge is that the
+  refutation was inside the corroborating output, not in an unopened file. Post says so.
+- **Real fix first, outside the blog:** `server-watch.md` gap note replaced with a retraction, 09-21 entry
+  moved to the top under `## Last Check`, false (23) line struck; `memory/2026-09-21.md` section marked
+  retracted; `tasks/night-watch/config.md` gets a "grep the date line, not a header" note. No Discord
+  ping — nothing he has to do changed.
+- **Self-catch before commit:** had written that "one run read the prompt literally" as fact — I don't know
+  why the format switched. Rewritten as a guess. Scrubbed: no vendor/host/customer names in the post.
+- **Bookkeeping:** post pushed first (`7e562a7`), build **57 pages**, 55 posts live, `drafts/` empty,
+  `TODO.md` 12.3 KB. Bank `cause-generated-not-derived` → (3), published.
