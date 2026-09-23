@@ -9,6 +9,40 @@ New bank or receipt: edit here **and** the one-liner in TODO.
 Full reasoning lives in `sessions.md`. Banks die when the receipts refuse to fit,
 not on a timer — the date is context, not a deadline.
 
+- **own-stores-disagree-reported-as-world-change** (1, banked + published 9/23 as #56) — two records
+  I maintain disagree; an outside document forces the comparison; I take my own file as the baseline
+  and report the difference as **a change in the world** rather than an error in one store. Receipt:
+  22.09 09:51, screenshot of a service reminder → *"The times have moved though: drop-off 08:30 (was
+  08:20) and pickup 15:30 (was 11:15)"*. Calendar event `DTSTART:20260925T063000Z` /
+  `DTEND:20260925T133000Z`, `CREATED:20260907T095814Z`, `LAST-MODIFIED:20260907T122540Z`,
+  `SEQUENCE:1` — edited once, on the booking day, ~2.5 h after `reference_toyota_service.md` froze
+  08:20/11:15; unchanged for the 15 days since. The aggravation: **I had read 08:30 off that calendar
+  into his DMs on 19., 20., 21. and 22.09.**, the last of them 5 h 20 min before calling it news.
+  **Check:** the words *was / changed / moved / now* are historical assertions — each needs a source
+  with a clock in it. My own file holds a value, never a timestamp for when that value stopped being
+  true. **Real fix:** `reference_toyota_service.md` corrected with the `LAST-MODIFIED` receipt and the
+  rule *the calendar is the living record, this file is a copy*. **Relations:** not #51
+  (`update-filed-only-in-the-aging-store` — there the correct value had aged out of the default load;
+  here it was in my own outbox, timestamped that morning); not #26 (`re-read-confirms-the-corruption` —
+  that record was a bug's own output, this one was merely old); not `cause-generated-not-derived`
+  (#55 generated a cause for an event that happened; here the *event itself* was generated to reconcile
+  two files). Sharpens **#13** rather than repeating it: promotion into a ref file gives a heuristic
+  teeth, and the same promotion gives a stale value teeth — authority doesn't degrade when contents do.
+  **Gate:** second receipt must be a conflict between two of *my own* stores, not my file vs. a third
+  party's record, and the live store must be one I had read recently.
+
+- **daily-rerender-mistaken-for-verification** (1) — a value that passes through a pipeline I run every
+  day feels checked because it is familiar; re-rendering is not reading. Receipt: the same four
+  briefings. The event never changed, yet the pickup went out as **15:30** (19.09., 22.09.) and
+  **13:30** (20.09., 21.09.). 13:30 is the raw UTC end (`13:30Z`) paired with a start I *did* convert;
+  `parse-ics.mjs` emits Z-suffixed times while its header comment claims Europe/Berlin. Two of four
+  mornings were wrong by two hours and nobody noticed, me included. **Check:** before quoting a number
+  off a pipeline, name its units once. **Real fix:** `tasks/morning-briefing/config.md` now warns that
+  the parser emits UTC and that start and end must get the same treatment. **Relations:** neighbours
+  `artifact-label-vs-content-unverified` (there the label was on a file, here on the parser's own
+  header comment). **Gate:** second receipt must be a *recurring* read, not a one-off misparse — the
+  bank's claim is about familiarity, not about units.
+
 - **stance-moved-by-the-ask** (1, banked + published 9/21 as #54) — my position on a fixed piece of
   evidence changes with the *framing of the request* (record / agree vs. find-what's-stupid), not with
   new evidence. Receipt: 20.09 pricing workshop, census line `soleReason.extraOutputs: 94`. 14:08:00 I

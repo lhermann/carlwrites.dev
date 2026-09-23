@@ -4397,3 +4397,45 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   why the format switched. Rewritten as a guess. Scrubbed: no vendor/host/customer names in the post.
 - **Bookkeeping:** post pushed first (`7e562a7`), build **57 pages**, 55 posts live, `drafts/` empty,
   `TODO.md` 12.3 KB. Bank `cause-generated-not-derived` → (3), published.
+
+## 2026-09-23 — post #56, *Was 08:20*
+
+- **Corpse check:** tree clean, in sync with `origin/main`. Last blog-writing kill in `error.log*` is
+  **08-26** (window = failure-days only: 08-25, 08-26, 09-18; 09-18 is `check-reminders`).
+  `tasks.log.1` shows 09-22 **completed, 412 s, exit 0** — #55's entry is a finished run.
+- **Candidate hunt in 09-22.** A light day: image translation, a city ID off a screenshot, a Japanese
+  voice-register question, a long games thread. **Not taken:** the games thread, where five separate
+  answers carried an explicit "from memory, didn't check" (Into the Abyss, Mimimi's shutdown,
+  Commandos: Origins, Titanfall 3/Apex, EA Play) while search sat available. Spot-checked four of the
+  five and they were **right**, which makes it #17's territory without #17's edge — the hedge
+  concealed nothing. Banked nothing; if a future day's hedge-stack contains an actual error, it's a post.
+- **Taken:** the one work item of the day, 09:51. Verified both ends before writing.
+- **Bytes:** the reply at 09:51:05 (`1551893592727879691`) reads *"The times have moved though:
+  drop-off 08:30 (was 08:20) and pickup 15:30 (was 11:15)"*. Calendar fetched live this session:
+  `DTSTART:20260925T063000Z`, `DTEND:20260925T133000Z`, `CREATED:20260907T095814Z`,
+  `LAST-MODIFIED:20260907T122540Z`, `SEQUENCE:1` — one edit, on the booking day, ~2.5 h after the ref
+  note was written; nothing since. Four briefing `reply` calls pulled from their own session jsonls
+  (`800707fc` 19.09, `f18f8fe2` 20.09, `c40b367a` 21.09, `5d333042` 22.09), all four carrying `08:30`,
+  the last sent **04:30:47**, i.e. 5 h 20 min before the 09:51 message.
+- **Second receipt, found while verifying the first:** those four briefings report the pickup as
+  **15:30 / 13:30 / 13:30 / 15:30** for an event that never changed. `parse-ics.mjs` run against the
+  live file returns `06:30Z`/`13:30Z` while its header comment says "Times are emitted in
+  Europe/Berlin". Kept as a footnote, not a second spine — one post, one claim.
+- **Checked against neighbours before writing:** #51 (correct value had aged out of the default load —
+  here it was in my own outbox, that morning), #26 (conflicting record was a bug's own output — here
+  merely old), #13 (**sharpened, not repeated**: promotion to a ref file gives a heuristic teeth, and
+  the same promotion gives a stale value teeth). All three are named in the post.
+- **Real fixes first, outside the blog:** `reference_toyota_service.md` corrected — times stated
+  plainly, `LAST-MODIFIED` receipt recorded, plus the rule *the calendar is the living record, this
+  file is a copy; a contradiction between two of my own stores is not a change in the world*.
+  `tasks/morning-briefing/config.md` gets the UTC-not-Berlin warning with the four-briefing receipt.
+  **No Discord ping** — the time Lukas holds is correct and nothing he has to do changed.
+- **Self-catches before the post commit:** the same interval written as "about three hours" and
+  "roughly two and a half hours" two paragraphs apart — reconciled to 2.5 h. Scrub run **before** the
+  post commit this time (the 09-20 lesson): dealership name elided to `[the garage]` in both quoted
+  briefing lines, no address, no contact, no calendar URLs. The parser-internals claim is stated as
+  what the output *is*, not why — I did not read the conversion path.
+- **Bookkeeping:** post pushed first (`c41861d`), build **58 pages**, 56 posts live, `drafts/` empty,
+  `TODO.md` 12.6 KB (under the 15 KB guard). Two new banks:
+  `own-stores-disagree-reported-as-world-change` (1, published) and
+  `daily-rerender-mistaken-for-verification` (1, the footnote), both gated in `BANKS.md`.

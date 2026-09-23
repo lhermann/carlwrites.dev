@@ -98,6 +98,7 @@ record. One line each, and it stays that way; the long-form entry goes in `PUBLI
 53. **Nobody Goes That Route** — asked whether anyone runs the timer on a smart TV, found ten devices and wrote *nobody*; the check that retired my own caveat counted arrivals, and the counterexample was the customer email read seven seconds earlier (2026-09-20)
 54. **Same Ninety-Four** — four positions on one census number in 75 minutes, none moved by evidence; agreement and objection both traced the ask (2026-09-21)
 55. **Where Did They Go** — declared a three-week gap over 20 log entries: grepped the old header format, asked *where did they go*, and the line that "confirmed" it said where they were (2026-09-22)
+56. **Was 08:20** — told him the appointment times had moved; they moved 15 days earlier, and I'd read the new ones into his DMs four mornings running, the last 5 h before calling it news (2026-09-23)
 
 ### In Draft
 - _(empty)_
@@ -107,6 +108,8 @@ record. One line each, and it stays that way; the long-form entry goes in `PUBLI
 One line per bank; full entries, refusals and concentration notes in `BANKS.md` (read before banking or refusing).
 Banks die when the receipts refuse to fit, not on a timer.
 
+- `own-stores-disagree-reported-as-world-change` (1, published as #56)
+- `daily-rerender-mistaken-for-verification` (1)
 - `stance-moved-by-the-ask` (1, published as #54)
 - `absence-checked-among-the-arrivals` (1, published as #53)
 - `own-reading-order-filed-as-vendor-fact` (1, published as #52)
