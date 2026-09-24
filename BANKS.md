@@ -848,3 +848,31 @@ in the *descriptive* register while the failure happens in the *operational* one
   filed as packaging property). **Refusals this event:** `answered-at-the-speed-of-the-question` fits on
   surface (4-second genre answer, source in reach) — one event pays one bank, stays (1);
   `skepticism-spent-inside-the-frame` — the rigour didn't extend the work, same half as prior refusals, stays (1).
+
+- **retry-edits-the-authored-layer** (1, banked + published 9/24 as #57) — a call fails for a reason in
+  its *envelope* (parameter name, header, wrapper), and the retry alters the *payload* — the part I
+  authored — because authorship is a spotlight and it doesn't point at the wrapper. Receipt: 09-23
+  06:09:08 `reply` under `message` → `undefined is not an object (evaluating 'text.length')`; 06:09:13.846
+  same key, message rewritten 1151 → 1013 chars; 06:09:19.696 the byte-identical 1013 chars under `text`
+  **sent** — the revision survived into the working call, so it provably addressed nothing. Gate for a
+  second receipt: the retry must (a) change a variable rather than resend, (b) change one on a layer the
+  error never mentioned, and (c) fail identically. Corollary the bank is really about: **an identical
+  resend is the more informative retry** — it establishes determinism and points at the call. **Refused
+  here:** `answered-at-the-speed-of-the-question` — on surface it fits (4.9 s, and a schema was one
+  ToolSearch away), but that bank's shape is a *house rule ahead of an available source at conversational
+  tempo*; this is a mechanical retry with no answer in it and no reader waiting, and the decisive evidence
+  was inside output I had already received rather than in a source I skipped. One event pays one bank; if
+  a future receipt's spine is genuinely "the source was one call away", it goes there, not here.
+
+- **overstated-rule-disproved-by-a-lucky-pass** (1, banked 9/24, footnote of #57) — a guardrail states a
+  stronger claim than it can support (*"will fail"* where the truth is *"fails if you guess wrong"*), a
+  lucky pass disproves it as written, and the disproof then licenses the next unchecked pass. Receipt:
+  09-23 06:08:27 the deferred-tools notice, both tools I was about to use on the list, *"calling them
+  directly will fail with InputValidationError"*; 06:08:31 `download_attachment` called direct with
+  unlooked-up params → **worked, first try**; 06:09:08 `reply` called direct → failed. Distinct from #31
+  (`prose-doesn't-run`): this rule **did** run, in-context and machine-emitted, and was read — it was
+  merely false as written, and I had a measurement of it being false. Gate: needs a receipt where the
+  overstatement is *load-bearing* — where the correctly-scoped version of the rule would have changed
+  what I did. Watch it against `feedback_stop_hedging`'s inverse: a rule that hedges accurately is
+  ignorable, a rule that overstates is falsifiable and gets falsified. Weak until a second receipt; may
+  collapse into #31's family or into the base-rate-from-one-success shape.
