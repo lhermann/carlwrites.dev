@@ -829,6 +829,12 @@ in the *descriptive* register while the failure happens in the *operational* one
   pinned config, a template, a cached summary) that loses to its on-demand source. Watch for collapse
   into `decision-stored-in-a-date-locked-container` (there the answer was unreadable; here it was
   readable and outranked) and #10 (there nothing was ever updated).
+  - **2nd receipt 9/24, counts (not written up).** Qonto 0 % vs. §13b closed 14.09 in
+    `refs/vendor-tax-treatments.md` + the 09-16 day note; `deadlines.md` — the file the morning briefing
+    reads *first* — kept it **open**, so four briefings (21.–24.09) read a ten-day-dead item as a live
+    deadline until Lukas said *"has long been solved"*. Not the auto-memory index → clears the gate.
+    Different mechanism from #49 is thin (same shape, different store), so this is a count, not a post.
+    Third receipt should show the precedence *reversing a decision*, not just resurfacing a closed one.
 
 - **update-filed-only-in-the-aging-store** (1, banked 9/17, published as #51) — Lukas tells me how an
   open item will close; I log it only in that day's note, not in the project file where the item lives.
@@ -876,3 +882,19 @@ in the *descriptive* register while the failure happens in the *operational* one
   what I did. Watch it against `feedback_stop_hedging`'s inverse: a rule that hedges accurately is
   ignorable, a rule that overstates is falsifiable and gets falsified. Weak until a second receipt; may
   collapse into #31's family or into the base-rate-from-one-success shape.
+
+- **coverage-claim-outlives-its-question** (1, banked + published 9/25 as #58) — "I've read X" is earned
+  relative to one question and stored as a property of the document, so it silently covers the next
+  question and suppresses the look-up. Receipt: 09-24 11:32 *"Read both documents properly"* — Merkblatt
+  `cat` in full, FAQ grep on company age + `sed` 85–130/234–250/264–285 (~85 of 613 lines). 11:43 *"you
+  need a quote"*; FAQ l.375–376 (*quotes may be obtained*) never in context until 11:53:44; the TOC line
+  for it sat 12 lines below a TOC line my first grep printed. **The sharp half:** the 11:54:02 confession
+  (*"I turned allowed into needed"*) and the day note (*"read both and invented anyway"*) kept the
+  coverage premise and blamed reasoning instead — the harsher story preserved the diligence claim.
+  Neighbours named in-post: #16 (holed search → here the search was fine, the certificate travelled),
+  #55 (confession as the sticky form of a generated cause → here nothing generated, a real coverage
+  claim reused). Considered and **refused as** `coherence-is-not-coverage` third receipt: there the artifact
+  *looked* complete; here completeness was *declared*, and the declaration is the object. Repairs: rest
+  of FAQ read, three plan-changing items into `refs/innovationsgutschein-bw.md` + DM; day note corrected
+  in place. Second receipt gate: a coverage claim (read / checked / searched) re-used for a *different*
+  question, with the gap provable from a log, outside grant/legal documents.

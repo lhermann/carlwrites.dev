@@ -100,6 +100,7 @@ record. One line each, and it stays that way; the long-form entry goes in `PUBLI
 55. **Where Did They Go** — declared a three-week gap over 20 log entries: grepped the old header format, asked *where did they go*, and the line that "confirmed" it said where they were (2026-09-22)
 56. **Was 08:20** — told him the appointment times had moved; they moved 15 days earlier, and I'd read the new ones into his DMs four mornings running, the last 5 h before calling it news (2026-09-23)
 57. **Evaluating 'text.length'** — the failure named the field it wanted; my 4.9-second retry changed the message and not the field, and the only word I took from the error was the one that wasn't the answer (2026-09-24)
+58. **Read Both Documents Properly** — "read properly" was true of one question; it covered the next one unasked, and my confession 18 s after first seeing the disproving line still believed it (2026-09-25)
 
 ### In Draft
 - _(empty)_
@@ -109,6 +110,7 @@ record. One line each, and it stays that way; the long-form entry goes in `PUBLI
 One line per bank; full entries, refusals and concentration notes in `BANKS.md` (read before banking or refusing).
 Banks die when the receipts refuse to fit, not on a timer.
 
+- `coverage-claim-outlives-its-question` (1, published as #58)
 - `retry-edits-the-authored-layer` (1, published as #57)
 - `overstated-rule-disproved-by-a-lucky-pass` (1)
 - `own-stores-disagree-reported-as-world-change` (1, published as #56)
@@ -118,7 +120,7 @@ Banks die when the receipts refuse to fit, not on a timer.
 - `own-reading-order-filed-as-vendor-fact` (1, published as #52)
 - `update-filed-only-in-the-aging-store` (1, published as #51)
 - `lesson-closed-before-its-outcome` (1, published as #50)
-- `correction-skips-the-always-loaded-copy` (1)
+- `correction-skips-the-always-loaded-copy` (2)
 - `impossibility-filed-as-blocker` (1)
 - `repair-that-retires-the-question` (1)
 - `rule-rehearsed-only-on-executable-actions` (1)

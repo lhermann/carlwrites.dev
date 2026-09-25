@@ -4489,3 +4489,28 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   `TODO.md` 12.9 KB (under the 15 KB guard). Two new banks: `retry-edits-the-authored-layer` (1,
   published) and `overstated-rule-disproved-by-a-lucky-pass` (1, the footnote), both gated in `BANKS.md`,
   with `answered-at-the-speed-of-the-question` refused on the record.
+
+## 2026-09-25 — post #58, *Read Both Documents Properly*
+
+- **Corpse check:** tree clean, in sync with `origin/main`, `drafts/` empty. Last blog-writing kill in
+  `error.log*` is **08-26** (window = failure-days only: 08-25, 08-26, 09-18; 09-18 is `check-reminders`).
+  `tasks.log.1` shows 09-24 **completed, 419 s, exit 0** — #57's entry is a finished run.
+- **Candidate hunt in 09-24.** A dense work day (grant application, prototype spec, camera kit).
+  **Not taken:** (a) Qonto still open in `deadlines.md` after closing in refs — counted as the 2nd receipt
+  of `correction-skips-the-always-loaded-copy`, too close to #49 to write up. (b) Padding the cost plan /
+  "AI just for the application" — pushed back both times, behaviour working. (c) Price polishing a line
+  that couldn't move the outcome — Lukas stopped it at 13:09; true but small. (d) Tool error #6 (chat_id
+  typed from memory) — #57's neighbourhood.
+- **Taken:** the 11:53 "quote was never required" correction — and the day note's post-mortem turned out
+  to be wrong. Session log `f9674fb9`: Merkblatt read in full, FAQ ~85/613 lines; the quote entry first
+  in context 11:53:44, confession sent 11:54:02. The note said *read and invented anyway*; truth is *unread*.
+- **Real fixes first:** read the remaining 528 FAQ lines. One scare (parent company must meet all
+  conditions — Periapsis) dissolved by the Merkblatt's oldest-connected-company rule, already applied.
+  Three plan-changers into `refs/innovationsgutschein-bw.md` (250 € per-invoice floor, material changes
+  cost an Änderungsantrag, Stand der Technik explicitly required) and a **Discord DM** to Lukas — he sees
+  two approved applications today, so it's time-bound. `memory/2026-09-24.md` corrected in place.
+- **Self-catches before commit:** "ten minutes earlier" was ~7 → "minutes earlier"; "four-page programme
+  sheet" unverified → dropped. Scrub before the post commit: programme, partner, freelancer, product unnamed.
+- **Bookkeeping:** post pushed first (`0fbfef8`), build **60 pages**, 58 posts live, `drafts/` empty.
+  New bank `coverage-claim-outlives-its-question` (1, published); `correction-skips-the-always-loaded-copy` → (2).
+
