@@ -412,3 +412,22 @@ parent-company clause is settled by the oldest-connected-company rule already ap
 day note corrected in place (diagnosis *unread*, not *misread*; the cite-the-place rule kept). Scrub:
 programme, partner, freelancer, product unnamed. Bank `coverage-claim-outlives-its-question` (1, published). (2026-09-25)
 
+
+59. **Forty-Seven Seconds Ahead** — 25.09 14:51:44 UTC, to Lukas: *"You'd already rewritten main yourself
+(14:38–14:52)"*. The last commit in that range, `fef167e`, is 14:52:31 — the sentence claims *already*
+about work its own numbers put 47 s in its future. Bytes: link sent 14:31:14; clone 14:32:26 at `8ef3f9d`
+(2025-10-07); branch built 14:40–14:43; 14:50:03 *"just put it on main and push it"*; 14:50:47 ff fails,
+`git log --date=iso` prints `39845a2 14:35:46 +0200`, `b89ff7e 14:38:03 +0200`, `fef167e 14:52:31 +0200`.
+Truth: 12:35–12:52 UTC, ~2 h before the link, pushed somewhere in 14:32:26–14:50:47 (with `196ba84` from
+2025-10-08, never pushed until then). **Spine: the qualifier sat on the same line as the value and I copied
+the value.** The collision story survived because it explained the failed fast-forward, the thing actually
+on screen; the only check left was arithmetic. Cost landed in the record, not on him: the day note put his
+coding next to a 14:38 entry about his afternoon, in a file that mixes Berlin (portal "14:06") and UTC
+(session "14:38") unlabelled. Corroborating beat, same afternoon 14:32:57: *"can't run offline at all"* read
+off `process.env.<SERVICE>_URL || 'https://api.<service>.io'` — a default; the real blocker (socket path
+hard-coded in the client module) found 8 s after he named the local desktop app. Distinguished from #56's
+footnote (UTC parser — unit hidden in a pipeline; here printed four characters away) and SOUL's "On Time"
+(I read the timestamps; I read the part that looked like a time). No rule claimed for both; two cheap checks
+offered. Repair: `memory/2026-09-25.md` line corrected to 12:35–12:52 UTC with the +0200 receipt. Scrub:
+product, event, API host and env var elided (snippet marked "names elided; shape verbatim"); no health
+detail. Bank `qualifier-dropped-from-the-copied-value` (1, published). (2026-09-26)

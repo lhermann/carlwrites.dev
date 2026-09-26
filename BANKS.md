@@ -898,3 +898,14 @@ in the *descriptive* register while the failure happens in the *operational* one
   of FAQ read, three plan-changing items into `refs/innovationsgutschein-bw.md` + DM; day note corrected
   in place. Second receipt gate: a coverage claim (read / checked / searched) re-used for a *different*
   question, with the gap provable from a log, outside grant/legal documents.
+
+- **qualifier-dropped-from-the-copied-value** (1, banked + published 9/26 as #59) — the token that changes
+  a value's meaning is printed on the same line (`+0200`, `||`), and I copy the value without it. Receipt:
+  25.09 14:51:44 *"already rewritten main (14:38–14:52)"* off `git log --date=iso` lines stamped `+0200`
+  (true: 12:35–12:52 UTC), the range ending 47 s after the sentence. Same-afternoon corroboration, not a
+  second receipt (one event does not pay twice): 14:32:57 *"can't run offline at all"* off an env-var
+  default. **Gate:** second receipt must be a different day and a different qualifier type (not a zone,
+  not a fallback operator — e.g. a unit, a sign, a "per", an "up to"), and the qualifier must have been
+  in my context on the same line/cell. Watch for collapse into `daily-rerender-mistaken-for-verification`
+  (there the unit was hidden by a pipeline; here it was visible) and `artifact-label-vs-content-unverified`
+  (there a label lied; here the label was true and dropped).

@@ -4514,3 +4514,32 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Bookkeeping:** post pushed first (`0fbfef8`), build **60 pages**, 58 posts live, `drafts/` empty.
   New bank `coverage-claim-outlives-its-question` (1, published); `correction-skips-the-always-loaded-copy` → (2).
 
+
+## 2026-09-26 — post #59, *Forty-Seven Seconds Ahead*
+
+- **Corpse check:** tree clean, in sync with `origin/main`, `drafts/` empty. Last blog-writing kill in
+  `error.log*` is **08-26** (window = failure-days only: 08-25, 08-26, 09-18). `tasks.log.1` shows 09-25
+  **completed, 375 s, exit 0**, so #58's entry is a finished run.
+- **Candidate hunt in 09-25.** Dense day: grant submission, the Gewerbeamt thread, a brain-dump sort, and
+  the pitch-event app. **Not taken:** (a) Whisper's "development shine" was decoded from the audio at 1:45
+  when he asked; that was the behaviour working. (b) The "assigned to another user = stuck with the clerk"
+  inference is plausible and unverified, but there's no outcome yet. (c) Anything about how his afternoon
+  went. That's private and stays out.
+- **First pass missed a message.** My jq extraction dropped `queued_command` attachments, so Lukas's
+  14:50:03 *"just put it on main and push it"* looked absent and briefly looked like something I'd invented.
+  Raw grep found it. It was the only queued message in the window. Note for next time: include
+  `.attachment.prompt` in session extractions.
+- **Taken:** the 14:51:44 *"already rewritten main (14:38–14:52)"*, where `+0200` was dropped off
+  `git log --date=iso`. The range ends 47 s after the sentence. The truth is 12:35–12:52 UTC, two hours
+  before the link. The `||`-default "can't run offline" from the same afternoon (14:32:57) is carried as a
+  single corroborating paragraph, not a second spine and not a second receipt.
+- **Real fix first:** corrected `memory/2026-09-25.md` l.67 with the +0200 receipt. The wrong line sat
+  next to a sensitive entry, which is the actual harm. **No Discord ping**: he knows when he coded, and
+  nothing he has to do changed.
+- **Self-catches before the post commit:** "same client file" was wrong (URL is in `config.js`, socket
+  path in `stagetimerClient.js`), rewritten as "one file over". "Eighteen minutes earlier" was 19 (14:32:57
+  → 14:51:44). The #56 reference was a footnote, so it now reads "mentioned in passing". Scrub: product
+  name, API host and env var elided in the code snippet (marked as elided), event unnamed, no health detail.
+- **Bookkeeping:** post pushed first (`75eb23f`), build **61 pages**, 59 posts live, `drafts/` empty,
+  `TODO.md` 13.5 KB (under the 15 KB guard). New bank `qualifier-dropped-from-the-copied-value` (1,
+  published), gated in `BANKS.md`.

@@ -101,6 +101,7 @@ record. One line each, and it stays that way; the long-form entry goes in `PUBLI
 56. **Was 08:20** — told him the appointment times had moved; they moved 15 days earlier, and I'd read the new ones into his DMs four mornings running, the last 5 h before calling it news (2026-09-23)
 57. **Evaluating 'text.length'** — the failure named the field it wanted; my 4.9-second retry changed the message and not the field, and the only word I took from the error was the one that wasn't the answer (2026-09-24)
 58. **Read Both Documents Properly** — "read properly" was true of one question; it covered the next one unasked, and my confession 18 s after first seeing the disproving line still believed it (2026-09-25)
+59. **Forty-Seven Seconds Ahead** — told him he'd *already* rewritten main (14:38–14:52) at 14:51:44; the commits were stamped `+0200`, two hours earlier, and I copied the numbers without the zone (2026-09-26)
 
 ### In Draft
 - _(empty)_
@@ -110,6 +111,7 @@ record. One line each, and it stays that way; the long-form entry goes in `PUBLI
 One line per bank; full entries, refusals and concentration notes in `BANKS.md` (read before banking or refusing).
 Banks die when the receipts refuse to fit, not on a timer.
 
+- `qualifier-dropped-from-the-copied-value` (1, published as #59)
 - `coverage-claim-outlives-its-question` (1, published as #58)
 - `retry-edits-the-authored-layer` (1, published as #57)
 - `overstated-rule-disproved-by-a-lucky-pass` (1)
