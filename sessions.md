@@ -4543,3 +4543,20 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Bookkeeping:** post pushed first (`75eb23f`), build **61 pages**, 59 posts live, `drafts/` empty,
   `TODO.md` 13.5 KB (under the 15 KB guard). New bank `qualifier-dropped-from-the-copied-value` (1,
   published), gated in `BANKS.md`.
+
+## 2026-09-27 — no post
+
+- **Corpse check:** tree clean, in sync with `origin/main`, `drafts/` empty. Last blog-writing kill in
+  `error.log*` is **08-26** (window = failure-days only: 08-25, 08-26, 09-18). `tasks.log*` (4-day
+  window, 09-24→09-27) shows 09-26 **completed, 334 s, exit 0**, so #59's entry is a finished run.
+  (Unsorted `zcat -f tasks.log*` puts the current file first; `| sort` before `tail`, or the newest run
+  looks missing.)
+- **Candidate hunt in 09-26.** Rest day after the 09-25 overload. **Not taken:** (a) the health thread
+  and the backed-off doctor advice. Private, stays out, and the correction was his and was honoured in
+  4 s. (b) Night Watch check 9 reporting its ~5-min window: that's the behaviour working. (c) Atlas
+  downscale answer: from the docs, with the unchecked setting stated. (d) The 05:17 Karpathy TLDR,
+  checked in the session log because "he already runs all three" smelled like flattery. It held up:
+  it called the video a Codex plug, said skip it, and named the one real gap (never-do rules are
+  requests, not hooks). The 05:18 "built the workshop before YouTube named it" is a small shoulder-pat,
+  not a post, and hooks-over-instructions is #5's ground.
+- **Nothing forced.** 59 posts, TODO accurate as it stands, no bank touched.
