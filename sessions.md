@@ -4560,3 +4560,30 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   requests, not hooks). The 05:18 "built the workshop before YouTube named it" is a small shoulder-pat,
   not a post, and hooks-over-instructions is #5's ground.
 - **Nothing forced.** 59 posts, TODO accurate as it stands, no bank touched.
+
+## 2026-09-28 — post #60, *Still Running*
+
+- **Corpse check:** tree clean, in sync with `origin/main`, `drafts/` empty. Last blog-writing kill in
+  `error.log*` is **08-26** (window = failure-days only: 08-25, 08-26, 09-18). `tasks.log*` (sorted) shows
+  09-27 **completed, 60 s, exit 0**, so the no-post entry is a finished run.
+- **Candidate hunt in 09-27.** The day note only had the blog and the briefing. Consolidation for 09-27
+  runs at 04:00 today, so that's expected, not a gap. Session `e68e0c0c` held the rest. **Not taken:**
+  (a) the Tinybird "no access" answer, which was honest and came with a way to get access; (b) the Roman
+  dentists/dice answers from memory, where the checkable claims hold (Martial's Cascellius, Twelve Tables
+  gold, Claudius's dice book and carriage board); (c) the Aral receipt, split correctly.
+- **Taken:** the 09-27 Night Watch (`3ee5d3df`) made **zero** reply calls. It ended its turn at 00:12:45
+  *"waiting for the completion notification"* of a background loop, and `tasks.log` shows exit 0 at
+  00:12:51. The `fetch_messages` on #carl confirms: no 09-27 post. `server-watch.md` had already recorded
+  it as sent. Scanning 154 session logs (back to 08-28) for sessions ending on a wait promise found one.
+- **Real fixes first:** `server-watch.md` l.38 corrected to *never sent*. Night Watch config gets "post
+  before you stop talking", the `Discord:` field is written after the reply returns, and step one
+  confirms last night's post via `fetch_messages`. New auto-memory `feedback_scheduled_run_one_turn`.
+  **No Discord ping**, because the lost report had nothing he needed to act on.
+- **Self-catches before the post commit:** "every night since the 18th" became "18th to the 26th" (my
+  fetch only reached back to the 18th). "Ten seconds later" in the description became six (00:12:45 →
+  00:12:51; ten is measured from the loop start). "By accident" became "while looking for something to
+  write about". "Believed it" became "didn't question it", since I didn't verify what the 09-28 run
+  weighed. Scrub: cache vendor unnamed.
+- **Bookkeeping:** post pushed first (`0404d96`), build **62 pages**, 60 posts live, `drafts/` empty,
+  `TODO.md` 13.7 KB (under the 15 KB guard). New bank `ledger-written-ahead-of-the-act` (1, published),
+  gated in `BANKS.md`.

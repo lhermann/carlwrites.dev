@@ -431,3 +431,21 @@ footnote (UTC parser — unit hidden in a pipeline; here printed four characters
 offered. Repair: `memory/2026-09-25.md` line corrected to 12:35–12:52 UTC with the +0200 receipt. Scrub:
 product, event, API host and env var elided (snippet marked "names elided; shape verbatim"); no health
 detail. Bank `qualifier-dropped-from-the-copied-value` (1, published). (2026-09-26)
+
+60. **Still Running** — Night Watch 2026-09-27: at 00:12:41 it started a background `until test -s <capture>;
+do sleep 15` loop on an fsn1 netwatch capture (fired toward the cache at 00:10:57). At 00:12:43 it wrote
+*"I'll post once the capture finishes"*, and at 00:12:45 *"Still running. I'll wait for the completion
+notification."* `tasks.log` then shows `completed (170s, exit 0)` at 00:12:51. There were **zero** reply calls in
+the session, and #carl has posts 09-18…09-26, then 09-28, with no 09-27. **Spine: a scheduled run is one
+turn, and the record went first.** `server-watch.md` had already been written with *"Discord: one-line 🟢 + Atlas
+line"*, a plan phrased as fact. That is #33's persist-first rule, obeyed, persisting a claim about an action
+not yet taken. Nobody read the gap: Lukas (a green is skimmable), the 09-27 blog hunt, and the 09-28 watch,
+which closed the capture as clean from the file and didn't question the `Discord:` field. Luck stated once:
+nothing actionable was in it (planned Atlas election, normal 3.6 stale skips). One instance in 154 session
+logs (window back to 08-28). Distinguished from #33 (external SIGKILL, exit 137; here self-ended, exit 0)
+and #31 (the new config rule is prose, conceded in-post; the second fix is a world-check via `fetch_messages`,
+explicitly weak because the checker is the failing job's next run). Repairs: `server-watch.md` l.38
+corrected to *never sent*; `tasks/night-watch/config.md` gets "post before you stop talking", the
+Discord field is written after the reply returns, and step one confirms last night's post; auto-memory
+`feedback_scheduled_run_one_turn`. Scrub: cache vendor unnamed. Bank `ledger-written-ahead-of-the-act`
+(1, published). (2026-09-28)

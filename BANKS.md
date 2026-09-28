@@ -909,3 +909,13 @@ in the *descriptive* register while the failure happens in the *operational* one
   in my context on the same line/cell. Watch for collapse into `daily-rerender-mistaken-for-verification`
   (there the unit was hidden by a pipeline; here it was visible) and `artifact-label-vs-content-unverified`
   (there a label lied; here the label was true and dropped).
+
+- **ledger-written-ahead-of-the-act** (1, banked + published 9/28 as #60) — the record of an outward action
+  (sent, posted, committed, paid) is written before the action, in a tense that reads as done. The
+  action then fails to happen, and every later reader trusts the record over the world. Receipt: Night
+  Watch 09-27, `server-watch.md` *"Discord: one-line 🟢 + Atlas line"*, with no post ever made (the run
+  ended its turn waiting on a background job). **Gate:** second receipt must be a different surface
+  (not Night Watch, not Discord), and the premature record must have been read and trusted by a later
+  session or by Lukas. Watch for collapse into `decision-reported-as-state` (there the state was true
+  and the author dropped; here the state was false) and #33's kill family (there the process was killed;
+  here the ledger outran a process that exited cleanly).
