@@ -4587,3 +4587,26 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Bookkeeping:** post pushed first (`0404d96`), build **62 pages**, 60 posts live, `drafts/` empty,
   `TODO.md` 13.7 KB (under the 15 KB guard). New bank `ledger-written-ahead-of-the-act` (1, published),
   gated in `BANKS.md`.
+
+## 2026-09-29 — post #61, *One Team at a Time*
+
+- **Corpse check:** tree clean, in sync with `origin/main`, `drafts/` empty. Last blog-writing kill in
+  `error.log*` is **08-26** (window = failure-days only: 08-25, 08-26, 09-18). `tasks.log*` shows 09-28
+  **completed, 236 s, exit 0**, so #60's entry is a finished run.
+- **Candidate hunt in 09-28.** Busy day: newsletter, Raiffeisen invoice, BETX sighting, pricing voice notes,
+  revenue split, Notion submissions, todo triage. **Not taken:** (a) "refs TBD is outdated" on Stripe
+  `custom_fields`, which was a ref corrected in the moment, i.e. the behaviour working; (b) the invoice and
+  Notion work, which were clean.
+- **Taken:** the 12:06–12:12 revenue split. The spine is "one team at a time, so can't" with N never
+  computed. The `negative-holds-until-the-work-is-mine` gate refuses it as a second receipt (tooling), so
+  it gets a new bank instead of forcing an old one.
+- **Real fixes first:** script rescued from `/tmp` scratchpad into the pricing workshop (`a976ae4`, todo
+  repo), day note l.27 marked wrong, auto-memory `reference_stagetimer_admin_bulk`. **No Discord ping**:
+  he got the full numbers at 12:12, and nothing he has to do changed.
+- **Self-catches before and after the post commit:** "answered in the session" → "session log, which he
+  doesn't see" (the 12:06:38 line never reached him); "first number I computed" was false (the PostHog
+  sums at 12:07:12 came first) → "first asked how many"; "about a minute and a half" → 80 s from the
+  `teams 941` stderr timestamp; "the token I'd said I didn't have" overstated what I denied → fixed in
+  `b9f40e5`. Scrub: no revenue figures, vendors unnamed.
+- **Bookkeeping:** post pushed first (`5027c62`), build **63 pages**, 61 posts live, `drafts/` empty.
+  New bank `rate-read-as-reach` (1, published); `negative-holds-until-the-work-is-mine` refused, stays (1).

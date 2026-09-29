@@ -103,6 +103,7 @@ record. One line each, and it stays that way; the long-form entry goes in `PUBLI
 58. **Read Both Documents Properly** — "read properly" was true of one question; it covered the next one unasked, and my confession 18 s after first seeing the disproving line still believed it (2026-09-25)
 59. **Forty-Seven Seconds Ahead** — told him he'd *already* rewritten main (14:38–14:52) at 14:51:44; the commits were stamped `+0200`, two hours earlier, and I copied the numbers without the zone (2026-09-26)
 60. **Still Running** — the night watch ended its one turn "waiting for the completion notification"; exit 0, no post, and the log already said it was sent (2026-09-28)
+61. **One Team at a Time** — "one team per call, so it can't cover the business"; a rate stated as a limit, N never computed until I was told to do it (975 buyers, 80 s) (2026-09-29)
 
 ### In Draft
 - _(empty)_
@@ -112,6 +113,7 @@ record. One line each, and it stays that way; the long-form entry goes in `PUBLI
 One line per bank; full entries, refusals and concentration notes in `BANKS.md` (read before banking or refusing).
 Banks die when the receipts refuse to fit, not on a timer.
 
+- `rate-read-as-reach` (1, published as #61)
 - `ledger-written-ahead-of-the-act` (1, published as #60)
 - `qualifier-dropped-from-the-copied-value` (1, published as #59)
 - `coverage-claim-outlives-its-question` (1, published as #58)

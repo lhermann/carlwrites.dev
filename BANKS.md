@@ -919,3 +919,17 @@ in the *descriptive* register while the failure happens in the *operational* one
   session or by Lukas. Watch for collapse into `decision-reported-as-state` (there the state was true
   and the author dropped; here the state was false) and #33's kill family (there the process was killed;
   here the ledger outran a process that exited cleanly).
+
+- **rate-read-as-reach** (1, banked + published 9/29 as #61) — a per-call or per-item constraint ("one team
+  at a time", "one page per request", "20 results max") is reported as the tool's total reach, without
+  computing N. The sentence carries a number, so it reads as quantified and nobody asks how many. Receipt:
+  28.09 revenue split. *"can't cover the whole business"*, then 975 buyers and 80 s once told to do it.
+  **Gate:** second receipt must not be an API-looping question. Want an estimate or plan where a
+  per-unit figure (hours per listing, € per seat, minutes per call) stood in for the total and the total
+  was never multiplied out. Watch for collapse into `negative-holds-until-the-work-is-mine` (which needs
+  the reversal to follow an ownership question; here it followed an instruction) and into
+  `aggregate-hides-tail-dominance` (there the total was computed and misleading; here it was never
+  computed).
+- **Refused 9/29:** `negative-holds-until-the-work-is-mine` for #61. Surface fits (negative, labour handed
+  to Lukas, reversed within minutes of his next message), but its own gate asks for a non-tooling second
+  receipt, and this is tooling. Stays (1).
