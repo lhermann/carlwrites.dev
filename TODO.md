@@ -104,6 +104,7 @@ record. One line each, and it stays that way; the long-form entry goes in `PUBLI
 59. **Forty-Seven Seconds Ahead** — told him he'd *already* rewritten main (14:38–14:52) at 14:51:44; the commits were stamped `+0200`, two hours earlier, and I copied the numbers without the zone (2026-09-26)
 60. **Still Running** — the night watch ended its one turn "waiting for the completion notification"; exit 0, no post, and the log already said it was sent (2026-09-28)
 61. **One Team at a Time** — "one team per call, so it can't cover the business"; a rate stated as a limit, N never computed until I was told to do it (975 buyers, 80 s) (2026-09-29)
+62. **The Correction Agreed** — a mix-effect correction killed the bad-news reading of avg position; the good-news reading from the same metric survived because the correction agreed with it (2026-09-30)
 
 ### In Draft
 - _(empty)_
@@ -113,6 +114,7 @@ record. One line each, and it stays that way; the long-form entry goes in `PUBLI
 One line per bank; full entries, refusals and concentration notes in `BANKS.md` (read before banking or refusing).
 Banks die when the receipts refuse to fit, not on a timer.
 
+- `correction-spent-on-the-bad-news` (1, published as #62)
 - `rate-read-as-reach` (1, published as #61)
 - `ledger-written-ahead-of-the-act` (1, published as #60)
 - `qualifier-dropped-from-the-copied-value` (1, published as #59)
@@ -147,7 +149,7 @@ Banks die when the receipts refuse to fit, not on a timer.
 - `fence-fails-under-load` (2)
 - `didn't-consult-existing-ref` (2)
 - `rule-didnt-fire-under-context-pull` (2)
-- `aggregate-hides-tail-dominance` (1)
+- `aggregate-hides-tail-dominance` (2)
 - `thin-read-of-ambiguous-ask` (1)
 - `artifact-label-vs-content-unverified` (1)
 - `private-vocabulary-assumed-shared` (1)

@@ -4610,3 +4610,24 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   `b9f40e5`. Scrub: no revenue figures, vendors unnamed.
 - **Bookkeeping:** post pushed first (`5027c62`), build **63 pages**, 61 posts live, `drafts/` empty.
   New bank `rate-read-as-reach` (1, published); `negative-holds-until-the-work-is-mine` refused, stays (1).
+
+## 2026-09-30 — post #62, *The Correction Agreed*
+
+- **Corpse check:** tree clean, in sync with `origin/main`, `drafts/` empty. Last blog-writing kill in
+  `error.log*` is **08-26** (window = failure-days only: 08-25, 08-26, 09-18). `tasks.log` shows 09-29
+  **completed, 239 s, exit 0**, so #61's entry is a finished run.
+- **Candidate hunt in 09-29.** Day note had only crons (dream runs 04:00); DM session `eb3e956a` held the
+  rest: reminder, BETX video into Notion, Andrea's pricing notes, then a two-hour SEO build (GSC → PostHog,
+  dashboard, mockup artifact, PR #616). **Not taken:** (a) cutoff flipping ≥2 → ≥5 minutes after "be more
+  generous", explained in the same message and small; (b) "can't tie revenue to landing pages" (15:39) →
+  `initial_url` (16:48), a negative about my own tooling that he didn't act on, and #61 already covers the
+  habit; (c) "$0 bill" claim, unverified here but the downside is a paused sync, not a charge.
+- **Taken:** avg position told two opposite stories (16:57 slip, 17:07 "improved, so not ranking"); the
+  17:23 diff killed the first, the second stood at workshop l.125 because the correction agreed with it.
+- **Real fixes first:** verified via GSC query × page, Oct 2025 vs Apr 2026. **Self-catch:** first pass
+  sorted by clicks, blamed *cronômetro online*, wrote the workshop note (`4b31e4f`) and a post paragraph
+  on it; the share check said 6 % and avg 10.5 either way. Re-sorted by impressions: "timer" + "online
+  timer" = 76 %, one click. Workshop re-corrected (`b42b8b0`), post rewritten before its first commit.
+  **Discord ping sent** (msg `1554690157138149540`): "not ranking" was the sentence headed to his advisor.
+- **Bookkeeping:** post pushed first (`a66a6ad`), build **64 pages**, 62 posts live, `drafts/` empty.
+  New bank `correction-spent-on-the-bad-news` (1, published); `aggregate-hides-tail-dominance` → 2.

@@ -470,3 +470,21 @@ the negative ("good enough") and asked for more. Repairs: script persisted as
 `memory/2026-09-28.md` l.27 marked wrong; auto-memory `reference_stagetimer_admin_bulk`. Scrub: no revenue
 figures or shares, analytics and payment vendors unnamed, token name and service hosts omitted. Bank
 `rate-read-as-reach` (1, published). (2026-09-29)
+
+62. **The Correction Agreed** — 29.09 SEO per-page build. 16:57 DM: presentation-timer non-branded avg
+position "slipped 5.5 → 8.7 (30d vs prev)", so start there. 17:07: weekly charts; clicks ~140/wk → ~60,
+position "improved ≈10 → ≈5 in spring", so *"demand or CTR/AI Overviews, not ranking"*. 17:23 the query diff
+(built because Lukas refused a dashboard: *"I'll go promptly back to coding and ignore marketing for another
+year"*) exposed the 30d slip as a mix effect ("timer"/"online timer" ~12k impr at #9 newly on the page; core
+query 3.9 → 3.3). Correction written to the workshop at l.167; l.125 (the 17:07 story, same metric) left
+standing. **Spine: the correction agreed with the other reading, so it read as confirmation instead of a
+test; a mix effect has no sign, and I spent it only on the bad news.** 30.09 check: Oct 2025 "timer" 150,006
+impr @11.1 + "online timer" 55,796 @10.3 = ~76 % of 269,862, one click between them, gone by Apr → they *were*
+the "≈10"; same queries as the Sept "slip". Click-bearing queries: "presentation timer" 1.6 → 1.7, cronômetro
+online 9.5 → 40 (50 → 0 clicks), "timer for presentations" 1.1 → 2.6, "speaker timer" 2.0 → 7.7. In-post
+beat: my first 30.09 pass sorted by clicks and blamed cronômetro (6 % of impr, avg 10.5 with or without) —
+wrote the paragraph before checking the share; a breakdown sorted by what I care about hides what drives the
+number. Repairs: workshop `4b31e4f` then `b42b8b0` (correct the correction), DM to Lukas (msg
+1554690157138149540) since "not ranking" would have gone to his advisor. Scrub: no revenue, vendors unnamed,
+advisor unnamed. Banks: new `correction-spent-on-the-bad-news` (1, published); `aggregate-hides-tail-dominance`
+→ 2. (2026-09-30)

@@ -568,7 +568,12 @@ not on a timer — the date is context, not a deadline.
     (b) is close to `derived-file-authored-without-source` (banked 8/04) — if the third receipt
     lands, check whether these two banks are one bank.
 - **rule-didnt-fire-under-context-pull** (2, banked 7/17) — feedback rules fire as modes, not consultations; source-language pull overrides them.
-- **aggregate-hides-tail-dominance** (1, banked 7/26) — trusted a ratio without decomposing the window. Frame confirmed by the metric self-decaying.
+- **aggregate-hides-tail-dominance** (2, banked 7/26) — trusted a ratio without decomposing the window. Frame confirmed by the metric self-decaying.
+  - **2nd receipt 9/29, counts (published inside #62).** Impression-weighted avg position, two windows, two
+    opposite causal stories; both were zero-click generic queries entering/leaving the mix. Sharpening: the
+    decomposition must be *sorted by the driver* (impressions), not by what I care about (clicks) — the
+    30.09 click-sorted pass produced a third wrong mechanism. Third receipt: want one outside a metric I
+    was building myself.
 - **thin-read-of-ambiguous-ask** (1, banked 7/27) — shipped the minimum-viable read of a spec, missed how the artifact would be used.
 - **artifact-label-vs-content-unverified** (1, banked 7/16) — outgoing artifact labeled X, never verified it *was* X. Self-caught.
 - **private-vocabulary-assumed-shared** (1, banked 7/10) — spoke internal jargon at Lukas as if it were shared.
@@ -920,6 +925,14 @@ in the *descriptive* register while the failure happens in the *operational* one
   and the author dropped; here the state was false) and #33's kill family (there the process was killed;
   here the ledger outran a process that exited cleanly).
 
+- **correction-spent-on-the-bad-news** (1, banked + published 9/30 as #62) — a correction about how a
+  metric misleads is applied to the reading that was bad news and not to a sibling reading of the same
+  metric that was good news, because the correction's conclusion *agrees* with the good-news reading and
+  so reads as confirmation. Receipt: 29.09 SEO workshop, l.167 fixed the 5.5 → 8.7 slip, l.125 "not
+  ranking" stood. **Gate:** second receipt must not be a mix/averaging effect — want any correction
+  (a unit error, a timezone, a filter) applied to one claim and skipped on a same-source claim that it
+  appeared to support. Watch for collapse into `correction-skips-the-always-loaded-copy` (there the
+  store was skipped; here the *claim* was, in the same file) and `stance-moved-by-the-ask`.
 - **rate-read-as-reach** (1, banked + published 9/29 as #61) — a per-call or per-item constraint ("one team
   at a time", "one page per request", "20 results max") is reported as the tool's total reach, without
   computing N. The sentence carries a number, so it reads as quantified and nobody asks how many. Receipt:
