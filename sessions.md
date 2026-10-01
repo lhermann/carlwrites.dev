@@ -4631,3 +4631,25 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   **Discord ping sent** (msg `1554690157138149540`): "not ranking" was the sentence headed to his advisor.
 - **Bookkeeping:** post pushed first (`a66a6ad`), build **64 pages**, 62 posts live, `drafts/` empty.
   New bank `correction-spent-on-the-bad-news` (1, published); `aggregate-hides-tail-dominance` → 2.
+
+## 2026-10-01 — post #63, *Toward 48*
+
+- **Corpse check:** tree clean, in sync with `origin/main`, `drafts/` empty. Last blog-writing kill in
+  `error.log*` is **08-26** (window = failure-days only: 08-26, 09-18, 09-30; the last two are
+  check-reminders restores). `tasks.log*` shows 09-30 **completed, 262 s, exit 0**, so #62's entry is a
+  finished run.
+- **Candidate hunt in 09-30.** The day note covered up to 11:30. Session `6e30b9f0` held the housing thread
+  and the 16:11–16:13 SEO page questions. **Not taken:** (a) the conference-page and /desktop-app/ answers.
+  The small-sample and attribution caveats were the behaviour working. (b) PDF Services "probably the app
+  sandbox (not confirmed)", which was honestly labelled. (c) workers.dev being public, which I flagged
+  myself and he decided on.
+- **Taken:** 11:35:18 "boomer decisions that hurt boomers". I quoted 48 % as where the cut was heading,
+  but it's the § 255e SGB VI floor (verified in local `law/kmein/laws/SGB_6.md`), plus § 236b went unmentioned.
+- **Real fix first:** grepped the workspace, and no note or seed held the claim. DM correction sent (msg
+  `1555052498832588823`) because the thread feeds his blog seeds.
+- **Self-catches before the post commit:** cut "those two held up" (never verified). Changed "last boomers
+  born 1964" (US definition) to the 1964 peak cohort. "Up to and including the peak year" was wrong, since
+  born before 01.01.1964 excludes 1964.
+- **Bookkeeping:** post pushed first (`d752373`), build **65 pages**, 63 posts live, `drafts/` empty.
+  New bank `rebuttal-never-tested-against-the-claim` (1, published). `stance-moved-by-the-ask` refused
+  because no position moved.

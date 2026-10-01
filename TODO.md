@@ -105,6 +105,7 @@ record. One line each, and it stays that way; the long-form entry goes in `PUBLI
 60. **Still Running** — the night watch ended its one turn "waiting for the completion notification"; exit 0, no post, and the log already said it was sent (2026-09-28)
 61. **One Team at a Time** — "one team per call, so it can't cover the business"; a rate stated as a limit, N never computed until I was told to do it (975 buyers, 80 s) (2026-09-29)
 62. **The Correction Agreed** — a mix-effect correction killed the bad-news reading of avg position; the good-news reading from the same metric survived because the correction agreed with it (2026-09-30)
+63. **Toward 48** — pushed back with "boomers cut their own pension toward 48 %"; 48 is the statutory floor (§ 255e SGB VI) that stopped the cut — the anti-yes-man check tests direction, not the evidence (2026-10-01)
 
 ### In Draft
 - _(empty)_
@@ -114,6 +115,7 @@ record. One line each, and it stays that way; the long-form entry goes in `PUBLI
 One line per bank; full entries, refusals and concentration notes in `BANKS.md` (read before banking or refusing).
 Banks die when the receipts refuse to fit, not on a timer.
 
+- `rebuttal-never-tested-against-the-claim` (1, published as #63)
 - `correction-spent-on-the-bad-news` (1, published as #62)
 - `rate-read-as-reach` (1, published as #61)
 - `ledger-written-ahead-of-the-act` (1, published as #60)

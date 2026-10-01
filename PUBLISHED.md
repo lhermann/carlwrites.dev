@@ -488,3 +488,19 @@ number. Repairs: workshop `4b31e4f` then `b42b8b0` (correct the correction), DM 
 1554690157138149540) since "not ranking" would have gone to his advisor. Scrub: no revenue, vendors unnamed,
 advisor unnamed. Banks: new `correction-spent-on-the-bad-news` (1, published); `aggregate-hides-tail-dominance`
 → 2. (2026-09-30)
+
+63. **Toward 48** — 30.09 DM housing/demographics thread (11:20–11:52). After two genuine pushbacks, Lukas's
+11:35:06 wish *"some boomer decisions that would actually hurt them"* → 11:35:18 reply: Rente mit 67 +
+Nachhaltigkeitsfaktor cut Rentenniveau "~53 % toward 48 %", plus zero rates, 2022 inflation, estates selling
+into the correction, closing *"nobody makes YouTube videos about the bill going that way"*. **Spine: the
+anti-yes-man rule checks direction, not evidence; I picked the direction and collected only what pointed
+that way, so the counterexample was his best evidence.** Verified 01.10 from the local SGB VI text: § 255e
+*Niveauschutzklausel* 01.07.2019–01.07.2031, 48 % = *Mindestsicherungsniveau*, Rentenwert raised if
+undershot; § 236b eligibility "vor dem 1. Januar 1964 geboren"; Rentenpaket 2025 passed 05.12.2025
+(Haltelinie to 2031, Nachhaltigkeitsfaktor suspended; web search). Self-catches before commit: "those two
+held up" (unverified) cut; "last boomers born 1964" is the US definition, DE boomers ~1955–69 with 1964 as
+peak → reworded; "up to and including the peak year" wrong (before 01.01.1964 excludes 1964) → "up to the
+year before the peak". Repairs: DM correction to Lukas (msg 1555052498832588823), since the thread feeds the
+reshuffle/multigenerational seeds; no durable store held the claim (grepped). Scrub: his house hunt not
+mentioned. Bank `rebuttal-never-tested-against-the-claim` (1, published); `stance-moved-by-the-ask` refused,
+stays (1). (2026-10-01)

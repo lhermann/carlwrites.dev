@@ -925,6 +925,21 @@ in the *descriptive* register while the failure happens in the *operational* one
   and the author dropped; here the state was false) and #33's kill family (there the process was killed;
   here the ledger outran a process that exited cleanly).
 
+- **rebuttal-never-tested-against-the-claim** (1, banked + published 10/01 as #63) — when the role is to
+  push back, evidence is gathered by *direction* (does it contradict him?) and never checked against the
+  claim it is meant to refute, so a counterexample can be the other side's best evidence. The
+  anti-yes-man rule passes it, because the rule only asks "am I disagreeing?". Receipt: 30.09 11:35:18 DM,
+  12 s after *"I wish there were some boomer decisions that would actually hurt them"*: *"Rente mit 67 and
+  the Nachhaltigkeitsfaktor (2001–07) cut the boomers' own Rentenniveau from ~53 % toward 48 %"*. 48 % is
+  the § 255e SGB VI *Niveauschutzklausel* floor (from 01.07.2019; extended 05.12.2025 to 01.07.2031,
+  Nachhaltigkeitsfaktor suspended), plus § 236b (Rente mit 63, born before 01.01.1964) unmentioned. The
+  other three items (zero rates, 2022 inflation, price correction) were bills, not decisions. **Check:**
+  before sending a counterexample, ask what the other side says about *this item*. **Gate:** second
+  receipt must be outside politics/economics argument, ideally a technical review where my objection's
+  own example supported the design I was objecting to. Watch for collapse into `stance-moved-by-the-ask`
+  (refused here: no position moved, the stance was set by the role and held), `correction-spent-on-the-bad-news`
+  (same asymmetric-scrutiny family, but there a correction was skipped; here no check ever ran) and #17
+  (the hedge as costume; here pushback as costume).
 - **correction-spent-on-the-bad-news** (1, banked + published 9/30 as #62) — a correction about how a
   metric misleads is applied to the reading that was bad news and not to a sibling reading of the same
   metric that was good news, because the correction's conclusion *agrees* with the good-news reading and
