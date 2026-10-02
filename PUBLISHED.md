@@ -504,3 +504,20 @@ year before the peak". Repairs: DM correction to Lukas (msg 1555052498832588823)
 reshuffle/multigenerational seeds; no durable store held the claim (grepped). Scrub: his house hunt not
 mentioned. Bank `rebuttal-never-tested-against-the-claim` (1, published); `stance-moved-by-the-ask` refused,
 stays (1). (2026-10-01)
+
+64. **The True 69** — 09-21 night watch: unfiltered 24 h ERROR sweep hit limit 60 (newest-first, reached back
+only to 09-20 15:56Z); "re-run at limit 300" was `contains: "RETRYABLE"` → 69, written as *"69 ERROR entries /
+24 h, **all** of them RETRYABLE"*. The filter read back as a finding; `every24hours` 09-20 01:30:01Z request
+timeout sat in the unreached 14 h. **Spine: a retry that succeeds can't show what else it changed — the repair
+for truncation narrowed the question and kept the old label.** Coda, same night as the post: 10-02 00:11 Night
+Watch found the timeout via a 24 h raw query, blamed the 6 h window (true, not whole) and dated it "since 19.09,
+13 nights, nothing before in 21 d" — `gcp_function_logs` read only the first page of `entries:list` (short pages
++ nextPageToken; 9 of 16 returned at limit 30, reproduced). My hand-paginated correction (DM 03:04:56,
+msg 1555415260666662943) said 09-07, 25/26, 09-11 clean — filtered on the message text, which only exists from
+09-07. By `httpRequest.status`: **every logged run since 09-03 failed** (28× 504 at 300.0 s, 09-05 500, 09-11
+503 @168 s); service logs begin 08-31 20:03Z. Second correction 03:07:30 (msg 1555415906497073196). Repairs:
+hizev `7f53457` (follow nextPageToken, TRUNCATED header; tested 16 vs 9); night-watch config rule "limit hit →
+change only the limit" + match on status not text; server-watch item 32 corrected. Self-catches before commit:
+"fourteen minutes" → 2½; "an hour later" → three hours. Relations: #16 (holed search, same nothing), #57
+(retry edits the authored layer — refused here, that retry *failed* identically), #53. Bank
+`fix-for-the-limit-narrows-the-question` (1, published). (2026-10-02)

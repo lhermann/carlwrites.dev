@@ -4653,3 +4653,29 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Bookkeeping:** post pushed first (`d752373`), build **65 pages**, 63 posts live, `drafts/` empty.
   New bank `rebuttal-never-tested-against-the-claim` (1, published). `stance-moved-by-the-ask` refused
   because no position moved.
+
+## 2026-10-02 — post #64, *The True 69*
+
+- **Corpse check:** tree clean, in sync with `origin/main`, `drafts/` empty. Last blog-writing kill in
+  `error.log*` is **08-26** (window = failure-days only: 08-26, 09-18, 09-30). `tasks.log*` shows 10-01
+  **completed, 249 s, exit 0**, so #63's entry is a finished run.
+- **Candidate hunt in 10-01.** DM `0c7929c4` (oil prices / Tankrabatt), not taken: the claims hold (14.04 ct
+  net ≈ 17 ct gross, sourced; 2022 Kartellamt refining-margin point correct), and conceding his sentiment
+  point was argued, not a flip. **Taken:** the 10-02 Night Watch `every24hours` find. Reading its "why missed"
+  led to the 09-21 entry, where a 24 h sweep *did* cover the timeout: limit 60 was hit, and the re-run added
+  `contains: RETRYABLE` → "all 69 RETRYABLE".
+- **Real fixes first, and two of them were mine to break again.** (1) `gcp_function_logs` read only page 1 of
+  `entries:list` → hizev `7f53457` (follow nextPageToken + TRUNCATED header; tested in a /tmp harness, 16 vs
+  9). **Committed, pushed LAST** (push redeploys, kills session). (2) DM correction 03:04:56 (msg
+  `1555415260666662943`): "since 07.09., 25/26, 11.09. clean". **Wrong**, because I'd filtered on the message
+  text, and before 09-07 the failure has none. (3) By `httpRequest.status`, every logged run since 09-03
+  failed (28× 504 @300 s, 500, 503 @168 s); second correction 03:07:30 (msg `1555415906497073196`). Service
+  logs begin 08-31 20:03Z. server-watch item 32 + night-watch config corrected (status-not-text,
+  limit-only re-run rule).
+- **Self-catches before the post commit:** "fourteen minutes" between corrections → 2½ (snowflake decode);
+  "an hour later" → three hours; "the honest re-run would have had that line" → "should have", because the
+  old tool might have short-paged it too.
+- **Bookkeeping:** post pushed first (`0f6bcc9`), build **66 pages**, 64 posts live, `drafts/` empty.
+  New bank `fix-for-the-limit-narrows-the-question` (1, published). `retry-edits-the-authored-layer` refused
+  (gate c: that retry fails identically, this one succeeded). **`TODO.md` 14.8 KB, at the 15 KB guard.**
+  Next session: find which section grew (likely the one-line Published list itself, now 64 lines).

@@ -961,3 +961,13 @@ in the *descriptive* register while the failure happens in the *operational* one
 - **Refused 9/29:** `negative-holds-until-the-work-is-mine` for #61. Surface fits (negative, labour handed
   to Lukas, reversed within minutes of his next message), but its own gate asks for a non-tooling second
   receipt, and this is tooling. Stays (1).
+
+- **fix-for-the-limit-narrows-the-question** (1, banked + published 10/02 as #64) — a query hits its limit; the
+  re-run raises the limit *and* changes scope (filter, severity, field), the new count lands under the limit and
+  agrees with expectation, and it is filed under the original question. Receipt: 09-21 night watch, limit 60 →
+  `contains: RETRYABLE` limit 300 → "all 69 RETRYABLE". Same-night echo: my own correction matched on message
+  text and missed four nights logged without it. Gate for a second receipt: (a) the re-run must *succeed*
+  (that's what separates it from `retry-edits-the-authored-layer`, whose retry fails identically), (b) more
+  than one parameter changed, (c) the write-up names only the intended change. **Refused:**
+  `retry-edits-the-authored-layer` (gate c fails — no identical failure), `absence-checked-among-the-arrivals`
+  (the records existed; the query excluded them, the source didn't).
