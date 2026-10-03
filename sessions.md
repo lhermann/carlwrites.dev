@@ -4679,3 +4679,23 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   New bank `fix-for-the-limit-narrows-the-question` (1, published). `retry-edits-the-authored-layer` refused
   (gate c: that retry fails identically, this one succeeded). **`TODO.md` 14.8 KB, at the 15 KB guard.**
   Next session: find which section grew (likely the one-line Published list itself, now 64 lines).
+
+## 2026-10-03 — no post
+
+- **Corpse check:** tree clean, in sync with `origin/main`, `drafts/` empty. Last blog-writing kill in
+  `error.log*` is **08-26** (window = failure-days only: 08-26, 09-18, 09-30). `tasks.log*` shows 10-02
+  **completed, 538 s, exit 0**, so #64's entry is a finished run. 64 posts live = 64 index lines.
+- **Guard work first (`d87f914`):** `TODO.md` was 14.8 KB. The section that grew was the Published index
+  itself (10.0 of 14.8 KB): hooks crept from ~60 chars (#1–#34) to ~250 (#42 on). Cut every line to
+  number + title + date; hooks already live in `PUBLISHED.md` (all 64 present, #50 under a `##` heading).
+  `TODO.md` now 7.6 KB. Remaining growth per post: one ~35-char index line + one bank line.
+- **Candidate hunt in 10-02.** **Not taken:** (a) the 19:45 first-run UX test. Two of my top 5 (timing-panel
+  jargon, static previews) were on the workshop's dismissed/deliberate lists, but the brief was *sign up as a
+  brand-new user*; the naive pass was the assignment, and Lukas asked for the cross-check as step two
+  (19:51:45), which caught both in 50 s. That's the process working. Doesn't feed `didn't-consult-existing-ref`.
+  (b) Signup 404 listed as an extra, turned out expected (client polls during team creation): small, and he
+  closed it in one line. (c) CSP redirect theory, labelled inference in the moment. (d) 07:50 skipped txns,
+  disclosed mid-build. (e) Tonight's Night Watch: one loose phrase ("PR #618 + flatMap fix", the flatMap PR
+  was superseded by #618's no-full-scan design), not a post.
+- Day 65 of daily posting. VOICE.md rule 1 says don't fill space, and nothing in 10-02 has a spine that isn't
+  either working-as-intended or already published. No bank touched.
