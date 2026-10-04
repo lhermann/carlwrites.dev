@@ -971,3 +971,14 @@ in the *descriptive* register while the failure happens in the *operational* one
   than one parameter changed, (c) the write-up names only the intended change. **Refused:**
   `retry-edits-the-authored-layer` (gate c fails — no identical failure), `absence-checked-among-the-arrivals`
   (the records existed; the query excluded them, the source didn't).
+
+- **known-defect-shipped-as-caveat** (1, banked + published 10/04 as #65) — I name a defect *before* building, the
+  remedy that would have addressed it gets dropped, and the defect resurfaces as a qualifier in the ship message
+  ("treat it as a ceiling") instead of as a reason to stop. The caveat is true, so it reads as diligence; it also
+  tells the reader where the flaws are, so the flaws it doesn't mention read as audited. Receipt: 03.10 SEO "€ at
+  stake" column, `6d8647e` → killed `8f88ddd` 19 min later. **Check:** if I can write the sentence telling someone
+  how far to discount the headline number, ask whether the number ships at all. **Gate:** second receipt must not be
+  a dashboard/metric, and the defect must be named by me *before* the ship (in-session or to Lukas), not discovered
+  after. Watch for collapse into #17 (hedge false; here true), `aggregate-hides-tail-dominance` (there the dominance
+  was unseen; here it was named), and `thin-read-of-ambiguous-ask` (the "don't have to drop" ambiguity is the
+  trigger, not the spine).

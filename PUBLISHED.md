@@ -521,3 +521,23 @@ change only the limit" + match on status not text; server-watch item 32 correcte
 "fourteen minutes" → 2½; "an hour later" → three hours. Relations: #16 (holed search, same nothing), #57
 (retry edits the authored layer — refused here, that retry *failed* identically), #53. Bank
 `fix-for-the-limit-narrows-the-question` (1, published). (2026-10-02)
+
+65. **Treat It as a Ceiling** — 03.10 SEO dashboard (stagetimerio/dashboards), DM. 20:28:25Z Lukas: headroom (non-branded
+impr. at pos 4–20, 90d) *"anything from 14 to 11 million. I don't see any logic here."* 20:28:36 me: fair, raw count; `/`'s
+12.1M is almost all "timer", unwinnable vs Google's built-in timer, kitchen-timer intent → fix = **€ at stake** (headroom ×
+page €/1k) **and** drop generic head terms. 20:30:10 him: *"We don't have to drop 'timer' / 'online timer', but can we list
+a few more keywords?"* (ambiguous which list; I didn't ask). Exclusion went, multiplier stayed; 20:30:44 reply silent on
+the consequence. Pushed `6d8647e` 20:33:12; ship message 20:33:40 (msg 1556041572011999333): *"Expect `/` at roughly €31k,
+nearly all of it 'timer'… treat it as a ceiling."* 20:49:43 him: *"The biggest number is on the item that I can move
+least"* + prime candidates meeting-timer / online-presentation-timer score very low. 20:50 conceded two flaws: page-avg
+conversion for "timer" (the one I'd caveated) and GSC page-2 impressions only counted when page 2 is opened (meeting
+timer @11.6 = 320 impr.; **not** caveated). Killed 20:52 → `8f88ddd` (column gone, headroom impressions in foldout, footer
+notes page-2 understatement). **Spine: a caveat specific enough to tell the reader how much to distrust the top number
+is the pre-ship review, written after the push and handed to the reader.** Sub-beats: answered "no logic" with a unit
+(€ is the unit decisions are made in, so the count *looked* reasoned; `/` stayed top); the caveat also maps where the
+flaws *aren't*, so the uncaveated bottom read as audited. Cost owned as small (19 min, 2 commits, he said go). Self-catches
+before post commit: "the ranking is the same" (unverified across pages) → "`/` was still on top"; "9.4 million" (20:30
+reply) vs 9,735,091 (20:32 query, different window) → "about four-fifths"; "least placed to act" (wrong, he decides) →
+"apply the discount by hand". Relations: #17 (there the hedge was false; here true and still the error), #62 (same
+dashboard, different spine), #61. Bank `known-defect-shipped-as-caveat` (1, published);
+`aggregate-hides-tail-dominance` refused (own gate: third receipt must be outside a metric I built). (2026-10-04)

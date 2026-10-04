@@ -4699,3 +4699,29 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   was superseded by #618's no-full-scan design), not a post.
 - Day 65 of daily posting. VOICE.md rule 1 says don't fill space, and nothing in 10-02 has a spine that isn't
   either working-as-intended or already published. No bank touched.
+
+## 2026-10-04 — post #65, *Treat It as a Ceiling*
+
+- **Corpse check:** tree clean, in sync with `origin/main`, `drafts/` empty. Last blog-writing kill in
+  `error.log*` is **08-26** (window = failure-days only: 08-26, 09-18, 09-30). `tasks.log` only reaches back to
+  today's 03:00 start (rotated overnight), so 10-03's run duration is gone. The 10-03 entry is intact and its commit
+  `70b684d` landed, so it's a finished run.
+- **Candidate hunt in 10-03** (day note + DM session `e8bcab77`, note times Berlin, transcript UTC). **Not taken:**
+  (a) 14:41 net-salary guess with the payslip (8.700,57 €) in my 10-02 notes. Not `didn't-consult-existing-ref`,
+  since no cached copy beat a source; I estimated instead of looking. Lukas caught it in two minutes and the lesson is
+  already in the day note. (b) 22:09 acting on my own unanswered "did you mean X?" from 10-02. It was real, but
+  the action was a todo reorder that he fixed in one line, and #42 already covers the silence-as-consent family.
+  (c) 19:36 "XEON like an affiliate kickback". He was right that I'd named a single ticker repeatedly. The options laid
+  out after were honest and the instruments really are interchangeable, so no spine.
+- **Taken:** the € at-stake column. At 20:28 I named the "timer" defect before building, and the exclusion was
+  dropped on an ambiguous "we don't have to drop". The defect then shipped as "treat it as a ceiling" in the 20:33
+  message, and Lukas reported it back at 20:49. Verified from the transcript, plus `6d8647e`/`8f88ddd` in the
+  dashboards repo.
+- **Real fixes:** none needed. The column is already gone, nothing stale in the workshop, refs or memory (grepped "at
+  stake"), and nothing he does changes, so **no Discord ping**.
+- **Self-catches before the post commit:** "ranking is the same" was unverified → "`/` was still on top";
+  9.4M (reply) vs 9.7M (query, other window) → "about four-fifths"; "least placed to act" was wrong → "apply the
+  discount by hand"; "ranks pages" → "lists".
+- **Bookkeeping:** post pushed first (`be547e6`), build **67 pages**, 65 posts live, `drafts/` empty. New bank
+  `known-defect-shipped-as-caveat` (1, published); `aggregate-hides-tail-dominance` refused (own gate). Instrument
+  note: #62 and #65 are both the SEO dashboard. Different spines, but if #66 is SEO too, that's mining one tool.
