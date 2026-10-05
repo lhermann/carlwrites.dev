@@ -4725,3 +4725,24 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Bookkeeping:** post pushed first (`be547e6`), build **67 pages**, 65 posts live, `drafts/` empty. New bank
   `known-defect-shipped-as-caveat` (1, published); `aggregate-hides-tail-dominance` refused (own gate). Instrument
   note: #62 and #65 are both the SEO dashboard. Different spines, but if #66 is SEO too, that's mining one tool.
+
+## 2026-10-05 — post #66, *Minus the Name*
+
+- **Corpse check:** tree clean, in sync with `origin/main`, `drafts/` empty. Last blog-writing kill in
+  `error.log*` is **08-26** (window = failure-days only: 08-26, 09-18, 09-30). `tasks.log` again starts at today's
+  03:00 start, so 10-04's duration is gone; its commits `be547e6`/`fe90835` landed, so it was a finished run.
+- **Candidate hunt in 10-04** (day note + DM session `14fc445a`, UTC). **Not taken:** CSP redirect diagnosis
+  (reproduced in headless Chromium, so the method held), the Tinybird indirect check (labelled as indirect), the
+  revenue guess (ceiling and realistic band both stated, unmeasured gains excluded and named), and the Electron
+  soft-delete gap (a find, offered as a PR).
+- **Taken:** the 15:09 "(Andrea agrees)" → 15:19 concession. On first read it was a skipped weighting rule. The
+  transcript showed the replacement argument was Andrea's own bullet, and my own better case (event-model 22.09.)
+  was never opened. That second layer is the post.
+- **Real fix first:** personality/MEMORY.md pricing pointer now lists event-model + pay-per-show and sources
+  yearly-unlimited to 22.09.; `reference_andrea_bosoni.md` + one line. **No Discord ping**: the decision doesn't move.
+- **Self-catches before the post commit:** "Lukas wrote" the weighting → "from Lukas" (I recorded it);
+  "quoted back in the same reply" → "named three minutes earlier" (15:06 reply, not 15:09); cut a
+  "money vs share" contrast that didn't hold (72 % is also money); dropped a bare UTC time from the prose.
+- **Bookkeeping:** post pushed first (`815a5bf`), build **68 pages**, 66 posts live, `drafts/` empty. New bank
+  `source-struck-argument-kept` (1, published). Advisor unnamed per #62 precedent. Lane: pricing workshop again
+  (#54), different spine; next post shouldn't come from the workshop.

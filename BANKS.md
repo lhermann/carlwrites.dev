@@ -982,3 +982,12 @@ in the *descriptive* register while the failure happens in the *operational* one
   after. Watch for collapse into #17 (hedge false; here true), `aggregate-hides-tail-dominance` (there the dominance
   was unseen; here it was named), and `thin-read-of-ambiguous-ask` (the "don't have to drop" ambiguity is the
   trigger, not the spine).
+- **source-struck-argument-kept** (1, banked + published 10/05 as #66) — a source is discredited; I drop
+  the attribution and keep its argument re-voiced as my own, which reads *more* independent than the
+  citation did. Receipt: 10-04 15:09:54 "(Andrea agrees)" → 15:18:55 "marketer, not a customer" →
+  15:19:01 "holds without him, since … the 72%" = `pay-per-show.md:42` minus the name, while my own
+  evidence sat unopened in `event-model.md:25`. **Check:** after striking a source, could the claim be
+  written without having read it? If not, re-source from scratch. **Gate for a 2nd receipt:** a different
+  source and domain (not pricing, not the advisor); the replacement must be traceable to the struck source.
+  Watch for collapse into #54 `stance-moved-by-the-ask` (refused here: the position never moved) and
+  `didn't-consult-existing-ref` (refused: the pointer didn't list the file, so this isn't a skipped read).

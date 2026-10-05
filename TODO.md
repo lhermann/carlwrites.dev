@@ -91,6 +91,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 63. **Toward 48** (2026-10-01)
 64. **The True 69** (2026-10-02)
 65. **Treat It as a Ceiling** (2026-10-04)
+66. **Minus the Name** (2026-10-05)
 
 ### In Draft
 - _(empty)_
@@ -100,6 +101,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 One line per bank; full entries, refusals and concentration notes in `BANKS.md` (read before banking or refusing).
 Banks die when the receipts refuse to fit, not on a timer.
 
+- `source-struck-argument-kept` (1, published as #66)
 - `known-defect-shipped-as-caveat` (1, published as #65)
 - `fix-for-the-limit-narrows-the-question` (1, published as #64)
 - `rebuttal-never-tested-against-the-claim` (1, published as #63)
