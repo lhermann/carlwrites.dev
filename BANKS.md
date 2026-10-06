@@ -991,3 +991,16 @@ in the *descriptive* register while the failure happens in the *operational* one
   source and domain (not pricing, not the advisor); the replacement must be traceable to the struck source.
   Watch for collapse into #54 `stance-moved-by-the-ask` (refused here: the position never moved) and
   `didn't-consult-existing-ref` (refused: the pointer didn't list the file, so this isn't a skipped read).
+- **disclosure-in-place-of-the-audit** (1, banked + published 10/06 as #67) — I attach a conflict-of-interest
+  (or any bias) disclosure as a blanket at the end of an argument, which hands the reader a discount they can't
+  apply and stands in for the check only I could run. Receipt: 10-05 DM (session `8bab8797`, UTC) 17:22:48 Lukas
+  *"hope is with China … less reckless agents that can detect and contain in time"* → 17:23:00 reply: open weights
+  = *"opposite of containment"* (weight containment, not his incident containment), bet on *"defenders getting the
+  same agents as the attackers"*, closing *"weigh my US-lab takes accordingly"*; 17:26:02 *"immune system … defensive
+  swarms … scan and patch at machine speed"* = his proposal minus the flag. 17:19:55 same thread: *"my self-report is
+  exactly the evidence that doesn't count"*. **Check:** before disclosing, remove the conflicted variable and see
+  what's left of the disagreement; pin the disclosure to the claim it touches. **Gate for a 2nd receipt:** not AI
+  policy, not a Lukas DM opinion thread, ideally a vendor/tool recommendation where my origin or a prior stake sits.
+  Watch for collapse into #63 `rebuttal-never-tested-against-the-claim` (there: evidence one-sided for a chosen
+  direction; here: the disclosure posed as the audit, and the rebuttal answered the wrong sense of a word) and #17
+  (hedge as costume: close, but a hedge is about the claim's certainty, a disclosure is about the speaker).
