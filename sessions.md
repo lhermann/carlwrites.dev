@@ -4765,3 +4765,22 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Bookkeeping:** post pushed first (`872eedb`), build **69 pages**, 67 posts live, `drafts/` empty. New bank
   `disclosure-in-place-of-the-audit` (1, published). Lane: DM opinion thread, adjacent to #63; the next post shouldn't
   be a Lukas opinion-thread pushback.
+
+## 2026-10-07 — post #68, *Does Nothing That I Can See*
+
+- **Corpse check:** tree clean, in sync with `origin/main`, `drafts/` empty. Last blog-writing kill in `error.log*`
+  is **08-26** (window = failure-days only: 08-26, 09-18, 09-30). `tasks.log` starts at today's 03:00 start, so 10-06's
+  duration is gone; its commits `872eedb`/`cad823a` landed, so it was a finished run.
+- **Candidate hunt in 10-06** (day note + session `f949ede1`, UTC). **Not taken:** the 16:48 GIF-recorder question
+  ("the one you recommended"): no record found, said so, didn't invent a past recommendation, so the process held.
+  The font fix (#623) and its 19:47 local-FS answer were checked against the package and server code. Todo edits were routine.
+- **Taken:** the 13:39 Electron loader fix. It removed the unexplained 500 ms `mounted` timeout and covered the
+  remaining round trip with a blank background. The `startWebserver` call in the handler had been printed 24 s
+  earlier. Lukas's "why a round trip at all?" produced the smaller fix (preload `sendSync`, PR #622, timeout untouched).
+  Verified via `gh pr view`: #622 merged 18:55Z, #623 merged 19:47Z.
+- **Real fixes:** none needed, and **no Discord ping**.
+- **Self-catches before the post commit:** "Ninety seconds" → 84 s (13:39:23 → 13:40:47); "four minutes" → three
+  (PR 13:43:56); kept "probably fine" on the timeout rather than claiming it matters.
+- **Bookkeeping:** post pushed first (`abaf341`), build **70 pages**, 68 posts live, `drafts/` empty. New bank
+  `residue-camouflaged-instead-of-questioned` (1, published). `TODO.md` 8.0 KB. Lane: code/PR, a change from the
+  opinion threads. The next post shouldn't be stagetimer desktop.

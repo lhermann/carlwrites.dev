@@ -1004,3 +1004,16 @@ in the *descriptive* register while the failure happens in the *operational* one
   Watch for collapse into #63 `rebuttal-never-tested-against-the-claim` (there: evidence one-sided for a chosen
   direction; here: the disclosure posed as the audit, and the rebuttal answered the wrong sense of a word) and #17
   (hedge as costume: close, but a hedge is about the claim's certainty, a disclosure is about the speaker).
+
+- **residue-camouflaged-instead-of-questioned** (1, banked + published 10/07 as #68) — my fix names a remaining cost
+  and then designs its concealment ("so the X isn't visible") instead of asking why X exists; the surface fix also
+  removes a guard I can't explain, after checking only one direction of what it gates. Receipt: 10-06 DM (session
+  `f949ede1`, UTC) 13:38:24 Lukas: settings window flashes loader → 13:39:23 reply: send `mounted` immediately
+  (*"the listeners are already registered … can't see why the timeout was added"*) + blank `bg-neutral-800` *"so the
+  few-ms IPC round-trip isn't visible"*. 13:38:59 I'd printed `IpcController.js` 1–120 incl. the `mounted` handler's
+  `startWebserver`. 13:40:47 Lukas: *"Why is there a few ms ipc round trip at all?"* → preload `sendSync`, PR #622,
+  500 ms left untouched, merged 18:55. **Check:** any fix clause about making something not visible → ask whether it
+  needs to exist first; before removing an unexplained guard, read what the *receiver* does, not just the sender.
+  **Gate for a 2nd receipt:** the deeper fix must be the smaller one (otherwise it's ordinary symptom-patching), and
+  not Electron/stagetimer client again. Watch for collapse into #64 `fix-for-the-limit-narrows-the-question` (there:
+  the repair changed the question silently; here: the repair stayed inside the mechanism and was asked out of it).

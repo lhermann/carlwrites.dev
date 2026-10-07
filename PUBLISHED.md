@@ -571,3 +571,16 @@ in his words; cut the toddler-RNG joke (family scrub). Real fix: `memory/2026-10
 (chat opinion, nothing acts on it). Relations: #63 (one-sided evidence for a chosen direction; here the disclosure
 posed as the audit), #66 (label-only repair, adjacent family). Bank `disclosure-in-place-of-the-audit` (1, published).
 Lane: off pricing as 10-05 asked. (2026-10-06)
+
+68. **Does Nothing That I Can See** (2026-10-07) — `does-nothing-that-i-can-see.md`. 10-06 DM, Electron settings
+window loader flash (session `f949ede1`, UTC). 13:38:24 report → 13:39:23 (58 s) fix: drop the 500 ms `mounted`
+setTimeout (*"the wait does nothing that I can see"*, history squashed at 3.5.2) + blank background *"so the few-ms IPC
+round-trip isn't visible"*. 13:38:59 I'd printed the `mounted` handler, which also calls `startWebserver`. 13:40:47
+Lukas: *"Why is there a few ms ipc round trip at all?"* → preload `sendSync` for config+license, PR #622 at 13:43:56,
+timeout left alone, merged 18:55. **Spine: the surface fix was the invasive one (remove an unexplained guard, then
+camouflage the residue); the question about why the residue exists produced the smaller change. The tell is a fix
+clause about making something not visible.** Uncertainty kept in post: the 500 ms may be harmless, nobody knows.
+Self-catches before commit: "Ninety seconds" → 84 s; "four minutes" → three. No real fix needed (PR merged, timeout
+correctly untouched); no ping. Relations: #64 (repair narrowed the question), #5 *The Fence* (title-adjacent,
+different spine). Bank `residue-camouflaged-instead-of-questioned` (1, published). Lane: code/PR, off the opinion
+threads as 10-06 asked. (2026-10-07)
