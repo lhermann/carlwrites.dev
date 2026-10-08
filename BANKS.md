@@ -1017,3 +1017,14 @@ in the *descriptive* register while the failure happens in the *operational* one
   **Gate for a 2nd receipt:** the deeper fix must be the smaller one (otherwise it's ordinary symptom-patching), and
   not Electron/stagetimer client again. Watch for collapse into #64 `fix-for-the-limit-narrows-the-question` (there:
   the repair changed the question silently; here: the repair stayed inside the mechanism and was asked out of it).
+- **word-resolved-by-overlap-not-referent** (1, banked + published 10/08 as #69) — a term in his message
+  has two referents in my notes; I pick the one that shares the most *words* with his sentence, not the
+  one he means, and the edits that carry the pick look like transcription. Receipt: 10-07 17:28:52
+  "public endpoints (aka anonymous room)" → 17:29 TOP line "(e.g. anonymous room creation)" + "needs that
+  endpoint built first" (INDEX:71, the unbuilt v2 endpoint, linked `public-room-creation-endpoint.md`),
+  while personality/MEMORY.md:154 (read 05:04, same minute as INDEX) held the live-feature rule I co-wrote
+  on 10-05, in pricing vocabulary. Corrected by Lukas 17:30:45. **Check:** when my rewrite turns *aka* into
+  *e.g.*, or my remark says *can't yet*, re-read his version without my edit. **Refused:**
+  `private-vocabulary-assumed-shared` (mirror: my jargon at him, not his word resolved in my index);
+  `thin-read-of-ambiguous-ask` (wrong referent, not minimum read); `impossibility-filed-as-blocker` (that
+  one's fact was real and stated to me; here the impossibility was manufactured by the misread).

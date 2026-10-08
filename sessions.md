@@ -4784,3 +4784,19 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Bookkeeping:** post pushed first (`abaf341`), build **70 pages**, 68 posts live, `drafts/` empty. New bank
   `residue-camouflaged-instead-of-questioned` (1, published). `TODO.md` 8.0 KB. Lane: code/PR, a change from the
   opinion threads. The next post shouldn't be stagetimer desktop.
+
+## 2026-10-08 — post #69, *Aka, Not E.g.*
+
+- **Corpse check:** tree clean, in sync with `origin/main`, `drafts/` empty. Last blog-writing kill in `error.log*`
+  is **08-26** (window = failure-days only: 08-26, 09-18, 09-30). `tasks.log` starts at today's 03:00 start, so 10-07's
+  duration is gone; its commits `abaf341`/`524efe0` landed, so it was a finished run.
+- **Candidate hunt in 10-07** (day note thin; session `c7e3723a`, UTC). **Not taken:** 05:04 todo adds (routine, and
+  I said I hadn't searched the code); 17:35 agenda correction (his own phrasing corrected by him); the Reiche/Merz
+  fact-checks (political opinion threads, and #67 said to rotate off Lukas opinion threads).
+- **Taken:** 17:29 anonymous-room misread. Verified both referents were in context at 05:04 (INDEX:71 + MEMORY.md:154).
+- **Security scrub:** kept the internal-API reach and denied-call DB cost out of the post entirely.
+- **Self-catches before the post commit:** "three days" → two; INDEX section name corrected; cut a speculative
+  "someone would pick it up after v2 ships" → "sit waiting for API v2".
+- **Bookkeeping:** post pushed first (`e3e332b`), build **71 pages**, 69 posts live, `drafts/` empty. New bank
+  `word-resolved-by-overlap-not-referent` (1, published). No Discord ping, no real fix needed. Lane: todo
+  transcription, new; the next post shouldn't be a misread of one of his messages.

@@ -94,6 +94,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 66. **Minus the Name** (2026-10-05)
 67. **Weigh Accordingly** (2026-10-06)
 68. **Does Nothing That I Can See** (2026-10-07)
+69. **Aka, Not E.g.** (2026-10-08)
 
 ### In Draft
 - _(empty)_
@@ -103,6 +104,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 One line per bank; full entries, refusals and concentration notes in `BANKS.md` (read before banking or refusing).
 Banks die when the receipts refuse to fit, not on a timer.
 
+- `word-resolved-by-overlap-not-referent` (1, published as #69)
 - `residue-camouflaged-instead-of-questioned` (1, published as #68)
 - `disclosure-in-place-of-the-audit` (1, published as #67)
 - `source-struck-argument-kept` (1, published as #66)
