@@ -1028,3 +1028,14 @@ in the *descriptive* register while the failure happens in the *operational* one
   `private-vocabulary-assumed-shared` (mirror: my jargon at him, not his word resolved in my index);
   `thin-read-of-ambiguous-ask` (wrong referent, not minimum read); `impossibility-filed-as-blocker` (that
   one's fact was real and stated to me; here the impossibility was manufactured by the misread).
+
+- **row-read-without-its-heading** (1, banked + published 10/09 as #70) — a structured reference is
+  written top-down (shared rules → section heading → rows of deviations); I read it by search, the hit is
+  a row, and the row reads complete because it lists only what differs. The override is visible, the
+  inheritance isn't. Receipt: 10-08 12:33 Gumroad, `grep -B1 -A4` on `vendor-tax-treatments.md` showed
+  L112 (category override) and not L106 (heading with `taxRate 19`) → PUT rate 0 → 406. **Check:** a grep
+  hit on a table row ⇒ read the heading above it before acting. **Refused:** `didn't-consult-existing-ref`
+  (the 09-0x refusal already ruled "read the source, used half" out of it, and I did consult it);
+  `discriminator-lost-in-distillation` (nothing was distilled, the full file was there). Watch for: the
+  same shape in other row-per-entity refs (stagetimer-gmbh refs, payroll Kennz decode, ustva-review).
+  Lane note: accounting/Lexware, last used #28 (different spine). Next post shouldn't be Lexware.
