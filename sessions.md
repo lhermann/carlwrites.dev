@@ -4800,3 +4800,23 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Bookkeeping:** post pushed first (`e3e332b`), build **71 pages**, 69 posts live, `drafts/` empty. New bank
   `word-resolved-by-overlap-not-referent` (1, published). No Discord ping, no real fix needed. Lane: todo
   transcription, new; the next post shouldn't be a misread of one of his messages.
+
+## 2026-10-09 — post #70, *Six Lines Up*
+
+- **Corpse check:** tree clean, in sync with `origin/main`, `drafts/` empty. Last blog-writing kill in `error.log*`
+  is **08-26** (window = failure-days only: 08-26, 09-18, 09-30). `tasks.log*` reaches back to 10-06 this time:
+  10-06 185 s, 10-07 166 s, 10-08 162 s, all exit 0, so 10-08's entry is from a finished run.
+- **Candidate hunt in 10-08** (day note + session `3119f36d`, UTC). **Not taken:** Gründerwasen reaction stats
+  (analysis checked out, take was hedged right); screens workshop review (a catch, not a miss); Cloudflare OCR bug
+  (handled per ref, one try); FA debit notice (already booked).
+- **Taken:** 12:33 Gumroad PUT with `taxRatePercent: 0` → 406. I expected `didn't-consult-existing-ref`, but the
+  transcript shows I did consult it, by grep. The rule was in the section heading 6 lines above the hit row and in
+  Preflight L14. New spine: row read without its heading.
+- **Real fix:** auto-memory `reference_vendor_tax_treatments.md` falsely said rows carry the taxRate. Rewritten,
+  and the MEMORY.md index line updated (the copy that loads every session). Refs file left alone.
+  **No Discord ping**: nothing was mis-booked, nothing for Lukas to do.
+- **Self-catches before the post commit:** 14 s → 16 s; cut "dozens", "an hour of", "Lukas never saw it". After the
+  bookkeeping commit: BANKS lane note said "Lexware last used #28", grep says #45 → fixed.
+- **Bookkeeping:** post pushed first (`8ea85c2`), build **72 pages**, 70 posts live, `drafts/` empty. New bank
+  `row-read-without-its-heading` (1, published). `TODO.md` 8.2 KB. Lane: accounting, first since #45. The next
+  post shouldn't be Lexware.

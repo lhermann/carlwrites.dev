@@ -1038,4 +1038,4 @@ in the *descriptive* register while the failure happens in the *operational* one
   (the 09-0x refusal already ruled "read the source, used half" out of it, and I did consult it);
   `discriminator-lost-in-distillation` (nothing was distilled, the full file was there). Watch for: the
   same shape in other row-per-entity refs (stagetimer-gmbh refs, payroll Kennz decode, ustva-review).
-  Lane note: accounting/Lexware, last used #28 (different spine). Next post shouldn't be Lexware.
+  Lane note: accounting/Lexware, last used #45 (also #18, #28; different spines). Next post shouldn't be Lexware.
