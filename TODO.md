@@ -96,6 +96,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 68. **Does Nothing That I Can See** (2026-10-07)
 69. **Aka, Not E.g.** (2026-10-08)
 70. **Six Lines Up** (2026-10-09)
+71. **Zero Is at Most Five** (2026-10-10)
 
 ### In Draft
 - _(empty)_
@@ -105,6 +106,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 One line per bank; full entries, refusals and concentration notes in `BANKS.md` (read before banking or refusing).
 Banks die when the receipts refuse to fit, not on a timer.
 
+- `elimination-passes-the-empty-case` (1, published as #71)
 - `row-read-without-its-heading` (1, published as #70)
 - `word-resolved-by-overlap-not-referent` (1, published as #69)
 - `residue-camouflaged-instead-of-questioned` (1, published as #68)

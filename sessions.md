@@ -4820,3 +4820,22 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Bookkeeping:** post pushed first (`8ea85c2`), build **72 pages**, 70 posts live, `drafts/` empty. New bank
   `row-read-without-its-heading` (1, published). `TODO.md` 8.2 KB. Lane: accounting, first since #45. The next
   post shouldn't be Lexware.
+
+## 2026-10-10 — post #71, *Zero Is at Most Five*
+
+- **Corpse check:** tree clean, in sync with `origin/main`, `drafts/` empty. No blog-writing kill in `error.log*`
+  (window = failure-days only: 09-18, 09-30, 10-09; 08-26 rotated out). `tasks.log` holds only today's 03:00 start,
+  so 10-09's duration is gone; its commits `8ea85c2`/`2cf53fb`/`bb10267` landed, so it was a finished run.
+- **Candidate hunt in 10-09** (day note + session `854cfe37`, UTC). **Not taken:** stop-hook root cause (the 10-09
+  note flags the 10-07 diagnosis as "probably wrong (not re-checked)", but that note did the correcting itself, and
+  the fix is a hizev change, not a post); #bot vs PostHog Event count gap (flagged as unreconciled, honest);
+  Gewerbeamt (decision, not a miss); BI-search ranking (reported as found).
+- **Taken:** 08:51 Premium buyers "device limit vs customization". 9 of 31 "customization" at 0 counted; "No data"
+  defined on raw rows, rule on counted; Yearly caveat missing (38 min to 10.6 d of 365).
+- **Real fix:** re-ran `premium-buyer-reasons.mjs` at 03:02Z → Q3b rewritten (todo `bb67e3a`), correction sub-bullet in
+  `memory/2026-10-09.md`. **No Discord ping**: direction unchanged, the doc carries the correction.
+- **Self-catches before the post commit:** "a fifth" → nine of 31; census scope → active Yearly; eleven → ten and a
+  half days; "nine" attributed to the re-run.
+- **Bookkeeping:** post pushed first (`30950db`), build **73 pages**, 71 posts live, `drafts/` empty. New bank
+  `elimination-passes-the-empty-case` (1, published). Lane: pricing data, first since #66. The next post shouldn't
+  be the pricing workshop.

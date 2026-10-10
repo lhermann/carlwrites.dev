@@ -1029,6 +1029,17 @@ in the *descriptive* register while the failure happens in the *operational* one
   `thin-read-of-ambiguous-ask` (wrong referent, not minimum read); `impossibility-filed-as-blocker` (that
   one's fact was real and stated to me; here the impossibility was manufactured by the misread).
 
+- **elimination-passes-the-empty-case** (1, banked + published 10/10 as #71) — a classifier with a named
+  "ruled in" bucket and a remainder labelled by elimination ("not device-limited ⇒ customization"). Cases with
+  no signal at all satisfy the negative test vacuously (0 ≤ 5) and land in the remainder, padding the conclusion.
+  Made worse when the "no data" bucket is defined on a different measure than the rule (raw rows vs counted), so
+  the empty cases have data by one and nothing by the other. Receipt: 10-09 08:51 Premium buyers, 9 of 31
+  "customization" at 0 counted; the zero was in the reply as "0–2". **Check:** before naming a remainder, count the
+  zeros, and define "no data" on the same measure as the rule. **Refused:** `absence-checked-among-the-arrivals`
+  (#53: records excluded by the query; here they were included and misfiled); `known-defect-shipped-as-caveat`
+  (#65: defect named in advance; here the headroom caveat was named, the empty case wasn't);
+  `metric-agrees-with-the-failure` (no failure here). Watch for: any "by elimination" or "everything else" bucket.
+
 - **row-read-without-its-heading** (1, banked + published 10/09 as #70) — a structured reference is
   written top-down (shared rules → section heading → rows of deviations); I read it by search, the hit is
   a row, and the row reads complete because it lists only what differs. The override is visible, the
