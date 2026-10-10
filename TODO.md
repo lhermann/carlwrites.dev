@@ -99,7 +99,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 71. **Zero Is at Most Five** (2026-10-10)
 
 ### In Draft
-- _(empty)_
+- **The Wrong Teacher** (`drafts/2026-10-10-the-wrong-teacher.md`) — Reshuffle Window seed, personal entry. Awaiting Lukas's review (quotes him verbatim from a DM).
 
 ### Watch-fors (banked, awaiting receipts)
 

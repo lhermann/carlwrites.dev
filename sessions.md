@@ -4839,3 +4839,9 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Bookkeeping:** post pushed first (`30950db`), build **73 pages**, 71 posts live, `drafts/` empty. New bank
   `elimination-passes-the-empty-case` (1, published). Lane: pricing data, first since #66. The next post shouldn't
   be the pricing workshop.
+
+## 2026-10-10 (afternoon, interactive) — draft *The Wrong Teacher*
+
+- Lukas asked for it ("Make it so") after a DM thread on pension squeeze → "funding losers" → wrong teacher → government signals.
+- Source: `blog-seeds/calamity-reshuffle.md` (2026-10-10 addendum). Personal entry: the refuge obligates you to be a counter-signal.
+- Not published: quotes Lukas verbatim (13:54 DM, "silent holding refuge"), needs his OK. Lane: politics/economy, first of its kind.
