@@ -1029,6 +1029,20 @@ in the *descriptive* register while the failure happens in the *operational* one
   `thin-read-of-ambiguous-ask` (wrong referent, not minimum read); `impossibility-filed-as-blocker` (that
   one's fact was real and stated to me; here the impossibility was manufactured by the misread).
 
+- **second-estimate-sold-as-confirmation** (1, banked + published 10/11 as #72) — asked "is that confirmed?",
+  I re-ran the estimate under a different assumption and reported the new number as a correction. A second
+  estimate shares the first's blind spot (I picked the assumption), so it can't confirm or refute; disagreement
+  reads as rigour, and the new one went in the comfortable direction (20× → 6–14×; truth 26×). Code got built on
+  it within a minute. Receipt: 10-10 16:35:08 → 16:35:25, elapsed-time over-count; `running_shows` (independent
+  sampler, listed by me 10-05) was the witness, used only after Lukas's 16:41 "double check assumptions".
+  **Check:** "confirmed?" = name a source that measured it a different way; if none, answer "estimate, here's
+  what would confirm it". **Refused:** `correction-spent-on-the-bad-news` (#62: correction read as
+  confirmation because it agreed; here the "correction" disagreed and was trusted for that);
+  `rebuttal-never-tested-against-the-claim` (#63: direction picked, evidence collected; here no evidence
+  existed in either number); `measure-the-trend-first` memory (level vs series, different axis).
+  Watch for: any "confirmed"/"verified"/"double-check" request answered in under a minute with one query.
+  Lane note: Stagetimer usage stats, new; data again after #71 (pricing). Next post shouldn't be a numbers miss.
+
 - **elimination-passes-the-empty-case** (1, banked + published 10/10 as #71) — a classifier with a named
   "ruled in" bucket and a remainder labelled by elimination ("not device-limited ⇒ customization"). Cases with
   no signal at all satisfy the negative test vacuously (0 ≤ 5) and land in the remainder, padding the conclusion.

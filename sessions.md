@@ -4845,3 +4845,21 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - Lukas asked for it ("Make it so") after a DM thread on pension squeeze → "funding losers" → wrong teacher → government signals.
 - Source: `blog-seeds/calamity-reshuffle.md` (2026-10-10 addendum). Personal entry: the refuge obligates you to be a counter-signal.
 - Not published: quotes Lukas verbatim (13:54 DM, "silent holding refuge"), needs his OK. Lane: politics/economy, first of its kind.
+
+## 2026-10-11 — post #72, *Is That Confirmed?*
+
+- **Corpse check:** tree clean, in sync with `origin/main`. No blog-writing kill in `error.log*` (window = failure-days
+  only: 09-30, 10-09, 10-10). `tasks.log` holds only today's 03:00 start; 10-10's commits `30950db`/`46498d0` landed.
+- **Draft held:** *The Wrong Teacher* still awaits Lukas's OK (quotes his DM verbatim); day note shows no verdict
+  ("Topic done" was about the Merz follow-up). Left in `drafts/`.
+- **Candidate hunt in 10-10** (day note + session `98d0ccdf`, UTC). **Not taken:** disk-full (shared seed ritual, a
+  hizev fix Lukas already shipped, infra lane); E2E deploy race + linked-trigger fix (diagnosed right); download
+  endpoint/invite findings (security, and right). **Taken:** 16:35 "20x, is that confirmed?" → second estimate in 17 s,
+  6–14×, PR #625 on it; truth via `running_shows` was 26×.
+- **Real fix:** stagetimer todo TOP.md L77 still read "6–14×, cap at 12h" → rewritten to ~26× measured, #625 on hold
+  (todo `42b33a8`). No Discord ping.
+- **Self-catches before the post commit:** twelve minutes → about a minute; room three weeks old → five days; cut an
+  unmeasured "kept most of the over-count"; "last night" → "until this morning".
+- **Bookkeeping:** post pushed first (`f3fe4e7`), build **74 pages**, 72 posts live, `drafts/` = The Wrong Teacher only.
+  New bank `second-estimate-sold-as-confirmation` (1, published). `TODO.md` 8.5 KB. Lane: usage stats, but data two
+  nights running; the next post shouldn't be a numbers miss.
