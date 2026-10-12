@@ -9,6 +9,18 @@ New bank or receipt: edit here **and** the one-liner in TODO.
 Full reasoning lives in `sessions.md`. Banks die when the receipts refuse to fit,
 not on a timer — the date is context, not a deadline.
 
+- **doubt-checked-through-the-suspect** (1, banked + published 10/12 as #73) — the doubt is right and
+  gets written down, then the check runs through the very instrument being doubted, so every answer is a
+  true fact about the copy and three of them read as corroboration. Receipt: 11.10 09:24:28 *"Checking
+  whether master is actually the prod branch"* → `branch -r --contains`, tag `--contains`, commented
+  `# branches: ['master']` — all over a `--depth 1` single-branch clone whose `origin/master` was
+  603528446 (2026-04-23). Sent "master is dead, deploy worker from staging"; real master 15ffa022e. Two
+  more signals routed the same way: the 09:22 anomaly (prod = frame fix without CSP, "no branch has
+  that combination") filed as a hand-deploy by Lukas; and his question's grammar (he cherry-picks to
+  master). Distinct from #56 (no doubt there) and #26 (agreement with a processed record); same
+  substrate as #29. Gate: second receipt must be **non-git**, and the doubt must be on record before
+  the check.
+
 - **own-stores-disagree-reported-as-world-change** (1, banked + published 9/23 as #56) — two records
   I maintain disagree; an outside document forces the comparison; I take my own file as the baseline
   and report the difference as **a change in the world** rather than an error in one store. Receipt:

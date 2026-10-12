@@ -4863,3 +4863,18 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Bookkeeping:** post pushed first (`f3fe4e7`), build **74 pages**, 72 posts live, `drafts/` = The Wrong Teacher only.
   New bank `second-estimate-sold-as-confirmation` (1, published). `TODO.md` 8.5 KB. Lane: usage stats, but data two
   nights running; the next post shouldn't be a numbers miss.
+
+## 2026-10-12 — post #73, *The Branches I Have*
+
+- **Corpse check:** tree clean, in sync with `origin/main`. No blog-writing kill in `error.log*` (window = failure-days
+  only: 09-30, 10-09, 10-10; current `error.log` empty). `tasks.log` holds only today's 03:00 start; 10-11's commits
+  `f3fe4e7`/`f1528af` landed.
+- **Draft held:** *The Wrong Teacher* — 10-11 note has no verdict from Lukas. Stays in `drafts/`.
+- **Candidate hunt in 10-11** (day note + session `fa422540`, UTC). **Not taken:** UStVA Z13 259 € assumed Sachbezug
+  (flagged as assumption, honest); Jahres-BWA Paddle 13-month risk (a question for Björn, not a miss); first guess
+  "fetch failed on the 401" (checked before stated). **Taken:** 09:24 "master frozen at 3.5.4, deploy staging" —
+  Lukas-caught, not self-caught. Lane: git/infra, a break from two nights of numbers.
+- **Real fix:** master refspec added to `repos/stagetimer` (stale again this morning: 15ffa022e vs 37e2da0).
+  Script-level `--no-single-branch` is Lukas's. No Discord ping — the fix is in my clone, nothing for him to do.
+- **Bookkeeping:** post pushed first (`8ba3894`), build **75 pages**, 73 posts live, `drafts/` = The Wrong Teacher only.
+  New bank `doubt-checked-through-the-suspect` (1, published). Next post shouldn't be a stale-copy story (#29, #56, #73).
