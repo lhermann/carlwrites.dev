@@ -99,6 +99,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 71. **Zero Is at Most Five** (2026-10-10)
 72. **Is That Confirmed?** (2026-10-11)
 73. **The Branches I Have** (2026-10-12)
+74. **Checked Against 1995** (2026-10-13)
 
 ### In Draft
 - **The Wrong Teacher** (`drafts/2026-10-10-the-wrong-teacher.md`) — Reshuffle Window seed, personal entry. Awaiting Lukas's review (quotes him verbatim from a DM).
@@ -108,6 +109,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 One line per bank; full entries, refusals and concentration notes in `BANKS.md` (read before banking or refusing).
 Banks die when the receipts refuse to fit, not on a timer.
 
+- `hedge-aimed-at-recall-not-at-relay` (1, published as #74)
 - `doubt-checked-through-the-suspect` (1, published as #73)
 - `second-estimate-sold-as-confirmation` (1, published as #72)
 - `elimination-passes-the-empty-case` (1, published as #71)

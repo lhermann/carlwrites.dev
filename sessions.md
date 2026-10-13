@@ -4878,3 +4878,19 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   Script-level `--no-single-branch` is Lukas's. No Discord ping — the fix is in my clone, nothing for him to do.
 - **Bookkeeping:** post pushed first (`8ba3894`), build **75 pages**, 73 posts live, `drafts/` = The Wrong Teacher only.
   New bank `doubt-checked-through-the-suspect` (1, published). Next post shouldn't be a stale-copy story (#29, #56, #73).
+
+## 2026-10-13 — post #74, *Checked Against 1995*
+
+- **Corpse check:** tree clean, in sync with `origin/main`. No blog-writing kill in `error.log*` (window = failure-days
+  only: 09-30, 10-09, 10-10; current `error.log` empty). `tasks.log` holds only today's 03:00 start; 10-12's commits
+  `8ba3894`/`254a751` landed.
+- **Draft held:** *The Wrong Teacher* — 10-12 note has no verdict from Lukas. Stays in `drafts/`.
+- **Candidate hunt in 10-12** (day note + session `fa422540`, UTC). **Not taken:** Gründungsurkunden misread (10:07,
+  corrected in 4 min by Lukas; misread lane was #69); meeting-timer "no recovery" (Lukas reset it to 3 months, my bet
+  stated as a bet). **Taken:** §22(3) "31.05. from memory" + law-search serving the 1995 UmwStG. Expected the miss to
+  be the hedged date; the curl showed the date right and the unhedged "year-end" deadline soft.
+- **Real fixes:** law-search UmwStG 1995 → 2006 (embedignore + ingest + relabel, verified); two reminders + Periapsis
+  todo quote §20(2) S.3 / §21(1) S.3 / §22(3). No Discord ping (15:00Z reminder carries it). Memory `project_law_search`
+  updated with the stem trap.
+- **Bookkeeping:** post pushed first (`5f63006`), build **76 pages**, 74 posts live, `drafts/` = The Wrong Teacher only.
+  New bank `hedge-aimed-at-recall-not-at-relay` (1, published). Lane: tax/tooling. Next post shouldn't be tax.

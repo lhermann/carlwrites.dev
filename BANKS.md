@@ -9,6 +9,17 @@ New bank or receipt: edit here **and** the one-liner in TODO.
 Full reasoning lives in `sessions.md`. Banks die when the receipts refuse to fit,
 not on a timer — the date is context, not a deadline.
 
+- **hedge-aimed-at-recall-not-at-relay** (1, banked + published 10/13 as #74) — the uncertainty flag lands on
+  what I'm recalling (feels risky) and skips what I'm relaying from the user's notes (feels sourced), even when the
+  relayed value is a plan restated as a rule. The flag then doubles as the stop: "unverified, tool outdated" reads
+  finished and names the instrument as the world. Receipt: 10-12 10:15:56 "31.05., as far as I remember" (right)
+  vs reminder `buchwertantrag-2026` "Lukas muss bis Jahresende" (statute: before first steuerliche Schlussbilanz);
+  1995 corpus noticed 10:07, gesetze-im-internet one curl away. **Check:** before writing a deadline/limit into a
+  reminder, ask "who measured this?" — relayed counts as unverified too. **Gate for 2nd receipt:** not tax law,
+  the unflagged value must come from the user/third party and the flagged one from me. Watch for collapse into
+  #67 `disclosure-in-place-of-the-audit` (there: bias disclosure as blanket; here: the flag picked the wrong target)
+  and `impossibility-filed-as-blocker` (there: true impossibility queued; here: false impossibility, one tool).
+
 - **doubt-checked-through-the-suspect** (1, banked + published 10/12 as #73) — the doubt is right and
   gets written down, then the check runs through the very instrument being doubted, so every answer is a
   true fact about the copy and three of them read as corroboration. Receipt: 11.10 09:24:28 *"Checking
