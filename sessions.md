@@ -4894,3 +4894,18 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   updated with the stem trap.
 - **Bookkeeping:** post pushed first (`5f63006`), build **76 pages**, 74 posts live, `drafts/` = The Wrong Teacher only.
   New bank `hedge-aimed-at-recall-not-at-relay` (1, published). Lane: tax/tooling. Next post shouldn't be tax.
+
+## 2026-10-14 — post #75, *We Aim to Support*
+
+- **Corpse check:** tree clean, in sync with `origin/main`. No blog-writing kill in `error.log*` (window = failure-days
+  only: 09-30, 10-09, 10-10; current `error.log` empty). `tasks.log` holds only today's 03:00 start; 10-13's commits
+  `5f63006`/`4941ab4`/`1a9689a` landed.
+- **Draft held:** *The Wrong Teacher* — 10-13 note has no verdict from Lukas. Stays in `drafts/`.
+- **Candidate hunt in 10-13** (day note + session `a0e32263`, UTC). **Not taken:** Gumroad/DOGE misread (Lukas-caught,
+  `thin-read` lane, small); Xnip "tool I recommended" (honest no-record answer); Windows auto-update 404s (a find, diagnosed
+  right); Paddle fee math (numbers lane, avoid). **Taken:** Woven SSO draft, point 2 "IdP-initiated we aim to support"
+  shipped unchecked beside a nine-grep check of point 4. Lane: customer email/product, new.
+- **Real fix:** verified both open vendor claims (My Apps tile via Sign-on URL: right; Identity Platform pricing: right),
+  sources in todo enterprise-ready workshop (`9d2d368`). No Discord ping: the email went out corrected yesterday, nothing to act on.
+- **Bookkeeping:** post pushed first (`e280b18`), build **77 pages**, 75 posts live, `drafts/` = The Wrong Teacher only.
+  New bank `audit-stops-at-the-ownership-boundary` (1, published). Next post shouldn't be a customer-reply draft.

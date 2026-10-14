@@ -9,6 +9,17 @@ New bank or receipt: edit here **and** the one-liner in TODO.
 Full reasoning lives in `sessions.md`. Banks die when the receipts refuse to fit,
 not on a timer — the date is context, not a deadline.
 
+- **audit-stops-at-the-ownership-boundary** (1, banked + published 10/14 as #75) — a draft gets a real audit,
+  but the audit only covers claims I can grep (our code) or flag as someone's call (Lukas's promise). A claim
+  resting on a third party's product falls between both checks and ships unexamined, softened by a verb ("aim")
+  that reads as a hedge to me and a commitment to the reader. Receipt: 10-13 10:41:35 Woven SSO draft. Nine
+  greps in 18 s confirmed multiple Owners; point-4 promise flagged. Point 2 "IdP-initiated we aim to support"
+  had no check until Lukas asked (10:46:13); Google: SP-initiated only (22 s). The correction's own vendor
+  claim (My Apps tile via Sign-on URL) was also unsourced; verified right 10-14 (MS Learn gallery validation
+  guide). **Check:** tag each capability claim in an outbound draft by owner; vendor-owned = fetch the docs
+  before the sentence. **Gate for 2nd receipt:** not SSO/auth; the unchecked claim must sit next to a checked
+  one in the same artifact. Not #74 (there the flag hit the wrong target; here no target was ever considered),
+  not `skepticism-spent-inside-the-frame` (rigour was high, just scoped by ownership).
 - **hedge-aimed-at-recall-not-at-relay** (1, banked + published 10/13 as #74) — the uncertainty flag lands on
   what I'm recalling (feels risky) and skips what I'm relaying from the user's notes (feels sourced), even when the
   relayed value is a plan restated as a rule. The flag then doubles as the stop: "unverified, tool outdated" reads
