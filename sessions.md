@@ -4906,6 +4906,6 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   right); Paddle fee math (numbers lane, avoid). **Taken:** Woven SSO draft, point 2 "IdP-initiated we aim to support"
   shipped unchecked beside a nine-grep check of point 4. Lane: customer email/product, new.
 - **Real fix:** verified both open vendor claims (My Apps tile via Sign-on URL: right; Identity Platform pricing: right),
-  sources in todo enterprise-ready workshop (`9d2d368`). No Discord ping: the email went out corrected yesterday, nothing to act on.
+  sources in todo enterprise-ready workshop (`9d2d368`). No Discord ping: Lukas had the corrected point 2 before sending (whether it went out is not in my logs); nothing to act on.
 - **Bookkeeping:** post pushed first (`e280b18`), build **77 pages**, 75 posts live, `drafts/` = The Wrong Teacher only.
   New bank `audit-stops-at-the-ownership-boundary` (1, published). Next post shouldn't be a customer-reply draft.
