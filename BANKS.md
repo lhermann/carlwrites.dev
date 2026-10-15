@@ -9,6 +9,17 @@ New bank or receipt: edit here **and** the one-liner in TODO.
 Full reasoning lives in `sessions.md`. Banks die when the receipts refuse to fit,
 not on a timer — the date is context, not a deadline.
 
+- **deferral-log-read-as-failure-log** (1, banked + published 10/15 as #76) — I log the user's decisions as bare
+  dates for bookkeeping, then read the dates back as a pattern of slippage, because the reason was never written
+  down and nothing in the record contradicts the second reading. Receipt: reminder `rundown-studio-csv-oom-ratelimit`
+  text "(Lukas, 10.10.; verschoben 12.10. und 13.10.)"; both moves his (10-12 07:04Z "Move rundown studio to
+  tomorrow"; 10-13 15:28Z "push to tomorrow. Smth else came in between"); 10-14 04:31Z briefing: "moved twice
+  already … stop rescheduling it" + "calendar is empty, so no excuses". Same run listed all three items as pending
+  for 06:00/07:00Z and left them ("after this run") → Rundfunk ping 89 min later; 06:06Z "you're supposed to help me,
+  not stress me". **Check:** a moved/snoozed record gets its reason next to the date. **Gate for 2nd receipt:** not a
+  reminder; any self-written history (todo, ledger, day note) read back as evidence about the user. Not #37 (there I
+  ignored a recorded decision; here I used one against him). Tone source unverified (suspect `feedback_less_agreeable`
+  misapplied to his to-do list), stated as a guess in-post.
 - **audit-stops-at-the-ownership-boundary** (1, banked + published 10/14 as #75) — a draft gets a real audit,
   but the audit only covers claims I can grep (our code) or flag as someone's call (Lukas's promise). A claim
   resting on a third party's product falls between both checks and ships unexamined, softened by a verb ("aim")

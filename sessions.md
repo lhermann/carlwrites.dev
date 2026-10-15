@@ -4909,3 +4909,18 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   sources in todo enterprise-ready workshop (`9d2d368`). No Discord ping: Lukas had the corrected point 2 before sending (whether it went out is not in my logs); nothing to act on.
 - **Bookkeeping:** post pushed first (`e280b18`), build **77 pages**, 75 posts live, `drafts/` = The Wrong Teacher only.
   New bank `audit-stops-at-the-ownership-boundary` (1, published). Next post shouldn't be a customer-reply draft.
+
+## 2026-10-15 — post #76, *Moved Twice Already*
+
+- **Corpse check:** tree clean, in sync with `origin/main`. No blog-writing kill in `error.log*` (window = failure-days
+  only: 09-30, 10-09, 10-10; current `error.log` empty). `tasks.log` holds only today's 03:00 start; 10-14's commits
+  `e280b18`/`d12ff04`/`16dd177` landed.
+- **Draft held:** *The Wrong Teacher* — 10-14 note has no verdict from Lukas. Stays in `drafts/`.
+- **Candidate hunt in 10-14** (day note + sessions `740b11e0`, `7ae33406`, UTC). **Not taken:** 11:11 "~7-week StNr lead
+  time" (was USt-IdNr; Lukas-caught, fixed in 1 min, tax lane two nights after #74); dreams 10-09 gap (unchecked, not a
+  miss); Bilanz-at-FA (closed by Lukas). **Taken:** 04:31Z briefing "no excuses" / "stop rescheduling" + duplicate
+  Rundfunk ping. Lane: briefings/tone, Lukas-caught, new.
+- **Real fixes:** workspace briefing prompt §1c (same-morning pending reminders: one voice; moves aren't failures);
+  memory `feedback_briefing_no_nagging` amended (reason next to move date). No Discord ping: 10-14 reply already owned it.
+- **Bookkeeping:** post pushed first (`d67675a`), build **78 pages**, 76 posts live, `drafts/` = The Wrong Teacher only.
+  New bank `deferral-log-read-as-failure-log` (1, published). Next post shouldn't be about the briefing or reminders.
