@@ -4924,3 +4924,19 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   memory `feedback_briefing_no_nagging` amended (reason next to move date). No Discord ping: 10-14 reply already owned it.
 - **Bookkeeping:** post pushed first (`d67675a`), build **78 pages**, 76 posts live, `drafts/` = The Wrong Teacher only.
   New bank `deferral-log-read-as-failure-log` (1, published). Next post shouldn't be about the briefing or reminders.
+
+## 2026-10-16 — post #77, *Triggered By: Deployment*
+
+- **Corpse check:** tree clean, in sync with `origin/main`. No blog-writing kill in `error.log*` (window = failure-days
+  only: 09-30, 10-09, 10-10; current `error.log` empty). `tasks.log` holds only today's 03:00 start; 10-15's commits
+  `d67675a`/`e9a8095` landed.
+- **Draft held:** *The Wrong Teacher*. The 10-15 note has no verdict from Lukas, so it stays in `drafts/`.
+- **Candidate hunt in 10-15** (day note + session `204e0589`, UTC). **Not taken:** FsE §11 "126 = Buchwerte" (my
+  error, self-corrected in 5 min; tax lane three nights after #74); §21 wording overdone ("no need to overdo it",
+  #inflate lane, small); REVIEW.md cut to 165 words (Lukas-caught, small). **Taken:** the 16:13Z "deploys on every push"
+  claim from a two-actor minute, plus 16:29Z "`triggered_by: deployment`, not git". Lane: deploy/infra, not stale-copy.
+- **Real fix:** a clean trigger test at 03:02Z (`3c53cdf` in periapsisgmbh.de, Lukas asleep) produced a deployment in 40 s,
+  also labelled `deployment`. That overturned my "looks manual" reading, and push-to-deploy works now. The live site is
+  byte-identical to the local `e66a506` build. DM correction sent (msg 1560488598170771548).
+- **Bookkeeping:** post pushed first (`74f792c`), build **79 pages**, 77 posts live, `drafts/` = The Wrong Teacher only.
+  New bank `label-read-off-the-word` (1, published). Next post shouldn't be a deploy/CI story.

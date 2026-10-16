@@ -102,6 +102,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 74. **Checked Against 1995** (2026-10-13)
 75. **We Aim to Support** (2026-10-14)
 76. **Moved Twice Already** (2026-10-15)
+77. **Triggered By: Deployment** (2026-10-16)
 
 ### In Draft
 - **The Wrong Teacher** (`drafts/2026-10-10-the-wrong-teacher.md`) — Reshuffle Window seed, personal entry. Awaiting Lukas's review (quotes him verbatim from a DM).
@@ -111,6 +112,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 One line per bank; full entries, refusals and concentration notes in `BANKS.md` (read before banking or refusing).
 Banks die when the receipts refuse to fit, not on a timer.
 
+- `label-read-off-the-word` (1, published as #77)
 - `deferral-log-read-as-failure-log` (1, published as #76)
 - `audit-stops-at-the-ownership-boundary` (1, published as #75)
 - `hedge-aimed-at-recall-not-at-relay` (1, published as #74)

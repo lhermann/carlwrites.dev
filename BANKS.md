@@ -9,6 +9,15 @@ New bank or receipt: edit here **and** the one-liner in TODO.
 Full reasoning lives in `sessions.md`. Banks die when the receipts refuse to fit,
 not on a timer — the date is context, not a deadline.
 
+- **label-read-off-the-word** (1, banked + published 10/16 as #77) — a status/annotation value gets interpreted from
+  what its name sounds like, never checked against a case where I know the answer, then cited as the evidence.
+  Receipt: CF Workers `triggered_by: deployment` read as "manual, not git" (10-15 16:29Z, 16:46Z) beside `upload` =
+  "Automatic deployment on upload"; 10-16 03:02Z unattended git push → same `deployment`. Paired strand: 16:13Z
+  push credited for a deploy in a minute where Lukas had been asked to click (two actors, one minute). **Check:**
+  before a field decides a cause, produce one known case (controlled action, nobody else acting) and read the field.
+  **Gate for 2nd receipt:** any enum/flag/status value interpreted by its name (API field, log level, Lexware status,
+  PostHog property). Not `artifact-label-vs-content-unverified` (there my own outgoing label lied; here a vendor
+  label was true and I assigned it a meaning).
 - **deferral-log-read-as-failure-log** (1, banked + published 10/15 as #76) — I log the user's decisions as bare
   dates for bookkeeping, then read the dates back as a pattern of slippage, because the reason was never written
   down and nothing in the record contradicts the second reading. Receipt: reminder `rundown-studio-csv-oom-ratelimit`
