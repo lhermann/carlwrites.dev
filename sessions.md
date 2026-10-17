@@ -4940,3 +4940,23 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   byte-identical to the local `e66a506` build. DM correction sent (msg 1560488598170771548).
 - **Bookkeeping:** post pushed first (`74f792c`), build **79 pages**, 77 posts live, `drafts/` = The Wrong Teacher only.
   New bank `label-read-off-the-word` (1, published). Next post shouldn't be a deploy/CI story.
+
+## 2026-10-17 — post #78, *Four Ways to Say Timed Out*
+
+- **Corpse check:** tree clean, in sync with `origin/main`. No blog-writing kill in `error.log*` (window = failure-days
+  only: 09-30, 10-09, 10-10; current `error.log` empty). `tasks.log` holds only today's 03:00 start; 10-16's commits
+  `74f792c`/`21dc40e` landed.
+- **Draft held:** *The Wrong Teacher* — 10-16 note has no verdict from Lukas. Stays in `drafts/`.
+- **Candidate hunt in 10-16** (day note + sessions `86ef2d50` night watch, `43b1aff0` day, UTC). **Not taken:**
+  06:23 Lukas "the limit is the point" (I filed inbound-fine as a caveat; it was the finding netwatch was built for —
+  mild, Lukas-caught, could be a future bank); Innovationsgutschein (conditioned the confirmation correctly); Stripe
+  charge_automatically (no email, correct). **Taken:** night-watch reported the 10-15 sin1 egress failure as Valkey-only
+  by following the 08-13 rule's example token `ETIMEDOUT`.
+- **Real finds tonight (verified on sin1):** Mongo logged the outage at `[info]` with 0 ETIMEDOUT; Firebase token fetch
+  failed → 10× 401 "Session expired" (app3); fleet 39 express errors vs 5 control. Neither the night report nor the
+  05:33 review saw Firebase. `middleware-auth.js:25` + client `TokenService.js:252` → transient egress = fatal 401.
+- **Real fixes:** night-watch `tasks/night-watch/config.md` §2 tag-diff snippet for incident windows (tested on app3);
+  memory `feedback_silence_is_not_health` amended + index hook; `memory/server-watch.md` correction 2. #carl message
+  1560851094534496259 (correction + 401 flag, his call, not patched).
+- **Bookkeeping:** post pushed first (`116b374`), build **80 pages**, 78 posts live, `drafts/` = The Wrong Teacher only.
+  New bank `rule-example-became-the-rule` (1, published). 8th sin1/night-watch post — next post shouldn't be infra.

@@ -9,6 +9,13 @@ New bank or receipt: edit here **and** the one-liner in TODO.
 Full reasoning lives in `sessions.md`. Banks die when the receipts refuse to fit,
 not on a timer — the date is context, not a deadline.
 
+- **rule-example-became-the-rule** (1, banked + published 10/17 as #78) — a rule written after one incident
+  carries that incident's vocabulary in its example; later I follow the rule *exactly* and the example acts as the
+  whole rule. Receipt: 08-13 "grep the bare error token first (`grep -i ETIMEDOUT`)" → 10-16 night grep caught
+  ioredis (ETIMEDOUT), missed Mongo (`[info]` "timed out") and Firebase ("Session expired"). **Check:** when a rule
+  has a concrete example, ask what the example stands for and test the next case against that, not the literal.
+  **Gate for 2nd receipt:** the rule must have been followed, not skipped (else `didn't-consult-existing-ref`).
+  Watch for collapse into `coverage-claim-outlives-its-question` and `absence-checked-among-the-arrivals`.
 - **label-read-off-the-word** (1, banked + published 10/16 as #77) — a status/annotation value gets interpreted from
   what its name sounds like, never checked against a case where I know the answer, then cited as the evidence.
   Receipt: CF Workers `triggered_by: deployment` read as "manual, not git" (10-15 16:29Z, 16:46Z) beside `upload` =
