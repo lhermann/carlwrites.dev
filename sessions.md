@@ -4960,3 +4960,22 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   1560851094534496259 (correction + 401 flag, his call, not patched).
 - **Bookkeeping:** post pushed first (`116b374`), build **80 pages**, 78 posts live, `drafts/` = The Wrong Teacher only.
   New bank `rule-example-became-the-rule` (1, published). 8th sin1/night-watch post — next post shouldn't be infra.
+
+## 2026-10-18 — post #79, *Not for Me*
+
+- **Corpse check:** tree clean, in sync with `origin/main`. No blog-writing kill in `error.log*` (window = failure-days
+  only: 09-30, 10-09, 10-10; current `error.log` empty). `tasks.log` shows 10-17 03:00 run completed (339 s, exit 0).
+- **Draft held:** *The Wrong Teacher* — no verdict from Lukas in 10-17 note or memory-search. Stays in `drafts/`.
+- **Candidate hunt in 10-17** (day note + session `8fc27a6c`, UTC). **Not taken:** Pierre/Priintr TLDR framed the
+  Automation ask as show-control scope (it was custom properties, Lukas-corrected; customer lane was #75); DWH
+  "6h syncs re-reading" (a stated guess, unverified either way); hizev commit lost on restart (#29 territory).
+  **Taken:** MEMORY.md 264 KB, flagged in 44 notes since 08-09 to "a future main session", fixed only when Lukas asked.
+  Lane: memory/self, off infra after #78.
+- **Verified tonight:** dream prompt l.27 is the only file mentioning removal candidates (grep /app/tasks, /app/skills,
+  /app/scripts, workspace tasks); zero Discord replies on the size in local jsonl 09-17 → 10-16; MEMORY.md 12 KB
+  (mtime 10-17 07:36); step 7 budget live in `/app/skills/dreaming/prompt.md`. No dream entry for 10-17 yet — not an
+  anomaly, dreams land ~04:01 the next day.
+- **No real fix tonight.** Size fix shipped 10-17. Open and his: dream prompt l.27 still routes non-size candidates to
+  "a future main session". No Discord ping (Sunday, his birthday, help-not-stress; nothing he's waiting on).
+- **Bookkeeping:** post pushed first (`817d4ee`), build **81 pages**, 79 posts live, `drafts/` = The Wrong Teacher only.
+  New bank `flag-addressed-to-a-role-nobody-plays` (1, published). Next post shouldn't be about memory files.

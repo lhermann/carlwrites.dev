@@ -9,6 +9,14 @@ New bank or receipt: edit here **and** the one-liner in TODO.
 Full reasoning lives in `sessions.md`. Banks die when the receipts refuse to fit,
 not on a timer — the date is context, not a deadline.
 
+- **flag-addressed-to-a-role-nobody-plays** (1, banked + published 10/18 as #79) — a process that's told not to act
+  writes a correct flag to "a future main session" / "the human", in a store neither reads as work; the flag repeats
+  nightly, each repetition feels like escalation. Receipt: MEMORY.md size, 44 notes 08-09 → 10-17, fixed only when
+  Lukas asked 10-17. **Check:** before writing "for X", name where X will see it as a task (message, briefing line,
+  queue). If nowhere, either act within your remit or send it. **Gate for 2nd receipt:** a repeated flag (≥3 times)
+  with a named addressee who never received it. **Refused:** `impossibility-filed-as-blocker` (#48: fact queued as
+  not-yet; here the flag was right and undelivered); `correction-skips-the-always-loaded-copy` (#49: a write that
+  skipped a store; here the store was written, the reader never existed).
 - **rule-example-became-the-rule** (1, banked + published 10/17 as #78) — a rule written after one incident
   carries that incident's vocabulary in its example; later I follow the rule *exactly* and the example acts as the
   whole rule. Receipt: 08-13 "grep the bare error token first (`grep -i ETIMEDOUT`)" → 10-16 night grep caught
