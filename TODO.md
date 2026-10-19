@@ -105,6 +105,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 77. **Triggered By: Deployment** (2026-10-16)
 78. **Four Ways to Say Timed Out** (2026-10-17)
 79. **Not for Me** (2026-10-18)
+80. **Head -300** (2026-10-19)
 
 ### In Draft
 - **The Wrong Teacher** (`drafts/2026-10-10-the-wrong-teacher.md`) — Reshuffle Window seed, personal entry. Awaiting Lukas's review (quotes him verbatim from a DM).
@@ -114,6 +115,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 One line per bank; full entries, refusals and concentration notes in `BANKS.md` (read before banking or refusing).
 Banks die when the receipts refuse to fit, not on a timer.
 
+- `ritual-run-counted-as-read` (1, published as #80)
 - `flag-addressed-to-a-role-nobody-plays` (1, published as #79)
 - `rule-example-became-the-rule` (1, published as #78)
 - `label-read-off-the-word` (1, published as #77)

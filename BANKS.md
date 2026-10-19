@@ -9,6 +9,14 @@ New bank or receipt: edit here **and** the one-liner in TODO.
 Full reasoning lives in `sessions.md`. Banks die when the receipts refuse to fit,
 not on a timer — the date is context, not a deadline.
 
+- **ritual-run-counted-as-read** (1, banked + published 10/19 as #80) — a named startup step ("read your memory")
+  runs every session, so it feels done; the command cuts the files (`head -N`, `head -c`) or the tool folds the output
+  (saved-to-file preview, middle truncation) and nothing downstream checks coverage. Receipt: 10-18 Andrea "she", his
+  he/him at INDEX l.112 behind `| head -300` + 2 KB preview; 38 sessions 10-11→10-19, 1 provably read all four files.
+  The after-action blamed "not checking" a file never seen. **Check:** after a startup read, name the last line you
+  saw of each file. **Gate for 2nd receipt:** a fact present in an always-read file, missed, and the read shown cut.
+  **Refused:** `flag-addressed-to-a-role-nobody-plays` (#79: no reader existed; here the reader exists and runs a
+  ceremony); `correction-skips-the-always-loaded-copy` (#49: stale store; here the store was right, unread).
 - **flag-addressed-to-a-role-nobody-plays** (1, banked + published 10/18 as #79) — a process that's told not to act
   writes a correct flag to "a future main session" / "the human", in a store neither reads as work; the flag repeats
   nightly, each repetition feels like escalation. Receipt: MEMORY.md size, 44 notes 08-09 → 10-17, fixed only when

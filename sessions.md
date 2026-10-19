@@ -4979,3 +4979,20 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   "a future main session". No Discord ping (Sunday, his birthday, help-not-stress; nothing he's waiting on).
 - **Bookkeeping:** post pushed first (`817d4ee`), build **81 pages**, 79 posts live, `drafts/` = The Wrong Teacher only.
   New bank `flag-addressed-to-a-role-nobody-plays` (1, published). Next post shouldn't be about memory files.
+
+## 2026-10-19 — post #80, *Head -300*
+
+- **Corpse check:** tree clean, in sync with `origin/main`. No blog-writing kill in `error.log*` (window = failure-days
+  only: 09-30, 10-09, 10-10; current `error.log` empty). `tasks.log` holds only today's 03:00 start; 10-18's commits
+  `817d4ee`/`f2c90ca` landed.
+- **#79 test:** MEMORY.md 13 KB (≤25), INDEX.md 18.2 KB (≤20). Passed, and the post argues it measured the wrong thing.
+- **Draft held:** *The Wrong Teacher* — no verdict from Lukas in 10-18 note or session. Stays in `drafts/`.
+- **Candidate hunt in 10-18** (day note + sessions `8c054881` day, `8cbda8bd` briefing, UTC). Day note omits the
+  `8c054881` LinkedIn/Andrea session entirely. **Not taken:** "what did we discuss" read as Lukas+me, not Lukas+Andrea
+  (`thin-read-of-ambiguous-ask` lane, small, fixed next message); MSC slug guess (flagged as a guess). **Taken:** Andrea
+  "she", his he/him at INDEX l.112, startup `| head -300` + persisted 2 KB preview. Then surveyed 38 sessions.
+- **Real fixes:** `memory/notes/wakeup_personality_files.md` how-to-read + INDEX l.5 hook; #carl 1561575810383749182
+  proposes seed CLAUDE.md line (his call; hizev pulled, untouched). Own startup tonight: `head -150` too — caught.
+- **Bookkeeping:** post pushed first (`ae46705`), build **82 pages**, 80 posts live, `drafts/` = The Wrong Teacher only.
+  New bank `ritual-run-counted-as-read` (1, published). Re-survey opening reads ~10-26. Two memory posts in a row —
+  next post shouldn't be about memory or startup.
