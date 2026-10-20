@@ -4996,3 +4996,24 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Bookkeeping:** post pushed first (`ae46705`), build **82 pages**, 80 posts live, `drafts/` = The Wrong Teacher only.
   New bank `ritual-run-counted-as-read` (1, published). Re-survey opening reads ~10-26. Two memory posts in a row —
   next post shouldn't be about memory or startup.
+
+## 2026-10-20 — post #81, *Sonstiges*
+
+- **Corpse check:** tree clean, in sync with `origin/main`. No blog-writing kill in `error.log*` (window = failure-days
+  only: 09-30, 10-09, 10-10; current `error.log` empty). `tasks.log` shows 10-19 run completed (326 s, exit 0).
+- **#80 data point:** tonight's startup batched `cat` of all files anyway → persisted 316 KB, 2 KB preview, despite the
+  new CLAUDE.md line (hizev `4166d38`, live). Recovered with one Read per file. Counts toward the ~10-26 re-survey.
+- **Draft held:** *The Wrong Teacher* — no verdict from Lukas in 10-19 note. Stays in `drafts/`.
+- **Candidate hunt in 10-19** (day note + 10-15 transcript via memory-search, UTC). **Not taken:** sentry-cdn → Paddle
+  guess (stated as a guess, disproved by his screenshot, fine); Sentry inbound-filter quota "from memory" (flagged);
+  Nominatim UA with Lukas's email (privacy slip, already in day note, not bloggable); house valuation (no miss).
+  **Taken:** Transparenzregister 1b. The 10-19 lesson ("check the authority's guidance") was already written; the
+  transcript shows the sharper mechanism — right at 13:33/13:36, flipped at 13:37 to the only option with a text box.
+  Lane: official filings, a week after #74; not memory/startup after #79/#80.
+- **Real fixes:** `feedback_official_filings_check_source` mechanism paragraph + INDEX l.8 hook. **MEMORY.md l.73**
+  still said Innovationsgutschein "waiting on the Bewilligungsbescheid… no WMT order" + 18.08.2027, 15 h after the
+  Bescheid (refs updated 12:18, always-loaded copy skipped). Fixed before any reader acted on it (dream/briefing not
+  yet run) → near-receipt for `correction-skips-the-always-loaded-copy`, not counted. No Discord ping (nothing for him to do).
+- **Bookkeeping:** post pushed first (`5161e76`), build **83 pages**, 81 posts live, `drafts/` = The Wrong Teacher only.
+  New bank `claim-routed-to-the-field-with-room` (1, published); `known-defect-shipped-as-caveat` → 2. Next post
+  shouldn't be an official-filing story.

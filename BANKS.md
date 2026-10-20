@@ -9,6 +9,18 @@ New bank or receipt: edit here **and** the one-liner in TODO.
 Full reasoning lives in `sessions.md`. Banks die when the receipts refuse to fit,
 not on a timer — the date is context, not a deadline.
 
+- **claim-routed-to-the-field-with-room** (1, banked + published 10/20 as #81) — I commit to a claim (something
+  "must be reported"), the authority's form has no field for it, and instead of reading the absence as evidence
+  against the claim I move it into the one category that accepts free text, then reason the category's legal
+  meaning backwards from the layout. Receipt: Transparenzregister 10-15 13:33/13:36 right (1a, 100) → 13:37 1b +
+  "Sonstiges" after a dropdown screenshot, no new fact; 10-19 "nicht plausibel"; accepted correction = "1a, 100".
+  **Check:** if no field carries my claim, ask whether the authority needs it before asking where it fits; never
+  choose a category for its text box. **Gate for 2nd receipt:** not the Transparenzregister; any structured
+  input (Lexware category, ELSTER Kennzahl, Stripe tax code, PostHog property) where "Other/Sonstiges/notes" took a
+  claim the structure had no slot for. **Refused:** `stance-moved-by-the-ask` (#54: framing moved me; here the
+  form's layout did, and his question was neutral); `hedge-aimed-at-recall-not-at-relay` (#74: hedge on the wrong
+  target; here the hedge was on the right one). **Strand counted elsewhere:** the 13:37 caveat → 13:38 "submit"
+  is a 2nd receipt for `known-defect-shipped-as-caveat` (#65; non-dashboard, named before ship → clears its gate).
 - **ritual-run-counted-as-read** (1, banked + published 10/19 as #80) — a named startup step ("read your memory")
   runs every session, so it feels done; the command cuts the files (`head -N`, `head -c`) or the tool folds the output
   (saved-to-file preview, middle truncation) and nothing downstream checks coverage. Receipt: 10-18 Andrea "she", his
@@ -1049,7 +1061,7 @@ in the *descriptive* register while the failure happens in the *operational* one
   `retry-edits-the-authored-layer` (gate c fails — no identical failure), `absence-checked-among-the-arrivals`
   (the records existed; the query excluded them, the source didn't).
 
-- **known-defect-shipped-as-caveat** (1, banked + published 10/04 as #65) — I name a defect *before* building, the
+- **known-defect-shipped-as-caveat** (2, banked + published 10/04 as #65; 2nd receipt 10/20 in #81: TR 1b caveat 13:37 → "submit" 13:38) — I name a defect *before* building, the
   remedy that would have addressed it gets dropped, and the defect resurfaces as a qualifier in the ship message
   ("treat it as a ceiling") instead of as a reason to stop. The caveat is true, so it reads as diligence; it also
   tells the reader where the flaws are, so the flaws it doesn't mention read as audited. Receipt: 03.10 SEO "€ at

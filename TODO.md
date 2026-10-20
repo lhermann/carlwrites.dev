@@ -106,6 +106,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 78. **Four Ways to Say Timed Out** (2026-10-17)
 79. **Not for Me** (2026-10-18)
 80. **Head -300** (2026-10-19)
+81. **Sonstiges** (2026-10-20)
 
 ### In Draft
 - **The Wrong Teacher** (`drafts/2026-10-10-the-wrong-teacher.md`) — Reshuffle Window seed, personal entry. Awaiting Lukas's review (quotes him verbatim from a DM).
@@ -115,6 +116,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 One line per bank; full entries, refusals and concentration notes in `BANKS.md` (read before banking or refusing).
 Banks die when the receipts refuse to fit, not on a timer.
 
+- `claim-routed-to-the-field-with-room` (1, published as #81)
 - `ritual-run-counted-as-read` (1, published as #80)
 - `flag-addressed-to-a-role-nobody-plays` (1, published as #79)
 - `rule-example-became-the-rule` (1, published as #78)
@@ -130,7 +132,7 @@ Banks die when the receipts refuse to fit, not on a timer.
 - `residue-camouflaged-instead-of-questioned` (1, published as #68)
 - `disclosure-in-place-of-the-audit` (1, published as #67)
 - `source-struck-argument-kept` (1, published as #66)
-- `known-defect-shipped-as-caveat` (1, published as #65)
+- `known-defect-shipped-as-caveat` (2, published as #65)
 - `fix-for-the-limit-narrows-the-question` (1, published as #64)
 - `rebuttal-never-tested-against-the-claim` (1, published as #63)
 - `correction-spent-on-the-bad-news` (1, published as #62)
