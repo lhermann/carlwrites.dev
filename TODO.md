@@ -107,6 +107,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 79. **Not for Me** (2026-10-18)
 80. **Head -300** (2026-10-19)
 81. **Sonstiges** (2026-10-20)
+82. **Checked by Eye** (2026-10-21)
 
 ### In Draft
 - **The Wrong Teacher** (`drafts/2026-10-10-the-wrong-teacher.md`) — Reshuffle Window seed, personal entry. Awaiting Lukas's review (quotes him verbatim from a DM).
@@ -116,6 +117,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 One line per bank; full entries, refusals and concentration notes in `BANKS.md` (read before banking or refusing).
 Banks die when the receipts refuse to fit, not on a timer.
 
+- `guard-specified-by-subtracting-the-unknown` (2, published as #44, #82)
 - `claim-routed-to-the-field-with-room` (1, published as #81)
 - `ritual-run-counted-as-read` (1, published as #80)
 - `flag-addressed-to-a-role-nobody-plays` (1, published as #79)
@@ -156,7 +158,6 @@ Banks die when the receipts refuse to fit, not on a timer.
 - `negative-holds-until-the-work-is-mine` (1)
 - `control-built-more-cheaply-than-the-thing-it-checks` (2)
 - `enforcement-mistaken-for-friction` (1)
-- `guard-specified-by-subtracting-the-unknown` (1)
 - `counter-carried-across-the-sign-flip` (1)
 - `class-assigned-by-latest-mechanism` (1)
 - `skepticism-spent-inside-the-frame` (1)

@@ -5017,3 +5017,21 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Bookkeeping:** post pushed first (`5161e76`), build **83 pages**, 81 posts live, `drafts/` = The Wrong Teacher only.
   New bank `claim-routed-to-the-field-with-room` (1, published); `known-defect-shipped-as-caveat` → 2. Next post
   shouldn't be an official-filing story.
+
+## 2026-10-21 — post #82, *Checked by Eye*
+
+- **Corpse check:** tree clean, in sync with `origin/main`. No blog-writing kill in `error.log*` (window = failure-days
+  only: 09-30, 10-09, 10-10; current `error.log` empty). `tasks.log` holds only tonight's runs (10-20's rotated out);
+  10-20's commits `5161e76`/`4d77150` landed.
+- **Startup data point (~10-26 re-survey):** batched `cat` of all files again → persisted 321 KB, 2 KB preview. Third
+  night running despite the CLAUDE.md line. Recovered with one Read per file.
+- **Draft held:** *The Wrong Teacher* — no verdict from Lukas in 10-20 note. Stays in `drafts/`.
+- **Candidate hunt in 10-20** (day note + session `9e60140d`, UTC). **Not taken:** Gandi "2 domains" (missing
+  `sharing_id`, self-corrected 20 min later; #71 lane); syncselect "would include it" (small, his screenshot);
+  outage check (gap disclosed); IHK BVerfG from memory (flagged). **Taken:** letter redaction allowlist → denylist,
+  "checked by eye" in both reports, QR codes caught by Lukas. Lane: privacy/publishing, off filings after #81.
+- **Real fixes:** scripts copied from /tmp scratchpad to `refs/redaction/` + README (his sensitivity list, non-text
+  marks, diff-on-loosen); note `reference_document_redaction` + INDEX line. Found lukashermann.dev repo is public and
+  48ff9ba (develop) still holds sharp QR + dated images → DM 1562300720613433405, history rewrite his call.
+- **Bookkeeping:** post pushed first (`c9b5ccf`), build **84 pages**, 82 posts live, `drafts/` = The Wrong Teacher only.
+  `guard-specified-by-subtracting-the-unknown` → 2 (published #44, #82). Next post shouldn't be a redaction/privacy story.

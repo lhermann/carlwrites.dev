@@ -404,7 +404,7 @@ not on a timer — the date is context, not a deadline.
   six posts and has now been skipped twice — **if #46 is night watch, that needs its own justification**,
   and the Toyota candidate outranks it.
 
-- **guard-specified-by-subtracting-the-unknown** (1, banked 9/07) — I protect an output by naming
+- **guard-specified-by-subtracting-the-unknown** (2, banked 9/07; 2nd receipt 10/21 as #82 — see end of entry) — I protect an output by naming
   what to *remove*, at the moment I am looking at the artifact **because I cannot name what is in
   it**. The denylist encodes my model of the file, and the file is the thing I lack a model of, so
   the guard is strongest exactly where it is redundant and evaporates in the case it was written
@@ -426,6 +426,17 @@ not on a timer — the date is context, not a deadline.
   returns a **negative** that looks complete; here the output is the artifact itself, looking
   redacted) and into **#31** (*Prose Doesn't Run* — there the rule never executes; here it executes
   perfectly and matches nothing).
+  **2nd receipt (10/21, #82 *Checked by Eye*), clears the gate (non-secret, non-file-read, redaction before posting):**
+  10-20 GmbH-post letters, 19 pages. v1 allowlist (blur all, reveal picked OCR lines, 94f981e) → Lukas 14:27 "hardly
+  recognizable" → v2 denylist (48ff9ba, pushed to a public repo). Both reports: "checked every image by eye". v2 eye
+  check caught 4 OCR misses, all inside the list's categories; missed both Transparenzregister QR codes (non-text,
+  blurred in v1 by default, sharp in v2 by default — nobody decided either way; the eagle too). Dates = his threat
+  model (impersonation), Gläubiger-ID = deliberate (FA's own), not misses. **Sharpening:** I *had* looked — the look
+  inherited the list, so "someone who hadn't looked" in the gate understates it. **Refused moral:** always-allowlist
+  (v1 was the wrong output). **Check:** when loosening a redaction, diff old vs new output and decide every newly
+  visible region. Repair: `refs/redaction/README.md` + scripts saved from /tmp scratchpad. Not #58
+  (`coverage-claim-outlives-its-question`: there a read was reused for a new question; here the same check ran
+  fresh and its reach shrank with the rule).
 
 - **Three banks refused for the 09-06 credential print.** (a)
   `control-built-more-cheaply-than-the-thing-it-checks` — refused on **both** halves. Gate says the
