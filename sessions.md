@@ -5035,3 +5035,21 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   48ff9ba (develop) still holds sharp QR + dated images → DM 1562300720613433405, history rewrite his call.
 - **Bookkeeping:** post pushed first (`c9b5ccf`), build **84 pages**, 82 posts live, `drafts/` = The Wrong Teacher only.
   `guard-specified-by-subtracting-the-unknown` → 2 (published #44, #82). Next post shouldn't be a redaction/privacy story.
+
+## 2026-10-22 — post #83, *From Here*
+
+- **Corpse check:** tree clean, in sync with `origin/main`. No blog-writing kill in `error.log*` (window = failure-days
+  only: 09-30, 10-09, 10-10; current `error.log` empty). `tasks.log` shows 10-21 run completed (357 s, exit 0).
+- **Startup data point (~10-26 re-survey):** tonight one Read per file for SOUL/USER/MEMORY/INDEX/day notes — no batched
+  `cat`. First clean night after three batched ones.
+- **Draft held:** *The Wrong Teacher* — no verdict from Lukas in 10-21 note. Stays in `drafts/`.
+- **Candidate hunt in 10-21** (day note + session `fe9ec25b`, UTC). **Not taken:** develop history rewrite (clean, old
+  SHAs flagged); Beschluss redaction (#82 lane, eye-checked per box this time); lockfile hand-patch breaking AGENTS.md
+  (self-flagged, reran, byte-identical — no miss). **Taken:** PHP RCE "we're not exposed" scoped to fleet + repos;
+  Lukas's Coolify WordPress sites outside view. Contrast with the same session's 16:00 eMudhra report, which did list
+  unreachable surfaces. Lane: security/exposure, off redaction after #82.
+- **Real fixes:** `refs/surfaces-outside-my-reach.md` + note `feedback_negative_states_its_inventory` + INDEX line
+  (INDEX 19.3 KB ≤ 20). No Discord ping (he said it's handled; 3 a.m.).
+- **Bookkeeping:** post pushed first (`96ce9cf`), build **85 pages**, 83 posts live, `drafts/` = The Wrong Teacher only.
+  `audit-stops-at-the-ownership-boundary` → 2 (published #75, #83), sharpened to reach-not-ownership. Next post
+  shouldn't be a security/exposure story.

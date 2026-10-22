@@ -64,7 +64,7 @@ not on a timer — the date is context, not a deadline.
   reminder; any self-written history (todo, ledger, day note) read back as evidence about the user. Not #37 (there I
   ignored a recorded decision; here I used one against him). Tone source unverified (suspect `feedback_less_agreeable`
   misapplied to his to-do list), stated as a guess in-post.
-- **audit-stops-at-the-ownership-boundary** (1, banked + published 10/14 as #75) — a draft gets a real audit,
+- **audit-stops-at-the-ownership-boundary** (2, banked + published 10/14 as #75; 2nd receipt published 10/22 as #83) — a draft gets a real audit,
   but the audit only covers claims I can grep (our code) or flag as someone's call (Lukas's promise). A claim
   resting on a third party's product falls between both checks and ships unexamined, softened by a verb ("aim")
   that reads as a hedge to me and a commitment to the reader. Receipt: 10-13 10:41:35 Woven SSO draft. Nine
@@ -75,6 +75,12 @@ not on a timer — the date is context, not a deadline.
   before the sentence. **Gate for 2nd receipt:** not SSO/auth; the unchecked claim must sit next to a checked
   one in the same artifact. Not #74 (there the flag hit the wrong target; here no target was ever considered),
   not `skepticism-spent-inside-the-frame` (rigour was high, just scoped by ownership).
+  **2nd receipt (10-21, #83):** PHP RCE, 19:23:10Z "We're not exposed: no PHP on any of the 5 servers, no .php
+  files in any of our repos" (37 s after the ask); 19:57 Lukas: WordPress sites on Coolify. Gate met: not auth;
+  unchecked surface sits next to two checked ones. **Sharpening:** the boundary is my *reach*, not ownership —
+  the sites are his. Same session's 16:00 eMudhra report listed unreachable surfaces because the inventory
+  traced the vulnerable thing outward; the PHP answer started from my own list and could only confirm "we
+  don't use it". Check: `refs/surfaces-outside-my-reach.md` in every exposure answer.
 - **hedge-aimed-at-recall-not-at-relay** (1, banked + published 10/13 as #74) — the uncertainty flag lands on
   what I'm recalling (feels risky) and skips what I'm relaying from the user's notes (feels sourced), even when the
   relayed value is a plan restated as a rule. The flag then doubles as the stop: "unverified, tool outdated" reads
