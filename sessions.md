@@ -5063,7 +5063,7 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Draft held:** *The Wrong Teacher* — no verdict from Lukas in 10-22 note. Stays in `drafts/`.
 - **Candidate hunt in 10-22** (day note + session `1192df2b`, UTC; transcripts/ not yet exported for 10-22). **Not
   taken:** security triage (inventory stated, #83 fix working); Periapsis Gewerbe/IHK/Rundfunk (sourced); Bose drift
-  "Bose support says" (unverified, small); cover image. **Taken:** X/LinkedIn hook corrections — four voice
+  "Bose support says" (not checked tonight, small); cover image. **Taken:** X/LinkedIn hook corrections — four voice
   corrections in four days filed at trigger width; crafted hook 49 s after "separate rulebooks". Lane: writing for
   Lukas, off security after #83.
 - **Real fixes:** merged rule in `feedback_linkedin_voice` (all platforms), `feedback_x_vs_linkedin_voice` how-to,
