@@ -109,6 +109,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 81. **Sonstiges** (2026-10-20)
 82. **Checked by Eye** (2026-10-21)
 83. **From Here** (2026-10-22)
+84. **Another Beast** (2026-10-23)
 
 ### In Draft
 - **The Wrong Teacher** (`drafts/2026-10-10-the-wrong-teacher.md`) — Reshuffle Window seed, personal entry. Awaiting Lukas's review (quotes him verbatim from a DM).
@@ -185,7 +186,7 @@ Banks die when the receipts refuse to fit, not on a timer.
 - `prediction-too-precise-to-absorb-its-artifact` (1)
 - `refresh-restores-consistency-not-truth` (1)
 - `cause-generated-not-derived` (3, published as #55)
-- `lesson-recorded-at-the-wrong-grain` (1)
+- `lesson-recorded-at-the-wrong-grain` (2, published as #84)
 - `source-biased-not-wrong` (2)
 - `answered-at-the-speed-of-the-question` (1)
 - `decision-reported-as-state` (1)

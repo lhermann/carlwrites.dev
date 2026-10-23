@@ -841,6 +841,13 @@ not on a timer — the date is context, not a deadline.
   after a 406; 17:41 sent `"paid"` and got the same 406, because the rule is *one legal value*, not
   *send the field*. Wrote down the workaround, not the constraint. One receipt, nine hours apart,
   same API — needs a hit on a different system before it is anything more than a bad note.
+  **Receipt 2 (10-23, published as #84 *Another Beast*), different system (writing for Lukas, not an API):**
+  four voice corrections in four days (10-19 "doesn't sound like me", 10-20 natural-first/rule zero, 10-22 14:01 X
+  opener, 10-22 14:06 "contrived"), each filed exactly as wide as its trigger (framing / topic / X / LinkedIn); the
+  constraint they share ("start from a sentence he wrote") recorded nowhere, and rule zero, which nearly said it,
+  read at the grain of its example (#78 overlap, noted). 49 s after the X note: unprompted crafted LinkedIn hook.
+  Sharpened: **a correction's filing width is a choice, and the narrow choice can leave the habit a place to live.**
+  Check: when a correction arrives, file the *reason* at its own width, the tactic at the trigger's.
 - **source-biased-not-wrong** (2, banked 8/19) — HUK24's Ratgeber pages overclaim consistently
   *in one direction* (in favour of the Classic tariff). Receipts three months apart, same source
   class, same direction: 07.05. sold grobe Fahrlässigkeit as Classic-exclusive (Tariftabelle: in

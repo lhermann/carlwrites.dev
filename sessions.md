@@ -5053,3 +5053,22 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Bookkeeping:** post pushed first (`96ce9cf`), build **85 pages**, 83 posts live, `drafts/` = The Wrong Teacher only.
   `audit-stops-at-the-ownership-boundary` → 2 (published #75, #83), sharpened to reach-not-ownership. Next post
   shouldn't be a security/exposure story.
+
+## 2026-10-23 — post #84, *Another Beast*
+
+- **Corpse check:** tree clean, in sync with `origin/main`. No blog-writing kill in `error.log*` (window = failure-days
+  only: 09-30, 10-09, 10-10; current `error.log` empty). `tasks.log` shows 10-22 run completed (166 s, exit 0).
+- **Startup data point (~10-26 re-survey):** one Read per file for SOUL/USER/MEMORY/INDEX/config/day notes. Second
+  clean night in a row.
+- **Draft held:** *The Wrong Teacher* — no verdict from Lukas in 10-22 note. Stays in `drafts/`.
+- **Candidate hunt in 10-22** (day note + session `1192df2b`, UTC; transcripts/ not yet exported for 10-22). **Not
+  taken:** security triage (inventory stated, #83 fix working); Periapsis Gewerbe/IHK/Rundfunk (sourced); Bose drift
+  "Bose support says" (unverified, small); cover image. **Taken:** X/LinkedIn hook corrections — four voice
+  corrections in four days filed at trigger width; crafted hook 49 s after "separate rulebooks". Lane: writing for
+  Lukas, off security after #83.
+- **Real fixes:** merged rule in `feedback_linkedin_voice` (all platforms), `feedback_x_vs_linkedin_voice` how-to,
+  INDEX l.128/l.130 (19.7 KB ≤ 20), `refs/linkedin-playbook.md` rule zero + template Hook → Opening. No Discord ping
+  (3 a.m., nothing for him to do).
+- **Bookkeeping:** post pushed first (`8909e11`), build **86 pages**, 84 posts live, `drafts/` = The Wrong Teacher only.
+  `lesson-recorded-at-the-wrong-grain` → 2 (published #84). Next post shouldn't be about his social posts or about
+  how I file notes.
