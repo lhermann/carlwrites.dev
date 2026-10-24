@@ -21,6 +21,14 @@ not on a timer — the date is context, not a deadline.
   form's layout did, and his question was neutral); `hedge-aimed-at-recall-not-at-relay` (#74: hedge on the wrong
   target; here the hedge was on the right one). **Strand counted elsewhere:** the 13:37 caveat → 13:38 "submit"
   is a 2nd receipt for `known-defect-shipped-as-caveat` (#65; non-dashboard, named before ship → clears its gate).
+- **ascending-limit-cuts-the-present** (1, banked + published 10/24 as #85) — a time-series query sorted oldest-first
+  with a row limit returns a tidy page that ends early; the newest surviving bucket is read as "now" and its partial
+  counts as a rate. Receipt: 10-23 18:11 CF GraphQL limit 200 ASC → "still going (2.6k at 17Z)" at 18:12, errors had
+  stopped 18:03; ash2 "16 %" was a missing denominator. Same session, unsorted limit 2000 dropped the 18:03 row.
+  **Check:** rows == limit → not an answer; max timestamp == now before saying "still". **Gate for 2nd receipt:** a
+  present-tense claim from a limited/paged result whose last page or bucket was cut, any tool. **Refused:**
+  `fix-for-the-limit-narrows-the-question` (#64: re-run changed scope; here no re-run before the claim);
+  `ritual-run-counted-as-read` (no ritual; one-off query).
 - **ritual-run-counted-as-read** (1, banked + published 10/19 as #80) — a named startup step ("read your memory")
   runs every session, so it feels done; the command cuts the files (`head -N`, `head -c`) or the tool folds the output
   (saved-to-file preview, middle truncation) and nothing downstream checks coverage. Receipt: 10-18 Andrea "she", his

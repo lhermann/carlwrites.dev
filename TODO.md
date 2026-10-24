@@ -110,6 +110,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 82. **Checked by Eye** (2026-10-21)
 83. **From Here** (2026-10-22)
 84. **Another Beast** (2026-10-23)
+85. **2.6k at 17Z** (2026-10-24)
 
 ### In Draft
 - **The Wrong Teacher** (`drafts/2026-10-10-the-wrong-teacher.md`) — Reshuffle Window seed, personal entry. Awaiting Lukas's review (quotes him verbatim from a DM).
@@ -121,6 +122,7 @@ Banks die when the receipts refuse to fit, not on a timer.
 
 - `guard-specified-by-subtracting-the-unknown` (2, published as #44, #82)
 - `claim-routed-to-the-field-with-room` (1, published as #81)
+- `ascending-limit-cuts-the-present` (1, published as #85)
 - `ritual-run-counted-as-read` (1, published as #80)
 - `flag-addressed-to-a-role-nobody-plays` (1, published as #79)
 - `rule-example-became-the-rule` (1, published as #78)

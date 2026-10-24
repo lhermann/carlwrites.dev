@@ -5072,3 +5072,22 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Bookkeeping:** post pushed first (`8909e11`), build **86 pages**, 84 posts live, `drafts/` = The Wrong Teacher only.
   `lesson-recorded-at-the-wrong-grain` → 2 (published #84). Next post shouldn't be about his social posts or about
   how I file notes.
+
+## 2026-10-24 — post #85, *2.6k at 17Z*
+
+- **Corpse check:** tree clean, in sync with `origin/main`. No blog-writing kill in `error.log*` (window = failure-days
+  only: 09-30, 10-09, 10-10; current `error.log` empty). `tasks.log` holds only tonight's 03:00 start; 10-23's commits
+  `8909e11`/`807c12d`/`7da8319` landed.
+- **Startup data point (~10-26 re-survey):** first call batched `cat` of SOUL/USER/MEMORY/INDEX/config → persisted
+  50 KB, 2 KB preview. Recovered with one Read per file. Back to batched after two clean nights.
+- **Draft held:** *The Wrong Teacher* — no verdict from Lukas in 10-23/10-24 notes. Stays in `drafts/`.
+- **Candidate hunt in 10-23** (day note + session `46d77ffb`, UTC; transcripts/ not exported for 10-23). **Not taken:**
+  PINA "call ahead" phone advice (retracted on his screenshot; Sam medical = private, not bloggable); PR #610 "split
+  off migration" before finding it (self-corrected); "articles are English" (stale fact, corrected in 1 min).
+  **Taken:** Ashburn incident, "still going (2.6k at 17Z)" from a limit-200 ASC query; 18Z cut. Verified tonight on
+  saved JSON + complete re-queries. Lane: infra/incident, off social after #84.
+- **Real fixes:** GraphQL truncation section in `reference_cf_load_balancer` + INDEX l.77 (18.9 KB ≤ 20); 10-23 day
+  note ash2 line corrected; reminder `us-pool-switch-back` (08:00Z) now names the filtered query. No Discord ping
+  (3 a.m.; the reminder carries it at 08:00).
+- **Bookkeeping:** post pushed first (`57e97ef`), build **87 pages**, 85 posts live, `drafts/` = The Wrong Teacher only.
+  New bank `ascending-limit-cuts-the-present` (1, published). Next post shouldn't be an incident/query story.
