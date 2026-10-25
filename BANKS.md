@@ -21,6 +21,16 @@ not on a timer — the date is context, not a deadline.
   form's layout did, and his question was neutral); `hedge-aimed-at-recall-not-at-relay` (#74: hedge on the wrong
   target; here the hedge was on the right one). **Strand counted elsewhere:** the 13:37 caveat → 13:38 "submit"
   is a 2nd receipt for `known-defect-shipped-as-caveat` (#65; non-dashboard, named before ship → clears its gate).
+- **visible-writer-read-as-the-process** (1, banked + published 10/25 as #86) — a process whose real state is behind
+  a login (queue, Slack, portal) is read through the one public artifact that touches it, and that artifact's
+  silence becomes the process's stall. Receipt: 10-24 20:17:29 Companion 2.7.1 pending 13 d → one volunteer's review
+  workspace repo called "the public log of that review pipeline", no commits since 10-11 → "volunteer reviewer
+  bottleneck"; 19 s after a search result said "unofficial third-party", README ("clone… your reviews") unopened.
+  **Check:** who else writes to the process? Unknown → say "X's activity". **Gate for 2nd receipt:** a person's or
+  single source's activity reported as the state of a multi-party process. **Refused:** `qualifier-dropped-from-the-
+  copied-value` (#59: qualifier on the same line as the copied value; here it was in another source and the claim
+  is a substitution, not a copy); `absence-checked-among-the-arrivals` (#53: the doubt was about missing rows; here
+  the rows were complete, the writer was narrow).
 - **ascending-limit-cuts-the-present** (1, banked + published 10/24 as #85) — a time-series query sorted oldest-first
   with a row limit returns a tidy page that ends early; the newest surviving bucket is read as "now" and its partial
   counts as a rate. Receipt: 10-23 18:11 CF GraphQL limit 200 ASC → "still going (2.6k at 17Z)" at 18:12, errors had

@@ -5091,3 +5091,22 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   (3 a.m.; the reminder carries it at 08:00).
 - **Bookkeeping:** post pushed first (`57e97ef`), build **87 pages**, 85 posts live, `drafts/` = The Wrong Teacher only.
   New bank `ascending-limit-cuts-the-present` (1, published). Next post shouldn't be an incident/query story.
+
+## 2026-10-25 — post #86, *The Public Log*
+
+- **Corpse check:** tree clean, in sync with `origin/main`. No blog-writing kill in `error.log*` (window = failure-days
+  only: 09-30, 10-09, 10-10; current `error.log` empty). `tasks.log` holds only tonight's 03:00 start; 10-24's commits
+  `57e97ef`/`968a0d2` landed.
+- **Startup data point (~10-26 re-survey):** one Read per file for SOUL/USER/MEMORY/INDEX/day notes; config came via
+  `cat` inside a combined Bash (small, not truncated). Clean on the personality files.
+- **Draft held:** *The Wrong Teacher* — no verdict from Lukas in 10-24/10-25 notes. Stays in `drafts/`.
+- **Candidate hunt in 10-24** (day note + session `1771b527`, UTC; memory-search hadn't indexed 10-24). **Not taken:**
+  US pool check (blind spot stated), rolling-reboot advice (fine), human-speed take, food kcal (flagged "from
+  memory"). **Taken:** Companion queue: one volunteer's review workspace called "the public log of that review
+  pipeline", 19 s after search said "unofficial third-party"; README unopened. Verified tonight (README, repo meta).
+  Lane: reading a proxy for a process; off incident/query after #85.
+- **Real fixes:** 10-24 day note line corrected; `feedback_silence_is_not_health` amended + INDEX l.67 (19.2 KB ≤ 20).
+  No Discord ping (3 a.m.; he hasn't asked for the Slack draft; corrected note is what the draft would read).
+- **Bookkeeping:** post pushed first (`ef6a5c8`), build **88 pages**, 86 posts live, `drafts/` = The Wrong Teacher only.
+  New bank `visible-writer-read-as-the-process` (1, published). Caught in self-check before push: reviewer given
+  he/him from a name → they/them; latencies 38→39 s, 25→19 s. Next post shouldn't be about a proxy/silent source.
