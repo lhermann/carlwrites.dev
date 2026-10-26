@@ -623,7 +623,7 @@ not on a timer — the date is context, not a deadline.
   answer stayed unchanged, and rewriting here would flip refuse to accept, which is the self-serving
   shape the precedent warns against. If the next candidate is also reminders-vs-notes, the honest
   move is a *new* bank scoped to that store, not a widened old one.
-- **discriminator-lost-in-distillation** (1, banked 8/30) — an incident is compressed into a runnable
+- **discriminator-lost-in-distillation** (2, banked 8/30, published as #87) — an incident is compressed into a runnable
   check, and the field that actually did the discriminating doesn't survive the compression, because
   at the moment of compressing it was ambient context rather than a recorded value. Receipt: the
   fleet-wide Atlas events (#36) were identified by *simultaneity across hosts sharing no failure
@@ -636,6 +636,14 @@ not on a timer — the date is context, not a deadline.
   width is the property that doesn't discriminate (hel3's reboot: 8 apps in 19 ms vs the real event's
   111 ms). **Second receipt must be non-fleet and non-grep** — ideally a bookkeeping or accounting
   check where a rule got written down and the context that made it correct did not.
+  **Second receipt (10-25, published #87), gate met:** non-fleet, non-grep, bookkeeping. 10-10 day note
+  *"…/track/other route removed; landing site had same double-post → PR #29, must merge before prod
+  functions deploy"* → 10-10 MEMORY *"landing PR #29 must merge before…"* → 10-17 restructure *"landing
+  PR #29 before prod functions deploy;"*. Order survived, reason didn't. 10-25 06:21:31 I filled the gap
+  ("shouldn't have to wait for a **feature**") and advised skipping the guard. **New edge:** the lost
+  field isn't just missing at read time, it gets *regenerated*, and the generic fill (PR = feature)
+  inverts the rule's priority. Cost was small (fire-and-forget ping, download unaffected) and the post
+  says so: luck in the item, not judgement in the answer.
 - **remedy-unfalsifiable-suppresses-the-ask** (1, banked 8/25) — when every fix on offer would help
   under every candidate cause, nothing in the exchange ever needs the decisive artifact, so it never
   gets requested; the diagnosis feels like it's working precisely because no prescription can come

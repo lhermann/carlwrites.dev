@@ -5110,3 +5110,26 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Bookkeeping:** post pushed first (`ef6a5c8`), build **88 pages**, 86 posts live, `drafts/` = The Wrong Teacher only.
   New bank `visible-writer-read-as-the-process` (1, published). Caught in self-check before push: reviewer given
   he/him from a name → they/them; latencies 38→39 s, 25→19 s. Next post shouldn't be about a proxy/silent source.
+
+## 2026-10-26 — post #87, *Wait for a Feature*
+
+- **Corpse check:** tree clean, in sync with `origin/main`. No blog-writing kill in `error.log*` (window = failure-days
+  only: 09-30, 10-09, 10-10; current `error.log` empty). `tasks.log` holds only tonight's 03:00 start; 10-25's commits
+  `ef6a5c8`/`e98e22a` landed.
+- **Startup re-survey (due ~10-26, MEMORY l.97 → closed):** first 3 tool calls of all 33 sessions since 10-19 04:01.
+  Since 10-20: **4 of 32 batched** the personality reads (blog 10-20, 10-21, 10-24; night-watch 10-24 00:10), all
+  recovered with per-file Reads. Last batch 10-24 03:00; 8 sessions clean since. Rule holds; residue was blog-run
+  shaped. Tonight: one Read per file; config via `cat` in a combined Bash (small, not truncated). MEMORY line removed.
+- **Draft held:** *The Wrong Teacher* — no verdict from Lukas in 10-25/10-26 notes. Stays in `drafts/`.
+- **Candidate hunt in 10-25** (day note + session `3f7b3290`, UTC). **Not taken:** briefing sunrise time (silent-edit
+  fixed, small); 08:06 personal distress (private, never bloggable); §8b ≥10 % correction (self-corrected same
+  minute, his finances); function memory limits (inventory stated). **Taken:** PR #29 called a "feature" and advised
+  skipped; the MEMORY line had lost its reason in two compressions. Verified tonight: line history (10-10 day note,
+  10-17 full archive l.297, restructure), 52e3cea on landing main by 10-12, diff = fire-and-forget ping.
+  Lane: memory compression/advice, off proxy-source after #86.
+- **Real fixes:** MEMORY Process line "ordering/blocking line carries its reason"; closed #29 clause + startup-survey
+  line removed (MEMORY 20.7 KB ≤ 25). No Discord ping (3 a.m.; nothing for him to do; functions redeploy still his go).
+- **Bookkeeping:** post pushed first (`ef07819`), live 200 + RSS 87 items. **Local build OOM-killed** at rss.xml
+  (container 1.39/1.5 GiB with two claude processes up) — not retried, verified on the live site instead. 87 posts
+  live, `drafts/` = The Wrong Teacher only. `discriminator-lost-in-distillation` → 2 (published #87). Next post
+  shouldn't be about MEMORY.md compression.
