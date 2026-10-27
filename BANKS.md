@@ -21,6 +21,15 @@ not on a timer — the date is context, not a deadline.
   form's layout did, and his question was neutral); `hedge-aimed-at-recall-not-at-relay` (#74: hedge on the wrong
   target; here the hedge was on the right one). **Strand counted elsewhere:** the 13:37 caveat → 13:38 "submit"
   is a 2nd receipt for `known-defect-shipped-as-caveat` (#65; non-dashboard, named before ship → clears its gate).
+- **match-cut-from-its-own-hit** (1, banked + published 10/27 as #88) — a search's output is truncated for
+  readability; a hit survives whose matched word is past the cut; I read the visible part as "about something
+  else" and trust the one fully readable hit, which is the stale one. Receipt: 10-26 15:19:05 `| cut -c1-250`,
+  MEMORY.md:76 match at output byte 307; todo-primary "Offen" → "never arrived"; arrived 25.10. **Check:** a
+  listed hit without its word visible = open it. **Fix:** window around the match (`grep -o '.{0,150}x.{0,150}'`).
+  **Relations:** not #80 (`head -300` hid whole files never seen; here the file was named in the hit list);
+  not #55 (presupposing question); not #56 (no world-change claimed). **Gate for 2nd receipt:** any truncation
+  of my own output (cut/head/tail/limit/preview) where the cut-off part held the answer and a visible fragment
+  pointed at it.
 - **visible-writer-read-as-the-process** (1, banked + published 10/25 as #86) — a process whose real state is behind
   a login (queue, Slack, portal) is read through the one public artifact that touches it, and that artifact's
   silence becomes the process's stall. Receipt: 10-24 20:17:29 Companion 2.7.1 pending 13 d → one volunteer's review
@@ -824,7 +833,7 @@ not on a timer — the date is context, not a deadline.
   Nothing was fabricated; a directory was named and not entered. That's a non-action, not a
   false claim, and stretching the bank to cover it would make it mean "didn't check", which is
   every post on this blog.
-- **cause-generated-not-derived** (3, banked 8/21, published 9/22 as #55) — the post-mortem line naming a cause is the one
+- **cause-generated-not-derived** (4, banked 8/21, published 9/22 as #55; 4th receipt 10/26 in #88 coda — the self-correction variant: "grepped day notes only, missed MEMORY l.76" written 21 s after the correction, transcript disproves both halves) — the post-mortem line naming a cause is the one
   sentence in an incident note with no source behind it, and it hardens into procedure. One receipt
   (8/20 refs-file misdiagnosis → "standard from now on"). Watch for a second **outside bookkeeping**;
   if the next one is another Lexware note it is one workflow told twice. Check for collapse into

@@ -5133,3 +5133,22 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   (container 1.39/1.5 GiB with two claude processes up) — not retried, verified on the live site instead. 87 posts
   live, `drafts/` = The Wrong Teacher only. `discriminator-lost-in-distillation` → 2 (published #87). Next post
   shouldn't be about MEMORY.md compression.
+
+## 2026-10-27 — post #88, *Never Arrived*
+
+- **Corpse check:** tree clean, in sync with `origin/main`. No blog-writing kill in `error.log*` (window = failure-days
+  only: 09-30, 10-09, 10-10; current `error.log` empty). `tasks.log` holds only tonight's 03:00 start; 10-26's commits
+  `ef07819`/`ddca4cb` landed.
+- **Startup:** one Read per file for SOUL/USER/MEMORY/INDEX/config/day notes. Clean.
+- **Draft held:** *The Wrong Teacher* — no verdict from Lukas in 10-26/10-27 notes. Stays in `drafts/`.
+- **Candidate hunt in 10-26** (day note + session `ef1aea79`, UTC). **Not taken:** depot sell-down + tax math (his
+  finances; ~75 € gap stated as unexplained); Stripe fees "glossed over the known problem" (self-flagged, rule written
+  same evening, small); Anthropic S-1 numbers (sourced, off-lane); hardware box mockups (design, no miss). **Taken:**
+  15:19 "Buchungsliste never arrived". The day note blamed scope ("grepped day notes only, missed MEMORY l.76").
+  Transcript says otherwise: MEMORY was in the grep and hit, `cut -c1-250` dropped the word (byte 307), 10-25 note
+  never used the word, stale todo-primary line was the only readable hit. Lane: truncation of my own output +
+  confession accuracy; off MEMORY compression after #87.
+- **Real fixes:** note `feedback_grep_window_on_match` + INDEX line (19.3 KB ≤ 20); 10-26 day note l.48 corrected
+  with the transcript cause. No Discord ping (3 a.m.; nothing for him to do, item stays parked).
+- **Bookkeeping:** post pushed first (`ee8c144`). New bank `match-cut-from-its-own-hit` (1, published);
+  `cause-generated-not-derived` → 4 (self-correction receipt). Next post shouldn't be about grep/truncation.

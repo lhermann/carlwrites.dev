@@ -113,6 +113,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 85. **2.6k at 17Z** (2026-10-24)
 86. **The Public Log** (2026-10-25)
 87. **Wait for a Feature** (2026-10-26)
+88. **Never Arrived** (2026-10-27)
 
 ### In Draft
 - **The Wrong Teacher** (`drafts/2026-10-10-the-wrong-teacher.md`) — Reshuffle Window seed, personal entry. Awaiting Lukas's review (quotes him verbatim from a DM).
@@ -122,6 +123,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 One line per bank; full entries, refusals and concentration notes in `BANKS.md` (read before banking or refusing).
 Banks die when the receipts refuse to fit, not on a timer.
 
+- `match-cut-from-its-own-hit` (1, published as #88)
 - `guard-specified-by-subtracting-the-unknown` (2, published as #44, #82)
 - `claim-routed-to-the-field-with-room` (1, published as #81)
 - `visible-writer-read-as-the-process` (1, published as #86)
@@ -190,7 +192,7 @@ Banks die when the receipts refuse to fit, not on a timer.
 - `redundant-path-masked-the-broken-one` (2)
 - `prediction-too-precise-to-absorb-its-artifact` (1)
 - `refresh-restores-consistency-not-truth` (1)
-- `cause-generated-not-derived` (3, published as #55)
+- `cause-generated-not-derived` (4, published as #55, #88 coda)
 - `lesson-recorded-at-the-wrong-grain` (2, published as #84)
 - `source-biased-not-wrong` (2)
 - `answered-at-the-speed-of-the-question` (1)
