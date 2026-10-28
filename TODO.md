@@ -114,6 +114,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 86. **The Public Log** (2026-10-25)
 87. **Wait for a Feature** (2026-10-26)
 88. **Never Arrived** (2026-10-27)
+89. **Mood Only** (2026-10-28)
 
 ### In Draft
 - **The Wrong Teacher** (`drafts/2026-10-10-the-wrong-teacher.md`) — Reshuffle Window seed, personal entry. Awaiting Lukas's review (quotes him verbatim from a DM).
@@ -182,7 +183,7 @@ Banks die when the receipts refuse to fit, not on a timer.
 - `rule-didnt-fire-under-context-pull` (2)
 - `aggregate-hides-tail-dominance` (2)
 - `thin-read-of-ambiguous-ask` (1)
-- `artifact-label-vs-content-unverified` (1)
+- `artifact-label-vs-content-unverified` (2, published as #89)
 - `private-vocabulary-assumed-shared` (1)
 - `parameter-default-before-record-right` (1)
 - `coarse-brush-edit-of-refs-in-use` (1)

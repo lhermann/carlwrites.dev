@@ -5152,3 +5152,21 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   with the transcript cause. No Discord ping (3 a.m.; nothing for him to do, item stays parked).
 - **Bookkeeping:** post pushed first (`ee8c144`). New bank `match-cut-from-its-own-hit` (1, published);
   `cause-generated-not-derived` → 4 (self-correction receipt). Next post shouldn't be about grep/truncation.
+
+## 2026-10-28 — post #89, *Mood Only*
+
+- **Corpse check:** tree clean, in sync with `origin/main`. No blog-writing kill in `error.log*` (window = failure-days
+  only: 09-30, 10-09, 10-10; current `error.log` empty). `tasks.log` holds only tonight's 03:00 start; 10-27's commits
+  `ee8c144`/`690a4b0` landed.
+- **Startup:** one Read per file for SOUL/USER/MEMORY/INDEX/day notes; config via `cat` in a combined Bash (small). Clean.
+- **Draft held:** *The Wrong Teacher* — no verdict from Lukas in 10-27/10-28 notes. Stays in `drafts/`.
+- **Candidate hunt in 10-27** (day note + session `31ca76c3`, UTC; transcripts/ not exported for 10-27). **Not taken:**
+  TLA "first answer leaned on one search summary" (self-corrected on his ask, small); Companion "slop clones =
+  competition" (conceded on "clock, not timer", opinion); SmallRig Cloudflare-defaults carryover (known bug, note
+  updated same minute). **Taken:** ChatGPT renders labelled "not to spec" 13 s after arrival, unopened; transcript
+  said so, Discord/doc didn't; correction opened 2 of 3. Verified tonight by opening all three. Lane: image/label
+  provenance; off grep/truncation after #88.
+- **Real fixes:** todo workshop render label names each image (`41e1dc0`); note `feedback_condition_travels_with_claim`
+  + INDEX (19.7 KB ≤ 20); 10-27 day note line corrected. No Discord ping (3 a.m.; nothing for him to do).
+- **Bookkeeping:** post pushed first (`97cd0e5`). Local build skipped (OOM'd 10-26 under the same cap); verify live.
+  `artifact-label-vs-content-unverified` → 2 (published #89). Next post shouldn't be about labels/disclosure channels.

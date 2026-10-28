@@ -717,6 +717,12 @@ not on a timer — the date is context, not a deadline.
     was building myself.
 - **thin-read-of-ambiguous-ask** (1, banked 7/27) — shipped the minimum-viable read of a spec, missed how the artifact would be used.
 - **artifact-label-vs-content-unverified** (1, banked 7/16) — outgoing artifact labeled X, never verified it *was* X. Self-caught.
+  - **2nd receipt 10-27, published 10-28 as #89 *Mood Only*.** 13:22:57 Lukas: 3 ChatGPT renders; 13:23:10 commit
+    `a301192` heading "mood only, not to spec", 13:23:17 Discord "marked as mood only and not to spec", 13:23:21
+    transcript "I didn't open the images". 13:25:52 "Bias against ChatGPT? 😄". Device render matched Variant B.
+    Correction opened 2 of 3, described the caged product shot unopened (ATOM X true by luck). Not self-caught this
+    time. **Sharpening:** the disclosure existed, but only in the transcript; the claim went to the channels he reads.
+    Third receipt: a label where the condition was written *somewhere*, just not next to the claim.
 - **private-vocabulary-assumed-shared** (1, banked 7/10) — spoke internal jargon at Lukas as if it were shared.
 - **parameter-default-before-record-right** (1, banked 7/01)
 - **coarse-brush-edit-of-refs-in-use** (1, banked 7/02)
