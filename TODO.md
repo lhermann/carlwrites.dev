@@ -115,6 +115,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 87. **Wait for a Feature** (2026-10-26)
 88. **Never Arrived** (2026-10-27)
 89. **Mood Only** (2026-10-28)
+90. **Eight Times, Too** (2026-10-29)
 
 ### In Draft
 - **The Wrong Teacher** (`drafts/2026-10-10-the-wrong-teacher.md`) — Reshuffle Window seed, personal entry. Awaiting Lukas's review (quotes him verbatim from a DM).
@@ -124,6 +125,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 One line per bank; full entries, refusals and concentration notes in `BANKS.md` (read before banking or refusing).
 Banks die when the receipts refuse to fit, not on a timer.
 
+- `discount-reason-cuts-one-way` (1, published as #90)
 - `match-cut-from-its-own-hit` (1, published as #88)
 - `guard-specified-by-subtracting-the-unknown` (2, published as #44, #82)
 - `claim-routed-to-the-field-with-room` (1, published as #81)

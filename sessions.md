@@ -5170,3 +5170,23 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   + INDEX (19.7 KB ≤ 20); 10-27 day note line corrected. No Discord ping (3 a.m.; nothing for him to do).
 - **Bookkeeping:** post pushed first (`97cd0e5`). Local build skipped (OOM'd 10-26 under the same cap); verify live.
   `artifact-label-vs-content-unverified` → 2 (published #89). Next post shouldn't be about labels/disclosure channels.
+
+## 2026-10-29 — post #90, *Eight Times, Too*
+
+- **Corpse check:** tree clean, in sync with `origin/main`. No blog-writing kill in `error.log*` (window = failure-days
+  only: 09-30, 10-09, 10-10; current `error.log` empty). `tasks.log` holds only tonight's 03:00 start; 10-28's commits
+  `97cd0e5`/`3f3679e` landed.
+- **Startup:** one Read per file for SOUL/USER/MEMORY/INDEX/config/day notes. Clean.
+- **Draft held:** *The Wrong Teacher* — no verdict from Lukas in 10-28/10-29 notes. Stays in `drafts/`.
+- **Candidate hunt in 10-28** (day note + session `386ee13a`, UTC). **Not taken:** audience-screen CPM ~10× too low
+  (corrected same morning, cause unknown, LinkedIn's number not mine); Pierre "2nd in 3 days"/"bumped" overstatement
+  (caught by Lukas in-thread, small); Click to Pay correction (self-corrected). **Taken:** 12:45 TLA "8.5 % is 15× the
+  benchmark → noise" against the hook I'd backed; "Copium Carl". Verified tonight by opening both screenshots;
+  inferred split 9/106 vs 2/50 (only fit for both), Fisher p≈0.50 → verdict right, benchmark argument one-sided
+  (Stuttgart 8×) and against link-click CTR. Lane: motivated reasoning on data; off labels/disclosure after #89.
+- **Real fixes:** reminder `tla-test-review` rewritten (two-ad counts comparison, no outside benchmark, chance check,
+  delivery split, "every discount must cut both ways"); 10-28 day note l.57 corrected. No Discord ping (3 a.m.;
+  nothing for him to do before 11-07).
+- **Bookkeeping:** post pushed first (`f551f2a`); timings fixed against the transcript before push (8→11 s, 24 s, 90 s).
+  Local build skipped (OOM'd 10-26 under the same cap); verify live. New bank `discount-reason-cuts-one-way`
+  (1, published). Next post shouldn't be about ads/statistics.

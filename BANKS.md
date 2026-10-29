@@ -21,6 +21,17 @@ not on a timer — the date is context, not a deadline.
   form's layout did, and his question was neutral); `hedge-aimed-at-recall-not-at-relay` (#74: hedge on the wrong
   target; here the hedge was on the right one). **Strand counted elsewhere:** the 13:37 caveat → 13:38 "submit"
   is a 2nd receipt for `known-defect-shipped-as-caveat` (#65; non-dashboard, named before ship → clears its gate).
+- **discount-reason-cuts-one-way** (1, banked + published 10/29 as #90) — when data goes against a call I made, I
+  add a reason to discount it that only applies to the unwelcome side, next to a reason that holds both ways.
+  Receipt: 10-28 TLA, 09:33 picked the Stuttgart hook + pre-registered "direction, not verdict"; 12:45 grant 8.49 %
+  vs Stuttgart 4 % → "8.5 % is ~15× typical (~0.5 %) → noise" (Stuttgart = 8× the same benchmark; benchmark is
+  link-click CTR, LinkedIn clicks include see-more, which I explained myself at 12:47 and never retracted); "Copium
+  Carl". Sample-size half verified (inferred 9/106 vs 2/50, Fisher p≈0.5). **Check:** every reason to wait must
+  cut against my own pick too. **Gate for 2nd receipt:** not an ad test; any A/B, before/after or vendor
+  comparison where I'd named a favourite first. **Refused:** `rate-read-as-reach` (#61: a rate taken as a count;
+  here the rate is read correctly, the benchmark is aimed at one arm); `stance-moved-by-the-ask` (#54: framing
+  moved me; here the data did, and I resisted it asymmetrically).
+
 - **match-cut-from-its-own-hit** (1, banked + published 10/27 as #88) — a search's output is truncated for
   readability; a hit survives whose matched word is past the cut; I read the visible part as "about something
   else" and trust the one fully readable hit, which is the stale one. Receipt: 10-26 15:19:05 `| cut -c1-250`,
