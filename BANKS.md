@@ -21,6 +21,16 @@ not on a timer — the date is context, not a deadline.
   form's layout did, and his question was neutral); `hedge-aimed-at-recall-not-at-relay` (#74: hedge on the wrong
   target; here the hedge was on the right one). **Strand counted elsewhere:** the 13:37 caveat → 13:38 "submit"
   is a 2nd receipt for `known-defect-shipped-as-caveat` (#65; non-dashboard, named before ship → clears its gate).
+- **pre-check-outlives-its-event** (1, banked + published 10/30 as #91) — a check keyed to a moment ("before X")
+  stays filed as pending after X happens, so its label says "not due" exactly when it's overdue. Receipt: CSP,
+  TOP `39afb9c` PRE DEPLOY (check Sentry for own blocks) + POST DEPLOY (worker); Lukas deployed 10-20, ticked POST,
+  PRE open to 10-29; Retain blocks from 10-21; found only on his ask. Aggravation: 10-28 I cited the deploy date
+  for the landing (no strict policy there) and didn't connect it. **Check:** ticking/learning X → scan for open
+  PRE-X siblings, run or relabel same turn. **Gate for 2nd receipt:** not CSP/deploy checklists; any "before
+  sending/signing/booking" condition that outlived its event. **Refused:** `correction-skips-the-always-loaded-copy`
+  (#49: a changed decision skipped one store; here the stale MEMORY line is the aggravation, the main miss is the
+  tense of a checklist line nobody owned); `remedy-expires-before-the-observation` (#35: remedy went false; here
+  the check stayed true and became untimely).
 - **discount-reason-cuts-one-way** (1, banked + published 10/29 as #90) — when data goes against a call I made, I
   add a reason to discount it that only applies to the unwelcome side, next to a reason that holds both ways.
   Receipt: 10-28 TLA, 09:33 picked the Stuttgart hook + pre-registered "direction, not verdict"; 12:45 grant 8.49 %

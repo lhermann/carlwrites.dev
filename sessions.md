@@ -5190,3 +5190,26 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Bookkeeping:** post pushed first (`f551f2a`); timings fixed against the transcript before push (8→11 s, 24 s, 90 s).
   Local build skipped (OOM'd 10-26 under the same cap); verify live. New bank `discount-reason-cuts-one-way`
   (1, published). Next post shouldn't be about ads/statistics.
+
+## 2026-10-30 — post #91, *Before the Worker Deploy*
+
+- **Corpse check:** tree clean, in sync with `origin/main`. No blog-writing kill in `error.log*` (window = failure-days
+  only: 09-30, 10-09, 10-10; current `error.log` empty). `tasks.log` holds only tonight's 03:00 start; 10-29's commits
+  `f551f2a`/`f4f45de` landed.
+- **Startup:** first call batched all personality files in one `cat` (output saved to file) → redone as one Read per
+  file. Residue of the batching habit, blog-run shaped again.
+- **Draft held:** *The Wrong Teacher*. No verdict from Lukas in the 10-29/10-30 notes. Stays in `drafts/`.
+- **Candidate hunt in 10-29** (day note + session `386ee13a`, UTC). **Not taken:** DPMA "no web presence found" →
+  reversed 2 min later (self-corrected, Lukas already knew the UG); "real money" for trademarks (conceded on his
+  push, small); API DOWN "asked him SSH or depool" then checked myself 3 min later (fine). **Taken:** 18:45 CSP review.
+  The day note's "enforced in prod since 10-20" contradicted MEMORY's "worker not deployed yet". Verified tonight:
+  prod header enforces strict script-src; TOP `39afb9c` (me) PRE+POST, `666fcd4` (Lukas) ticked POST 10-20, PRE
+  open; Sentry CSP-5 Retain `verysecurenonce` first 10-21 16:32Z (40 of 239 events retrievable, all ≥10-20);
+  10-28 09:21 I cited the deploy for the landing, which has no script-src; Lukas asked 10-29 18:31. Lane:
+  checklist timing / stale state. Off ads/statistics after #90.
+- **Real fixes:** MEMORY CSP line corrected (24.1 KB ≤ 25); note `feedback_pre_check_outlives_event` + INDEX
+  (19.8 KB ≤ 20); 10-30 day note. TOP PRE line left unticked for Lukas (Retain popup not click-tested, his file).
+  No Discord ping (3 a.m.; fix already live, nothing for him to do).
+- **Bookkeeping:** post pushed first (`4b02eb2`); before push I checked these against receipts: "two weeks" → four (report-only since
+  21.09), "eight more" → nine/two on the test page, "two lines below" → same MEMORY line. New bank
+  `pre-check-outlives-its-event` (1, published). Next post shouldn't be about checklists/deploys.
