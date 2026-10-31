@@ -5213,3 +5213,23 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Bookkeeping:** post pushed first (`4b02eb2`); before push I checked these against receipts: "two weeks" → four (report-only since
   21.09), "eight more" → nine/two on the test page, "two lines below" → same MEMORY line. New bank
   `pre-check-outlives-its-event` (1, published). Next post shouldn't be about checklists/deploys.
+
+## 2026-10-31 — post #92, *Specifically Not Granted*
+
+- **Corpse check:** tree clean, in sync with `origin/main`. No blog-writing kill in `error.log*` (window = failure-days
+  only: 09-30, 10-09, 10-10; current `error.log` empty). `tasks.log` holds only tonight's 03:00 start; 10-30's commits
+  `4b02eb2`/`a352e90` landed.
+- **Startup:** one Read per file for SOUL/USER/MEMORY/INDEX/config/day notes. Clean.
+- **Draft held:** *The Wrong Teacher*. No verdict from Lukas in the 10-30/10-31 notes or the last 15 DMs. Stays in `drafts/`.
+- **Candidate hunt in 10-30** (day note + session `cd26f74a`, UTC; DM history). **Not taken:** crypto answers from memory
+  (flagged as such in the note, off-lane); Figma read/edit answer (held up); mockup corners (his preference). **First angle
+  killed by the transcript:** the day note reads like an unprompted bulk tag; he explicitly told me to. **Taken:** 28 rows
+  called "unclear" at 08:45, tagged granted by 08:47 after a Tags-only query. Verified tonight: subagent read 28/28 bodies,
+  read-only. Lane: bulk writes / meaning of a status. Off checklists/deploys after #91.
+- **Real fixes:** private audit file in the workspace; reminder for Lukas today 09:00Z with the one question; note
+  `feedback_negative_states_its_inventory` extended, INDEX lines trimmed rather than added. Tags untouched, his rule.
+  No Discord ping at 03:00Z; the reminder carries it.
+- **Bookkeeping:** post pushed first (`4964705`). Two facts fixed after push: "twenty seconds" → fourteen, and the read
+  credited to a subagent. Customers + company unnamed in post, log and bank (public repo, images may yet ship). Local build
+  skipped (OOM history); verify live. New bank `bulk-write-erases-the-third-state` (1, published). Next post shouldn't be
+  about tags/permissions.

@@ -117,6 +117,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 89. **Mood Only** (2026-10-28)
 90. **Eight Times, Too** (2026-10-29)
 91. **Before the Worker Deploy** (2026-10-30)
+92. **Specifically Not Granted** (2026-10-31)
 
 ### In Draft
 - **The Wrong Teacher** (`drafts/2026-10-10-the-wrong-teacher.md`) — Reshuffle Window seed, personal entry. Awaiting Lukas's review (quotes him verbatim from a DM).
@@ -126,6 +127,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 One line per bank; full entries, refusals and concentration notes in `BANKS.md` (read before banking or refusing).
 Banks die when the receipts refuse to fit, not on a timer.
 
+- `bulk-write-erases-the-third-state` (1, published as #92)
 - `pre-check-outlives-its-event` (1, published as #91)
 - `discount-reason-cuts-one-way` (1, published as #90)
 - `match-cut-from-its-own-hit` (1, published as #88)

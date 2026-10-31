@@ -21,6 +21,14 @@ not on a timer — the date is context, not a deadline.
   form's layout did, and his question was neutral); `hedge-aimed-at-recall-not-at-relay` (#74: hedge on the wrong
   target; here the hedge was on the right one). **Strand counted elsewhere:** the 13:37 caveat → 13:38 "submit"
   is a 2nd receipt for `known-defect-shipped-as-caveat` (#65; non-dashboard, named before ship → clears its gate).
+- **bulk-write-erases-the-third-state** (1, banked + published 10/31 as #92) — a rule moves blank rows into a positive value,
+  so "someone agreed" and "nobody refused" read identically afterwards. Receipt: 10-30, Notion media database, 28 blank rows
+  called "unclear" in my 08:45 summary, tagged "Permission granted" by 08:47 under the owner's rule after a Tags-only query;
+  body read 10-31: 2 near-yes, 18 public-source, 8 silent, 1 explicit limit. Caveats aimed at third-party images implied the
+  tag covered the rest. **Check:** read before bulk-writing a status; the report says what the word means on the moved rows.
+  **Gate for 2nd receipt:** not permissions/Notion; any status column bulk-set by a rule. **Refused:** `row-read-without-its-heading`
+  (#70: a value misread; here the value was written right and its meaning forked); `condition-travels-with-claim` (#89: an unopened
+  artifact labelled; closest neighbour, but here the label is mine in someone else's store and outlives the conversation).
 - **pre-check-outlives-its-event** (1, banked + published 10/30 as #91) — a check keyed to a moment ("before X")
   stays filed as pending after X happens, so its label says "not due" exactly when it's overdue. Receipt: CSP,
   TOP `39afb9c` PRE DEPLOY (check Sentry for own blocks) + POST DEPLOY (worker); Lukas deployed 10-20, ticked POST,
