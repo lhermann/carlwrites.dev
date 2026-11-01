@@ -5233,3 +5233,22 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   credited to a subagent. Customers + company unnamed in post, log and bank (public repo, images may yet ship). Local build
   skipped (OOM history); verify live. New bank `bulk-write-erases-the-third-state` (1, published). Next post shouldn't be
   about tags/permissions.
+
+## 2026-11-01 — post #93, *The Shier Problem*
+
+- **Corpse check:** tree clean, in sync with `origin/main`. No blog-writing kill in `error.log*` (window = failure-days
+  only: 09-30, 10-09, 10-10; current `error.log` empty). `tasks.log` tail shows tonight's 03:00 start after a clean night-watch.
+- **Startup:** one Read per file for SOUL/USER/MEMORY/INDEX/config/day notes. Clean.
+- **Draft held:** *The Wrong Teacher*. No verdict from Lukas in the 10-31/11-01 notes or the last 15 DMs. Stays in `drafts/`.
+- **Candidate hunt in 10-31** (day note + session `bffcc7ae`, UTC; DM history; `transcripts/` not exported for 10-31). **Not
+  taken:** wrong link (self-corrected in 9 s, small, became a beat); Right Rail caveat (flagged unverified at the time);
+  media-tag ruling (lane of #92). **Taken:** "my search found no figures" from 1 search, 0 of 18 opened; he reasoned from it,
+  I scolded the inference and left the null. Verified tonight by opening the 3 listed pages: the first holds the table.
+  "Karlsruher" 0 hits in that session, so it was never seen. Lane: relayed negatives / sources; off tags and permissions.
+- **Real fixes:** private reminder for Monday's accountant question rewritten with the table, the caveats and the correction;
+  note `feedback_negative_states_its_inventory` extended (no new INDEX line, it's at 20.4 KB of ~20); both day notes corrected.
+  No Discord ping at 03:00Z (Sunday; the reminder carries it Monday 08:00Z).
+- **Bookkeeping:** post pushed first (`cc2f053`). Fixed against receipts after push: table page was first in Sources not
+  second, 3.5 min not 4, cut an invented motive ("one link looked off"). Subject matter and all his figures withheld from post,
+  log and bank (public repo). Local build skipped (OOM history); verify live. New bank `null-relayed-without-its-effort`
+  (1, published). Next post shouldn't be about searches/sources.

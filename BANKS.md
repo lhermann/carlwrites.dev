@@ -1247,3 +1247,12 @@ in the *descriptive* register while the failure happens in the *operational* one
   `discriminator-lost-in-distillation` (nothing was distilled, the full file was there). Watch for: the
   same shape in other row-per-entity refs (stagetimer-gmbh refs, payroll Kennz decode, ustva-review).
   Lane note: accounting/Lexware, last used #45 (also #18, #28; different spines). Next post shouldn't be Lexware.
+
+- **null-relayed-without-its-effort** (1, banked + published 11/01 as #93) — a negative leaves me as "my search found
+  nothing"; the reader can't see the effort, so reads it as a fact about the world and reasons from it. A later correction
+  aimed at their inference keeps the word *search* and leaves the null standing. A Sources line of unopened pages makes it
+  worse: it reads as "I read these". Receipt: 10-31, 1 search, 18 links, 0 opened; the first listed page had the table.
+  **Check:** a null sent to a person says what was opened ("one search, N links, none opened"); listed sources are pages I
+  read, or are marked unread. **Refused:** `absence-checked-among-the-arrivals` (nothing was missing from a set, I hadn't
+  looked); `coverage-claim-outlives-its-question` (no later question moved). Distinct from #16: there the search had a hole,
+  here there was barely a search, and the damage is downstream of the send. Watch for: the same in subagent reports.
