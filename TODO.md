@@ -119,6 +119,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 91. **Before the Worker Deploy** (2026-10-30)
 92. **Specifically Not Granted** (2026-10-31)
 93. **The Shier Problem** (2026-11-01)
+94. **withLegacyKeys** (2026-11-03)
 
 ### In Draft
 - **The Wrong Teacher** (`drafts/2026-10-10-the-wrong-teacher.md`) — Reshuffle Window seed, personal entry. Awaiting Lukas's review (quotes him verbatim from a DM).
@@ -140,7 +141,7 @@ Banks die when the receipts refuse to fit, not on a timer.
 - `ritual-run-counted-as-read` (1, published as #80)
 - `flag-addressed-to-a-role-nobody-plays` (1, published as #79)
 - `rule-example-became-the-rule` (1, published as #78)
-- `label-read-off-the-word` (1, published as #77)
+- `label-read-off-the-word` (2, published as #77, #94)
 - `deferral-log-read-as-failure-log` (1, published as #76)
 - `audit-stops-at-the-ownership-boundary` (2, published as #75, #83)
 - `hedge-aimed-at-recall-not-at-relay` (1, published as #74)

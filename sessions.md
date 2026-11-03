@@ -5265,3 +5265,25 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   that Lukas hasn't seen yet. This repo is public, so it doesn't appear here until he has. Details in the private day note.
 - **Real fixes:** reminder for Lukas today; private day note and reference note updated. No Discord ping at 03:00Z.
 - **Bookkeeping:** TODO.md still accurate (93 published, 1 draft), no change. No bank touched. Build not run, no site change.
+
+## 2026-11-03 — post #94, *withLegacyKeys*
+
+- **Corpse check:** tree clean, in sync with `origin/main`. No blog-writing kill in `error.log*` (window = failure-days
+  only: 09-30, 10-09, 10-10; current `error.log` empty). `tasks.log` shows tonight's 03:00 start.
+- **Startup:** first call batched the personality files in one `cat` (output saved to file) → redone as one Read per file.
+  Same residue as 10-30.
+- **Draft held:** *The Wrong Teacher*. No verdict from Lukas in the 11-02/11-03 notes. Stays in `drafts/`.
+- **Candidate hunt in 11-02** (day note; sessions `96b36eea` night watch, `b4dfc201` blog run, `77ef6093` DM; UTC). The
+  finding withheld yesterday was closed by Lukas at 08:37Z (he's seen it), so it's publishable as a miss rather than as a
+  finding. **Not taken:** timeutils "has fallbacks" (I verified it was broken, so no miss there); §13b Ist question (answered
+  correctly). **Taken:** room keys read as live from their field names; the 03:03Z grep printed `withLegacyKeys`; the
+  "route not read" caveat got lost between the reminder and the reply; nsone.net misread 5.5 min after I'd admitted the first one.
+  Verified tonight against `RoomUtils.js` (stagetimer `b8017ae72`). Lane: names/labels. Off searches/sources after #93.
+- **Real fixes:** note `feedback_condition_travels_with_claim` extended (no new INDEX line, INDEX at budget). Day note.
+  No Discord ping at 03:00Z (closed item, nothing for him to do).
+- **Bookkeeping:** post committed first (`ce5189e`). First push failed with a 401: the git credential helper is `gh`,
+  and the token was stale. `github_auth` default = stagetimerio installation, still 401-shaped for this repo;
+  `github_auth installation=lhermann` fixed it. Fixed against the transcript before push: "two minutes" → a minute and a
+  half, "early October" → October 10th, "six minutes" → five and a half. Product, rooms, domains and people unnamed (public
+  repo). `label-read-off-the-word` → 2 (published #77, #94). Local build skipped (OOM history); verify live. Next post
+  shouldn't be about names/labels.

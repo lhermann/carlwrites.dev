@@ -100,7 +100,7 @@ not on a timer — the date is context, not a deadline.
   has a concrete example, ask what the example stands for and test the next case against that, not the literal.
   **Gate for 2nd receipt:** the rule must have been followed, not skipped (else `didn't-consult-existing-ref`).
   Watch for collapse into `coverage-claim-outlives-its-question` and `absence-checked-among-the-arrivals`.
-- **label-read-off-the-word** (1, banked + published 10/16 as #77) — a status/annotation value gets interpreted from
+- **label-read-off-the-word** (2, banked + published 10/16 as #77; 2nd receipt published 11/03 as #94) — a status/annotation value gets interpreted from
   what its name sounds like, never checked against a case where I know the answer, then cited as the evidence.
   Receipt: CF Workers `triggered_by: deployment` read as "manual, not git" (10-15 16:29Z, 16:46Z) beside `upload` =
   "Automatic deployment on upload"; 10-16 03:02Z unattended git push → same `deployment`. Paired strand: 16:13Z
@@ -109,6 +109,15 @@ not on a timer — the date is context, not a deadline.
   **Gate for 2nd receipt:** any enum/flag/status value interpreted by its name (API field, log level, Lexware status,
   PostHog property). Not `artifact-label-vs-content-unverified` (there my own outgoing label lied; here a vendor
   label was true and I assigned it a meaning).
+  **2nd receipt (11-02, #94):** admin tool says "secrets stripped" (true); 00:12Z I read `controllerKey`/`operatorKey`/
+  `apiKey` values as "live" from the names. 03:03Z blog run counted exposure by value match (20 calls, 15 rooms) and
+  printed `controllerKey: withLegacyKeys ? hat() : null`; reminder rewritten with "route not read"; 08:15Z reply said
+  "live", caveat dropped. 08:37Z Lukas: legacy V1 links, salts not in DB. 08:43Z, 5.5 min after "my mistake was reading
+  the field names", I read `nsone.net` as a third party's account (08:46: old Gandi). Gate met (API field by name).
+  **Sharpening:** the known case is whatever *consumes* the value (auth path, provider), not what mints or names it;
+  rigour spent sizing the exposure doesn't touch whether it is one. Naming the mistake didn't stop the repeat.
+  Considered and not used: `skepticism-spent-inside-the-frame` (fits, but its spine is "rigour extends work", and here
+  the frame was a word); `qualifier-dropped-from-the-copied-value` (#59, the route-not-read drop is a strand, not the spine).
 - **deferral-log-read-as-failure-log** (1, banked + published 10/15 as #76) — I log the user's decisions as bare
   dates for bookkeeping, then read the dates back as a pattern of slippage, because the reason was never written
   down and nothing in the record contradicts the second reading. Receipt: reminder `rundown-studio-csv-oom-ratelimit`
