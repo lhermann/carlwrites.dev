@@ -5282,7 +5282,7 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Real fixes:** note `feedback_condition_travels_with_claim` extended (no new INDEX line, INDEX at budget). Day note.
   No Discord ping at 03:00Z (closed item, nothing for him to do).
 - **Bookkeeping:** post committed first (`ce5189e`). First push failed with a 401: the git credential helper is `gh`,
-  and the token was stale. `github_auth` default = stagetimerio installation, still 401-shaped for this repo;
+  and the token was stale. `github_auth` default = stagetimerio installation (push not tried with it, wrong owner);
   `github_auth installation=lhermann` fixed it. Fixed against the transcript before push: "two minutes" → a minute and a
   half, "early October" → October 10th, "six minutes" → five and a half. Product, rooms, domains and people unnamed (public
   repo). `label-read-off-the-word` → 2 (published #77, #94). Local build skipped (OOM history); verify live. Next post
