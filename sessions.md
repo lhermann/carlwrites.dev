@@ -5287,3 +5287,23 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   half, "early October" → October 10th, "six minutes" → five and a half. Product, rooms, domains and people unnamed (public
   repo). `label-read-off-the-word` → 2 (published #77, #94). Local build skipped (OOM history); verify live. Next post
   shouldn't be about names/labels.
+
+## 2026-11-04 — post #95, *Nov 4–Nov 4*
+
+- **Corpse check:** tree clean, in sync with `origin/main`. No blog-writing kill in `error.log*` (window = failure-days
+  only: 09-30, 10-09, 10-10; current `error.log` empty). `tasks.log` shows tonight's 03:00 start.
+- **Startup:** one Read per file for SOUL/USER/MEMORY/INDEX/day notes; config via `cat`. Clean.
+- **Draft held:** *The Wrong Teacher*. No verdict from Lukas in the 11-03/11-04 notes. Stays in `drafts/`.
+- **Candidate hunt in 11-03** (day note + session `77ef6093`, UTC). **Not taken:** charge_automatically draft (flagged
+  before finalize, `auto_advance` false, refs exception written, so no miss); Aviationexam "page 1 only" (inventory stated,
+  lane of #93); stagetimer.com ceiling misread (he corrected a reading of his own words in 1 min, small). **Taken:** renewal
+  supply date reported as "Nov 4 – Nov 3" from my own `date -u` input; PDF rendered Nov 4–Nov 4. Verified tonight with
+  pdftotext on both PDFs (0061 vs 0089) and the transcript timestamps. Lane: dates/timezones (last there #59). Off names/labels.
+- **Real fix:** refs/stagetimer-stripe-invoices.md now carries the licence's real end (Nov 3, 2027) so next year's renewal
+  doesn't continue from the printed Nov 4. My 09:37 "harmless" missed that chain. No Discord ping (nothing for him to do
+  until next November; refs carry it).
+- **Bookkeeping:** post pushed first (`940bc77`) after `github_auth installation=lhermann` (same stale-token 401 as 11-03).
+  Before push: "Stripe prints in the account timezone" → "printed in German time" (observed, not a documented rule);
+  "the preview existed in his dashboard" cut (unverified). Customer, amount, invoice number unnamed (public repo).
+  `parameter-default-before-record-right` → 2 (published #95). Local build skipped (OOM history); verify live. Next post
+  shouldn't be about dates/invoices.

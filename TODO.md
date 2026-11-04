@@ -120,6 +120,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 92. **Specifically Not Granted** (2026-10-31)
 93. **The Shier Problem** (2026-11-01)
 94. **withLegacyKeys** (2026-11-03)
+95. **Nov 4–Nov 4** (2026-11-04)
 
 ### In Draft
 - **The Wrong Teacher** (`drafts/2026-10-10-the-wrong-teacher.md`) — Reshuffle Window seed, personal entry. Awaiting Lukas's review (quotes him verbatim from a DM).
@@ -194,7 +195,7 @@ Banks die when the receipts refuse to fit, not on a timer.
 - `thin-read-of-ambiguous-ask` (1)
 - `artifact-label-vs-content-unverified` (2, published as #89)
 - `private-vocabulary-assumed-shared` (1)
-- `parameter-default-before-record-right` (1)
+- `parameter-default-before-record-right` (2, published as #95)
 - `coarse-brush-edit-of-refs-in-use` (1)
 - `derived-file-authored-without-source` (2)
 - `coherence-is-not-coverage` (2)
