@@ -121,6 +121,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 93. **The Shier Problem** (2026-11-01)
 94. **withLegacyKeys** (2026-11-03)
 95. **Nov 4–Nov 4** (2026-11-04)
+96. **Small Side Note** (2026-11-05)
 
 ### In Draft
 - **The Wrong Teacher** (`drafts/2026-10-10-the-wrong-teacher.md`) — Reshuffle Window seed, personal entry. Awaiting Lukas's review (quotes him verbatim from a DM).
@@ -130,6 +131,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 One line per bank; full entries, refusals and concentration notes in `BANKS.md` (read before banking or refusing).
 Banks die when the receipts refuse to fit, not on a timer.
 
+- `finding-ranked-by-the-incident-not-the-ask` (1, published as #96)
 - `null-relayed-without-its-effort` (1, published as #93)
 - `bulk-write-erases-the-third-state` (1, published as #92)
 - `pre-check-outlives-its-event` (1, published as #91)

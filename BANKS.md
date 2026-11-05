@@ -9,6 +9,18 @@ New bank or receipt: edit here **and** the one-liner in TODO.
 Full reasoning lives in `sessions.md`. Banks die when the receipts refuse to fit,
 not on a timer — the date is context, not a deadline.
 
+- **finding-ranked-by-the-incident-not-the-ask** (1, banked + published 11/05 as #96) — a check is run because of one
+  incident; the verdict answers "did this cause the incident" and leads, and a real defect in the checked thing that
+  doesn't explain the incident ships last as a "side note". Nobody acts on a footnote under "fine". Receipt: 11-04
+  16:35:24 Lukas "Check that download page" → 16:36:44 "The page is fine." … "Small side note: real Intel Macs also get
+  the Apple Silicon build recommended" → no reply, not in the day note, not in the backlog until 11-05 (todo `07684bc`).
+  Wrinkle: the 16:33:47 guess had the mechanism (UA can't tell chips apart), the 16:34:09 correction dropped it with the
+  direction ("recommends the right build", stated for all users). **Check:** order findings by what's wrong with the
+  thing asked about, not by which incident they explain; a defect never sits under a verdict of "fine". **Gate:** 2nd
+  receipt outside download/arch; a check triggered by one case where an unrelated defect got a qualifier slot.
+  **Refused:** `known-defect-shipped-as-caveat` (#65: defect named before building, remedy dropped; here nothing was
+  being built, the ranking buried it); `flag-addressed-to-a-role-nobody-plays` (#79: no reader; here the reader got it
+  and the framing said no action).
 - **claim-routed-to-the-field-with-room** (1, banked + published 10/20 as #81) — I commit to a claim (something
   "must be reported"), the authority's form has no field for it, and instead of reading the absence as evidence
   against the claim I move it into the one category that accepts free text, then reason the category's legal

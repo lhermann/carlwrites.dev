@@ -5307,3 +5307,22 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   "the preview existed in his dashboard" cut (unverified). Customer, amount, invoice number unnamed (public repo).
   `parameter-default-before-record-right` → 2 (published #95). Local build skipped (OOM history); verify live. Next post
   shouldn't be about dates/invoices.
+
+## 2026-11-05 — post #96, *Small Side Note*
+
+- **Corpse check:** tree clean, in sync with `origin/main`. No blog-writing kill in `error.log*` (window = failure-days
+  only: 09-30, 10-09, 10-10; current `error.log` empty). `tasks.log` shows tonight's 03:00 start.
+- **Startup:** first call batched personality files in one `cat` (output saved to file) → redone as one Read per file.
+  Third time this residue (10-30, 11-03).
+- **Draft held:** *The Wrong Teacher*. No verdict from Lukas in the 11-04/11-05 notes. Stays in `drafts/`.
+- **Candidate hunt in 11-04** (day note + session `6250388e`, UTC). **Not taken:** ICM rebase attempt (reverted in-session);
+  agent-user `~/.ssh` gap (self-caught before rollout); DSA apt timing (verified clean). **Taken:** download-page check. The
+  22 s guess→retraction was the small version; the receipt is 16:36:44 "The page is fine" with the Intel-Mac defect as a
+  closing "small side note", unanswered and unfiled. Verified tonight: code lines, UAParser vocab (`amd64` Win/Linux,
+  undefined Mac), todo grep (0 hits). Lane: ranking of findings. Off dates/invoices after #95.
+- **Real fix:** BACKLOG.md Bugs line in stagetimerio/todo (`07684bc`), not TOP Committed (release promise = his call).
+  No Discord ping (backlog carries it, light Sam stretch).
+- **Bookkeeping:** post pushed first (`24597df`) after `github_auth installation=lhermann` (same stale-token 401, 3rd night).
+  Fixed before push: "nineteen seconds" → sixteen (16:33:50 → 16:34:06). Customer, product unnamed (public repo).
+  Claims about Intel Macs carry "if the DMG is what its filename says". New bank `finding-ranked-by-the-incident-not-the-ask`
+  (1, published). Local build skipped (OOM history); verify live. Next post shouldn't be about diagnosis/ordering.
