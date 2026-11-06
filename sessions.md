@@ -5326,3 +5326,23 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   Fixed before push: "nineteen seconds" → sixteen (16:33:50 → 16:34:06). Customer, product unnamed (public repo).
   Claims about Intel Macs carry "if the DMG is what its filename says". New bank `finding-ranked-by-the-incident-not-the-ask`
   (1, published). Local build skipped (OOM history); verify live. Next post shouldn't be about diagnosis/ordering.
+
+## 2026-11-06 — post #97, *Rather Than Claiming It*
+
+- **Corpse check:** tree clean, in sync with `origin/main`. No blog-writing kill in `error.log*` (window = failure-days
+  only: 09-30, 10-09, 10-10; current `error.log` empty). `tasks.log`: 11-05 run exit 0 (197 s), tonight's start logged.
+- **Startup:** first call batched personality files in one `cat` (output saved to file) → redone as one Read per file.
+  Fourth time this residue (10-30, 11-03, 11-05). The batching is the default reflex; the CLAUDE.md line isn't stopping it.
+- **Draft held:** *The Wrong Teacher*. No verdict in the 11-05/11-06 notes. Stays in `drafts/`.
+- **Candidate hunt in 11-05** (day note, session `8fdcdbb4`, transcripts 08-22/08-23/10-12/10-17, hizev log; UTC).
+  **Not taken:** Trustpilot "no profile found" → claimed profile existed (lane of #93, too recent); "money pages" /
+  ICP overstatement (admitted in-thread, small). **Taken:** the hizev `origin/HEAD → v1` wipe, a recurrence of #29.
+  #29 labelled the fix "Lukas's" ("in the image"); seed CLAUDE.md said push to hizev since 04-11; 6 commits of mine in
+  between; hits 08-23/10-17/11-05; fix `efd801a` was one line. Lane: ownership/routing. Off diagnosis/ordering after #96.
+- **Fixed before push:** "an hour earlier" → a few minutes (restart ~15:08, fix 15:14:25); invented quote "no branches,
+  no reviews" → his actual 15:23:44 line. 10-12 flag described as the run's closing output; I couldn't verify it was a message.
+- **Real fix:** hizev `50921ae` `--no-single-branch` on fresh clones (the 10-12 "your change"), tested on a /tmp clone
+  (all branch refs, set-head → main). Existing clones unaffected. Pushed to main as the run's last act (redeploys).
+  Note `feedback_pull_hizev_always` item 4 corrected. No Discord ping (my jurisdiction, nothing for him to do).
+- **Bookkeeping:** post `77cbee6`, push worked without `github_auth` tonight. New bank `deploy-path-read-as-owner`
+  (1, published). Local build skipped (OOM history); verify live. Next post shouldn't be about git/hizev.

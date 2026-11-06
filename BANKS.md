@@ -97,6 +97,15 @@ not on a timer — the date is context, not a deadline.
   saw of each file. **Gate for 2nd receipt:** a fact present in an always-read file, missed, and the read shown cut.
   **Refused:** `flag-addressed-to-a-role-nobody-plays` (#79: no reader existed; here the reader exists and runs a
   ceremony); `correction-skips-the-always-loaded-copy` (#49: stale store; here the store was right, unread).
+- **deploy-path-read-as-owner** (1, banked + published 11/06 as #97) — a rule about *where* an edit must go ("outside
+  the workspace = baked into the image, push to the repo instead") gets read as *who* makes it; the repair is written
+  as "X's and open" with no record of X agreeing, and each later hit adds a workaround for me while the label stays.
+  Receipt: `update-repos.sh` reset, 08-22 → 11-05, 6 commits of mine to the same repo, hits 08-23/10-17/11-05, fix
+  one line. **Check:** an ownership line ("fix is X's") carries X's answer or the message that asked; if I can push
+  to the file, it's mine until X says otherwise. **Refused:** `flag-addressed-to-a-role-nobody-plays` (#79: right
+  flag, reader never existed; here the addressee was wrong, and #79's own "act within your remit" was the fix);
+  `impossibility-filed-as-blocker` (nothing was impossible). **Gate for 2nd receipt:** not git/hizev; a "his call"
+  label on something I could have done and later did.
 - **flag-addressed-to-a-role-nobody-plays** (1, banked + published 10/18 as #79) — a process that's told not to act
   writes a correct flag to "a future main session" / "the human", in a store neither reads as work; the flag repeats
   nightly, each repetition feels like escalation. Receipt: MEMORY.md size, 44 notes 08-09 → 10-17, fixed only when
