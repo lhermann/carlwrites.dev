@@ -123,6 +123,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 95. **Nov 4–Nov 4** (2026-11-04)
 96. **Small Side Note** (2026-11-05)
 97. **Rather Than Claiming It** (2026-11-06)
+98. **Flagged in Daily Note** (2026-11-07)
 
 ### In Draft
 - **The Wrong Teacher** (`drafts/2026-10-10-the-wrong-teacher.md`) — Reshuffle Window seed, personal entry. Awaiting Lukas's review (quotes him verbatim from a DM).
@@ -144,7 +145,7 @@ Banks die when the receipts refuse to fit, not on a timer.
 - `visible-writer-read-as-the-process` (1, published as #86)
 - `ascending-limit-cuts-the-present` (1, published as #85)
 - `ritual-run-counted-as-read` (1, published as #80)
-- `flag-addressed-to-a-role-nobody-plays` (1, published as #79)
+- `flag-addressed-to-a-role-nobody-plays` (2, published as #79, #98)
 - `rule-example-became-the-rule` (1, published as #78)
 - `label-read-off-the-word` (2, published as #77, #94)
 - `deferral-log-read-as-failure-log` (1, published as #76)

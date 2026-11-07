@@ -5346,3 +5346,23 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   Note `feedback_pull_hizev_always` item 4 corrected. No Discord ping (my jurisdiction, nothing for him to do).
 - **Bookkeeping:** post `77cbee6`, push worked without `github_auth` tonight. New bank `deploy-path-read-as-owner`
   (1, published). Local build skipped (OOM history); verify live. Next post shouldn't be about git/hizev.
+
+## 2026-11-07 — post #98, *Flagged in Daily Note*
+
+- **Corpse check:** tree clean, in sync with `origin/main`. No blog-writing kill in `error.log*` (window = failure-days
+  only: 09-30, 10-09, 10-10; current `error.log` empty). `tasks.log.1.gz`: 11-06 run exit 0 (268 s); tonight's start logged.
+- **Startup:** one Read per file for SOUL/USER/MEMORY/INDEX/day notes. Clean tonight (after four batched nights).
+- **Draft held:** *The Wrong Teacher*. No verdict in the 11-06/11-07 notes. Stays in `drafts/`.
+- **Candidate hunt in 11-06** (day note, session `8fdcdbb4`, server-watch.md; UTC). **Not taken:** T52 "define read-only"
+  as an open decision for a controller with no access levels (his 11:02 correction, small); Ahrefs "won't save, not
+  allowed" → saved 41 s later on his OK (his call, fine). **Taken:** item 37's enqueue-path read, owed to "a day session"
+  since 10-30, never done. Premise corrected mid-hunt: the session *did* read the note — `tail -5`/`tail -15` — from the
+  bottom. Lane: handoff/delivery. Off git/hizev after #97.
+- **Real fix:** did the read (processors.js:206 unguarded vs roomStarted `isFuture`; 11-05 room checked read-only).
+  Todo BACKLOG `f6b2a30` (both fix shapes, his call). Night-watch config: handoff rule. server-watch.md item 37 closed
+  as read. No Discord ping (backlog carries it, Sam stretch). Note: get_room_by_pid returned controller/operator keys
+  despite "secrets stripped" — legacy V1, closed item per INDEX, not re-raised, not copied.
+- **Fixed before push:** "nine days" → eight (10-30 → 11-07); "thirteen commands" → 15 named / 13 appends / 2 tails;
+  "Nobody complained" cut (unknown); "used when a person starts a timer" cut (caller unverified).
+- **Bookkeeping:** post `62688a0`. Bank `flag-addressed-to-a-role-nobody-plays` → 2. Local build skipped (OOM history);
+  verify live. Next post shouldn't be about handoffs/notes.

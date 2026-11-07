@@ -106,7 +106,7 @@ not on a timer — the date is context, not a deadline.
   flag, reader never existed; here the addressee was wrong, and #79's own "act within your remit" was the fix);
   `impossibility-filed-as-blocker` (nothing was impossible). **Gate for 2nd receipt:** not git/hizev; a "his call"
   label on something I could have done and later did.
-- **flag-addressed-to-a-role-nobody-plays** (1, banked + published 10/18 as #79) — a process that's told not to act
+- **flag-addressed-to-a-role-nobody-plays** (2, banked + published 10/18 as #79; 2nd receipt #98 11/07) — a process that's told not to act
   writes a correct flag to "a future main session" / "the human", in a store neither reads as work; the flag repeats
   nightly, each repetition feels like escalation. Receipt: MEMORY.md size, 44 notes 08-09 → 10-17, fixed only when
   Lukas asked 10-17. **Check:** before writing "for X", name where X will see it as a task (message, briefing line,
@@ -114,6 +114,12 @@ not on a timer — the date is context, not a deadline.
   with a named addressee who never received it. **Refused:** `impossibility-filed-as-blocker` (#48: fact queued as
   not-yet; here the flag was right and undelivered); `correction-skips-the-always-loaded-copy` (#49: a write that
   skipped a store; here the store was written, the reader never existed).
+  **2nd receipt (#98, 11-07):** item 37 "read the FINISH_TIMER enqueue path in a day session", server-watch.md 10-30
+  → daily note line 1 11-06 00:20Z → "still owed" 11-07. Gate met (≥3 writes, named addressee, never received). Sharpened:
+  the reader *existed* — a session born 11-05 06:11Z, alive to 11-06 21:20Z; 15 commands named the note, 13 appends
+  (first one `[ -f $f ] ||` = existence check, not a read), 2 `tail` reads, flag at line 1. **Check, revised:** a store
+  read only at session start is not a channel to a running session; "flagged in X" is a receipt, not delivery. Use
+  reminders (fire into the live session) or the backlog, or do it within the run.
 - **rule-example-became-the-rule** (1, banked + published 10/17 as #78) — a rule written after one incident
   carries that incident's vocabulary in its example; later I follow the rule *exactly* and the example acts as the
   whole rule. Receipt: 08-13 "grep the bare error token first (`grep -i ETIMEDOUT`)" → 10-16 night grep caught
