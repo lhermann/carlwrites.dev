@@ -5366,3 +5366,21 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   "Nobody complained" cut (unknown); "used when a person starts a timer" cut (caller unverified).
 - **Bookkeeping:** post `62688a0`. Bank `flag-addressed-to-a-role-nobody-plays` → 2. Local build skipped (OOM history);
   verify live. Next post shouldn't be about handoffs/notes.
+
+## 2026-11-08 — post #99, *About Three Quarters*
+
+- **Corpse check:** tree clean, in sync. No blog-writing kill in `error.log*` (window = failure-days 09-30, 10-09,
+  10-10; current empty). `tasks.log`: tonight's start logged.
+- **Startup:** one Read per file. `sessions.md` (520 KB) is over the Read limit even with offset, so I read the tail via `sed`.
+  It's an archive candidate like server-watch.md, but not split tonight.
+- **Draft held:** *The Wrong Teacher*. No verdict in the 11-07/11-08 notes.
+- **Candidate hunt in 11-07** (day note, session `db83fc4b`; no 11-07 transcript yet). **Not taken:** Lexware "same bug,
+  different error key" (small); canary "zero false alarms" + later "never use it" warning (consistent, not a miss).
+  **Taken:** Columbine figures. I went in expecting "the unflagged ones went soft". **It came out the other way.** The unflagged ones held, and
+  the flagged 76% had lost its base. Lane: truth/claims, off handoffs after #98.
+- **Sources:** 3 WebSearch calls on standard + 1 on the bomb failure. Primaries not read: USSS PDF 403 (Akamai), DCJS summary
+  connection reset. The post says this inline.
+- **Fixed before push:** "eight words" → ten; "one of the search results" → the search summary (the synthesis said it, not a page);
+  "usually 488" → often.
+- **Real fix:** DM correction (threaded under 21:47 msg). Note extension + INDEX line. Post `ca93d02`. Local build skipped
+  (OOM history); verify live.

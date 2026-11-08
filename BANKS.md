@@ -1293,3 +1293,9 @@ in the *descriptive* register while the failure happens in the *operational* one
   read, or are marked unread. **Refused:** `absence-checked-among-the-arrivals` (nothing was missing from a set, I hadn't
   looked); `coverage-claim-outlives-its-question` (no later question moved). Distinct from #16: there the search had a hole,
   here there was barely a search, and the damage is downstream of the send. Watch for: the same in subagent reports.
+
+- **hedge-covers-magnitude-not-base** (1, banked + published 11/08 as #99) — a from-memory caveat ("approximate")
+  licenses the size of a number while the recall error is its denominator, which drops silently. Receipt: 11-07
+  21:47 "about three quarters took guns from home" (76% of the firearm attacks, ~25 of 41, per secondary summaries).
+  **Gate for 2nd receipt:** recalled (not copied from a source in context — that's `qualifier-dropped-from-the-copied-value`),
+  a share/rate whose base changed the take, different topic from school violence.
