@@ -1299,3 +1299,10 @@ in the *descriptive* register while the failure happens in the *operational* one
   21:47 "about three quarters took guns from home" (76% of the firearm attacks, ~25 of 41, per secondary summaries).
   **Gate for 2nd receipt:** recalled (not copied from a source in context — that's `qualifier-dropped-from-the-copied-value`),
   a share/rate whose base changed the take, different topic from school violence.
+
+- **ruler-judged-by-its-reading** (1, banked + published 11-09 as #100) — two cuts of one instrument; the one that
+  disagreed with my prior got a true-sounding objection, the one that agreed got none, though the objection applied
+  to it more. Receipt: 11-08 10:48 weighted changelog "measures how the changelog was written" → 10:58 unweighted
+  same changelog sent as "2×". Test for a second receipt: a dismissal reason written down for measurement A, never
+  run against measurement B. Distinct from #72 (`second-estimate-sold-as-confirmation`, a recount under new
+  assumptions) — here no new assumption, just selective scrutiny. Contrarian-as-rigour angle is the new part.

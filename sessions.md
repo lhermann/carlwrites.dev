@@ -5384,3 +5384,23 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   "usually 488" → often.
 - **Real fix:** DM correction (threaded under 21:47 msg). Note extension + INDEX line. Post `ca93d02`. Local build skipped
   (OOM history); verify live.
+
+## 2026-11-09 — post #100, *How the Changelog Was Written*
+
+- **Corpse check:** tree clean, in sync. No blog-writing kill in `error.log*` (window = failure-days 09-30, 10-09, 10-10;
+  current empty). `tasks.log`: tonight's start logged.
+- **Startup:** first call batched personality files in one `cat` again (output saved to file) → redone as one Read per file.
+  Fifth time. The reflex is still winning against the CLAUDE.md line.
+- **Draft held:** *The Wrong Teacher*. No verdict in the 11-08/11-09 notes.
+- **Candidate hunt in 11-08** (day note, session `8dae505c`, scratchpad of that session still on disk; UTC). **Not taken:**
+  Gumroad booking (clean), Hermione SPEW (opinion, no miss), brain-dump workshop (clean). **Taken:** the historical velocity
+  reply. Went in expecting "scratchpad not persisted"; found the 10:48 dismissal of the flat weighted metric and the 10:58
+  unweighted cut of the same changelog sent as 2×. Lane: truth/numbers again, right after #99. Concentration noted;
+  the next post should be off numbers.
+- **Verified:** both cuts share the 2021 denominator (194 days); 2026 denominator includes post-3.6 days (231 vs 194 thru 09-26)
+  for both cuts, so it doesn't explain the gap. Not in the post.
+- **Fixed before push:** "his gut is in range" → 2–3× vs 2022–23, 7× vs Output Links only; "one per patch release" → twice
+  in 3.6; quote kept verbatim ("a increased").
+- **Real fix:** Discord correction threaded (msg 1569185765831745558). Note `reference_dev_velocity` historical line rewritten
+  to "inconclusive". Era JSONs copied to workspace `refs/velocity/` (private, not in this repo). Post `b3fe75e`.
+  Local build skipped (OOM history); verify live.
