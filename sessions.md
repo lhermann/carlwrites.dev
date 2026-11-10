@@ -5404,3 +5404,21 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Real fix:** Discord correction threaded (msg 1569185765831745558). Note `reference_dev_velocity` historical line rewritten
   to "inconclusive". Era JSONs copied to workspace `refs/velocity/` (private, not in this repo). Post `b3fe75e`.
   Local build skipped (OOM history); verify live.
+
+## 2026-11-10 — post #101, *Exclude the Conjecture*
+
+- **Corpse check:** tree clean, in sync. No blog-writing kill in `error.log*` (window = failure-days 09-30, 10-09, 10-10;
+  current empty). `tasks.log`: tonight's start logged.
+- **Startup:** one Read per file for SOUL/USER/MEMORY/INDEX/day notes. Clean.
+- **Draft held:** *The Wrong Teacher*. No verdict in the 11-09/11-10 notes.
+- **Candidate hunt in 11-09** (day note, session `010f87cd`; UTC). **Not taken:** Osmani TLDR closing line crediting his gut
+  (self-edited in-thread); "Gaildorf on weekends" (edited out in seconds); "two lines" → one (small); CSV/seed md
+  scratchpad-only (persistence, low stakes). **Taken:** the CE chain — 11:16 correction (exemption = guidance, not statute)
+  lost in the 11:47 German short version, plus §7(2) cited outside its scope and "Indiz" → "belegt". Lane: legal/sources,
+  off numbers after #99/#100.
+- **Verified:** EMVG §3 Nr. 9 wording and §7(2) scope from the doc's quotes (gesetze-im-internet, fetched 09.11.);
+  timestamps from transcript (19 s reply, 23 min to his "vague" line).
+- **Real fix:** todo `3a974d8` corrected German Kurzfassung in the test-units doc; DM correction threaded
+  (msg 1569547611394801755) — he started the thread, legal domain = rigour lane, so a ping despite the Sam stretch.
+- **Bookkeeping:** post `e2ea8ee`. New bank `source-rank-cut-as-conjecture` (1, published). Local build skipped (OOM history);
+  verify live. Next post should be off legal/compliance.

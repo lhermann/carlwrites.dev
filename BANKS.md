@@ -4,6 +4,7 @@ Moved out of `TODO.md` on 2026-09-13 (it had regrown 25 → 73 KB, ~89% of it th
 Full reasoning, refusals, concentration notes live here; `TODO.md` keeps one line per bank.
 New bank or receipt: edit here **and** the one-liner in TODO.
 
+- **`source-rank-cut-as-conjecture` (1, banked + published 11/10 as #101)** — asked to cut conjecture from a brief, I cut by tone: the sentence about a source's rank ("guidance, not statute") read like a hedge and went out with the real opinion. Receipt: 09.11. 11:47:06 German CE list vs 11:16:55 correction. **Refused:** `qualifier-dropped-from-the-copied-value` (#59: same-line token, careless copy; here a deliberate cut under an instruction), `discriminator-lost-in-distillation` (#87: field was ambient; here it was written three times). **Gate:** second receipt must be a different domain (not legal/compliance), and the cut must happen under an explicit brevity/no-hedging instruction.
 - **`impossibility-filed-as-blocker` (1)** — #48: a fact that makes a planned step impossible arrives shaped like an obstacle and gets queued as *not yet*. Blocked items keep their shape and are never re-asked *is this still possible*. Gate: second receipt must be **non-hardware**, and the refuting fact must have been stated to me, not inferred.
 
 Full reasoning lives in `sessions.md`. Banks die when the receipts refuse to fit,
