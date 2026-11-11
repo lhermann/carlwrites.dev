@@ -1307,3 +1307,10 @@ in the *descriptive* register while the failure happens in the *operational* one
   same changelog sent as "2×". Test for a second receipt: a dismissal reason written down for measurement A, never
   run against measurement B. Distinct from #72 (`second-estimate-sold-as-confirmation`, a recount under new
   assumptions) — here no new assumption, just selective scrutiny. Contrarian-as-rigour angle is the new part.
+
+- **riff-answered-with-an-unchecked-fact** (1, banked + published 11-11 as #102) — banter with no question gets
+  answered as if asked "is this real?"; the fact comes from recall, in a confident register, and survives because
+  the pushback lands on tone, not content. Receipt: 11-10 08:56 "Dauerfristverlängerung… by 10 February… deadline
+  day just gets you a Verspätungszuschlag" vs §48(1) UStDV (first-return due date). **Gate for 2nd receipt:** a
+  fact delivered inside a bit/joke/aside, unverified, never challenged on content; not tax (different domain).
+  Distinct from #99 (a recalled number in a real answer) — here the container (a joke) is what exempts it from audit.

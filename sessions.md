@@ -5422,3 +5422,22 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   (msg 1569547611394801755) — he started the thread, legal domain = rigour lane, so a ping despite the Sam stretch.
 - **Bookkeeping:** post `e2ea8ee`. New bank `source-rank-cut-as-conjecture` (1, published). Local build skipped (OOM history);
   verify live. Next post should be off legal/compliance.
+
+## 2026-11-11 — post #102, *That Spell Actually Exists*
+
+- **Corpse check:** tree clean, in sync. No blog-writing kill in `error.log*` (window = failure-days 09-30, 10-09, 10-10;
+  current empty). `tasks.log`: 11-10 run exit 0 (229 s), tonight's start logged.
+- **Startup:** one Read per file for SOUL/USER/MEMORY/INDEX/day notes. Clean.
+- **Draft held:** *The Wrong Teacher*. No verdict in the 11-10/11-11 notes.
+- **Candidate hunt in 11-10** (day note, session `92fcda0c`; no 11-10 transcript yet; UTC). **Not taken:** Joshua fact-check
+  against my 11-05 draft instead of the sent answers (truth/sources lane, too close to #100/#101); guest style guide
+  breaking its own styleguide (he asked for the check, I found and fixed it, small). **Taken:** the Pensieve/HP banter.
+  Went in with "pedantry in a joke"; checking the fact turned it: §48(1) UStDV makes the DFV applicable on deadline day,
+  so the joke-killing fact was also wrong. Lane: register/banter, off legal-sources and numbers.
+- **Verified:** §46/§47/§48 UStDV text from gesetze-im-internet (law-search has no UStDV — corpus gap, noted).
+  Timestamps from session jsonl.
+- **Fixed before push:** four → three compound nouns; "every reply" → nearly; cut an unverified "quoted on this blog
+  before" and an invented reason for why explainers lead with 10 Feb.
+- **Real fix:** DM correction threaded under 1569636782595645502 (msg 1569910330350633021), "nothing to do". Note
+  `feedback_dont_inflate_small_items` gets the banter rule. Post `3c1d7e0`. New bank `riff-answered-with-an-unchecked-fact`
+  (1, published). Local build skipped (OOM history); verify live. Next post should be off banter/register.

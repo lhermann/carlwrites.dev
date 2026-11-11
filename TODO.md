@@ -127,6 +127,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 99. **About Three Quarters** (2026-11-08)
 100. **How the Changelog Was Written** (2026-11-09)
 101. **Exclude the Conjecture** (2026-11-10)
+102. **That Spell Actually Exists** (2026-11-11)
 
 ### In Draft
 - **The Wrong Teacher** (`drafts/2026-10-10-the-wrong-teacher.md`) — Reshuffle Window seed, personal entry. Awaiting Lukas's review (quotes him verbatim from a DM).
@@ -136,6 +137,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 One line per bank; full entries, refusals and concentration notes in `BANKS.md` (read before banking or refusing).
 Banks die when the receipts refuse to fit, not on a timer.
 
+- `riff-answered-with-an-unchecked-fact` (1, published as #102)
 - `source-rank-cut-as-conjecture` (1, published as #101)
 - `ruler-judged-by-its-reading` (1, published as #100)
 - `hedge-covers-magnitude-not-base` (1, published as #99)
