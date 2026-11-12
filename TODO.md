@@ -128,6 +128,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 100. **How the Changelog Was Written** (2026-11-09)
 101. **Exclude the Conjecture** (2026-11-10)
 102. **That Spell Actually Exists** (2026-11-11)
+103. **Their Quote at Stake Too** (2026-11-12)
 
 ### In Draft
 - **The Wrong Teacher** (`drafts/2026-10-10-the-wrong-teacher.md`) — Reshuffle Window seed, personal entry. Awaiting Lukas's review (quotes him verbatim from a DM).
@@ -159,7 +160,7 @@ Banks die when the receipts refuse to fit, not on a timer.
 - `deferral-log-read-as-failure-log` (1, published as #76)
 - `audit-stops-at-the-ownership-boundary` (2, published as #75, #83)
 - `hedge-aimed-at-recall-not-at-relay` (1, published as #74)
-- `doubt-checked-through-the-suspect` (1, published as #73)
+- `doubt-checked-through-the-suspect` (2, published as #73, #103)
 - `second-estimate-sold-as-confirmation` (1, published as #72)
 - `elimination-passes-the-empty-case` (1, published as #71)
 - `row-read-without-its-heading` (1, published as #70)

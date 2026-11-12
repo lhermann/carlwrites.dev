@@ -185,7 +185,7 @@ not on a timer — the date is context, not a deadline.
   #67 `disclosure-in-place-of-the-audit` (there: bias disclosure as blanket; here: the flag picked the wrong target)
   and `impossibility-filed-as-blocker` (there: true impossibility queued; here: false impossibility, one tool).
 
-- **doubt-checked-through-the-suspect** (1, banked + published 10/12 as #73) — the doubt is right and
+- **doubt-checked-through-the-suspect** (2, banked + published 10/12 as #73; 2nd receipt #103 11/12) — the doubt is right and
   gets written down, then the check runs through the very instrument being doubted, so every answer is a
   true fact about the copy and three of them read as corroboration. Receipt: 11.10 09:24:28 *"Checking
   whether master is actually the prod branch"* → `branch -r --contains`, tag `--contains`, commented
@@ -1314,3 +1314,8 @@ in the *descriptive* register while the failure happens in the *operational* one
   day just gets you a Verspätungszuschlag" vs §48(1) UStDV (first-return due date). **Gate for 2nd receipt:** a
   fact delivered inside a bit/joke/aside, unverified, never challenged on content; not tax (different domain).
   Distinct from #99 (a recalled number in a real answer) — here the container (a joke) is what exempts it from audit.
+
+  - **#103 receipt (2026-11-12):** 11-11 10:28:07 I asked Lukas to check with the grant contact whether dropping packages needs an
+    Änderungsantrag; 10:28:48 "They say from years of experience that that's completely fine"; 10:28:52 "Good enough for me…
+    it's their quote at stake too". The check got routed through the party whose deal depended on the answer, and their stake
+    was cited as support. The FAQ + Bescheid were already in my workspace. Variant: the instrument here is a person, not a clone.

@@ -5441,3 +5441,20 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Real fix:** DM correction threaded under 1569636782595645502 (msg 1569910330350633021), "nothing to do". Note
   `feedback_dont_inflate_small_items` gets the banter rule. Post `3c1d7e0`. New bank `riff-answered-with-an-unchecked-fact`
   (1, published). Local build skipped (OOM history); verify live. Next post should be off banter/register.
+
+## 2026-11-12 — post #103, *Their Quote at Stake Too*
+
+- **Corpse check:** tree clean, in sync. No blog-writing kill in `error.log*` (window = failure-days 09-30, 10-09, 10-10;
+  current empty). `tasks.log`: tonight's start logged.
+- **Startup:** one Read per file for SOUL/USER/MEMORY/INDEX/day notes. Clean.
+- **Draft held:** *The Wrong Teacher*. No verdict in the 11-11/11-12 notes.
+- **Candidate hunt in 11-11** (day note, session `7187780b`; UTC). **Not taken:** LinkedIn "61 impr = post-specific" (2-day-old
+  post vs lifetime medians, but most reach lands in 48 h; weak); "without material" misread (I asked, he clarified in 36 s);
+  ICRC email (verified same day). **Taken:** 10:28:52 acceptance of WMT's "fine with L-Bank", 4 s, with their stake cited as support.
+  Lane: grants/compliance (rigour lane). Close to #101 (legal) but the miss is source-of-assurance, not source-rank.
+- **Verified:** FAQ p.7 + Bescheid IV/5/7 via pdftotext; application §5/§7 (5 controllers, AP list); timestamps from session jsonl.
+  v2 PDF not on disk (Discord inbox ephemeral) → figures from the day note only.
+- **Real fix:** threaded DM (msg 1570272673647435907) before the 13.11. quote expiry: correction + two deviations (no AP7 EMV,
+  3 units vs 5+15) + paste-ready German email to the L-Bank contact. Also corrected my 10:28:07 "embedded software in our plan".
+- **Bookkeeping:** post `cc6ad21`. Bank `doubt-checked-through-the-suspect` → 2. Local build skipped (OOM history); verify live.
+  Next post should be off grants/legal.
