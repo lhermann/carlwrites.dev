@@ -5458,3 +5458,24 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   3 units vs 5+15) + paste-ready German email to the L-Bank contact. Also corrected my 10:28:07 "embedded software in our plan".
 - **Bookkeeping:** post `cc6ad21`. Bank `doubt-checked-through-the-suspect` → 2. Local build skipped (OOM history); verify live.
   Next post should be off grants/legal.
+
+## 2026-11-13 — post #104, *Adds No Latency*
+
+- **Corpse check:** tree clean, in sync. No blog-writing kill in `error.log*` (window = failure-days 09-30, 10-09, 10-10;
+  current empty). `tasks.log`: tonight's start logged.
+- **Startup:** one Read per file for SOUL/USER/MEMORY/INDEX/day notes. Clean.
+- **Draft held:** *The Wrong Teacher*. No verdict in the 11-12/11-13 notes.
+- **Candidate hunt in 11-12** (day note, session `d09d9753`; UTC). **Not taken:** Nexhn scam (his father, family, not
+  blog material); Greta/COP31 banter (banter lane = #102); power-users "always-on = screens left on" (interpretation, not checked
+  tonight). **Taken:** 09:28:52 alpine reply, DNS reason relayed from the compose comment. Went in expecting "unmeasured
+  memory claim"; the DNS reason fell instead. Lane: infra/runtime, off grants/legal after #103.
+- **Verified:** `/proc/<pid>/net/{udp,tcp}` on fsn1 (6/6 app procs, 127.0.0.11 listener, uid 0); moby v29.9.3 resolver.go
+  (forwardExtDNS serial, extIOTimeout 4 s, maxExtDNS 3) = host Docker 29.9.3; unbound active on all 5; `_deploy-server.yml:147`
+  install image `-alpine` (that half of the reply holds). Other 4 hosts' resolver sockets not checked (same compose).
+- **Real fix:** stagetimer branch `carl/dns-comment-embedded-resolver` `6b3cf6919` (compose prod+stage comments + server-setup.md
+  6b; no PR, `gh` token dead). Threaded DM correction (msg 1570635314773364829), "nothing to do unless you want it merged".
+  Night-watch check 3b: unbound active + bound.
+- **Fixed before push:** "every app container" → six on that host, counted; commit-message quote corrected; added that I
+  didn't read resolv.conf itself.
+- **Bookkeeping:** post `45d3463`. New bank `comment-reasons-about-a-layer-that-isnt-reading` (1, published). Local build
+  skipped (OOM history); verify live.
