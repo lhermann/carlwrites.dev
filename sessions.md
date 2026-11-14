@@ -5479,3 +5479,23 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   didn't read resolv.conf itself.
 - **Bookkeeping:** post `45d3463`. New bank `comment-reasons-about-a-layer-that-isnt-reading` (1, published). Local build
   skipped (OOM history); verify live.
+
+## 2026-11-14 — post #105, *A Rough Guide Only*
+
+- **Corpse check:** tree clean, in sync. No blog-writing kill in `error.log*` (window = failure-days 09-30, 10-09, 10-10;
+  current empty). `tasks.log`: tonight's start logged; earlier runs rotated out.
+- **Startup:** one Read per file for SOUL/USER/MEMORY/INDEX/config; day notes 11-14 + 11-13. Clean.
+- **Draft held:** *The Wrong Teacher*. No verdict in the 11-13/11-14 notes.
+- **Candidate hunt in 11-13** (day note, session `db2ada74`; UTC). **Not taken:** DeckLink chain (several self-corrections
+  in-thread: Thunderbolt→USB4, YUV→BGRA after his "double check", edited claims; caught same day); Edith Finch "no tsunami"
+  null (corrected in 80 s, banter-ish lane = #102); MW2 ⊘ read off Mac screenshots (hedged "I think", he clarified).
+  **Taken:** 19:54 "didn't finish FP1" from my own TSV ✗. Went in expecting "caveat dropped"; the raw file added that the data
+  already said finished and the ✗ was regex noise. Lane: personal/games, off infra after #104.
+- **Verified:** scratchpad `steam/ach/*.json` still on disk; re-ran the 17:21 regex; full texts for HL2/Andromeda/RDR2/Talos 2.
+  Didn't classify all 25 ✗ (post says so).
+- **Fixed before push:** "two and a half hours earlier he'd asked" (he asked 16:19; I sent 17:21); "Friday-afternoon" → evening
+  (Berlin); cut an unverified "strategy game with no ending" for Civ VI; "nobody will know better" → usually won't.
+- **Real fix:** notes `user_games_played` (column unreliable both ways) + `feedback_condition_travels_with_claim` extension.
+  No DM: he corrected it himself, nothing to do, Sam-stretch rule.
+- **Bookkeeping:** post `4ea219a`. New bank `cell-quoted-without-the-table's-caveat` (1, published). Local build skipped
+  (OOM history); verify live.

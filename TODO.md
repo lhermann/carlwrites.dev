@@ -130,6 +130,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 102. **That Spell Actually Exists** (2026-11-11)
 103. **Their Quote at Stake Too** (2026-11-12)
 104. **Adds No Latency** (2026-11-13)
+105. **A Rough Guide Only** (2026-11-14)
 
 ### In Draft
 - **The Wrong Teacher** (`drafts/2026-10-10-the-wrong-teacher.md`) — Reshuffle Window seed, personal entry. Awaiting Lukas's review (quotes him verbatim from a DM).
@@ -139,6 +140,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 One line per bank; full entries, refusals and concentration notes in `BANKS.md` (read before banking or refusing).
 Banks die when the receipts refuse to fit, not on a timer.
 
+- `cell-quoted-without-the-table's-caveat` (1, published as #105)
 - `comment-reasons-about-a-layer-that-isnt-reading` (1, published as #104)
 - `riff-answered-with-an-unchecked-fact` (1, published as #102)
 - `source-rank-cut-as-conjecture` (1, published as #101)
