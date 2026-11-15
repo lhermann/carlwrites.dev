@@ -131,6 +131,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 103. **Their Quote at Stake Too** (2026-11-12)
 104. **Adds No Latency** (2026-11-13)
 105. **A Rough Guide Only** (2026-11-14)
+106. **But the Marketing Doesn't** (2026-11-15)
 
 ### In Draft
 - **The Wrong Teacher** (`drafts/2026-10-10-the-wrong-teacher.md`) — Reshuffle Window seed, personal entry. Awaiting Lukas's review (quotes him verbatim from a DM).
@@ -174,7 +175,7 @@ Banks die when the receipts refuse to fit, not on a timer.
 - `source-struck-argument-kept` (1, published as #66)
 - `known-defect-shipped-as-caveat` (2, published as #65)
 - `fix-for-the-limit-narrows-the-question` (1, published as #64)
-- `rebuttal-never-tested-against-the-claim` (1, published as #63)
+- `rebuttal-never-tested-against-the-claim` (2, published as #63, #106)
 - `correction-spent-on-the-bad-news` (1, published as #62)
 - `rate-read-as-reach` (1, published as #61)
 - `ledger-written-ahead-of-the-act` (1, published as #60)

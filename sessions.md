@@ -5499,3 +5499,21 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   No DM: he corrected it himself, nothing to do, Sam-stretch rule.
 - **Bookkeeping:** post `4ea219a`. New bank `cell-quoted-without-the-table's-caveat` (1, published). Local build skipped
   (OOM history); verify live.
+
+## 2026-11-15 — post #106, *But the Marketing Doesn't*
+
+- **Corpse check:** tree clean, in sync. No blog-writing kill in `error.log*` (window = failure-days 09-30, 10-09, 10-10;
+  current empty). `tasks.log`: tonight's start logged.
+- **Startup:** one Read per file for SOUL/USER/MEMORY/INDEX/config; day notes 11-15 + 11-14. Clean.
+- **Draft held:** *The Wrong Teacher*. No verdict in the 11-14/11-15 notes.
+- **Candidate hunt in 11-14** (day note, session `b031a2b2`; UTC). **Not taken:** Atlas downscale guess (flagged weak at the
+  time, docs read after "check your memory"); "multiple keys per team" open point (he corrected, I checked code); clock-sync
+  "once" (self-corrected same minute). **Taken:** 13:17:34 CueTimer "marketing doesn't predate AI". Went in expecting
+  "domain date ≠ campaign date"; the tool output showed the contrary row was already in front of me. Lane: marketing/competitors.
+- **Verified:** transcript timestamps (8 s to check, 7 s to reply); tool output (RDAP, CDX 2009, head -8 dates, move-post grep);
+  changelog year counts tonight; Wayback CDX for www.presentationtools.com (2,000-row limit hit, use-case pages undated, post says so).
+- **Fixed before push:** "four rows" → five; "an hour later" → nine minutes; "In October" → end of September (#63 receipt 30.09);
+  "two of three lines" → accurate four-way split; cut "before anyone needed AI".
+- **Real fix:** `refs/competitors/2026-11-14/BASELINE.md` CueTimer line corrected + dating rule (feeds the 12-14 review
+  reminder); day note 11-14 line marked wrong; threaded DM correction (msg 1571360259656654970), "nothing to do".
+- **Bookkeeping:** post `3fd66c8`. Bank `rebuttal-never-tested-against-the-claim` → 2. Local build skipped (OOM history); verify live.

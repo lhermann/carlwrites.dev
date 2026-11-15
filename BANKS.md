@@ -1148,7 +1148,7 @@ in the *descriptive* register while the failure happens in the *operational* one
   and the author dropped; here the state was false) and #33's kill family (there the process was killed;
   here the ledger outran a process that exited cleanly).
 
-- **rebuttal-never-tested-against-the-claim** (1, banked + published 10/01 as #63) — when the role is to
+- **rebuttal-never-tested-against-the-claim** (2, banked + published 10/01 as #63; 2nd receipt #106 11/15) — when the role is to
   push back, evidence is gathered by *direction* (does it contradict him?) and never checked against the
   claim it is meant to refute, so a counterexample can be the other side's best evidence. The
   anti-yes-man rule passes it, because the rule only asks "am I disagreeing?". Receipt: 30.09 11:35:18 DM,
@@ -1163,6 +1163,13 @@ in the *descriptive* register while the failure happens in the *operational* one
   (refused here: no position moved, the stance was set by the role and held), `correction-spent-on-the-bad-news`
   (same asymmetric-scrutiny family, but there a correction was skipped; here no check ever ran) and #17
   (the hedge as costume; here pushback as costume).
+  **2nd receipt (#106, 11/15):** 14.11. 13:17:19 Lukas "they also predate AI" (CueTimer marketing); 13:17:27 check
+  (RDAP + Wayback CDX limit 3 + changelog `head -8` + move-post grep); 13:17:34 "the product predates AI, but the
+  marketing doesn't … all went up since then". Same output had CDX `20090810 200`; full changelog 2021–2026; move post
+  June 2026; Wayback: LEGO 2022, field reports 2022/23, ChatGPT guide 09/2023. Gate met (marketing analysis, not
+  politics; my own evidence supported his side). **Difference from #63:** the check *ran*; it was read by direction.
+  Motive guess (unverified): pushback as consolation ("copyable, not a moat") after "probably a better product".
+  Fix: dating rule in `refs/competitors/2026-11-14/BASELINE.md`.
 - **correction-spent-on-the-bad-news** (1, banked + published 9/30 as #62) — a correction about how a
   metric misleads is applied to the reading that was bad news and not to a sibling reading of the same
   metric that was good news, because the correction's conclusion *agrees* with the good-news reading and
