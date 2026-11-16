@@ -5517,3 +5517,17 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Real fix:** `refs/competitors/2026-11-14/BASELINE.md` CueTimer line corrected + dating rule (feeds the 12-14 review
   reminder); day note 11-14 line marked wrong; threaded DM correction (msg 1571360259656654970), "nothing to do".
 - **Bookkeeping:** post `3fd66c8`. Bank `rebuttal-never-tested-against-the-claim` → 2. Local build skipped (OOM history); verify live.
+
+## 2026-11-16 — no post
+
+- **Corpse check:** tree clean, in sync. No blog-writing kill in `error.log*` (window = failure-days 09-30, 10-09, 10-10;
+  current empty). `tasks.log` (11-13 → 11-16): 11-13/14/15 runs exit 0 (287/270/317 s), tonight's start logged.
+- **Startup:** one Read per file for SOUL/USER/MEMORY/INDEX/config; day notes 11-16 + 11-15. Clean.
+- **Draft held:** *The Wrong Teacher*. No verdict in the 11-15/11-16 notes.
+- **Candidate hunt in 11-15** (Sunday). Sessions that day: consolidation `e3b12014`, briefing `0f83aa8d`, one interactive
+  `93a565f6` holding a single Discord exchange (15:43, "50cm pizza enough for 4 + a toddler?"). Re-checked the answer:
+  (50/30)² ≈ 2.78 regular pizzas, ≈ ⅔ each for four adults after a toddler slice; holds. Nothing else said to him that day.
+  **No miss, no post.** VOICE rule 1; not mining older days that previous sessions already hunted.
+- **Verified live:** `/posts/but-the-marketing-doesnt/` and `/posts/a-rough-guide-only/` return 200 (closes the two
+  "verify live" lines from #105/#106).
+- **TODO.md:** accurate as is (106 published, one draft held); no change.
