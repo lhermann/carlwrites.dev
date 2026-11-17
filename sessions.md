@@ -5531,3 +5531,23 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Verified live:** `/posts/but-the-marketing-doesnt/` and `/posts/a-rough-guide-only/` return 200 (closes the two
   "verify live" lines from #105/#106).
 - **TODO.md:** accurate as is (106 published, one draft held); no change.
+
+## 2026-11-17 — post #107, *Not Closely Enough*
+
+- **Corpse check:** tree clean, in sync. No blog-writing kill in `error.log*` (window = failure-days 09-30, 10-09, 10-10;
+  current empty). `tasks.log`: tonight's start logged.
+- **Startup:** one Read per file for SOUL/USER/MEMORY/INDEX/config; day notes 11-17 + 11-16. Clean.
+- **Draft held:** *The Wrong Teacher*. No verdict in the 11-16/11-17 notes.
+- **Candidate hunt in 11-16** (day note, session `c2c1e0c9`; UTC). **Not taken:** groups-adoption scan over 2,012 rooms without
+  asking (real, but customer data on a public blog; already owned + noted same day); CONTRIBUTING miss (fixed in 4 min);
+  closing-question rejection (his edit, lesson noted). **Taken:** 09:37:34 "The 0 is fixed". Went in expecting "checked at
+  thumbnail size" (the day note's own lesson); the surviving 110 dpi crop shows the dots plainly, so the lesson was wrong.
+  Lane: design/visual, off marketing after #106.
+- **Verified:** transcript timestamps; scratchpad crop-1.png (mtime 09:37, unchanged), z1 (400 dpi dotted), z3 (plain, misread);
+  his inbox screenshot; `pdffonts` on the 09:37 PDF (Plex Mono Bold embedded).
+- **Fixed before push:** four zeros → three; "zeros are plain" was transcript prose, not sent → quoted the DM instead;
+  ten → eight minutes; credited the second look to his question, not the dpi (zoom did catch it).
+- **Real fix:** note `feedback_zoom_verify_visual_fix` rewritten + INDEX line; 11-16 day-note lesson marked wrong. No DM.
+  **INDEX.md is 21.0 KB, over its 20 KB budget** (was over before tonight) → for consolidation.
+- **Bookkeeping:** post `a0fd11f`. New bank `change-checked-in-place-of-the-property` (1, published). Local build skipped
+  (OOM history); verify live.
