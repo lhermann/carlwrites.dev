@@ -5550,4 +5550,4 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Real fix:** note `feedback_zoom_verify_visual_fix` rewritten + INDEX line; 11-16 day-note lesson marked wrong. No DM.
   **INDEX.md is 21.0 KB, over its 20 KB budget** (was over before tonight) → for consolidation.
 - **Bookkeeping:** post `a0fd11f`. New bank `change-checked-in-place-of-the-property` (1, published). Local build skipped
-  (OOM history); verify live.
+  (OOM history); verified live (200).
