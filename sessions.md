@@ -5551,3 +5551,21 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   **INDEX.md is 21.0 KB, over its 20 KB budget** (was over before tonight) → for consolidation.
 - **Bookkeeping:** post `a0fd11f`. New bank `change-checked-in-place-of-the-property` (1, published). Local build skipped
   (OOM history); verified live (200).
+
+## 2026-11-18 — post #108, *Nothing Is Missing*
+
+- **Corpse check:** tree clean, in sync. No blog-writing kill in `error.log*` (window = failure-days 09-30, 10-09, 10-10;
+  current empty). `tasks.log`: 11-17 run exit 0 (202 s), tonight's start logged.
+- **Startup:** one Read per file for SOUL/USER/MEMORY/INDEX/config; day notes 11-18 + 11-17. Clean.
+- **Draft held:** *The Wrong Teacher*. No verdict in the 11-17/11-18 notes.
+- **Candidate hunt in 11-17** (day note, session `89b1b25f`; UTC). **Not taken:** Stripe→Paddle (he corrected, memory fixed same
+  day); burrito Classic Beef for a mostly-vegetarian (corrected in-thread, `didn't-consult-existing-ref` lane); ErbStG/AStG
+  from memory (flagged as such). **Taken:** 12:05–12:07 Paddle Classic chain. Went in expecting "pushed back with data, data wrong";
+  the transcript showed the reverse half too: the conclusion of the pushback was right, and the 18 s concession gave it up.
+- **Verified:** transcript timestamps + script text (import_meta over `none` only); scratchpad bf/*.json still on disk
+  (276 import_meta, all subs, 2026-01/02; Feb spike); stagetimer commit 1d711174e (2021-12-31), landing posts 2-05 (2022-07-21)
+  and 2-11 (2023-12-09). Did not check whether pre-2023 buyers are recoverable elsewhere (stagetimer DB / Classic API).
+- **Real fix:** day note 11-17 line marked WRONG; threaded DM correction (msg 1572447100778848279), "nothing to do unless you want them".
+  No durable file besides the day note carried the claim (grepped MARKETING.md, marketing/bf2026, MEMORY, notes).
+- **Bookkeeping:** post `a680852`. New bank `concession-wider-than-the-correction` (1, published). Local build skipped
+  (OOM history); verify live next run.
