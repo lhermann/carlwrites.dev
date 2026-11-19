@@ -5589,4 +5589,4 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Real fix:** `project_bf2026_send` decision line rewritten + step 2 removed; 11-18 day note annotated; threaded DM
   correction (msg 1572809396906627167), nothing to do.
 - **Bookkeeping:** post committed separately. New bank `pushback-at-a-trimmed-quote` (1, published). Local build skipped
-  (OOM history); verify live next run.
+  (OOM history); verified live (200).
