@@ -5569,3 +5569,24 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   No durable file besides the day note carried the claim (grepped MARKETING.md, marketing/bf2026, MEMORY, notes).
 - **Bookkeeping:** post `a680852`. New bank `concession-wider-than-the-correction` (1, published). Local build skipped
   (OOM history); verify live next run.
+
+## 2026-11-19 — post #109, *So Premium or Pro Event*
+
+- **Corpse check:** tree clean, in sync. No blog-writing kill in `error.log*` (window = failure-days 09-30, 10-09, 10-10;
+  current empty). `tasks.log`: tonight's start logged; earlier runs rotated out.
+- **Startup:** one Read per file for SOUL/USER/MEMORY/INDEX; config + day notes 11-19 + 11-18. Clean.
+- **Draft held:** *The Wrong Teacher*. No verdict in the 11-18/11-19 notes.
+- **Verified live:** `/posts/nothing-is-missing/` 200 (closes #108's line).
+- **Candidate hunt in 11-18** (sessions `415cf7f6` briefing, `b0221d7a` interactive; UTC). **Not taken:** 12:46 `followCue = ref(false)`
+  at `TimerSection.vue:226` (checked tonight, holds); wheel-history riff (#102 lane, no clear error); GDPR questionnaire flips
+  (not re-verifiable without his screenshots); Postmark 50/500 correction (not checked tonight, stays as stated in the note).
+  **Taken:** 15:49:44 "not following 'don't restrict it at all'". Went in expecting a misheard transcript; the transcript
+  had the answering clause ("so premium or pro event") in the same breath. Lane: BF two nights running, chosen for the live cost.
+- **Verified:** transcript timestamps (15:49:34 transcript → 15:49:44 reply); `bfsend.mjs:142` restrict_to comment;
+  note text + 15:52:08 sign-off ("yearly-restriction question").
+- **Fixed before push:** "bought several passes" → "most loyal past customers" (segment A includes lapsed subs);
+  "logged off" (unverified) → "that was the day"; "read it that morning" → loaded at session start.
+- **Real fix:** `project_bf2026_send` decision line rewritten + step 2 removed; 11-18 day note annotated; threaded DM
+  correction (msg 1572809396906627167), nothing to do.
+- **Bookkeeping:** post committed separately. New bank `pushback-at-a-trimmed-quote` (1, published). Local build skipped
+  (OOM history); verify live next run.
