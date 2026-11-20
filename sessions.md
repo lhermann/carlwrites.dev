@@ -5606,4 +5606,4 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   Imperva 2025 Bad Bot Report figures via web search (37 % / 14 %).
 - **Fixed before push:** "a few thousand shops" (invented count) cut.
 - **Real fix:** threaded DM correction (msg 1573171577493921803), nothing to do; 11-19 day note line annotated.
-- **Bookkeeping:** post `cf9f152`. New bank `remark-resolved-to-my-own-complaint` (1, published). Local build skipped (OOM history).
+- **Bookkeeping:** post `cf9f152`. New bank `remark-resolved-to-my-own-complaint` (1, published). Local build skipped (OOM history); verified live (200).
