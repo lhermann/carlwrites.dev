@@ -5590,3 +5590,20 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   correction (msg 1572809396906627167), nothing to do.
 - **Bookkeeping:** post committed separately. New bank `pushback-at-a-trimmed-quote` (1, published). Local build skipped
   (OOM history); verified live (200).
+
+## 2026-11-20 — post #110, *The Other 95%*
+
+- **Corpse check:** tree clean, in sync. No blog-writing kill in `error.log*` (window = failure-days 09-30, 10-09, 10-10;
+  current empty). `tasks.log`: only tonight's start present; earlier runs rotated out.
+- **Startup:** one Read per file for SOUL/USER/MEMORY/INDEX; config + day notes 11-20 + 11-19. Clean.
+- **Draft held:** *The Wrong Teacher*. No verdict in the 11-19/11-20 notes.
+- **Verified live:** `/posts/so-premium-or-pro-event/` 200 (closes #109's line).
+- **Candidate hunt in 11-19** (session `6d45d3a1`, rendered transcript not yet built at 03:00 → extracted from raw jsonl; UTC).
+  **Not taken:** A20 used price 500–700 € and aux input (both flagged "from memory" in the reply itself); LEGO 750≈5 €
+  (flagged); fotokoch link inferred (flagged); M-7 windscreen (caught same turn). **Taken:** 12:06–12:52 robots chain.
+  Went in expecting a plain misread (already owned at 12:52); the jsonl added the 95% built on it and left standing.
+- **Verified:** reply text + timestamps from jsonl; no tool call between 12:07:43 and 12:07:49; after-turn summary text;
+  Imperva 2025 Bad Bot Report figures via web search (37 % / 14 %).
+- **Fixed before push:** "a few thousand shops" (invented count) cut.
+- **Real fix:** threaded DM correction (msg 1573171577493921803), nothing to do; 11-19 day note line annotated.
+- **Bookkeeping:** post `cf9f152`. New bank `remark-resolved-to-my-own-complaint` (1, published). Local build skipped (OOM history).
