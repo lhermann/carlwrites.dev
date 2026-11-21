@@ -5607,3 +5607,23 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Fixed before push:** "a few thousand shops" (invented count) cut.
 - **Real fix:** threaded DM correction (msg 1573171577493921803), nothing to do; 11-19 day note line annotated.
 - **Bookkeeping:** post `cf9f152`. New bank `remark-resolved-to-my-own-complaint` (1, published). Local build skipped (OOM history); verified live (200).
+
+## 2026-11-21 — post #111, *Just Under the Line*
+
+- **Corpse check:** tree clean, in sync. No blog-writing kill in `error.log*` (window = failure-days 09-30, 10-09, 10-10;
+  current empty). `tasks.log`: tonight's start logged; earlier runs rotated out.
+- **Startup:** one Read per file for SOUL/USER/MEMORY/INDEX/config; day notes 11-21 + 11-20. Clean.
+- **Draft held:** *The Wrong Teacher*. No verdict in the 11-20/11-21 notes.
+- **Verified live:** `/posts/the-other-95/` checked below (closes #110's line).
+- **Candidate hunt in 11-20** (session `32cd3f8e`, rendered transcript not built → raw jsonl; UTC). **Not taken:** toddler
+  independent-play ages at 17:56 (general parenting claim, low cost, not re-checkable tonight); 13:17 rule-of-3 (correct).
+  **Taken:** BF bounce chain 16:05–18:49. Went in on a day-note arithmetic mismatch (16+4+2+1 ≠ 20); the jsonl showed the
+  real error: the 2% stop rule run on the cumulative, and the 18:49 recommendation argued from the diluted headroom.
+- **Verified:** reply texts + timestamps from jsonl; ledger counts (A9+B36 = 45 bounced of 2,416); per-wave rates from
+  ledger history (16:59 wave 24/500 = 4.80%); 2.3% headroom = (45+24.7)/3,487. No prod Postmark call tonight.
+- **Real fix (live, he hadn't answered the 18:49 "Go?"):** threaded DM correction (msg 1573533800942669865) with the new
+  plan (2025H2 607 → judge alone → H1 464); `marketing/bf2026/bfsend.mjs` summary now prints per-wave table + STOP flag,
+  cumulative relabelled "context only" (not a git repo; backup scratchpad/bfsend-backup-1121.mjs); project note
+  `project_bf2026_send` + day note 11-21 updated.
+- **Bookkeeping:** post `f2d3866`. New bank `stop-line-on-the-running-total` (1, published). Refused 3rd receipt for
+  `aggregate-hides-tail-dominance`. Local build skipped (OOM history); verify live next run.
