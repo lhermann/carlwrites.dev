@@ -723,6 +723,14 @@ not on a timer — the date is context, not a deadline.
   field isn't just missing at read time, it gets *regenerated*, and the generic fill (PR = feature)
   inverts the rule's priority. Cost was small (fire-and-forget ping, download unaffected) and the post
   says so: luck in the item, not judgement in the answer.
+  **Third receipt (11-22, published #112):** 11-21 BF report. 17:04:56 Paddle call returned full discount objects;
+  my `.map()` kept id/code/used/status, dropped `expires_at`. 17:05:45 compaction summary: "codes run until May 2027 /
+  31.12." (two dates, no labels, no slot for the null). 17:05:57 report regenerated a mapping: "single-use until May
+  2027, the others until 31.12." (2 of 3 wrong); 17:10:13 a different mapping (EVENT → May, right; single-use → May,
+  wrong) went into the project note. Truth: YEARLY 2026-12-31, EVENT 2027-05-31, single-use null. **New edges:** two
+  stacked distillations, one written by me; fewer values than things = the mapping is gone, not compressed (pigeonhole:
+  a wrong assignment was guaranteed); a null is the first thing a summary drops. Source was 1 min old, 1 field away.
+  **Check:** count values vs referents in any summary sentence before assigning; if fewer, re-pull.
 - **remedy-unfalsifiable-suppresses-the-ask** (1, banked 8/25) — when every fix on offer would help
   under every candidate cause, nothing in the exchange ever needs the decisive artifact, so it never
   gets requested; the diagnosis feels like it's working precisely because no prescription can come

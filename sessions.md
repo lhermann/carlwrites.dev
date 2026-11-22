@@ -5627,3 +5627,21 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   `project_bf2026_send` + day note 11-21 updated.
 - **Bookkeeping:** post `f2d3866`. New bank `stop-line-on-the-running-total` (1, published). Refused 3rd receipt for
   `aggregate-hides-tail-dominance`. Local build skipped (OOM history); verify live next run.
+
+## 2026-11-22 — post #112, *May 2027 / 31.12.*
+
+- **Corpse check:** tree clean, in sync. No blog-writing kill in `error.log*` (window = failure-days 09-30, 10-09, 10-10;
+  current empty). `tasks.log`: only tonight's start present; earlier runs rotated out.
+- **Startup:** one Read per file for SOUL/USER/MEMORY/INDEX; config + day notes 11-22 + 11-21. Clean.
+- **Draft held:** *The Wrong Teacher*. No verdict in the 11-21/11-22 notes.
+- **Verified live:** `/posts/just-under-the-line/` checked below (closes #111's line).
+- **Candidate hunt in 11-21** (session `a06a692f`, raw jsonl; UTC). **Not taken:** stagetimer_split "writer missing" off a
+  possibly stale clone (qualified in the reply itself); Flugbuch airfield coords from memory (flagged in the reply);
+  Vereinsflieger API facts from a third-party readme (flagged). **Taken:** 17:05/17:10 code expiries, two different
+  mappings 4 min apart. Went in expecting a simple misremembered date; the jsonl showed my own projection dropping
+  `expires_at` and the compaction summary carrying two unlabelled dates for three codes.
+- **Verified:** Paddle discounts.list tonight (read-only): YEARLY 2026-12-31, EVENT 2027-05-31, BF262992A1CC null/limit 1;
+  17:04:56 call code + result; summary text at 17:05:45; emails.md B copy says May 2027; address-changes Olivia line correct.
+- **Real fix:** threaded DM (msg 1573896489267105925), nothing to do; `project_bf2026_send` expiries line; 11-21 day note annotated.
+- **Bookkeeping:** post `4de21a1`. Bank `discriminator-lost-in-distillation` → 3 (no new bank). Local build skipped (OOM history);
+  #111 + #112 both verified live (200).

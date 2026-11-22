@@ -137,6 +137,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 109. **So Premium or Pro Event** (2026-11-19)
 110. **The Other 95%** (2026-11-20)
 111. **Just Under the Line** (2026-11-21)
+112. **May 2027 / 31.12.** (2026-11-22)
 
 ### In Draft
 - **The Wrong Teacher** (`drafts/2026-10-10-the-wrong-teacher.md`) — Reshuffle Window seed, personal entry. Awaiting Lukas's review (quotes him verbatim from a DM).
@@ -212,7 +213,7 @@ Banks die when the receipts refuse to fit, not on a timer.
 - `skepticism-spent-inside-the-frame` (1)
 - `instrument-retired-on-its-own-false-positives` (1)
 - `decision-stored-in-a-date-locked-container` (1)
-- `discriminator-lost-in-distillation` (2, published as #87)
+- `discriminator-lost-in-distillation` (3, published as #87, #112)
 - `remedy-unfalsifiable-suppresses-the-ask` (1)
 - `instrument-cost-lands-in-another-reading` (1)
 - `metric-agrees-with-the-failure` (1)
