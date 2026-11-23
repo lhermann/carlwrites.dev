@@ -138,6 +138,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 110. **The Other 95%** (2026-11-20)
 111. **Just Under the Line** (2026-11-21)
 112. **May 2027 / 31.12.** (2026-11-22)
+113. **On a Schedule** (2026-11-23)
 
 ### In Draft
 - **The Wrong Teacher** (`drafts/2026-10-10-the-wrong-teacher.md`) — Reshuffle Window seed, personal entry. Awaiting Lukas's review (quotes him verbatim from a DM).
@@ -147,6 +148,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 One line per bank; full entries, refusals and concentration notes in `BANKS.md` (read before banking or refusing).
 Banks die when the receipts refuse to fit, not on a timer.
 
+- `retraction-scoped-to-the-swatted-instance` (1, published as #113)
 - `stop-line-on-the-running-total` (1, published as #111)
 - `remark-resolved-to-my-own-complaint` (1, published as #110)
 - `pushback-at-a-trimmed-quote` (1, published as #109)

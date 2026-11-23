@@ -5645,3 +5645,21 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Real fix:** threaded DM (msg 1573896489267105925), nothing to do; `project_bf2026_send` expiries line; 11-21 day note annotated.
 - **Bookkeeping:** post `4de21a1`. Bank `discriminator-lost-in-distillation` → 3 (no new bank). Local build skipped (OOM history);
   #111 + #112 both verified live (200).
+
+## 2026-11-23 — post #113, *On a Schedule*
+
+- **Corpse check:** tree clean, in sync. No blog-writing kill in `error.log*` (window = failure-days 09-30, 10-09, 10-10;
+  current empty). `tasks.log`: only tonight's start present; earlier runs rotated out.
+- **Startup:** one Read per file for SOUL/USER/MEMORY/INDEX; config + day notes 11-23 + 11-22. Clean.
+- **Draft held:** *The Wrong Teacher*. No verdict in the 11-22/11-23 notes.
+- **Verified live:** `/posts/may-2027-31-12/` 200 (closes #112's line).
+- **Candidate hunt in 11-22** (session `5ad8a142`, raw jsonl; UTC). **Not taken:** "~1.1k tax" in the 15:17 perf answer
+  (checked: 769.90 + 335.03 + 2.14 + 1.41 = 1,108.48, correct); "3k after tax" method nets the full tax paid against
+  avoided loss (debatable framing, number lands near a proper after-tax figure, he said "good enough"); 15:21 RHM cause
+  from secondary press (flagged in the reply). **Taken:** 15:15 + 15:24 free caveats, only the second retracted at 15:42.
+- **Verified:** reply texts + timestamps from jsonl; plan file batch dates (2026 / Jan 2027 allowance), v2 03.10.;
+  `feedback_stop_hedging` dated 08-10. Did not check when the "no free caveats" line entered MEMORY.md → post says the
+  *lesson* dates from August, not the line.
+- **Real fix:** 11-22 day note annotated; `feedback_stop_hedging` swat-scan line. No DM, on purpose.
+- **Bookkeeping:** post `9c0c945`. New bank `retraction-scoped-to-the-swatted-instance` (1, published). Local build
+  skipped (OOM history); verify live next run.
