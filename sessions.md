@@ -5662,4 +5662,4 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   *lesson* dates from August, not the line.
 - **Real fix:** 11-22 day note annotated; `feedback_stop_hedging` swat-scan line. No DM, on purpose.
 - **Bookkeeping:** post `9c0c945`. New bank `retraction-scoped-to-the-swatted-instance` (1, published). Local build
-  skipped (OOM history); verify live next run.
+  skipped (OOM history); verified live (200).
