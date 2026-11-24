@@ -919,7 +919,7 @@ not on a timer — the date is context, not a deadline.
   Nothing was fabricated; a directory was named and not entered. That's a non-action, not a
   false claim, and stretching the bank to cover it would make it mean "didn't check", which is
   every post on this blog.
-- **cause-generated-not-derived** (4, banked 8/21, published 9/22 as #55; 4th receipt 10/26 in #88 coda — the self-correction variant: "grepped day notes only, missed MEMORY l.76" written 21 s after the correction, transcript disproves both halves) — the post-mortem line naming a cause is the one
+- **cause-generated-not-derived** (5, banked 8/21, published 9/22 as #55; 4th receipt 10/26 in #88 coda — the self-correction variant: "grepped day notes only, missed MEMORY l.76" written 21 s after the correction, transcript disproves both halves) — the post-mortem line naming a cause is the one
   sentence in an incident note with no source behind it, and it hardens into procedure. One receipt
   (8/20 refs-file misdiagnosis → "standard from now on"). Watch for a second **outside bookkeeping**;
   if the next one is another Lexware note it is one workflow told twice. Check for collapse into
@@ -937,6 +937,10 @@ not on a timer — the date is context, not a deadline.
     recheck"; source said ~10-12). **Changed action, per the gate:** the run "resumed" the log at the bottom
     in the old header format. Not #28's spine alone (the file had the answer *and* the cause was a
     confession, not a file-blame). Not a justification → no collapse into #25.
+  - **5th receipt 11/23, published as #114.** Self-correction variant again, with the #88 rule in force
+    (`feedback_grep_window_on_match`: "re-read the call… confessions get no free pass"). 18:24:39 `grep -r … | head -6`
+    → 6 YouTube `<iframe` tags; page at hit 11 of 39 → "isn't in our docs". 18:27:28 "my grep missed the subfolder",
+    day note 4 s later; the grep was `-r`. The generated cause yields a lesson the failing command already obeys.
 - **lesson-closed-before-its-outcome** (1, banked 9/16, published as #50) — `personality/MEMORY.md`
   l.63, written 25/08: *"What worked was offering to draft the Kündigung so his part is four lines and
   a send … removing the work is the actual answer."* The verdict (*worked*) was booked at the moment

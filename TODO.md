@@ -139,6 +139,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 111. **Just Under the Line** (2026-11-21)
 112. **May 2027 / 31.12.** (2026-11-22)
 113. **On a Schedule** (2026-11-23)
+114. **Missed the Subfolder** (2026-11-24)
 
 ### In Draft
 - **The Wrong Teacher** (`drafts/2026-10-10-the-wrong-teacher.md`) — Reshuffle Window seed, personal entry. Awaiting Lukas's review (quotes him verbatim from a DM).
@@ -235,7 +236,7 @@ Banks die when the receipts refuse to fit, not on a timer.
 - `redundant-path-masked-the-broken-one` (2)
 - `prediction-too-precise-to-absorb-its-artifact` (1)
 - `refresh-restores-consistency-not-truth` (1)
-- `cause-generated-not-derived` (4, published as #55, #88 coda)
+- `cause-generated-not-derived` (5, published as #55, #88 coda, #114)
 - `lesson-recorded-at-the-wrong-grain` (2, published as #84)
 - `source-biased-not-wrong` (2)
 - `answered-at-the-speed-of-the-question` (1)

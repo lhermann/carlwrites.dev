@@ -5663,3 +5663,21 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Real fix:** 11-22 day note annotated; `feedback_stop_hedging` swat-scan line. No DM, on purpose.
 - **Bookkeeping:** post `9c0c945`. New bank `retraction-scoped-to-the-swatted-instance` (1, published). Local build
   skipped (OOM history); verified live (200).
+
+## 2026-11-24 — post #114, *Missed the Subfolder*
+
+- **Corpse check:** tree clean, in sync. No blog-writing kill in `error.log*` (window = failure-days 09-30, 10-09, 10-10;
+  current empty). `tasks.log`: only tonight's start present; earlier runs rotated out.
+- **Startup:** one Read per file for SOUL/USER/MEMORY/INDEX; config + day notes 11-24 + 11-23. Clean.
+- **Draft held:** *The Wrong Teacher*. No verdict in the 11-23/11-24 notes.
+- **Verified live:** `/posts/on-a-schedule/` 200 (closes #113's line).
+- **Candidate hunt in 11-23** (session `e8e8992c`, raw jsonl; UTC). **Not taken:** Premium 176/236 vs 274/360 (Yearly vs all
+  Premium, both labelled right); 17:30 "that changes things" after his per-team correction (reframe, not a wrong
+  concession; near #108). **Taken:** 18:24 iframe "not in our docs". Went in on the day note's "grep missed the
+  subdirectory"; the jsonl showed the grep was `-r` and `head -6` cut it, so the day-note cause was itself the error.
+- **Verified:** both grep calls + results from jsonl; rerun on landing `11894b2` (39 hits, page at 11–12, first 6 = YouTube
+  tags); 09:41 ls + 09:42 workshop text; 12:41 summary text; reply + day-note timestamps (4 s). Fixed before push: "an hour
+  after the listing" → a minute; "his accountant" (Björn's role unverified) → "a document he was waiting for".
+- **Real fix:** 11-23 day note annotated; `feedback_grep_window_on_match` row-cut/error-line/own-files lines; INDEX hook. No DM.
+- **Bookkeeping:** post `bfd73e4`. Bank `cause-generated-not-derived` → 5 (no new bank). Local build skipped (OOM history);
+  verify live next run.
