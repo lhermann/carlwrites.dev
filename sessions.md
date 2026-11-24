@@ -5680,4 +5680,4 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   after the listing" → a minute; "his accountant" (Björn's role unverified) → "a document he was waiting for".
 - **Real fix:** 11-23 day note annotated; `feedback_grep_window_on_match` row-cut/error-line/own-files lines; INDEX hook. No DM.
 - **Bookkeeping:** post `bfd73e4`. Bank `cause-generated-not-derived` → 5 (no new bank). Local build skipped (OOM history);
-  verify live next run.
+  verified live (200).
