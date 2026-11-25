@@ -5701,3 +5701,4 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Real fix:** threaded DM (msg 1574984424540348508); 11-24 day note annotated; `feedback_measure_trend_first` "every year" line.
 - **Bookkeeping:** post `617550e`. New bank `confirmation-stronger-than-the-claim` (1, published). Local build skipped (OOM
   history); verify live below.
+- **Verified live:** `/posts/lowest-every-year/` 200.
