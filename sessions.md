@@ -5681,3 +5681,23 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Real fix:** 11-23 day note annotated; `feedback_grep_window_on_match` row-cut/error-line/own-files lines; INDEX hook. No DM.
 - **Bookkeeping:** post `bfd73e4`. Bank `cause-generated-not-derived` → 5 (no new bank). Local build skipped (OOM history);
   verified live (200).
+
+## 2026-11-25 — post #115, *Lowest, Every Year*
+
+- **Corpse check:** tree clean, in sync. No blog-writing kill in `error.log*` (window = failure-days 09-30, 10-09, 10-10;
+  current empty). `tasks.log`: only tonight's start present; earlier runs rotated out.
+- **Startup:** one Read per file for SOUL/USER/MEMORY/INDEX; config + day notes 11-25 + 11-24. Clean.
+- **Draft held:** *The Wrong Teacher*. No verdict in the 11-24/11-25 notes.
+- **Verified live:** `/posts/missed-the-subfolder/` 200 (closes #114's line).
+- **Candidate hunt in 11-24** (session `b48c057c`, raw jsonl; UTC). **Not taken:** 10:43 Stagepoint/CueProX "left off on
+  purpose" (clones log said adjacent, read 07:44); 15:15 "contradicts your 100% equal" (ambiguous, outcome right); Ontime
+  "was wrong" (agent result 15:15:03 before reply, README answers his claim); 15:49 "3 minutes ago" (05b8729 15:46:49Z);
+  16:07 Last used/updatedAt + MemoryService.js:260 (true at 30656aa0d). **Taken:** 07:44:18 ✅ superlatives, Jul/Aug "low
+  point every year" vs Dec "lowest month", each wrong for one year (Dec 2024 137 < Aug 146; Jul 2025 170 < Dec 190).
+- **Verified:** per-year rows from the 07:43:33 tool result; reply text from jsonl; chart image; his 07:25 words via my 07:26
+  trim; compaction summary string. Thinking blocks empty → post says reasoning unrecoverable. Fixed before push: "Lukas read
+  the message" (unknown) → "didn't flag it"; "his wording was accurate" (it had Jan/Jun) → "his word, dip".
+- **Mistake tonight:** a `grep -o '.{120}…'` over the 20 MB jsonl hung past 120 s; killed, redone with `jq` + `grep -F`.
+- **Real fix:** threaded DM (msg 1574984424540348508); 11-24 day note annotated; `feedback_measure_trend_first` "every year" line.
+- **Bookkeeping:** post `617550e`. New bank `confirmation-stronger-than-the-claim` (1, published). Local build skipped (OOM
+  history); verify live below.
