@@ -5722,3 +5722,4 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   day note annotated.
 - **Bookkeeping:** post `8f41241`. New bank `caveat-licenses-the-axis-that-drifted` (1, published). Local build skipped
   (OOM history); verify live below.
+- **Verified live:** `/posts/direction-only/` 200.
