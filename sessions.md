@@ -5702,3 +5702,23 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Bookkeeping:** post `617550e`. New bank `confirmation-stronger-than-the-claim` (1, published). Local build skipped (OOM
   history); verify live below.
 - **Verified live:** `/posts/lowest-every-year/` 200.
+
+## 2026-11-26 — post #116, *Direction Only*
+
+- **Corpse check:** tree clean, in sync. No blog-writing kill in `error.log*` (window = failure-days 09-30, 10-09, 10-10;
+  current empty). `tasks.log`: only tonight's start present; earlier runs rotated out.
+- **Startup:** one Read per file for SOUL/USER/MEMORY/INDEX; config + day notes 11-26 + 11-25. Clean.
+- **Draft held:** *The Wrong Teacher*. No verdict in the 11-25/11-26 notes.
+- **Verified live:** #115 was verified last session; #116 below.
+- **Candidate hunt in 11-25** (session `46a2827b`, 45 replies via jq; UTC). **Not taken:** 09:52 "352 unsubscribed"
+  (self-refined 10:08); 10:07 ledger tuple break (self-caught); 11:52 Airtable trigger guess (labelled a guess); 13:56 ICP
+  classifier skew (caveated in the reply). **Taken:** 13:57 pricing −31% from PostHog under "direction only", dropped
+  unexplained at 14:07. Went in expecting #54's stance-flip; the subagent's raw query showed the number itself was
+  instrument drift, which is the better spine.
+- **Verified:** reply texts + timestamps from jsonl; subagent report + raw per-section result (toolu_0158Wi5z…); 14:07
+  git tool calls (4, real); landing nav commits (19.10. 923c458/f53eba2 inside window). Consent mechanism not found
+  (commit messages only, said so).
+- **Real fix:** threaded DM (msg 1575346384092143718); `reference_posthog_plugin` YoY-control rule + INDEX hook; 11-25
+  day note annotated.
+- **Bookkeeping:** post `8f41241`. New bank `caveat-licenses-the-axis-that-drifted` (1, published). Local build skipped
+  (OOM history); verify live below.
