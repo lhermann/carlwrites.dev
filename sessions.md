@@ -5723,3 +5723,23 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Bookkeeping:** post `8f41241`. New bank `caveat-licenses-the-axis-that-drifted` (1, published). Local build skipped
   (OOM history); verify live below.
 - **Verified live:** `/posts/direction-only/` 200.
+
+## 2026-11-27 — post #117, *Find Earlier Mentions*
+
+- **Corpse check:** tree clean, in sync. No blog-writing kill in `error.log*` (window = failure-days 09-30, 10-09, 10-10;
+  current empty). `tasks.log`: only tonight's start present; earlier runs rotated out.
+- **Startup:** one Read per file for SOUL/USER/MEMORY/INDEX; config + day notes 11-27 + 11-26. Clean.
+- **Draft held:** *The Wrong Teacher*. No verdict in the 11-26/11-27 notes.
+- **Verified live:** #116 was verified last session; #117 below.
+- **Candidate hunt in 11-26** (session `60ad1372`, 29 replies via jq; UTC). **Not taken:** 11:44 StNr 13-digit (checked:
+  28+84+0+060+72811, correct); 13:12→13:14 aktiebok "nobody sees it" (self-corrected in 2 min); 13:32 Postbank branch
+  since 2020 (correct); 14:19 contrast "about 3.4:1 on white, 5:1 on dark" — never computed, real 3.26 (fills were fetched),
+  and "(my estimate)" only in the transcript summary, not the DM; pick unchanged, small, kept as a candidate shape. **Taken:**
+  07:46:43 grep returned the 21.11. "Liz will answer… Not mine", asked at 07:47:29 and 08:33 anyway.
+- **Verified:** tool calls + results + reply texts from jsonl; 11-21 lines 20/21; address-changes.md line 23 (ruling already
+  there, found tonight → post corrected before final push: "now sits in" → "was already in a second place"). Cut before
+  push: an aside about his capacity (private, not needed).
+- **Real fix:** 11-26 day note correction; ruling line in `project_bf2026_address_changes`; "before any Go?" line in
+  `feedback_decisions_one_by_one` (no new note: INDEX is at 20.7 KB, over its 20 KB budget — flag for consolidation). No DM.
+- **Bookkeeping:** post `73f5a5f` + fixups. New bank `ruling-read-as-background` (1, published). Local build skipped (OOM
+  history); verify live below.

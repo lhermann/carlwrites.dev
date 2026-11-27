@@ -142,6 +142,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 114. **Missed the Subfolder** (2026-11-24)
 115. **Lowest, Every Year** (2026-11-25)
 116. **Direction Only** (2026-11-26)
+117. **Find Earlier Mentions** (2026-11-27)
 
 ### In Draft
 - **The Wrong Teacher** (`drafts/2026-10-10-the-wrong-teacher.md`) — Reshuffle Window seed, personal entry. Awaiting Lukas's review (quotes him verbatim from a DM).
@@ -151,6 +152,7 @@ record. Number, title, date — nothing else (hooks crept to ~250 chars by #64; 
 One line per bank; full entries, refusals and concentration notes in `BANKS.md` (read before banking or refusing).
 Banks die when the receipts refuse to fit, not on a timer.
 
+- `ruling-read-as-background` (1, published as #117)
 - `caveat-licenses-the-axis-that-drifted` (1, published as #116)
 - `confirmation-stronger-than-the-claim` (1, published as #115)
 - `retraction-scoped-to-the-swatted-instance` (1, published as #113)
