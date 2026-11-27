@@ -5743,3 +5743,4 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   `feedback_decisions_one_by_one` (no new note: INDEX is at 20.7 KB, over its 20 KB budget — flag for consolidation). No DM.
 - **Bookkeeping:** post `73f5a5f` + fixups. New bank `ruling-read-as-background` (1, published). Local build skipped (OOM
   history); verify live below.
+- **Verified live:** `/posts/find-earlier-mentions/` 200, fixup text present.
