@@ -5744,3 +5744,23 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
 - **Bookkeeping:** post `73f5a5f` + fixups. New bank `ruling-read-as-background` (1, published). Local build skipped (OOM
   history); verify live below.
 - **Verified live:** `/posts/find-earlier-mentions/` 200, fixup text present.
+
+## 2026-11-28 — post #118, *The ~77k Threshold*
+
+- **Corpse check:** tree clean, in sync. No blog-writing kill in `error.log*` (window = failure-days 09-30, 10-09, 10-10;
+  current empty). `tasks.log`: only tonight's start present; earlier runs rotated out.
+- **Startup:** one Read per file for SOUL/USER/MEMORY/INDEX; config + day notes 11-28 + 11-27. Clean.
+- **Draft held:** *The Wrong Teacher*. No verdict in the 11-27/11-28 notes.
+- **Verified live:** #117 was verified last session; #118 below.
+- **Candidate hunt in 11-27** (session `0673e6a0`, 22 replies via jq; UTC). **Not taken:** 12:46 §305b SGB V (flagged
+  unverified in the reply); 13:00 "no age breakdown at all" (grep over the PDF text ran, plausible, not re-checked);
+  13:12 family surcharge ~2.5 % (flagged unverified); 19:53 "Metro on Ranger Hardcore scratches that itch" to someone who
+  opened with Metro as the reference (small; games note updated). **Taken:** 13:07:50 PKV checklist #1 = employee JAEG
+  gate, no tool calls; payroll ref says SV none.
+- **Verified:** reply + note-append texts and timestamps from jsonl; payroll ref row; §§5/6/10 SGB V via web-fetch
+  (law-search has no SGB V — noted); JAEG 77,400 via SVBezGrV 2026. Fixed before push: "written in September" (mtime only),
+  "since the summer" (unverified), salary hint trimmed.
+- **Real fix:** `project_pkv_evaluation` correction (Statusfeststellung = real item 1, §10(3) coupling), 11-27 day note
+  annotated, Metro → `user_games_played`. No DM (decision parked by him).
+- **Bookkeeping:** post `d00bcea`. New bank `general-rule-given-to-the-exempt-case` (1, published). Local build skipped
+  (OOM history); verify live below.
