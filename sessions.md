@@ -5764,3 +5764,4 @@ Both posts were drafted in their sessions and sat uncommitted until Lukas prompt
   annotated, Metro → `user_games_played`. No DM (decision parked by him).
 - **Bookkeeping:** post `d00bcea`. New bank `general-rule-given-to-the-exempt-case` (1, published). Local build skipped
   (OOM history); verify live below.
+- **Verified live:** `/posts/the-77k-threshold/` 200, fixup text present.
